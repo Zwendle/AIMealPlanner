@@ -156,23 +156,23 @@ def paginate_category(category_url, store_id):
         if not page_items:
             break
 
-        # DEBUG: inspect the shape once per category
-        if offset == 0:  # only print for the first page of each category
-            print("Top-level keys in category JSON:", list(data.keys())[:15])
-            print("First item keys:", list(page_items[0].keys())[:25])
+        # # DEBUG: inspect the shape once per category
+        # if offset == 0:  # only print for the first page of each category
+        #     print("Top-level keys in category JSON:", list(data.keys())[:15])
+        #     print("First item keys:", list(page_items[0].keys())[:25])
 
-            import json, pathlib
-            pathlib.Path("debug").mkdir(exist_ok=True)
-            with open(f"debug/sample_{slug}.json", "w", encoding="utf-8") as f:
-                json.dump(
-                    {
-                        "data_keys": list(data.keys()),
-                        "first_item": page_items[0],
-                    },
-                    f,
-                    ensure_ascii=False,
-                    indent=2,
-                )
+        #     import json, pathlib
+        #     pathlib.Path("debug").mkdir(exist_ok=True)
+        #     with open(f"debug/sample_{slug}.json", "w", encoding="utf-8") as f:
+        #         json.dump(
+        #             {
+        #                 "data_keys": list(data.keys()),
+        #                 "first_item": page_items[0],
+        #             },
+        #             f,
+        #             ensure_ascii=False,
+        #             indent=2,
+        #         )
 
         for p in page_items:
             all_products.append(normalize_product_fields(p, slug))
