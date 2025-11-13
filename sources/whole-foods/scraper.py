@@ -12,16 +12,16 @@ from bs4 import BeautifulSoup
 STORE_ID = "10031"  # <- put your store id here
 CATEGORY_URLS = [
     "https://www.wholefoodsmarket.com/products/produce"
-    # "https://www.wholefoodsmarket.com/products/dairy-eggs",
-    # "https://www.wholefoodsmarket.com/products/meat",
-    # "https://www.wholefoodsmarket.com/products/pantry-essentials",
-    # "https://www.wholefoodsmarket.com/products/breads-rolls-bakery",
-    # "https://www.wholefoodsmarket.com/products/desserts",
-    # "https://www.wholefoodsmarket.com/products/supplements",
-    # "https://www.wholefoodsmarket.com/products/frozen-foods",
-    # "https://www.wholefoodsmarket.com/products/snacks-chips-salsas-dips",
-    # "https://www.wholefoodsmarket.com/products/seafood",
-    # "https://www.wholefoodsmarket.com/products/beverages",
+    "https://www.wholefoodsmarket.com/products/dairy-eggs",
+    "https://www.wholefoodsmarket.com/products/meat",
+    "https://www.wholefoodsmarket.com/products/pantry-essentials",
+    "https://www.wholefoodsmarket.com/products/breads-rolls-bakery",
+    "https://www.wholefoodsmarket.com/products/desserts",
+    "https://www.wholefoodsmarket.com/products/supplements",
+    "https://www.wholefoodsmarket.com/products/frozen-foods",
+    "https://www.wholefoodsmarket.com/products/snacks-chips-salsas-dips",
+    "https://www.wholefoodsmarket.com/products/seafood",
+    "https://www.wholefoodsmarket.com/products/beverages",
 ]
 
 BASE = "https://www.wholefoodsmarket.com"
