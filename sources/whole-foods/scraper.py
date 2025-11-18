@@ -250,7 +250,7 @@ def extract_nutrition_data(next_data: dict) -> Optional[dict]:
 
 def build_compact_nutrition(data: dict) -> Dict[str, Any]:
     """
-    Turn the big nutritionElements list into a small JSON with just
+    turn the big nutritionElements list into a small JSON with just
     serving size + key per-serving numbers.
     """
     elements = data.get("nutritionElements") or []
