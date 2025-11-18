@@ -5,13 +5,14 @@ import re
 from urllib.parse import urljoin, urlparse
 import requests
 from bs4 import BeautifulSoup
+from typing import Optional, Dict, Any
 
 # ----------------------------
 # CONFIG
 # ----------------------------
-STORE_ID = "10031"  # <- put your store id here
+STORE_ID = "10031"
 CATEGORY_URLS = [
-    "https://www.wholefoodsmarket.com/products/produce"
+    "https://www.wholefoodsmarket.com/products/produce",
     "https://www.wholefoodsmarket.com/products/dairy-eggs",
     "https://www.wholefoodsmarket.com/products/meat",
     "https://www.wholefoodsmarket.com/products/pantry-essentials",
@@ -27,9 +28,9 @@ CATEGORY_URLS = [
 BASE = "https://www.wholefoodsmarket.com"
 CATEGORY_API = "https://www.wholefoodsmarket.com/api/products/category/{slug}"
 
-LIMIT = 60                 # the site uses 60; keep it
-REQUEST_DELAY = 0.8        # be polite
-PRODUCT_DELAY = 0.8        # per-product fetch delay
+LIMIT = 60
+REQUEST_DELAY = 0.8
+PRODUCT_DELAY = 0.8
 MAX_RETRIES = 3
 
 # ----------------------------
@@ -213,55 +214,157 @@ def extract_next_data_json(html_text):
 
     return None
 
-def extract_nutrition_from_next_data(next_data):
+def find_keys_containing(obj, substring, path=""):
     """
-    The user observed: { "pageProps": { "data": { "nutritionElements": [...] } } }
-    We'll check a few plausible paths.
+    Recursively search a nested dict/list for keys that contain `substring`.
+    Returns a list of (path, value) pairs, where path is like
+    'nutritionPanel.servingSizeDisplay'.
+    """
+    results = []
+    if isinstance(obj, dict):
+        for k, v in obj.items():
+            new_path = f"{path}.{k}" if path else k
+            if substring.lower() in k.lower():
+                results.append((new_path, v))
+            results.extend(find_keys_containing(v, substring, new_path))
+    elif isinstance(obj, list):
+        for i, v in enumerate(obj):
+            new_path = f"{path}[{i}]"
+            results.extend(find_keys_containing(v, substring, new_path))
+    return results
+
+def extract_nutrition_data(next_data: dict) -> Optional[dict]:
+    """
+    Pull the nutrition-related payload from the Next.js data object:
+    usually props.pageProps.data
     """
     if not isinstance(next_data, dict):
         return None
 
-    # Common Next.js structure: { props: { pageProps: { data: {...} } } }
-    candidates = []
     props = next_data.get("props") or {}
     pageProps = props.get("pageProps") or next_data.get("pageProps") or {}
     data = pageProps.get("data") or {}
 
-    if isinstance(data, dict):
-        if "nutritionElements" in data:
-            return data.get("nutritionElements")
-        # Sometimes nested differently
-        for key in ("nutrition", "product", "item"):
-            node = data.get(key)
-            if isinstance(node, dict) and "nutritionElements" in node:
-                return node["nutritionElements"]
+    return data if isinstance(data, dict) else None
 
-    # As a very loose fallback, search for a list under any key containing dicts with 'name'/'amount'
-    def dfs_find_ne_list(obj):
-        if isinstance(obj, dict):
-            for k, v in obj.items():
-                if k == "nutritionElements" and isinstance(v, list):
-                    return v
-                found = dfs_find_ne_list(v)
-                if found is not None:
-                    return found
-        elif isinstance(obj, list):
-            for v in obj:
-                found = dfs_find_ne_list(v)
-                if found is not None:
-                    return found
-        return None
 
-    return dfs_find_ne_list(next_data)
+def build_compact_nutrition(data: dict) -> Dict[str, Any]:
+    """
+    Turn the big nutritionElements list into a small JSON with just
+    serving size + key per-serving numbers.
+    """
+    elements = data.get("nutritionElements") or []
+    by_key = {
+        e.get("key"): e
+        for e in elements
+        if isinstance(e, dict) and "key" in e
+    }
+    print(f"Nutrition elements found: {list(by_key.keys())}")
 
-def fetch_product_page_and_nutrition(url):
+    def val(key: str):
+        e = by_key.get(key)
+        if not e:
+            return None
+        # prefer numeric perServing, fall back to display if needed
+        return e.get("perServing", e.get("perServingDisplay"))
+
+    def unit(key: str):
+        e = by_key.get(key)
+        if not e:
+            return None
+        return e.get("uom")
+
+    serving_info = data.get("servingInfo") or {}
+    serving_size = None
+    if serving_info:
+        size = serving_info.get("servingSize")
+        uom = serving_info.get("servingSizeUom")
+        if size is not None and uom:
+            serving_size = f"{size} {uom}"
+        else:
+            # if they ever add a display field, you can fall back to it here
+            serving_size = serving_info.get("servingSizeDisplay")
+
+    servings_per_container = serving_info.get("servingsPerContainerDisplay")
+
+    compact = {
+        # headline serving info
+        "serving_size": serving_size,
+        "servings_per_container": servings_per_container,
+
+        # you also have these if you ever want net weight:
+        "total_package_size": serving_info.get("totalSize"),
+        "total_package_size_uom": serving_info.get("totalSizeUom"),
+        "total_package_size_secondary": serving_info.get("secondaryTotalSize"),
+        "total_package_size_secondary_uom": serving_info.get("secondaryTotalSizeUom"),
+
+        # core label numbers (per serving)
+        "calories": val("calories"),
+
+        "total_fat": {
+            "amount": val("totalFat"),
+            "unit": unit("totalFat"),
+        },
+        "saturated_fat": {
+            "amount": val("saturatedFat"),
+            "unit": unit("saturatedFat"),
+        },
+        "trans_fat": {
+            "amount": val("transFat"),
+            "unit": unit("transFat"),
+        },
+
+        "cholesterol": {
+            "amount": val("cholesterol"),
+            "unit": unit("cholesterol"),
+        },
+        "sodium": {
+            "amount": val("sodium"),
+            "unit": unit("sodium"),
+        },
+
+        "carbohydrates": {
+            "amount": val("carbohydrates"),
+            "unit": unit("carbohydrates"),
+        },
+        "fiber": {
+            "amount": val("fiber"),
+            "unit": unit("fiber"),
+        },
+        "sugars": {
+            "amount": val("sugar"),
+            "unit": unit("sugar"),
+        },
+
+        "protein": {
+            "amount": val("protein"),
+            "unit": unit("protein"),
+        },
+    }
+
+    return compact
+
+def fetch_product_page_and_nutrition(url: str) -> Optional[dict]:
     if not url:
         return None
+
     r = get_with_retries(url)
     nd = extract_next_data_json(r.text)
     if not nd:
         return None
-    return extract_nutrition_from_next_data(nd)
+
+    data = extract_nutrition_data(nd)
+    if not data:
+        return None
+    
+    # DEBUG: see where "serving" fields live
+    matches = find_keys_containing(data, "serv")
+    for path, val in matches:
+        pass
+        # print(path, "=>", val)
+
+    return build_compact_nutrition(data)
+
 
 def main():
     ensure_cookies_for_domain()
@@ -292,8 +395,7 @@ def main():
             nutrition = None
             try:
                 nutrition = fetch_product_page_and_nutrition(url)
-            except Exception as e:
-                # Non-fatal; continue
+            except Exception:
                 nutrition = None
 
             row = {
@@ -302,7 +404,7 @@ def main():
                 "price": prod["price"],
                 "url": url,
                 "id": prod["id"] or "",
-                "nutrition_json": json.dumps(nutrition, ensure_ascii=False) if nutrition is not None else ""
+                "nutrition_json": json.dumps(nutrition, ensure_ascii=False) if nutrition else ""
             }
             rows.append(row)
             seen_urls.add(url)
@@ -324,4 +426,9 @@ def main():
     print(f"Done. Wrote {len(rows)} rows to {out_csv}")
 
 if __name__ == "__main__":
-    main()
+    # test new nutrition facts scraping
+    test_url = "https://www.wholefoodsmarket.com/product/365-by-whole-foods-market-organic-baby-spinach-16-oz-b074h55njk"
+
+    result = fetch_product_page_and_nutrition(test_url)
+    print(json.dumps(result, indent=2, ensure_ascii=False))
+    # main()
