@@ -130,3 +130,6 @@ tj_cleaned['cost_per_serving'] = tj_cleaned['price'].div(tj_cleaned['num_serving
 ## upload cleaned Trader Joe's csv
 tj_cleaned.to_csv("data/trader_joes_cleaned.csv", index=False)
 
+## upload an ingredient csv
+ingredients = pd.concat([wf_cleaned, tj_cleaned], ignore_index=True)
+ingredients.to_csv("data/ingredients.csv", index=False)
