@@ -1,17 +1,21 @@
 """
 Trader Joe's Product Scraper with Selenium
 Correctly fetches all product links from pagination
-and then visits each link to scrape Name, Price, and Nutrition.
+and then visits each link to scrape Name, Price, Serves, and Nutrition.
 """
 
 import csv
 import time
 import json
-from typing import Dict, List, Optional
+import re
+from typing import Dict, List, Optional, Tuple
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import TimeoutException, NoSuchElementException
+from selenium.common.exceptions import (
+    TimeoutException,
+    NoSuchElementException,
+)
 from bs4 import BeautifulSoup
 
 # Import our reusable tools from parent directory
@@ -46,14 +50,17 @@ class TraderJoesScraper:
             self.driver.quit()
 
     def get_categories(self) -> List[Dict]:
-        """Define categories to scrape (excluding Produce)"""
-        print("Getting categories (skipping Fresh Fruits & Veggies)...")
+        """Define categories to scrape"""
+        print("Getting categories...")
         return [
-            # {
-            #     "url": "https://www.traderjoes.com/home/products/category/bakery-11",
-            #     "name": "Bakery",
-            # },
-            # {"url": "https://www.traderjoes.com/home/products/category/fresh-fruits-vegetables-flowers-31069", "name": "Produce"}, # SKIPPED
+            {
+                "url": "https://www.traderjoes.com/home/products/category/bakery-11",
+                "name": "Bakery",
+            },
+            {
+                "url": "https://www.traderjoes.com/home/products/category/fresh-fruits-veggies-113",
+                "name": "Produce",
+            },
             {
                 "url": "https://www.traderjoes.com/home/products/category/meat-seafood-plant-based-122",
                 "name": "Meat & Seafood",
@@ -137,7 +144,6 @@ class TraderJoesScraper:
             # Find all visible product links
             try:
                 # This finds all links that have the product detail page URL structure
-                # This is the selector you found: a.Link_link__1AZfr.ProductCard_card__title__301JH...
                 product_links = self.driver.find_elements(
                     By.CSS_SELECTOR,
                     'a[class*="ProductCard_card__title"][href*="/home/products/pdp/"]',
@@ -189,12 +195,52 @@ class TraderJoesScraper:
 
         return list(links_found)
 
+    def extract_serves(self, soup: BeautifulSoup) -> str:
+        """Extract serves information from the parsed page"""
+        # Look for serves in the nutrition facts section
+        serves_divs = soup.find_all(
+            "div", class_=lambda c: c and "Item_characteristics__title" in c
+        )
+
+        for div in serves_divs:
+            text = div.get_text(strip=True)
+            if "Serves" in text:
+                # Extract number from "Serves 10" or "Serves about 2.5"
+                match = re.search(
+                    r"Serves\s+(?:about\s+)?(\d+(?:\.\d+)?)", text, re.IGNORECASE
+                )
+                if match:
+                    return match.group(1)
+                # If pattern doesn't match, try to extract any number
+                number_match = re.search(r"(\d+(?:\.\d+)?)", text)
+                if number_match:
+                    return number_match.group(1)
+
+        # Alternative: Look in visible nutrition item
+        nutrition_wrapper = soup.find(
+            "div", class_=lambda c: c and "NutritionFacts_wrapper" in c
+        )
+        if nutrition_wrapper:
+            serves_text = nutrition_wrapper.find(
+                text=re.compile(r"Serves", re.IGNORECASE)
+            )
+            if serves_text:
+                match = re.search(
+                    r"Serves\s+(?:about\s+)?(\d+(?:\.\d+)?)",
+                    str(serves_text),
+                    re.IGNORECASE,
+                )
+                if match:
+                    return match.group(1)
+
+        return ""
+
     def parse_product_page(
         self, product_url: str, category_name: str
     ) -> Optional[Dict]:
         """
         Visits a single product page and scrapes all details:
-        Name, Price, and full Nutrition Info.
+        Name, Price, Serves, and full Nutrition Info.
         """
         try:
             self.driver.get(product_url)
@@ -204,7 +250,21 @@ class TraderJoesScraper:
                     (By.CSS_SELECTOR, 'h1[class*="ProductDetails_main__title"]')
                 )
             )
-            time.sleep(0.5)  # Let JS render
+            time.sleep(1)  # Let JS render
+
+            # Try to click "Per container" tab for better nutrition data
+            try:
+                per_container_button = self.driver.find_element(
+                    By.XPATH,
+                    "//button[contains(text(), 'Per container') and not(contains(@class, 'Nav_active'))]",
+                )
+                if per_container_button:
+                    self.driver.execute_script(
+                        "arguments[0].click();", per_container_button
+                    )
+                    time.sleep(1)
+            except:
+                pass  # Already active or not present
 
             soup = BeautifulSoup(self.driver.page_source, "html.parser")
 
@@ -212,6 +272,7 @@ class TraderJoesScraper:
                 "category": category_name,
                 "name": "",
                 "price": "",
+                "serves": "",
                 "url": product_url,
                 "id": product_url.split("/")[-1].split("-")[-1],  # Get ID from URL
                 "nutrition_json": "",
@@ -231,113 +292,150 @@ class TraderJoesScraper:
             if price_el:
                 product_data["price"] = price_el.get_text(strip=True).replace("$", "")
 
-            # 3. Get Nutrition (The complex part)
+            # 3. Get Serves
+            product_data["serves"] = self.extract_serves(soup)
+
+            # 4. Get Nutrition (The complex part - FIXED)
             nutrition = {}
 
-            # Try to click "Per container" tab
-            try:
-                per_container_button = self.driver.find_element(
-                    By.XPATH,
-                    "//button[contains(text(), 'Per container') and not(contains(@class, 'Nav_active'))]",
-                )
-                if per_container_button:
-                    self.driver.execute_script(
-                        "arguments[0].click();", per_container_button
-                    )
-                    time.sleep(1)
-                    # Re-parse soup after click
-                    soup = BeautifulSoup(self.driver.page_source, "html.parser")
-            except:
-                pass  # Already active or not present
-
-            # Find the active nutrition table
+            # Find the nutrition wrapper
             nutrition_wrapper = soup.find(
                 "div", class_=lambda c: c and "NutritionFacts_wrapper" in c
             )
             if nutrition_wrapper:
-                visible_item = None
-                items = nutrition_wrapper.find_all(
+                # Find the visible nutrition item (the one with display:block)
+                nutrition_items = nutrition_wrapper.find_all(
                     "div", class_=lambda c: c and "Item_item" in c
                 )
-                for item in items:
+
+                visible_item = None
+                for item in nutrition_items:
+                    # Check if parent has display:block
                     parent = item.parent
-                    if (
-                        parent
-                        and parent.get("style")
-                        and "block" in parent.get("style")
-                    ):
-                        visible_item = item
-                        break
-                if not visible_item and items:
-                    visible_item = items[-1]  # Default to last
+                    if parent and parent.get("style"):
+                        if "display: block" in parent.get(
+                            "style"
+                        ) or "display:block" in parent.get("style"):
+                            visible_item = item
+                            break
+
+                # If no explicitly visible item, take the first or last one
+                if not visible_item and nutrition_items:
+                    # Usually the last one is the active one if no explicit style
+                    visible_item = nutrition_items[-1]
 
                 if visible_item:
-                    # Get Serving Size/Calories
-                    chars = visible_item.find(
+                    # Get Serving Size and Calories from characteristics section
+                    chars_section = visible_item.find(
                         "div", class_=lambda c: c and "Item_characteristics" in c
                     )
-                    if chars:
-                        for item_div in chars.find_all(
+                    if chars_section:
+                        char_items = chars_section.find_all(
                             "div",
                             class_=lambda c: c and "Item_characteristics__item" in c,
-                        ):
-                            title = item_div.find(
+                        )
+                        for char_item in char_items:
+                            title_el = char_item.find(
                                 "div",
                                 class_=lambda c: c
                                 and "Item_characteristics__title" in c,
                             )
-                            text = item_div.find(
+                            text_el = char_item.find(
                                 "div",
                                 class_=lambda c: c
                                 and "Item_characteristics__text" in c,
                             )
-                            if title and text:
-                                title_text = title.get_text(strip=True).lower()
-                                if "serving size" in title_text:
-                                    nutrition["serving_size"] = text.get_text(
-                                        strip=True
-                                    )
-                                elif "calories" in title_text:
-                                    nutrition["calories"] = text.get_text(strip=True)
 
-                    # Get Nutrition Table
-                    table = visible_item.find(
+                            if title_el and text_el:
+                                title_text = title_el.get_text(strip=True).lower()
+                                value_text = text_el.get_text(strip=True)
+
+                                if "serving size" in title_text:
+                                    nutrition["serving_size"] = value_text
+                                elif "calories" in title_text:
+                                    nutrition["calories"] = value_text
+                                elif "serves" in title_text:
+                                    # Also capture serves here if not found elsewhere
+                                    if not product_data["serves"]:
+                                        match = re.search(
+                                            r"(\d+(?:\.\d+)?)", value_text
+                                        )
+                                        if match:
+                                            product_data["serves"] = match.group(1)
+
+                    # Get main nutrition table
+                    nutrition_table = visible_item.find(
                         "table", class_=lambda c: c and "Item_table" in c
                     )
-                    if table:
-                        for row in table.find_all(
+                    if nutrition_table:
+                        rows = nutrition_table.find_all(
                             "tr", class_=lambda c: c and "Item_table__row" in c
-                        ):
+                        )
+
+                        for row in rows:
                             cells = row.find_all(
                                 ["td", "th"],
                                 class_=lambda c: c and "Item_table__cell" in c,
                             )
-                            if len(cells) >= 2:
-                                nutrient = cells[0].get_text(strip=True)
-                                amount = cells[1].get_text(strip=True)
-                                if nutrient and amount and nutrient.lower() != "amount":
-                                    key = (
-                                        nutrient.lower()
-                                        .replace(" ", "_")
-                                        .replace("includes", "includes_added_sugars")
-                                    )
-                                    nutrition[key] = amount
-                                    if len(cells) >= 3:
-                                        dv = cells[2].get_text(strip=True)
-                                        if dv and dv != "%dv":
-                                            nutrition[f"{key}_dv"] = dv
 
-            # 4. Get Ingredients
+                            if len(cells) >= 2:
+                                # Get nutrient name and amount
+                                nutrient_name = cells[0].get_text(strip=True)
+                                amount = cells[1].get_text(strip=True)
+
+                                # Skip header rows
+                                if (
+                                    nutrient_name.lower() == "amount"
+                                    or not nutrient_name
+                                    or not amount
+                                ):
+                                    continue
+
+                                # Create clean key name
+                                key = (
+                                    nutrient_name.lower()
+                                    .replace(" ", "_")
+                                    .replace(".", "")
+                                )
+                                # Handle special cases
+                                if "includes" in key and "added" in key:
+                                    key = "includes_added_sugars"
+
+                                nutrition[key] = amount
+
+                                # Get %DV if exists
+                                if len(cells) >= 3:
+                                    dv = cells[2].get_text(strip=True)
+                                    if dv and dv != "%DV" and dv != "% Daily Value*":
+                                        nutrition[f"{key}_dv"] = dv
+
+            # 5. Get Ingredients
             try:
+                # Look for ingredients header
                 ing_header = soup.find(
                     ["h2", "h3"], string=lambda t: t and "Ingredients" in t
                 )
+                if not ing_header:
+                    # Alternative: look for class-based ingredients section
+                    ing_header = soup.find(
+                        "div", class_=lambda c: c and "Ingredients" in c
+                    )
+
                 if ing_header:
+                    # Get the next sibling that contains the actual ingredients text
                     ing_text_el = ing_header.find_next_sibling(["div", "p"])
+                    if not ing_text_el:
+                        # Sometimes ingredients are in a child div
+                        ing_text_el = ing_header.find_next("div")
+
                     if ing_text_el:
-                        nutrition["ingredients"] = ing_text_el.get_text(strip=True)
-            except Exception:
-                pass  # No ingredients found
+                        ingredients_text = ing_text_el.get_text(strip=True)
+                        if (
+                            ingredients_text and len(ingredients_text) > 10
+                        ):  # Ensure it's actual content
+                            nutrition["ingredients"] = ingredients_text
+            except Exception as e:
+                print(f"    Could not extract ingredients: {e}")
 
             # Use the safe_json_dumps from your tools
             product_data["nutrition_json"] = (
@@ -346,18 +444,29 @@ class TraderJoesScraper:
 
             return product_data
 
+        except TimeoutException:
+            print(f"  ⚠ Timeout loading {product_url}")
+            return None
         except Exception as e:
             print(f"  ⚠ FAILED to scrape {product_url}: {e}")
             return None
 
-    def save_to_csv(self, filename: str = "trader_joes_ALL2_PRODUCTS.csv"):
+    def save_to_csv(self, filename: str = "trader_joes_products.csv"):
         """Save scraped products to CSV file"""
         if not self.products:
             print("No products to save")
             return
 
         with open(filename, "w", newline="", encoding="utf-8") as csvfile:
-            fieldnames = ["category", "name", "price", "url", "id", "nutrition_json"]
+            fieldnames = [
+                "category",
+                "name",
+                "price",
+                "serves",
+                "url",
+                "id",
+                "nutrition_json",
+            ]
             writer = csv.DictWriter(
                 csvfile, fieldnames=fieldnames, extrasaction="ignore"
             )
@@ -368,7 +477,6 @@ class TraderJoesScraper:
 
     def run(self):
         """Main execution method"""
-
         self.handle_initial_popups()
 
         categories = self.get_categories()
@@ -399,6 +507,9 @@ class TraderJoesScraper:
                 if product_data:
                     self.products.append(product_data)
                     self.seen_product_urls.add(link)
+                    print(
+                        f"    ✓ Got: {product_data['name'][:50]} | ${product_data['price']} | Serves: {product_data['serves']}"
+                    )
 
                 # Use product delay from your tools
                 time.sleep(PRODUCT_DELAY)
@@ -426,7 +537,7 @@ def main():
     except KeyboardInterrupt:
         print("\nScraping interrupted by user.")
     except Exception as e:
-        print(f"\nAn critical error occurred: {e}")
+        print(f"\nA critical error occurred: {e}")
     finally:
         print("Saving final data...")
         # Save on exit/error
