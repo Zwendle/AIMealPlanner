@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 from typing import List, Dict, Tuple
 from fuzzywuzzy import fuzz, process
-from core.structs import Store, DietaryGoal, PantryItem, UserConstraints
+from structs import Store, DietaryGoal, PantryItem, UserConstraints
 
 
 class MealPlanningEvaluator:
