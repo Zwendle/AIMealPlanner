@@ -1,12 +1,31 @@
+import pandas as pd
+from src.core.structs import UserConstraints
+from src.eval.onboarding import UserPrompt
+from eval.evaluation import MealPlanEvaluator
+# from src.training.trainer import GATrainer
 
-    
-def train():
-    #choose 5-8 random ingredients
-    #get some reward from the combination (based on price, nutritional value, etc)
-    #swap an ingredient out and get a new reward- save to table
-    #continuing swapping until some end state/optimal value is found
-    
-    
+
+def main():
+    # Load data
+    ingredients_df = pd.read_csv("data/ingredients.csv")
+
+    # Training phase (if needed)
+    # if not model_exists():
+    #     trainer = GATrainer(ingredients_df)
+    #     model = trainer.train()
+    #     save_model(model)
+    # else:
+    #     model = load_model()
+
+    # Evaluation phase
+    prompter = UserPrompt(ingredients_df)
+    user_constraints = prompter.run()
+
+    evaluator = MealPlanEvaluator(model, ingredients_df)
+    meal_plan = evaluator.evaluate(user_constraints)
+
+    print(meal_plan)
+
 
 if __name__ == "__main__":
-    train()
+    main()

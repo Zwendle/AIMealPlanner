@@ -15,3 +15,5 @@ trio
 webdriver-manager
 trio-websocket
 selenium
+fuzzywuzzy 
+python-Levenshtein

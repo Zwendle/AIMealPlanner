@@ -1,53 +1,8 @@
 import numpy as np
 import pandas as pd
-from typing import List, Dict, Any, Tuple, Optional
-from dataclasses import dataclass, field
-from enum import Enum
+from typing import List, Dict, Tuple
 from fuzzywuzzy import fuzz, process
-from src.structs.store import Store, DietaryGoal, PantryItem
-
-
-@dataclass
-class UserConstraints:
-    """User constraints for evaluation - temporary session data"""
-
-    pantry: List[PantryItem] = field(default_factory=list)
-    preferred_store: Store = Store.ANY
-    dietary_goals: List[DietaryGoal] = field(default_factory=list)
-    num_meals_min: int = 3
-    num_meals_max: int = 7
-    budget_min: float = 30.0
-    budget_max: float = 50.0
-
-    def to_numpy_state(self, ingredients_df: pd.DataFrame) -> Dict[str, np.ndarray]:
-        """Convert to numpy for GA evaluation"""
-
-        # Create pantry availability vector (length = total ingredients in DB)
-        pantry_vector = np.zeros(len(ingredients_df))
-        for item in self.pantry:
-            pantry_vector[item.ingredient_idx] = item.servings_available
-
-        # One-hot encode dietary goals
-        dietary_vector = np.zeros(5)  # 5 dietary goal options
-        for goal in self.dietary_goals:
-            dietary_vector[goal.value] = 1
-
-        # Constraint parameters
-        params = np.array(
-            [
-                self.preferred_store.value,
-                self.num_meals_min,
-                self.num_meals_max,
-                self.budget_min,
-                self.budget_max,
-            ]
-        )
-
-        return {
-            "current_pantry": pantry_vector,  # What user has
-            "dietary_goals": dietary_vector,  # Dietary constraints
-            "parameters": params,  # Other constraints
-        }
+from core.structs import Store, DietaryGoal, PantryItem, UserConstraints
 
 
 class MealPlanningEvaluator:
@@ -390,7 +345,7 @@ if __name__ == "__main__":
     # Path to your grocery CSV
     CSV_FILE = "../../data/ingredients.csv"
 
-    # TRAINING PHASE (run once, offline)
+    # TRAINING PHASE (run once, offline)p[]
     print("=" * 60)
     print("TRAINING PHASE")
     print("=" * 60)
