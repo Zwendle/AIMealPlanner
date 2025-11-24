@@ -2,13 +2,19 @@ import pandas as pd
 import random
 import json
 import numpy as np
+from tqdm import tqdm
+import pickle
+import sys
+
 
 ALPHA = 0.1        
 GAMMA = 0.9        
 EPSILON = 0.2      
-MAX_STEPS = 20    
-EPISODES = 2000
-Q = {}            
+MAX_STEPS = 200
+EPISODES = 1000
+Q = {}    
+train_flag = 'train' in sys.argv
+        
 
 def make_state(ingredients):
     return tuple(sorted(ingredients))
@@ -79,7 +85,8 @@ def calculate_reward(df, ingredients, pantry_ingredients, target_calories, targe
         in_pantry += 1 if ingredient in pantry_ingredients else 0  
         if df.loc[df['name'] == ingredient, 'category'].iloc[0] == 'Meat & Seafood':
             vegetarian = False
-            
+    
+    print(total_calories, total_protein, total_carbs, total_fats, vegetarian, total_price)
     ingredient_score = in_pantry / len(ingredients)
     if vegetarian_diet and not vegetarian:
         ingredient_score *= 0.3
@@ -109,7 +116,7 @@ def calculate_reward(df, ingredients, pantry_ingredients, target_calories, targe
 def train(df):
     all_ingredients = df['name'].tolist()
 
-    for episode in range(EPISODES):
+    for episode in tqdm(range(EPISODES)):
 
         num_to_pick = random.randint(5, 8)
         ingredients = random.sample(all_ingredients, num_to_pick)
@@ -148,10 +155,46 @@ def train(df):
             Q[(state, action)] = old_q + ALPHA * (reward + GAMMA * future_q - old_q)
 
             ingredients = next_ingredients
+            
+            
+    with open('Q_table_.pickle', 'wb') as handle:
+        pickle.dump(Q, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
-        if episode % 100 == 0:
-            print(f"Episode {episode} complete.")
+
+def generate_meal(df, goal, Q_table, steps=20):
+    all_ingredients = df['name'].tolist()
+    
+    num_to_pick = random.randint(5, 8)
+    ingredients = random.sample(all_ingredients, num_to_pick)
+
+    for step in range(steps):
+        state = make_state(ingredients)
+        actions = get_actions(all_ingredients, ingredients)
+
+        if not actions:
+            break
+
+        q_vals = [Q_table.get((state, a), 0) for a in actions]
+        best_action = actions[int(np.argmax(q_vals))]
+
+        ingredients = apply_action(ingredients, best_action)
+
+    return ingredients
 
 if __name__ == "__main__":
     df = pd.read_csv("trader_joes_nov_18.csv")
-    train(df)
+    df = df[df['nutrition_json'].notna() & df['nutrition_json'].astype(str).str.len().gt(2)]
+    if train_flag:
+        train(df)
+    else:
+        Q_table = np.load('Q_table_.pickle', allow_pickle=True)
+        
+        # change
+        goal = sample_goal(df)
+        
+        print("GOAL")
+        print(goal)
+        final_ingredients = generate_meal(df, goal, Q_table)
+        print(final_ingredients)
+        score = calculate_reward(df, final_ingredients, goal["pantry"], goal["target_calories"], goal["target_protein"], goal["vegetarian_diet"], goal["target_carbs"], goal["target_fat"], goal["target_price"])
+        print(score)
