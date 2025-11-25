@@ -1,572 +1,572 @@
-name,serving_size,num_servings,category,store,price,carbs,carbs_unit,fat,fat_unit,protein,protein_unit,sugar,sugar_unit,calories,is_meat,cost_per_serving
-Vegan Brioche Loaf,1 slice(44g),10.0,bakery,trader joes,3.99,24.0,g,4.0,g,3.0,g,,,150.0,False,0.4
-Organic Super Bread,2 slices(64g),8.0,bakery,trader joes,3.99,24.0,g,13.0,g,9.0,g,,,240.0,False,0.5
-Brioche Style Liège Waffles,1 waffle(55g),6.0,bakery,trader joes,3.99,30.0,g,13.0,g,3.0,g,,,250.0,False,0.66
-French Apple Tart,1/4 Tart(142g),4.0,bakery,trader joes,7.99,53.0,g,12.0,g,3.0,g,29.0,g,330.0,False,2.0
-Classic Hamburger Buns,1 bun(57g),8.0,bakery,trader joes,2.49,26.0,g,1.0,g,4.0,g,,,130.0,False,0.31
-Cheesy Bagels,1 bagel(85g),4.0,bakery,trader joes,3.49,40.0,g,2.0,g,8.0,g,,,210.0,False,0.87
-Gluten Free Double Chocolate Muffins,1 muffin(99g),4.0,bakery,trader joes,5.99,47.0,g,25.0,g,4.0,g,,,430.0,False,1.5
-Sourdough Boules,2 oz(56g/about 1/3 loaf),7.0,bakery,trader joes,2.99,24.0,g,0.0,g,4.0,g,,,120.0,False,0.43
-Classic Hamburger Buns,,,bakery,trader joes,2.49,,,,,,,,,,False,
-Peppermint Brownies,1 brownie(32g),,bakery,trader joes,4.49,17.0,g,6.0,g,1.0,g,,,130.0,False,
-Gluten Free Hamburger Buns,1 bun(79g),4.0,bakery,trader joes,4.99,39.0,g,6.0,g,5.0,g,,,220.0,False,1.25
-Sprouted Wheat Sourdough Bread,1 slice(34g),20.0,bakery,trader joes,4.49,14.0,g,0.0,g,7.0,g,,,90.0,False,0.22
-White Sliced Bread,,,bakery,trader joes,2.49,,,,,,,,,,False,
-Gluten Free White Sandwich Bread,,,bakery,trader joes,4.99,,,,,,,,,,False,
-Cinnamon Raisin Bagels,,,bakery,trader joes,2.49,,,,,,,,,,False,
-Plain Bagels,,,bakery,trader joes,2.49,,,,,,,,,,False,
-Gluten Free Blueberry Muffins,1 muffin(99g),4.0,bakery,trader joes,5.99,41.0,g,16.0,g,4.0,g,,,320.0,False,1.5
-Sandwich Starters,1 bun(66g),6.0,bakery,trader joes,3.49,31.0,g,5.0,g,6.0,g,,,180.0,False,0.58
-Ciabatta Baguette,2 oz(56g / 1/6 loaf),6.0,bakery,trader joes,1.99,27.0,g,1.0,g,5.0,g,,,140.0,False,0.33
-Focaccia Bread with Roasted Tomato & Parmesan,2 oz(56g/ about 1 inch by 6 inch slice),7.0,bakery,trader joes,4.99,24.0,g,3.0,g,5.0,g,,,150.0,False,0.71
-Vegan Banana Bread with Walnuts,2 OZ(57g/ 1/8 loaf),8.0,bakery,trader joes,5.49,30.0,g,9.0,g,2.0,g,,,210.0,False,0.69
-Chocolate Brooklyn Babka,1/9th Babka(55g) 2oz,9.0,bakery,trader joes,5.99,32.0,g,12.0,g,4.0,g,,,250.0,False,0.67
-Whole Wheat Sliced Bread,,,bakery,trader joes,2.49,,,,,,,,,,False,
-Carb Savvy Tortillas made with Whole Wheat,1 tortilla(28g),10.0,bakery,trader joes,2.99,9.0,g,1.0,g,3.0,g,,,45.0,False,0.3
-Soft Pretzel Twists,1 pretzel + 1/2 tsp salt(67g),6.0,bakery,trader joes,3.49,33.0,g,4.0,g,5.0,g,,,190.0,False,0.58
-Teeny Tiny Pecan Pies,1 package(180g),1.0,bakery,trader joes,5.49,20.0,g,12.0,g,2.0,g,,,190.0,False,5.49
-Mini Chocolate Mousse Presents,3 pieces(72g/2.5 oz),2.0,bakery,trader joes,3.99,34.0,g,22.0,g,3.0,g,,,340.0,False,2.0
-Chocolate Chip Pain Au Lait,1 roll(35g),8.0,bakery,trader joes,3.99,18.0,g,7.0,g,3.0,g,,,160.0,False,0.5
-Gluten Free Multigrain Bread,1 slice(36g),10.0,bakery,trader joes,4.99,19.0,g,2.0,g,2.0,g,,,100.0,False,0.5
-Whole Wheat English Muffins,1 Muffin(57g),6.0,bakery,trader joes,1.99,23.0,g,1.0,g,5.0,g,,,130.0,False,0.33
-Maple Brioche Style Liège Waffles,1 waffle(55g),6.0,bakery,trader joes,4.49,31.0,g,13.0,g,3.0,g,,,250.0,False,0.75
-Sliced Seedy Multigrain Bread,Serving Size 2 oz(56g/about 2 slices),8.0,bakery,trader joes,3.49,22.0,g,5.0,g,6.0,g,,,160.0,False,0.44
-Sea Salt Brownie Bites,1 brownie(21g),8.0,bakery,trader joes,2.99,12.0,g,4.0,g,1.0,l,,,90.0,False,0.37
-Pumpkin Bagels,1 Bagel(85g),6.0,bakery,trader joes,2.99,49.0,g,1.0,g,8.0,g,,,240.0,False,0.5
-Sea Salt Chocolate Chunk Cookies,1 cookie(50g),6.0,bakery,trader joes,4.99,32.0,g,9.0,g,3.0,g,,,210.0,False,0.83
-Traditional Indian Style Flatbread,,,bakery,trader joes,3.49,,,,,,,,,,False,
-Organic Seeded Bread,1 Slice(43g),16.0,bakery,trader joes,3.99,20.0,g,5.0,g,6.0,g,,,140.0,False,0.25
-Gluten Free Madeleine Cookies,1 cookie(30g),6.0,bakery,trader joes,3.49,17.0,g,7.0,g,1.0,g,,,140.0,False,0.58
-Herbed Dinner Rolls,1 roll(43g),8.0,bakery,trader joes,3.49,19.0,g,1.0,g,4.0,g,,,110.0,False,0.44
-Brookie,1 piece(39g),8.0,bakery,trader joes,4.99,22.0,g,8.0,g,2.0,g,,,160.0,False,0.62
-European Grains & Seeds Bread,1 slice(52g),9.0,bakery,trader joes,3.49,14.0,g,5.0,g,4.0,g,,,120.0,False,0.39
-Yellow Mini Sheet Cake,1/6 cake(66g),6.0,bakery,trader joes,5.99,38.0,g,15.0,g,2.0,g,,,290.0,False,1.0
-Hazelnut & Cocoa Filled Crepes,6 crepes(192g),1.0,bakery,trader joes,3.99,120.0,g,46.0,g,6.0,g,,,860.0,False,3.99
-Gingerbread Sandwich Cookies,,,bakery,trader joes,5.99,,,,,,,,,,False,
-Sliced Apple Cinnamon Sourdough Bread,1 slice(50g),10.0,bakery,trader joes,4.99,25.0,g,1.0,g,4.0,g,,,130.0,False,0.5
-Cinnamon Swirl Bread Sliced,1 slice(34g),15.0,bakery,trader joes,4.99,16.0,g,4.0,g,2.0,g,,,110.0,False,0.33
-Apple Crumble Pie,1/6 pie(128g),6.0,bakery,trader joes,7.99,50.0,g,13.0,g,4.0,g,,,330.0,False,1.33
-Pain Au Lait,1 roll(35g),8.0,bakery,trader joes,2.99,19.0,g,4.0,g,3.0,g,,,130.0,False,0.37
-Madeleine Cookies,2 cookies(34g),3.0,bakery,trader joes,2.99,18.0,g,7.0,g,2.0,g,,,150.0,False,1.0
-Cinnamon Buns,1 bun(93g),4.0,bakery,trader joes,5.99,49.0,g,14.0,g,4.0,g,,,340.0,False,1.5
-Everything Bagels,,,bakery,trader joes,2.99,,,,,,,,,,False,
-Sweet Pull Apart Aloha Rolls,1 roll(28g),12.0,bakery,trader joes,3.49,19.0,g,1.0,g,2.0,g,,,90.0,False,0.29
-Cinnamon Coffee Cake,2 oz(56g/ 1/8 cake),8.0,bakery,trader joes,5.99,37.0,g,13.0,g,2.0,g,,,260.0,False,0.75
-Gluten Free Oatmeal Coconut Cookies,1 cookie(50g),6.0,bakery,trader joes,4.99,31.0,g,8.0,g,3.0,g,,,210.0,False,0.83
-Gluten Free Baguette,2 oz(56g/ 1/5 loaf),5.0,bakery,trader joes,4.99,20.0,g,4.0,g,2.0,g,,,120.0,False,1.0
-Organic French Baguette,2 oz(56g /about 1/6 loaf),6.0,bakery,trader joes,1.99,29.0,g,0.0,g,4.0,g,,,140.0,False,0.33
-Ciabatta Demi-Baguette,2oz(56g/1/3 loaf),3.0,bakery,trader joes,1.29,27.0,g,1.0,g,5.0,g,,,140.0,False,0.43
-Pumpkin Streusel Muffins,1 muffin(99g),4.0,bakery,trader joes,5.99,58.0,g,16.0,g,3.0,g,,,390.0,False,1.5
-Gluten Free English Muffins,1 English muffin(77g),4.0,bakery,trader joes,4.49,30.0,g,1.0,g,4.0,g,,,150.0,False,1.12
-Gluten Free Chocolate Chunk Cookies,1 cookie(50g),6.0,bakery,trader joes,4.99,29.0,g,11.0,g,2.0,g,,,220.0,False,0.83
-Blueberry Muffins,1 muffin(100g),4.0,bakery,trader joes,4.99,56.0,g,13.0,g,4.0,g,,,360.0,False,1.25
-Pumpkin Pie,1/6 pie(128g),6.0,bakery,trader joes,6.99,62.0,g,16.0,g,6.0,g,,,420.0,False,1.16
-Pumpkin Loaf,1/8th loaf(54g),8.0,bakery,trader joes,4.99,28.0,g,8.0,g,2.0,g,,,190.0,False,0.62
-Chantilly Cream Vanilla Bean Mini Sheet Cake,1/6 cake(85g),6.0,bakery,trader joes,5.49,43.0,g,19.0,g,2.0,g,,,340.0,False,0.92
-Carrot Mini Sheet Cake,1/6 cake(85g),6.0,bakery,trader joes,5.99,39.0,g,16.0,g,3.0,g,,,310.0,False,1.0
-Gluten Free Cinnamon Coffee Cake Muffins,1 muffin(100g),4.0,bakery,trader joes,5.99,56.0,g,23.0,g,3.0,g,,,440.0,False,1.5
-Brioche Hot Dog Buns,1 roll(56g),8.0,bakery,trader joes,3.49,32.0,g,2.0,g,5.0,g,,,170.0,False,0.44
-Holiday Challah,,,bakery,trader joes,3.99,,,,,,,,,,False,
-Garlic Indian Style Flatbread,,,bakery,trader joes,3.99,,,,,,,,,,False,
-Challah Braided Egg Bread,,,bakery,trader joes,4.49,,,,,,,,,,False,
-Cranberry Pecan Muffins,1 muffin(99g),4.0,bakery,trader joes,5.49,45.0,g,19.0,g,5.0,g,,,360.0,False,1.37
-Sonora Style Flour Tortillas,1 tortilla(43g),12.0,bakery,trader joes,2.99,20.0,g,4.0,g,2.0,g,,,130.0,False,0.25
-Apple Cinnamon Buns,1 bun(120g),2.0,bakery,trader joes,4.49,120.0,g,33.0,g,12.0,g,,,830.0,False,2.24
-Dinner Rolls,1 roll(43g),8.0,bakery,trader joes,2.99,21.0,g,3.0,g,4.0,g,,,120.0,False,0.37
-Gluten Free Triple Ginger Muffins,1 muffin(99g),4.0,bakery,trader joes,4.99,47.0,g,20.0,g,3.0,g,,,380.0,False,1.25
-Pumpkin Spice Mini Sheet Cake,1/6 cake(85g),6.0,bakery,trader joes,5.99,39.0,g,16.0,g,3.0,g,,,310.0,False,1.0
-Snickerdoodle Cookies,1 cookie(33g),12.0,bakery,trader joes,4.99,21.0,g,6.0,g,2.0,g,,,150.0,False,0.42
-Pumpkin & Spice Brioche Style Liège Waffles,1 waffle(55g),6.0,bakery,trader joes,4.49,29.0,g,12.0,g,3.0,g,,,240.0,False,0.75
-Sandwich Rolls,1 roll(85g),4.0,bakery,trader joes,3.49,38.0,g,2.0,g,8.0,g,,,200.0,False,0.87
-Apple & Pumpkin Hand Pies,1 container(240g),2.0,bakery,trader joes,4.49,90.0,g,37.0,g,10.0,g,,,730.0,False,2.24
-Classic English Muffins,1 muffin(57g),6.0,bakery,trader joes,1.99,24.0,g,1.0,g,5.0,g,,,130.0,False,0.33
-Pretzel Bagels,1 Bagel(85g),6.0,bakery,trader joes,2.69,47.0,g,1.0,g,8.0,g,,,230.0,False,0.45
-Dark Chocolate Ganache Mini Sheet Cake,1/6 cake(85g),6.0,bakery,trader joes,5.49,42.0,g,16.0,g,3.0,g,,,310.0,False,0.92
-Chocolate Croissants,1 croissant(83g),2.0,bakery,trader joes,3.49,79.0,g,40.0,g,13.0,g,,,710.0,False,1.74
-Gluten Free Almost Everything Bagels,1 bagel(99g),4.0,bakery,trader joes,4.99,50.0,g,4.0,g,5.0,g,,,250.0,False,1.25
-Brioche Buns,1 bun(67g),4.0,bakery,trader joes,3.99,31.0,g,3.0,g,5.0,g,,,180.0,False,1.0
-Organic Mini Flour Tortillas,2 tortillas(40g),6.0,bakery,trader joes,2.49,21.0,g,3.0,g,3.0,g,,,120.0,False,0.42
-Glazed Chocolate Donut Holes,7 pieces(57g),3.0,bakery,trader joes,3.49,26.0,g,14.0,g,1.0,g,,,240.0,False,1.16
-Organic Garlic Bread,1/6 loaf(56g),6.0,bakery,trader joes,3.99,25.0,g,5.0,g,4.0,g,,,170.0,False,0.66
-Wild Alaskan Sockeye Salmon Fillets,,,meat-seafood,trader joes,14.99,,,,,,,,,,True,
-Organic Firm Tofu,3 oz(84g/about 1/5 pkg),5.0,meat-seafood,trader joes,1.99,2.0,g,3.0,g,8.0,g,,,70.0,True,0.4
-Shaved Lamb Shoulder,4 oz(112g),,meat-seafood,trader joes,11.99,0.0,g,9.0,g,22.0,g,,,170.0,True,
-Organic Free Range Boneless Skinless Chicken Breasts,,,meat-seafood,trader joes,7.49,,,,,,,,,,True,
-Spicy Chicken Nuggets,4 pieces(79g),4.5,meat-seafood,trader joes,3.99,11.0,g,11.0,g,9.0,g,,,170.0,True,0.89
-Organic Oven Roasted Turkey Breast,2 slices(49g),3.5,meat-seafood,trader joes,5.99,0.0,g,0.0,g,10.0,g,0.0,g,45.0,True,1.71
-High Protein Organic Tofu,3 oz(84g/ about 1/5 pkg),5.0,meat-seafood,trader joes,2.79,3.0,g,7.0,g,14.0,g,,,130.0,True,0.56
-Wild Nova Style Smoked Sockeye Salmon,2 oz(56g),4.0,meat-seafood,trader joes,13.99,2.0,g,0.0,g,12.0,g,,,0.0,True,3.5
-Organic Hickory Smoked Turkey Breast,2 slices(56g),3.0,meat-seafood,trader joes,5.99,0.0,g,1.0,g,12.0,g,,,60.0,True,2.0
-Uncured Apple Smoked Bacon,1 pan fried slice(15g),11.0,meat-seafood,trader joes,6.49,0.0,g,7.0,g,5.0,g,,,90.0,True,0.59
-Homestyle Angus Beef Meatballs,2 Meatballs(96g),6.0,meat-seafood,trader joes,9.99,5.0,g,22.0,g,17.0,g,,,280.0,True,1.66
-Beef New York Strip Steak,4 oz(112g),,meat-seafood,trader joes,15.99,0.0,g,18.0,g,23.0,g,0.0,g,260.0,True,
-Ground Beef Patties 80/20,1 Patty(112g/4oz),4.0,meat-seafood,trader joes,7.49,0.0,g,23.0,g,19.0,g,,,290.0,True,1.87
-Uncured Pastrami,2oz(56g),4.0,meat-seafood,trader joes,6.99,2.0,g,2.0,g,12.0,g,,,70.0,True,1.75
-Organic Uncured Grass Fed Beef Hot Dogs,1 hot dog(47g),6.0,meat-seafood,trader joes,5.99,1.0,l,10.0,g,6.0,g,,,110.0,True,1.0
-Frick's Uncured Carver Ham,,,meat-seafood,trader joes,6.49,,,,,,,,,,True,
-Spanish Inspired Charcuteria,7 slices(30g),2.0,meat-seafood,trader joes,5.99,0.0,g,3.0,g,8.0,g,,,60.0,True,3.0
-Organic Free Range Boneless Skinless Thin Sliced Chicken Breast Fillets,4 oz. raw(112g),,meat-seafood,trader joes,7.99,0.0,g,3.0,g,25.0,g,,,130.0,True,
-Ground Beef 80% lean /20% fat,4 oz(113g),4.0,meat-seafood,trader joes,6.49,0.0,g,23.0,g,19.0,g,,,290.0,True,1.62
-Uncured Dry Rubbed Sliced Bacon,2 pan fried slices(12g),7.0,meat-seafood,trader joes,5.99,0.0,g,3.0,g,4.0,g,0.0,g,60.0,True,0.86
-Argentinian Red Shrimp with Ginger Garlic Butter,1 package(255g),1.0,meat-seafood,trader joes,7.99,2.0,g,7.0,g,21.0,g,,,160.0,True,7.99
-Sun-Dried Tomato & Basil Chicken Tenders,4 oz(113g),,meat-seafood,trader joes,7.49,8.0,g,2.0,g,24.0,g,2.0,g,150.0,True,
-Spatchcocked Lemon Rosemary Chicken,4 oz(112g),,meat-seafood,trader joes,5.99,1.0,g,18.0,g,17.0,g,,,230.0,True,
-All Natural Ground Chicken,4 oz(112g),4.0,meat-seafood,trader joes,4.49,0.0,g,9.0,g,22.0,g,0.0,g,170.0,True,1.12
-Wild Caught Cod Fillets,,,meat-seafood,trader joes,10.99,,,,,,,,,,True,
-Choice Premium Angus Beef Flank Steak,4oz(112g),,meat-seafood,trader joes,16.99,0.0,g,10.0,g,24.0,g,0.0,g,200.0,True,
-Wild Raw Argentinian Red Shrimp,about 6 frozen shrimp(113g),4.0,meat-seafood,trader joes,11.99,0.0,g,0.0,g,14.0,g,,,60.0,True,3.0
-Organic Silken Tofu,3 oz(85g / about 1/5 package),5.0,meat-seafood,trader joes,2.49,2.0,g,2.0,g,4.0,g,,,40.0,True,0.5
-Sliced Calabrese Uncured Salami,7 slices(28g),5.0,meat-seafood,trader joes,3.49,1.0,l,7.0,g,7.0,g,,,90.0,True,0.7
-Organic Sweet Italian Chicken Sausage,1 sausage(68g),5.0,meat-seafood,trader joes,5.99,1.0,g,6.0,g,12.0,g,0.0,g,110.0,True,1.2
-Chicken Meatballs,4 Meatballs(85g),4.0,meat-seafood,trader joes,3.99,2.0,g,9.0,g,16.0,g,,,150.0,True,1.0
-All Natural Fully Cooked Maple Chicken Breakfast Sausage,2 links(57g),6.0,meat-seafood,trader joes,4.69,3.0,g,4.0,g,10.0,g,3.0,g,90.0,True,0.78
-Seasoned Lamb Shoulder Rack,4 oz(112g),,meat-seafood,trader joes,11.99,1.0,l,23.0,g,18.0,g,,,290.0,True,
-Pesto Chicken Breast,,,meat-seafood,trader joes,8.99,,,,,,,,,,True,
-Carne Asada Autentica,,,meat-seafood,trader joes,11.99,,,,,,,,,,True,
-Unexpected Cheddar Chicken Sausage,1 link(85g),4.0,meat-seafood,trader joes,4.49,3.0,g,9.0,g,16.0,g,,,160.0,True,1.12
-Beef Rib Eye Steak,4 oz(112g),,meat-seafood,trader joes,17.99,0.0,g,21.0,g,21.0,g,0.0,g,270.0,True,
-Chilean Hake Fillets,4 oz(112g),,meat-seafood,trader joes,4.99,0.0,g,1.0,g,20.0,g,,,100.0,True,
-Uncured Turkey Bacon,1 slice(28g),8.0,meat-seafood,trader joes,3.99,0.0,g,1.0,g,6.0,g,0.0,g,35.0,True,0.5
-Organic Chicken Nuggets,4 pieces(79g),4.5,meat-seafood,trader joes,4.99,13.0,g,10.0,g,10.0,g,,,180.0,True,1.11
-Fresh Atlantic Salmon Boneless Fillet,,,meat-seafood,trader joes,9.99,,,,,,,,,,True,
-Gyro Slices,2 oz(57g),4.0,meat-seafood,trader joes,4.69,6.0,g,11.0,g,14.0,g,,,190.0,True,1.17
-Spicy Jalapeño Chicken Sausage,1 link(68g),5.0,meat-seafood,trader joes,4.29,2.0,g,6.0,g,11.0,g,,,100.0,True,0.86
-Sweet Italian Chicken Sausage,1 link(90g),5.0,meat-seafood,trader joes,6.49,1.0,g,3.0,g,17.0,g,,,110.0,True,1.3
-Salame di Parma Mild Salami,4 slices(28g/1oz),4.0,meat-seafood,trader joes,5.99,1.0,L,6.0,g,8.0,g,,,90.0,True,1.5
-Soy Chorizo,2 oz(56g/ about 1/3 cup),6.0,meat-seafood,trader joes,2.99,8.0,g,7.0,g,8.0,g,,,130.0,True,0.5
-Sliced Bresaola Uncured Beef Prosciutto,5 slices(30g),3.0,meat-seafood,trader joes,6.99,3.0,g,4.0,g,31.0,g,,,180.0,True,2.33
-Organic Ground Beef 85/15,4 oz(113g),4.0,meat-seafood,trader joes,8.99,0.0,g,17.0,g,21.0,g,0.0,g,240.0,True,2.25
-Uncured Beef Hot Dogs,1 hot dog(52g),6.0,meat-seafood,trader joes,3.99,6.0,g,4.0,g,8.0,g,,,90.0,True,0.66
-Sweet Apple Chicken Sausage,1 link(68g),5.0,meat-seafood,trader joes,4.29,7.0,g,6.0,g,11.0,g,5.0,g,120.0,True,0.86
-Sliced Peppered Uncured Salami,7 slices(28g),10.0,meat-seafood,trader joes,6.99,0.0,g,7.0,g,8.0,g,,,100.0,True,0.7
-BBQ Cut Fresh Atlantic Salmon Fillets,,,meat-seafood,trader joes,11.99,,,,,,,,,,True,
-All Natural Shaved Beef Steak,4 oz(112g),,meat-seafood,trader joes,10.99,0.0,g,13.0,g,21.0,g,,,200.0,True,
-Buttermilk Brined Half Chicken,4 oz(112g),,meat-seafood,trader joes,4.99,2.0,g,15.0,g,20.0,g,,,220.0,True,
-Fully Cooked Spiral Sliced Uncured Half Ham,3 oz glazed ham(84g),,meat-seafood,trader joes,6.49,4.0,g,6.0,g,14.0,g,,,130.0,True,
-Fresh Atlantic Salmon Boneless Skinless Fillet,,,meat-seafood,trader joes,12.99,,,,,,,,,,True,
-Sliced Applewood Smoked Uncured Ham,2 slices(56g),4.0,meat-seafood,trader joes,4.99,1.0,g,3.0,g,10.0,g,,,70.0,True,1.25
-Sliced Roast Beef,2 slices(56g),4.0,meat-seafood,trader joes,6.99,1.0,l,2.0,g,11.0,g,,,70.0,True,1.75
-Organic Free Range Chicken Drumsticks,4oz(112g),,meat-seafood,trader joes,2.99,0.0,g,10.0,g,22.0,g,0.0,g,180.0,True,
-Spicy Uncured Charcuterie Collection,7 slices(55g),4.5,meat-seafood,trader joes,8.99,2.0,g,10.0,g,12.0,g,,,150.0,True,2.0
-Organic Baked Tofu Teriyaki Flavor,1 piece(99g),2.0,meat-seafood,trader joes,3.99,15.0,g,8.0,g,15.0,g,,,190.0,True,2.0
-All Natural Bone-In Skin-On Chicken Thighs,4oz(112g),,meat-seafood,trader joes,1.99,0.0,g,19.0,g,19.0,g,,,250.0,True,
-Organic Chicken Grill Pack,,,meat-seafood,trader joes,3.99,,,,,,,,,,True,
-Shawarma Chicken Thighs,4 oz(112g),,meat-seafood,trader joes,6.99,3.0,g,7.0,g,21.0,g,,,160.0,True,
-Sweet Italian Sausage made with Pork,1 link(90g),5.0,meat-seafood,trader joes,6.49,1.0,g,13.0,g,15.0,g,,,190.0,True,1.3
-Beef Filet Mignon Steak,4 oz(112g),,meat-seafood,trader joes,24.99,0.0,g,21.0,g,22.0,g,0.0,g,280.0,True,
-Soppressata Uncured Salami,1/8 package(28g),8.0,meat-seafood,trader joes,5.99,1.0,l,8.0,g,7.0,g,,,110.0,True,0.75
-Savory Herbed Chicken Thighs,4 oz(112g),,meat-seafood,trader joes,6.99,3.0,g,6.0,g,18.0,g,,,140.0,True,
-Norwegian Smoked Salmon,2 oz(56g/ 1/2 package),2.0,meat-seafood,trader joes,5.49,1.0,l,9.0,g,28.0,g,,,190.0,True,2.74
-Turkeyless Ground,4 oz(113g),3.0,meat-seafood,trader joes,3.99,11.0,g,12.0,g,21.0,g,,,230.0,True,1.33
-Caramelized Onion & Bell Pepper Turkey Patties,1 patty(113g),4.0,meat-seafood,trader joes,6.99,1.0,g,4.0,g,22.0,g,,,130.0,True,1.75
-Organic Grass Fed Ribeye Steak Boneless,4 oz(112g),2.5,meat-seafood,trader joes,14.99,0.0,g,22.0,g,21.0,g,,,280.0,True,6.0
-Extra Lean Ground Beef 96% Lean / 4% Fat,,,meat-seafood,trader joes,8.99,,,,,,,,,,True,
-Organic Tofu,3 oz(84g/about 1/6 pkg),6.0,meat-seafood,trader joes,2.49,2.0,g,3.0,g,6.0,g,,,60.0,True,0.42
-Sesame Teriyaki Beef Skirt Steak,4 oz(112g),,meat-seafood,trader joes,16.99,10.0,g,12.0,g,19.0,g,,,230.0,True,
-Sliced Prosciutto,1/4 pack(28g),4.0,meat-seafood,trader joes,4.29,0.0,g,7.0,g,5.0,g,,,110.0,True,1.07
-Wild Sockeye Smoked Salmon,3.5 slices(57g),2.0,meat-seafood,trader joes,7.99,0.0,g,5.0,g,26.0,g,,,150.0,True,4.0
-Porcini Boneless Beef Loin Roast,4 oz(112g),,meat-seafood,trader joes,19.99,1.0,l,16.0,g,22.0,g,,,240.0,True,
-"Angus Chuck, Brisket & Sirloin Beef Patties",1 patty(151g),4.0,meat-seafood,trader joes,11.99,0.0,g,39.0,g,28.0,g,,,470.0,True,3.0
-Pineapple Teriyaki Chicken Meatballs,6 meatballs(85g),4.0,meat-seafood,trader joes,4.29,8.0,g,9.0,g,13.0,g,,,160.0,True,1.07
-Ground Lamb,4 oz(112g),4.0,meat-seafood,trader joes,11.99,0.0,g,9.0,g,21.0,g,,,170.0,True,3.0
-Organic 3 Grain Tempeh,3 oz(84g),2.5,meat-seafood,trader joes,2.49,11.0,g,8.0,g,19.0,g,,,190.0,True,1.0
-Hot Italian Sausage made with Pork,1 link(90g),5.0,meat-seafood,trader joes,6.49,2.0,g,13.0,g,15.0,g,,,190.0,True,1.3
-Blackened Salmon Seasoned Boneless Fillet,4 oz(113g),,meat-seafood,trader joes,10.99,1.0,g,15.0,g,23.0,g,,,230.0,True,
-Pollo Asado Autentico,,,meat-seafood,trader joes,8.49,,,,,,,,,,True,
-Everything But The Bagel Seasoned Smoked Salmon,2 slices(56g),2.0,meat-seafood,trader joes,5.99,0.0,g,7.0,g,22.0,g,,,160.0,True,3.0
-Balsamic Rosemary Beef Steak Tips,4 oz(112g),,meat-seafood,trader joes,11.99,6.0,g,13.0,g,21.0,g,,,220.0,True,
-Sliced Uncured Pepperoni,,,meat-seafood,trader joes,3.99,,,,,,,,,,True,
-Organic Grass Fed NY Strip Steak Boneless,4 oz(112g),2.5,meat-seafood,trader joes,13.99,0.0,g,19.0,g,22.0,g,,,270.0,True,5.6
-Old Wisconsin Beef Summer Sausage,,,meat-seafood,trader joes,4.99,,,,,,,,,,True,
-Organic Grass Fed Tenderloin Steak,4 oz(112g),3.0,meat-seafood,trader joes,24.99,0.0,g,20.0,g,22.0,g,,,280.0,True,8.33
-Organic Grass Fed Top Sirloin Steak,4 oz(112g),2.0,meat-seafood,trader joes,8.99,0.0,g,16.0,g,22.0,g,,,240.0,True,4.5
-Fully Cooked Pork Belly,3 oz(85g),4.0,meat-seafood,trader joes,6.99,0.0,g,21.0,g,13.0,g,0.0,g,240.0,True,1.75
-Grilled Chili Lime Chicken Breast,,,meat-seafood,trader joes,7.99,,,,,,,,,,True,
-Icelandic Style Skyr Lowfat Raspberry Yogurt,1 container(150g),1.0,dairy-eggs,trader joes,1.19,11.0,g,2.0,g,15.0,g,,,120.0,False,1.19
-Greek Lowfat Yogurt Plain,3/4 Cup(170g ),2.5,dairy-eggs,trader joes,2.99,8.0,g,3.0,g,16.0,g,,,130.0,False,1.2
-Salted Maple Cold Foam Creamer,1 Tbsp.(15mL),85.0,dairy-eggs,trader joes,4.49,2.0,g,0.0,g,0.0,g,,,10.0,False,0.05
-Greek Nonfat Yogurt Plain,3/4 Cup(170g),2.5,dairy-eggs,trader joes,2.99,7.0,g,0.0,g,17.0,g,,,110.0,False,1.2
-Icelandic Style Skyr Lowfat Cherry Yogurt,1 container(150g),1.0,dairy-eggs,trader joes,1.19,12.0,g,2.0,g,16.0,g,,,130.0,False,1.19
-Sour Cream,2 Tbsp(30g),15.0,dairy-eggs,trader joes,3.29,2.0,g,5.0,g,1.0,g,,,60.0,False,0.22
-Greek Nonfat Yogurt Plain,3/4 Cup(170g),5.0,dairy-eggs,trader joes,5.49,7.0,g,0.0,g,17.0,g,,,110.0,False,1.1
-Plain Whole Milk Greek Yogurt,1 container(150g),1.0,dairy-eggs,trader joes,0.99,8.0,g,14.0,g,6.0,g,,,180.0,False,0.99
-"Peaches & Cream, Mango & Cream Yogurt Cups",4oz(113g),1.0,dairy-eggs,trader joes,3.99,18.0,g,6.0,g,4.0,g,,,140.0,False,3.99
-Egg Nog Whole Milk Greek Yogurt,1 container(150g/5.3 oz),1.0,dairy-eggs,trader joes,0.99,18.0,g,7.0,g,11.0,g,,,180.0,False,0.99
-Non-Dairy Oat Creamer Brown Sugar Flavor,1 Tbsp.(15mL),32.0,dairy-eggs,trader joes,1.99,4.0,g,1.0,g,0.0,g,,,25.0,False,0.06
-Kramer Farms Cage Free Hard-Boiled Eggs,,,dairy-eggs,trader joes,3.49,,,,,,,,,,False,
-Pasture Raised Large Brown Eggs,1 egg(50g),12.0,dairy-eggs,trader joes,5.99,0.0,g,5.0,g,6.0,g,,,70.0,False,0.5
-Vanilla & Cream Yogurt,1 yogurt container(113g),1.0,dairy-eggs,trader joes,2.69,19.0,g,6.0,g,4.0,g,,,140.0,False,2.69
-Chocolate Whipped Light Cream,2 Tbsp.(6g),61.0,dairy-eggs,trader joes,4.49,1.0,l,1.0,g,0.0,g,,,15.0,False,0.07
-Small Curd Cottage Cheese,1/2 cup(113g),4.0,dairy-eggs,trader joes,2.99,5.0,g,5.0,g,12.0,g,,,110.0,False,0.75
-Cranberry Clementine Whole Milk Yogurt,1 container(150g),1.0,dairy-eggs,trader joes,0.99,19.0,g,6.0,g,11.0,g,,,170.0,False,0.99
-Organic Spiced Vanilla Creamer,1 Tbsp.(15mL),32.0,dairy-eggs,trader joes,2.99,5.0,g,1.0,g,0.0,g,,,30.0,False,0.09
-Vanilla Bean Whole Milk Greek Yogurt,3/4 Cup(170g),5.0,dairy-eggs,trader joes,5.49,17.0,g,7.0,g,12.0,g,,,180.0,False,1.1
-"Butter with Parmesan, Garlic & Herb",1 Tbsp.(14g),8.0,dairy-eggs,trader joes,2.99,2.0,g,8.0,g,1.0,g,,,80.0,False,0.37
-"Butter Quarters, Salted",1 tbsp(14g),32.0,dairy-eggs,trader joes,3.99,0.0,g,11.0,g,0.0,g,,,100.0,False,0.12
-Raspberries & Cream Yogurt,1 yogurt container(113g),1.0,dairy-eggs,trader joes,2.69,18.0,g,6.0,g,4.0,g,,,140.0,False,2.69
-Non-Dairy Cinnamon Bun Oat Creamer,1 Tbsp.(15mL),32.0,dairy-eggs,trader joes,1.99,4.0,g,0.0,g,0.0,g,,,25.0,False,0.06
-Greek Whole Milk Yogurt Plain,3/4 Cup(170g),2.5,dairy-eggs,trader joes,2.99,9.0,g,16.0,g,6.0,g,,,200.0,False,1.2
-Blueberries & Cream Yogurt,1 yogurt container(113g),1.0,dairy-eggs,trader joes,2.69,19.0,g,6.0,g,4.0,g,,,140.0,False,2.69
-Greek Yogurt with Honey,3/4 cup(170g),5.0,dairy-eggs,trader joes,5.49,20.0,g,15.0,g,6.0,g,,,230.0,False,1.1
-Egg Nog,1/2 cup(120 mL),8.0,dairy-eggs,trader joes,3.99,20.0,g,9.0,g,5.0,g,,,180.0,False,0.5
-Meyer Lemon & Cream Yogurt,1 yogurt container(113g),1.0,dairy-eggs,trader joes,2.69,18.0,g,6.0,g,4.0,g,,,140.0,False,2.69
-Apricot Mango Greek Whole Milk Yogurt,1 container(150g),1.0,dairy-eggs,trader joes,0.99,20.0,g,11.0,g,5.0,g,,,200.0,False,0.99
-"Butter Quarters, Unsalted",1 Tbsp.(14g),32.0,dairy-eggs,trader joes,3.99,0.0,g,11.0,g,0.0,g,,,100.0,False,0.12
-Chocolate Milk made with Fair Trade Cocoa,1 cup(240mL),8.0,dairy-eggs,trader joes,4.49,30.0,g,8.0,g,8.0,g,,,220.0,False,0.56
-New Zealand Salted Butter,1 Tbsp.(14g),,dairy-eggs,trader joes,3.29,0.0,g,11.0,g,0.0,g,,,100.0,False,
-Greek YogurtHoney Made with Whole Milk,1 container(150g),1.0,dairy-eggs,trader joes,0.99,17.0,g,13.0,g,5.0,g,,,210.0,False,0.99
-Organic Sweet Cream Creamer,1 Tbsp.(15mL),32.0,dairy-eggs,trader joes,2.99,5.0,g,1.0,g,0.0,g,,,25.0,False,0.09
-Organic Pasture Raised Large Brown Eggs,,,dairy-eggs,trader joes,6.99,,,,,,,,,,False,
-"Organic Creamy Cashew Cultured Yogurt Alternative, Plain Unsweetened",3/4 cup(171g),4.0,dairy-eggs,trader joes,4.99,11.0,g,10.0,g,4.0,g,,,140.0,False,1.25
-Icelandic Style Skyr Lowfat Vanilla Yogurt,1 container(150g),1.0,dairy-eggs,trader joes,1.19,12.0,g,2.0,g,15.0,g,,,130.0,False,1.19
-Nonfat Plain Greek Yogurt,1 container(150g),1.0,dairy-eggs,trader joes,0.99,6.0,g,0.0,g,15.0,g,,,90.0,False,0.99
-Organic Milk A2/A2,1 cup(240ml),8.0,dairy-eggs,trader joes,5.99,11.0,g,9.0,g,8.0,g,,,150.0,False,0.75
-Strained Thick & Creamy Greek Yogurt Plain,3/4 cup(170g),5.0,dairy-eggs,trader joes,5.49,7.0,g,9.0,g,15.0,g,,,170.0,False,1.1
-Organic Buttery Plant-Based Spread,1 Tbsp.(14g),26.0,dairy-eggs,trader joes,3.99,0.0,g,9.0,g,0.0,g,,,80.0,False,0.15
-Organic Heavy Whipping Cream,,,dairy-eggs,trader joes,4.99,,,,,,,,,,False,
-Whipt™ Plant Based Dairy Free Whipped Coconut,,,dairy-eggs,trader joes,3.99,,,,,,,,,,False,
-"Strawberries & Cream, Bananas & Cream Yogurt Cups",4oz(113g),1.0,dairy-eggs,trader joes,3.99,18.0,g,6.0,g,4.0,g,,,140.0,False,3.99
-Simply Eggless Plant Based Egg,,,dairy-eggs,trader joes,4.99,,,,,,,,,,False,
-Vanilla Flavored Cold Foam Creamer,1 Tbsp.(15mL),85.0,dairy-eggs,trader joes,4.49,2.0,g,0.0,g,0.0,g,,,10.0,False,0.05
-Guava Passion Fruit Greek Whole Milk Yogurt,1 container(150g),1.0,dairy-eggs,trader joes,0.99,20.0,g,6.0,g,11.0,g,,,180.0,False,0.99
-Everything but the Kitchen Sink Cookie Mix,1/18 dry mix(24g); makes one 2.5 inch cookie (31g),18.0,pantry,trader joes,4.49,17.0,g,3.0,g,2.0,g,,,100.0,False,0.25
-Tikka Vegetables,2/3 cup(140g),2.0,pantry,trader joes,2.49,33.0,g,17.0,g,8.0,g,,,300.0,False,1.25
-Organic Italian Artisan Gigli Pasta,1 cup(56g dry),9.0,pantry,trader joes,2.99,43.0,g,0.0,g,7.0,g,,,200.0,False,0.33
-Mediterranean Dorade,1 can(125g),1.0,pantry,trader joes,3.99,0.0,g,8.0,g,29.0,g,,,190.0,False,3.99
-Orzo Italian Pasta,,,pantry,trader joes,0.99,,,,,,,,,,False,
-Chili Sesame Oil,1 Tbsp.(14g),6.0,pantry,trader joes,2.69,1.0,g,12.0,g,0.0,g,,,110.0,False,0.45
-Solid LIght Yellowfin Tuna in Olive Oil,1 can drained(113g),1.0,pantry,trader joes,2.49,0.0,g,17.0,g,26.0,g,,,260.0,False,2.49
-Organic Black Beans,1/2 cup(125g),3.5,pantry,trader joes,1.19,14.0,g,0.0,g,5.0,g,,,110.0,False,0.34
-Cuban Style Citrusy Garlic Seasoning Blend,1/4 tsp(0.8g),80.0,pantry,trader joes,2.29,1.0,l,0.0,g,0.0,g,,,0.0,False,0.03
-Blueberry Muffin Mix,1/12 pkg. dry mix(43g); makes 1 muffin (65g),12.0,pantry,trader joes,4.49,35.0,g,0.0,g,3.0,g,,,150.0,False,0.37
-Organic Brown Rice & Quinoa Fusilli Pasta,2/3 cup(56g ),8.0,pantry,trader joes,3.49,43.0,g,1.0,g,4.0,g,,,200.0,False,0.44
-Avocado Oil,1 Tbsp(15mL),33.0,pantry,trader joes,7.99,0.0,g,14.0,g,0.0,g,,,120.0,False,0.24
-Organic Square Rigatoni Pasta,1/2 cup(56g) dry,8.0,pantry,trader joes,1.99,40.0,g,0.0,g,7.0,g,,,200.0,False,0.25
-Organic Spicy Honey Sauce,1 Tbsp.(21g),11.0,pantry,trader joes,2.99,17.0,g,0.0,g,0.0,g,,,70.0,False,0.27
-Pineapple Fruit Spread,1 Tbsp.(18g),18.0,pantry,trader joes,3.49,6.0,g,0.0,g,0.0,g,,,25.0,False,0.19
-"""This Strawberry Walks into a Bar"" Cereal Bars",,,pantry,trader joes,2.49,,,,,,,,,,False,
-Cassava Cauliflower Blend Baking Mix,1/4 cup(30g),15.0,pantry,trader joes,3.99,24.0,g,0.0,g,2.0,g,,,100.0,False,0.27
-Organic Pure Bourbon Vanilla Extract,,,pantry,trader joes,9.99,,,,,,,,,,False,
-Frosted Flakes Cereal,1 cup(36g),12.0,pantry,trader joes,2.49,33.0,g,0.0,g,2.0,g,,,140.0,False,0.21
-Spicy Honey Sauce,1 Tbsp.(21g),16.0,pantry,trader joes,4.99,17.0,g,0.0,g,0.0,g,,,70.0,False,0.31
-Kalamata Olives with Jalapeños & Peri Peri Peppers,about 2 pieces(15g),,pantry,trader joes,2.49,0.0,g,4.0,g,0.0,g,,,35.0,False,
-Falafel Mix,1/3 cup falafel mix(50g); makes 3 fried falafel (97g),9.0,pantry,trader joes,3.29,28.0,g,2.0,g,12.0,g,,,180.0,False,0.37
-Lemon Stuffed Olives,2 olives(16 g),12.0,pantry,trader joes,2.99,1.0,l,2.0,g,0.0,g,,,25.0,False,0.25
-Organic Diced & Fire Roasted Tomatoes with Green Chiles,1/2 cup(120g),3.5,pantry,trader joes,1.99,5.0,g,0.0,g,1.0,l,,,25.0,False,0.57
-Yellow Cling Peach Halves,,,pantry,trader joes,4.99,,,,,,,,,,False,
-Garlic & Jalapeño Stuffed Olives,1 olives(11g),25.0,pantry,trader joes,3.99,0.0,g,1.0,g,0.0,g,,,15.0,False,0.16
-Organic Creamy Salted Almond Butter,2 Tbsp.(32g),,pantry,trader joes,3.99,7.0,g,17.0,g,7.0,g,,,190.0,False,
-Organic Stone Ground Yellow Corn Taco Shells,2 Shells(26g),6.0,pantry,trader joes,2.69,16.0,g,6.0,g,2.0,g,,,130.0,False,0.45
-Coconut Chickpea Curry,2/3 cup(140g),2.0,pantry,trader joes,2.49,19.0,g,8.0,g,6.0,g,,,170.0,False,1.25
-Organic Watermelon Fruit Spread,1 Tbsp.(18g),16.0,pantry,trader joes,2.99,8.0,g,0.0,g,0.0,g,,,30.0,False,0.19
-Crunchy Chili Onion Sprinkle Seasoning Blend,1/4 tsp.(0.9g),83.0,pantry,trader joes,1.99,0.0,g,0.0,g,0.0,g,,,0.0,False,0.02
-Focaccia Bread Mix,1/12 package dry mix(29g); makes 1 prepared piece (55g),12.0,pantry,trader joes,2.99,21.0,g,0.0,g,3.0,g,,,100.0,False,0.25
-Joe's Os Cereal,1 1/2 cup(41g),8.0,pantry,trader joes,1.99,31.0,g,2.0,g,5.0,g,,,160.0,False,0.25
-Honey O's Cereal,1 1/4 cup(41g),9.0,pantry,trader joes,2.69,34.0,g,2.0,g,3.0,g,,,160.0,False,0.3
-Basmati Rice from India,1/4 cup(45g),20.0,pantry,trader joes,2.99,36.0,g,0.0,g,4.0,g,,,160.0,False,0.15
-Creamy Salted Peanut Butter,2 Tbsp.(32g),14.0,pantry,trader joes,2.49,7.0,g,16.0,g,8.0,g,,,190.0,False,0.18
-Cocoa Almond Spread,2 Tbsp.(37g),10.0,pantry,trader joes,4.49,21.0,g,13.0,g,2.0,g,,,210.0,False,0.45
-10 Minute Farro,1/4 cup dry product(45 g),6.0,pantry,trader joes,1.99,34.0,g,1.0,g,5.0,g,,,170.0,False,0.33
-Jasmine Rice From Thailand,1/4 cup dry(45g) yields 3/4 cup cooked rice,30.0,pantry,trader joes,3.29,35.0,g,0.0,g,3.0,g,,,160.0,False,0.11
-Double Fold Bourbon Vanilla Extract,1 tsp.(5mL),21.0,pantry,trader joes,7.99,0.0,g,0.0,g,0.0,g,,,0.0,False,0.38
-"Extra Virgin Olive Oil, Liter",1 Tbsp.(15 mL),67.0,pantry,trader joes,10.99,0.0,g,14.0,g,0.0,g,,,120.0,False,0.16
-Unbleached Enriched All-Purpose Flour,,,pantry,trader joes,2.99,,,,,,,,,,False,
-Organic Ground Black Pepper,,,pantry,trader joes,2.29,,,,,,,,,,False,
-Imported Olive Oil Packed in Italy,1 Tbsp.(15mL),68.0,pantry,trader joes,9.99,0.0,g,14.0,g,0.0,g,,,120.0,False,0.15
-Vanilla Sugar,1 tsp.(5g),20.0,pantry,trader joes,3.99,5.0,g,0.0,g,0.0,g,,,20.0,False,0.2
-Jaipur Vegetables,2/3 cup(140g),2.0,pantry,trader joes,2.29,12.0,g,13.0,g,6.0,g,,,180.0,False,1.14
-Rolled Oats,1/2 cup dry(45g/ 1.6 oz),20.0,pantry,trader joes,3.99,31.0,g,3.0,g,6.0,g,,,170.0,False,0.2
-Slow Roasted Tomatoes,1/4 cup(30g) drained,4.5,pantry,trader joes,3.99,3.0,g,11.0,g,1.0,l,,,110.0,False,0.89
-Hot & Sweet Jalapeños,1 oz(28g/ about 14 pieces),6.0,pantry,trader joes,3.29,9.0,g,0.0,g,0.0,g,,,40.0,False,0.55
-Salmon Rub Seasoning Blend,1/4 tsp.(1g),74.0,pantry,trader joes,2.69,1.0,l,0.0,g,0.0,g,,,0.0,False,0.04
-Condensed Cream of Portabella Mushroom Soup,1/2 cup(120mL) condensed soup,2.5,pantry,trader joes,2.49,8.0,g,4.0,g,2.0,g,,,70.0,False,1.0
-Wild Skipjack Tuna,1 pouch(85g),1.0,pantry,trader joes,1.79,0.0,g,0.0,g,22.0,g,,,90.0,False,1.79
-Onion Salt,1/4 tsp(1 g),57.0,pantry,trader joes,1.99,1.0,L,0.0,g,0.0,g,,,0.0,False,0.03
-Calrose Rice,1/4 cup dry(45g) yields 2/3 cup cooked rice,20.0,pantry,trader joes,2.49,36.0,g,0.0,g,3.0,g,,,160.0,False,0.12
-Organic Radiatore Pasta,1/2 cup(56g) dry,8.0,pantry,trader joes,1.99,40.0,g,0.0,g,7.0,g,,,200.0,False,0.25
-Kitchari,1 Cup(250g),1.0,pantry,trader joes,2.49,31.0,g,9.0,g,7.0,g,,,180.0,False,2.49
-Colossal Olives Stuffed with Garlic Cloves,about 1 olive(9.5g),30.0,pantry,trader joes,4.49,1.0,l,1.0,g,0.0,g,,,15.0,False,0.15
-Organic Vegetarian Chili,1 can(416g),1.0,pantry,trader joes,2.49,48.0,g,14.0,g,26.0,g,,,410.0,False,2.49
-Pecan Pumpkin Oatmeal,1 packet(45g),8.0,pantry,trader joes,3.79,34.0,g,3.0,g,4.0,g,,,190.0,False,0.47
-Grilled Pitted Green Olives,2 olives(14g),13.0,pantry,trader joes,3.99,0.0,g,3.0,g,0.0,g,,,30.0,False,0.31
-Pure Grade A Maple Syrup,2 Tbsp(30 mL),8.0,pantry,trader joes,4.99,27.0,g,0.0,g,0.0,g,,,100.0,False,0.62
-Pappardelle Pasta,2oz dry(56g/1/4 bag),4.0,pantry,trader joes,2.49,43.0,g,1.0,g,8.0,g,,,210.0,False,0.62
-Pumpkin Pie Spice,,,pantry,trader joes,2.99,,,,,,,,,,False,
-Chickpea Fusilli Pasta,3/4 cup(56g),6.0,pantry,trader joes,2.99,36.0,g,2.0,g,11.0,g,,,190.0,False,0.5
-Brownie Truffle Baking Mix,1/16 pkg.(28g) dry mix; makes 1 prepared piece (40g),16.0,pantry,trader joes,3.99,23.0,g,2.0,g,1.0,g,,,120.0,False,0.25
-Yellow Tadka Dal,2/3 cup(140g),2.0,pantry,trader joes,2.49,34.0,g,10.0,g,12.0,g,,,260.0,False,1.25
-Greek Chickpeas with Cumin and Parsley,2/3 cup(130g),2.0,pantry,trader joes,2.49,26.0,g,20.0,g,8.0,g,,,320.0,False,1.25
-Bourbon Vanilla Bean Syrup,2 Tbsp.(30mL),8.0,pantry,trader joes,4.49,32.0,g,0.0,g,0.0,g,,,130.0,False,0.56
-White Chocolate Baking Chips,1 Tbsp.(15g),19.0,pantry,trader joes,2.99,10.0,g,4.0,g,1.0,l,,,80.0,False,0.16
-Organic Canola Oil Spray,1/3 second spray(0.25g),536.0,pantry,trader joes,2.99,0.0,g,0.0,g,0.0,g,,,0.0,False,0.01
-Dolmas,3 pieces(84g),3.0,pantry,trader joes,3.49,12.0,g,6.0,g,2.0,g,,,120.0,False,1.16
-Crunchy Almond Butter No Salt,2 Tbsp(32g),14.0,pantry,trader joes,6.49,7.0,g,16.0,g,7.0,g,,,190.0,False,0.46
-Peanut Butter Chocolate Granola,Per 2/3 cup(65g),5.0,pantry,trader joes,3.99,43.0,g,11.0,g,7.0,g,,,290.0,False,0.8
-Caramel Sea Salt Baking Chips,1 Tbsp.(15g),19.0,pantry,trader joes,3.49,10.0,g,4.0,g,0.0,g,,,80.0,False,0.18
-Double Fold Alcohol Free Bourbon Vanilla Flavoring,,,pantry,trader joes,7.99,,,,,,,,,,False,
-TJ's Mushroom & Company Multipurpose Umami Seasoning Blend,1/4 tsp(1g),60.0,pantry,trader joes,2.99,0.0,g,0.0,g,0.0,g,,,0.0,False,0.05
-Sicilian Selezione Extra Virgin Olive Oil,1 Tbsp(15mL),33.0,pantry,trader joes,10.99,0.0,g,14.0,g,0.0,g,,,120.0,False,0.33
-Nori Komi Furikake Japanese Multi-Purpose Seasoning,1 Tbsp.(5g),11.0,pantry,trader joes,2.99,1.0,g,1.0,g,1.0,g,,,25.0,False,0.27
-Medium Green Ripe Pitted Olives,5 olives(15g),11.0,pantry,trader joes,2.49,1.0,l,1.0,g,0.0,g,,,20.0,False,0.23
-Bourbon Vanilla Bean Paste,1 tsp.(5g),23.0,pantry,trader joes,4.99,3.0,g,0.0,g,0.0,g,,,15.0,False,0.22
-Blondie Bar Baking Mix,1/14 dry mix(31g); makes 1 prepared piece (41g),14.0,pantry,trader joes,3.99,25.0,g,2.0,g,1.0,g,,,130.0,False,0.29
-Organic Ground Cinnamon,,,pantry,trader joes,1.99,,,,,,,,,,False,
-Organic Virgin Coconut Oil,,,pantry,trader joes,4.99,,,,,,,,,,False,
-Organic Tricolor Spaghetti,2 oz(56g/ 1/8 package) dry,8.0,pantry,trader joes,2.49,40.0,g,1.0,g,7.0,g,,,200.0,False,0.31
-Kale & Cauliflower Chili,1 cup(250g),3.0,pantry,trader joes,3.99,23.0,g,9.0,g,6.0,g,,,190.0,False,1.33
-Everything But The Bagel Sesame Seasoning Blend,1/4 tsp(1g),65.0,pantry,trader joes,1.99,0.0,g,0.0,g,0.0,g,,,5.0,False,0.03
-Oven Toasted Old Fashioned Organic Oats,1/2 cup dry(43g),12.0,pantry,trader joes,2.99,29.0,g,2.0,g,6.0,g,,,160.0,False,0.25
-Balsamic Vinegar of Modena,1 Tbsp.(15mL),33.0,pantry,trader joes,2.49,3.0,g,0.0,g,0.0,g,,,15.0,False,0.08
-Crunchy Cinnamon Squares,1 cup(40g),9.0,pantry,trader joes,2.99,,,2.0,g,4.0,g,,,160.0,False,0.33
-Ginger Spread,1 Tbsp.(20g),17.0,pantry,trader joes,3.99,14.0,g,0.0,g,0.0,g,,,60.0,False,0.23
-Organic Red Wine Vinegar,1 Tbsp.(15mL),16.0,pantry,trader joes,1.99,0.0,g,0.0,g,0.0,g,,,0.0,False,0.12
-Joe's Os Cereal Bars,1 bar(24g),5.0,pantry,trader joes,2.99,14.0,g,6.0,g,3.0,g,,,120.0,False,0.6
-Fire Roasted Red Peppers,1oz(28g about 1/3 pepper) drained,12.0,pantry,trader joes,2.99,1.0,l,0.0,g,0.0,g,,,5.0,False,0.25
-All Occasion Sprinkle,1 tsp.(4g),25.0,pantry,trader joes,1.99,4.0,g,0.0,g,0.0,g,,,15.0,False,0.08
-"Solid White Albacore Tuna, No Salt Added",1 can drained(4oz/113g),1.0,pantry,trader joes,1.99,0.0,g,1.0,g,29.0,g,,,130.0,False,1.99
-Tikka Masala Curry Sauce,1/2 package(125g),2.0,pantry,trader joes,2.29,11.0,g,14.0,g,6.0,g,,,180.0,False,1.14
-Nutritional Yeast,1 Tbsp(5g),23.0,pantry,trader joes,3.49,2.0,g,0.0,g,3.0,g,,,20.0,False,0.15
-Ground Fermented Black Garlic,,,pantry,trader joes,2.99,,,,,,,,,,False,
-Autumnal Harvest Soup,1 cup(245g),3.0,pantry,trader joes,4.99,19.0,g,8.0,g,2.0,g,,,150.0,False,1.66
-Strawberry Yogurt O's,3/4 cup,11.0,pantry,trader joes,3.99,22.0,g,2.0,g,2.0,g,,,120.0,False,0.36
-Crunchy Peanut Butter Unsalted,2 Tbsp.(32g),14.0,pantry,trader joes,2.49,7.0,g,16.0,g,8.0,g,,,190.0,False,0.18
-Organic Stone Ground Blue Corn Taco Shells,2 Shells(26g),6.0,pantry,trader joes,2.49,15.0,g,7.0,g,2.0,g,,,130.0,False,0.42
-Organic Kidney Beans,1/2 cup(125g),3.5,pantry,trader joes,1.19,20.0,g,0.0,g,7.0,g,,,110.0,False,0.34
-Strawberry Preserves made with Fresh Strawberries,1 tbsp(20g),25.0,pantry,trader joes,3.99,13.0,g,0.0,g,0.0,g,,,50.0,False,0.16
-Whole Kernel Corn,1/2 Cup(125g),3.5,pantry,trader joes,0.99,9.0,g,0.0,g,1.0,g,,,60.0,False,0.28
-Chicken Noodle Soup,1 cup(245g),2.0,pantry,trader joes,2.99,14.0,g,3.0,g,7.0,g,,,110.0,False,1.5
-Cheddar Macaroni & Cheese,2.5 oz(70g/about 1/3 box) makes about 1 cup prepared,3.0,pantry,trader joes,0.99,52.0,g,1.0,g,8.0,g,,,250.0,False,0.33
-Gingerbread Cake & Cookie Mix,1/8 pkg.(50g) dry mix; makes one 4x2-inch piece (83g),8.0,pantry,trader joes,3.49,42.0,g,1.0,g,2.0,g,,,190.0,False,0.44
-Organic Balsamic Vinegar,1 Tbsp.(15 ml),16.0,pantry,trader joes,5.99,10.0,g,0.0,g,0.0,g,,,45.0,False,0.37
-Spicy Jollof Seasoned Rice Mix,1/3 cup dry mix(56g); makes 1 cup prepared rice (185g),4.0,pantry,trader joes,2.69,43.0,g,0.0,g,4.0,g,,,210.0,False,0.67
-Gourmet Fried Onion Pieces,2Tbsp(7g),32.0,pantry,trader joes,3.49,3.0,g,3.0,g,0.0,g,,,45.0,False,0.11
-Organic Toasted Sesame Oil,1 Tbsp.(15 mL),10.0,pantry,trader joes,3.49,0.0,g,14.0,g,0.0,g,,,120.0,False,0.35
-Premium Chunk White Chicken,1/3 cup(71g),5.0,pantry,trader joes,3.99,0.0,g,1.0,g,12.0,g,0.0,g,70.0,False,0.8
-Organic Concord Grape Jelly,1 Tbsp(20g),28.0,pantry,trader joes,3.49,13.0,g,0.0,g,0.0,g,,,50.0,False,0.12
-Italian Whole Peeled Tomatoes with Basil Leaf,1/2 cup(115g),7.0,pantry,trader joes,2.99,7.0,g,0.0,g,2.0,g,,,35.0,False,0.43
-Organic Sri Lankan Curry & Rice,1 package(375g),1.0,pantry,trader joes,3.99,87.0,g,56.0,g,17.0,g,,,910.0,False,3.99
-Organic Coconut Milk,1/4 cup(65mL),6.0,pantry,trader joes,1.89,1.0,g,11.0,g,1.0,g,,,110.0,False,0.32
-Honeycrisp Apple Granola,2/3 Cup(62g),5.0,pantry,trader joes,3.99,47.0,g,6.0,g,5.0,g,,,260.0,False,0.8
-Italian-Style Wedding Soup,1 cup(247g),2.5,pantry,trader joes,4.99,39.0,g,18.0,g,17.0,g,,,380.0,False,2.0
-Organic Couscous,1/4 cup dry(45g),8.0,pantry,trader joes,1.79,35.0,g,0.0,g,6.0,g,,,170.0,False,0.22
-Peanut Butter Protein Granola,2/3 cup(60g),6.0,pantry,trader joes,3.99,29.0,g,12.0,g,11.0,g,,,260.0,False,0.66
-Organic Pineapple Chunks,1 cup(142g),3.0,pantry,trader joes,2.99,22.0,g,0.0,g,1.0,l,,,90.0,False,1.0
-Aglio Olio Seasoning Blend,1/4 tsp.(1g),48.0,pantry,trader joes,2.49,0.0,g,0.0,g,0.0,g,,,0.0,False,0.05
-Organic Raw Apple Cider Vinegar,1 Tbsp(15mL),33.0,pantry,trader joes,2.49,1.0,l,0.0,g,0.0,g,,,10.0,False,0.08
-Everything But The Leftovers Seasoning Blend,1/4 tsp(1.2g),62.0,pantry,trader joes,2.99,0.0,g,0.0,g,0.0,g,,,0.0,False,0.05
-Miso Instant Ramen Soup,1 container(43g),1.0,pantry,trader joes,1.89,31.0,g,3.0,g,7.0,g,,,180.0,False,1.89
-Organic Midnight Moo Chocolate Syrup,2 Tbsp.(39g),11.0,pantry,trader joes,3.99,26.0,g,0.0,g,1.0,l,,,110.0,False,0.36
-Lemon Curd,1 Tbsp.(30g),10.0,pantry,trader joes,3.99,19.0,g,2.0,g,1.0,L,,,100.0,False,0.4
-Organic Free Range Chicken Stock,1 cup(8 fl oz),4.0,pantry,trader joes,2.29,0.0,g,0.0,g,2.0,g,,,15.0,False,0.57
-Almond Ginger Sesame Granola,2/3 cup(60g),6.0,pantry,trader joes,4.99,36.0,g,14.0,g,7.0,g,,,290.0,False,0.83
-Organic Almond Butter,2 Tbsp.(32g),11.0,pantry,trader joes,3.99,7.0,g,17.0,g,7.0,g,,,190.0,False,0.36
-Avocado Spray Oil,1/3 second spray(0.25g),564.0,pantry,trader joes,3.99,0.0,g,0.0,g,0.0,g,,,0.0,False,0.01
-Agrodolce White Wine Vinegar,1 Tbsp.(15mL),16.0,pantry,trader joes,5.99,13.0,g,0.0,g,0.0,g,,,50.0,False,0.37
-Semi-Sweet Chocolate Chips,1 tbsp(15g),23.0,pantry,trader joes,3.99,10.0,g,4.0,g,1.0,L,,,80.0,False,0.17
-Calamari Pieces in Olive Oil,1 can drained(80g),1.0,pantry,trader joes,3.99,0.0,g,4.0,g,17.0,g,,,110.0,False,3.99
-Italian Fusilli,,,pantry,trader joes,0.99,,,,,,,,,,False,
-Organic Hearty Vegetable Broth,1 cup(240 mL),4.0,pantry,trader joes,1.99,2.0,g,0.0,g,0.0,g,,,10.0,False,0.5
-Turkey Chili with Beans,1 container(425g),1.0,pantry,trader joes,2.69,31.0,g,7.0,g,17.0,g,,,250.0,False,2.69
-Organic Fusilli Corti Bucati Pasta,2 oz(56g/ 1/8 package) dry,8.0,pantry,trader joes,1.99,40.0,g,0.0,g,7.0,g,,,200.0,False,0.25
-Organic Peanut Butter & Cocoa Crunch,1 cup(40g),7.0,pantry,trader joes,3.49,33.0,g,2.0,g,3.0,g,,,160.0,False,0.5
-Organic Pumpkin,,,pantry,trader joes,2.49,,,,,,,,,,False,
-Mini Marshmallows,1/3 cup(28g),10.0,pantry,trader joes,2.99,24.0,g,0.0,g,0.0,g,,,100.0,False,0.3
-Italian Farfalle,,,pantry,trader joes,1.29,,,,,,,,,,False,
-Spaghetti,,,pantry,trader joes,0.99,,,,,,,,,,False,
-Chicken Broth Concentrate,1 packet(9.6g),12.0,pantry,trader joes,3.99,4.0,g,0.0,g,0.0,g,,,25.0,False,0.33
-Cornbread Stuffing Mix,1/12 pkg dry mix(29g),12.0,pantry,trader joes,4.99,20.0,g,2.0,g,4.0,g,,,120.0,False,0.42
-Organic Free Range Chicken Broth,1 cup(240ml),4.0,pantry,trader joes,1.99,1.0,l,0.0,g,1.0,g,,,10.0,False,0.5
-Organic Conversation Olive Trio,about 4 olives(16g),13.0,pantry,trader joes,3.49,1.0,g,2.0,g,0.0,g,,,25.0,False,0.27
-Organic Unbleached All-Purpose Flour,1/4 cup(30g),,pantry,trader joes,5.49,23.0,g,0.0,g,3.0,g,,,110.0,False,
-Organic Black Pepper Barilotti Pasta,3/4 cup(60g) dry,8.0,pantry,trader joes,2.99,41.0,g,1.0,g,8.0,g,,,210.0,False,0.37
-Speculoos Cookie Butter,2 Tbsp.(30g),13.0,pantry,trader joes,3.99,16.0,g,11.0,g,1.0,g,,,170.0,False,0.31
-Organic Garbanzo Beans,1/2 cup(125 g),3.5,pantry,trader joes,1.19,17.0,g,2.0,g,6.0,g,,,110.0,False,0.34
-Organic Shelled Hemp Seeds,3 Tbsp.(30g),8.0,pantry,trader joes,6.49,2.0,g,14.0,g,10.0,g,,,170.0,False,0.81
-Sweet Picanté Peppers,about 2 stuffed peppers drained(30g),5.0,pantry,trader joes,4.99,5.0,g,3.0,g,1.0,g,,,50.0,False,1.0
-Grecian Style Eggplant with Tomatoes & Onions,1/2 cup(110g),2.5,pantry,trader joes,2.99,5.0,g,12.0,g,1.0,g,,,140.0,False,1.2
-Creamy Peanut Butter Unsalted,2 Tbsp.(32g),14.0,pantry,trader joes,2.49,7.0,g,16.0,g,8.0,g,,,190.0,False,0.18
-Organic Cane Sugar,2 tsp.(8g),113.0,pantry,trader joes,4.49,8.0,g,0.0,g,0.0,g,,,30.0,False,0.04
-Organic Corn Flakes Cereal,1 1/2 cups(41g),8.0,pantry,trader joes,2.79,36.0,g,0.0,g,3.0,g,,,160.0,False,0.35
-Chocolate Coffee Flavored Granola,3/4 cup(58g),6.0,pantry,trader joes,3.99,42.0,g,8.0,g,5.0,g,,,260.0,False,0.66
-Flakes & Strawberries Cereal,1 1/4 cup(59g),6.0,pantry,trader joes,2.99,50.0,g,1.0,g,4.0,g,,,210.0,False,0.5
-Everything But The Elote Seasoning Blend,1/4 tsp(0.8g),81.0,pantry,trader joes,1.99,0.0,g,0.0,g,0.0,g,,,0.0,False,0.02
-Tiny Fruity Cuties Cereal,1 1/4 cup(39g),12.0,pantry,trader joes,3.99,33.0,g,1.0,g,2.0,g,,,150.0,False,0.33
-Black Beans,1/2 cup(125g),3.5,pantry,trader joes,0.99,18.0,g,0.0,g,6.0,g,,,110.0,False,0.28
-Black Peppercorns with Grinder,,,pantry,trader joes,2.49,,,,,,,,,,False,
-Pumpkin Bisque,1 cup(252g),3.0,pantry,trader joes,5.49,33.0,g,27.0,g,4.0,g,,,380.0,False,1.83
-Fig Butter,1 tbsp(20g),16.0,pantry,trader joes,2.99,11.0,g,0.0,g,0.0,g,,,45.0,False,0.19
-Banana Bread Mix,1/9 package dry mix(47g); 1/9 loaf (78g) Prepared,9.0,pantry,trader joes,2.99,39.0,g,0.0,g,3.0,g,,,170.0,False,0.33
-Rice Vinegar,1 Tbsp.(15mL),33.0,pantry,trader joes,2.49,0.0,g,0.0,g,0.0,g,,,0.0,False,0.08
-Organic Low Sodium Vegetable Broth,1 cup(240mL),4.0,pantry,trader joes,1.99,5.0,g,0.0,g,1.0,l,,,20.0,False,0.5
-Fried Shallots,1 Tbsp.(5g),28.0,pantry,trader joes,2.49,2.0,g,2.0,g,0.0,g,,,25.0,False,0.09
-Multi-Floral & Clover Honey,1 Tbsp.(21g),16.0,pantry,trader joes,3.99,17.0,g,0.0,g,0.0,g,,,60.0,False,0.25
-Organic Tomato & Roasted Red Pepper Soup,1 cup(240 mL),4.0,pantry,trader joes,3.49,20.0,g,2.0,g,5.0,g,,,120.0,False,0.87
-Organic Apricot Preserves,1 Tbsp.(20g),25.0,pantry,trader joes,4.29,13.0,g,0.0,g,0.0,g,,,50.0,False,0.17
-Sea Salt Crystals,1/4 tsp.(1.2g),92.0,pantry,trader joes,1.99,0.0,g,0.0,g,0.0,g,,,0.0,False,0.02
-Gluten Free Tagliatelle Pasta,1 pasta nest(42g) dry,6.0,pantry,trader joes,2.49,33.0,g,0.0,g,3.0,g,,,150.0,False,0.42
-Marinated Artichokes On The Go,1 bag(45g),1.0,pantry,trader joes,1.29,3.0,g,0.0,g,1.0,l,,,15.0,False,1.29
-Squiggly Knife Cut Style Noodles,1 noodle pack + 1 sauce packet(95g),4.0,pantry,trader joes,4.99,60.0,g,2.0,g,12.0,g,,,310.0,False,1.25
-Miso Ginger Broth,1 cup(240 mL),4.0,pantry,trader joes,2.49,1.0,g,0.0,g,1.0,g,,,10.0,False,0.62
-Pumpkin Bread & Muffin Mix,1/16 pkg. dry mix(31g); makes one prepared slice (54g),16.0,pantry,trader joes,3.49,26.0,g,0.0,g,1.0,g,,,120.0,False,0.22
-Premium Extra Virgin Olive Oil Cold Pressed,1 Tbsp.(15mL),67.0,pantry,trader joes,12.49,0.0,g,14.0,g,0.0,g,,,120.0,False,0.19
-Madras Lentils,2/3 cup(140g),2.0,pantry,trader joes,2.49,17.0,g,6.0,g,7.0,g,,,150.0,False,1.25
-Sunflower Seed Spread,2 Tbsp.(32g),14.0,pantry,trader joes,5.49,5.0,g,17.0,g,8.0,g,,,210.0,False,0.39
-Pearled Couscous,1/3 cup dry(50g),5.0,pantry,trader joes,1.99,36.0,g,0.0,g,7.0,g,,,180.0,False,0.4
-Organic Red Lentil Sedanini,3/4 cup(56g/2 oz) dry,6.0,pantry,trader joes,2.99,36.0,g,1.0,g,15.0,g,,,210.0,False,0.5
-Gnocchi,3/4 cup(110g),4.0,pantry,trader joes,1.99,37.0,g,0.0,g,4.0,g,,,170.0,False,0.5
-Creamy Almond Butter No Salt,2 Tbsp(32g),14.0,pantry,trader joes,6.49,7.0,g,16.0,g,7.0,g,,,190.0,False,0.46
-Everything But the Bagel Nut Duo,1/4 cup(29g),8.0,pantry,trader joes,4.99,6.0,g,15.0,g,6.0,g,,,180.0,False,0.62
-Organic Vermont Maple Syrup,2 Tbsp.(30mL),8.0,pantry,trader joes,4.99,27.0,g,0.0,g,0.0,g,,,100.0,False,0.62
-Organic Powdered Cane Sugar,1/4 cup(30g),15.0,pantry,trader joes,3.79,30.0,g,0.0,g,0.0,g,,,120.0,False,0.25
-Organic Maple Butter,2 Tbsp.(40g),5.0,pantry,trader joes,5.49,34.0,g,0.0,g,0.0,g,,,130.0,False,1.1
-Lentils,2/3 cup(130g),3.5,pantry,trader joes,0.99,16.0,g,0.0,g,6.0,g,,,80.0,False,0.28
-Italian Capellini,,,pantry,trader joes,0.99,,,,,,,,,,False,
-Organic Turkey Bone Broth,1 Cup(240 mL),2.0,pantry,trader joes,3.79,1.0,g,0.0,g,24.0,g,,,100.0,False,1.9
-Gluten Free Organic Rolled Oats with Ancient Grains & Seeds,1/2 cup(45g),15.0,pantry,trader joes,4.99,29.0,g,4.0,g,8.0,g,,,180.0,False,0.33
-Hearts of Palm Pasta,1/3 package(85g),3.0,pantry,trader joes,3.49,13.0,g,0.0,g,3.0,g,,,60.0,False,1.16
-Traditional Style Fat Free Refried Beans,1/2 cup(130g),3.5,pantry,trader joes,1.19,23.0,g,0.0,g,8.0,g,,,120.0,False,0.34
-Green Goddess Seasoning Blend,1/4 tsp(1g),57.0,pantry,trader joes,2.99,1.0,l,0.0,g,0.0,g,,,0.0,False,0.05
-Ube Mochi Pancake & Waffle Mix,1/6 dry mix(63g) makes 2 4-inch pancakes,6.0,pantry,trader joes,3.99,52.0,g,0.0,g,3.0,g,,,220.0,False,0.66
-Riced Hearts of Palm,1/3 package(85g),3.0,pantry,trader joes,3.49,12.0,g,0.0,g,3.0,g,,,60.0,False,1.16
-Gold Aceto Balsamico Di Modena,1 Tbsp.(15 mL),16.0,pantry,trader joes,4.99,9.0,g,0.0,g,0.0,g,,,40.0,False,0.31
-Organic Basmati Rice,1/4 Cup(45g),20.0,pantry,trader joes,3.99,35.0,g,0.0,g,4.0,g,,,160.0,False,0.2
-Giant Chalkidiki Olives,2 olives(15g),19.0,pantry,trader joes,2.49,0.0,g,2.0,g,0.0,g,,,20.0,False,0.13
-Organic Lentil Vegetable Soup,1 container(425g),1.0,pantry,trader joes,2.49,62.0,g,4.0,g,21.0,g,,,360.0,False,2.49
-Crunchy Peanut Butter Salted,2 Tbsp.(32g),14.0,pantry,trader joes,2.49,7.0,g,16.0,g,8.0,g,,,190.0,False,0.18
-Creamy Almond Butter Salted,2 Tbsp(32g),14.0,pantry,trader joes,6.49,7.0,g,16.0,g,7.0,g,,,190.0,False,0.46
-Thai Wheat Noodles,1 package(198g),3.0,pantry,trader joes,2.49,63.0,g,2.0,g,10.0,g,,,310.0,False,0.83
-Mini Maple Flavored Marshmallows,1/3 cup(30g),6.0,pantry,trader joes,2.99,23.0,g,0.0,g,0.0,g,,,90.0,False,0.5
-Giant Baked Beans in Tomato Sauce,1/2 cup(110g),2.5,pantry,trader joes,1.99,14.0,g,5.0,g,5.0,g,3.0,g,130.0,False,0.8
-Quinoa Stuffed Dolmas,3 dolmas(80g),3.5,pantry,trader joes,2.99,12.0,g,7.0,g,2.0,g,,,120.0,False,0.85
-Very Berry Granola,3/4 cup(60g),6.0,pantry,trader joes,3.99,45.0,g,7.0,g,5.0,g,,,260.0,False,0.66
-Organic Ground Turmeric,,,pantry,trader joes,1.99,,,,,,,,,,False,
-Spicy Squiggly Knife Cut Noodles,1 noodle pack + 1 Sauce packet + 1 sesame paste packet(113g),4.0,pantry,trader joes,4.99,66.0,g,15.0,g,15.0,g,,,460.0,False,1.25
-Crunchy Almond Butter Salted,2 Tbsp(32g),14.0,pantry,trader joes,6.49,7.0,g,16.0,g,7.0,g,,,190.0,False,0.46
-Organic Kosher Sandwich Pickles,1 oz(28g/about 2 slices),10.0,pantry,trader joes,3.99,1.0,g,0.0,g,0.0,g,,,0.0,False,0.4
-Homestyle Cherry Pistachio Pecan Granola,2/3 cup(60g),6.0,pantry,trader joes,4.99,38.0,g,13.0,g,6.0,g,,,290.0,False,0.83
-Organic Creamy Peanut Butter Salted Valencia,2 Tbsp.(32g),14.0,pantry,trader joes,4.49,7.0,g,15.0,g,8.0,g,,,180.0,False,0.32
-Organic Tomato Paste,2 Tbsp(33g),5.0,pantry,trader joes,0.99,6.0,g,0.0,g,1.0,g,,,30.0,False,0.2
-Organic Tricolor Quinoa,1/4 cup(42g),11.0,pantry,trader joes,3.49,27.0,g,2.0,g,6.0,g,,,150.0,False,0.32
-Kosher Dill Pickles,1 oz(28g/about 1 pickle),13.0,pantry,trader joes,2.99,1.0,l,0.0,g,0.0,g,,,0.0,False,0.23
-Truffle Glaze,1 Tbsp.(15 mL),17.0,pantry,trader joes,4.99,9.0,g,0.0,g,0.0,g,,,35.0,False,0.29
-Almond Paste,2 Tbsp.(39g),5.0,pantry,trader joes,3.99,24.0,g,8.0,g,3.0,g,,,180.0,False,0.8
-Fleur de Sel Caramel Sauce,1 Tbsp(19g),15.0,pantry,trader joes,3.99,11.0,g,1.0,g,0.0,g,,,60.0,False,0.27
-Organic Bread Crumbs,1/4 cup(30g),9.0,pantry,trader joes,2.99,21.0,g,1.0,g,3.0,g,,,110.0,False,0.33
-Ranch Seasoning Blend,1/4 tsp.(1g),57.0,pantry,trader joes,2.99,1.0,l,0.0,g,0.0,g,,,0.0,False,0.05
-Fair Trade Turbinado Raw Cane Sugar,2 tsp(8 g),85.0,pantry,trader joes,3.49,8.0,g,0.0,g,0.0,g,,,30.0,False,0.04
-White Miso Paste,1 tsp.(6g),25.0,pantry,trader joes,2.99,2.0,g,0.0,g,1.0,l,,,10.0,False,0.12
-Smoked Paprika,,,pantry,trader joes,2.49,,,,,,,,,,False,
-Taco Seasoning Mix,1 tsp.(3g),12.0,pantry,trader joes,0.99,1.0,g,0.0,g,0.0,g,,,5.0,False,0.08
-Maple Pecan Clusters Cereal,3/4 cup(53g),11.0,pantry,trader joes,4.79,39.0,g,7.0,g,4.0,g,,,230.0,False,0.44
-Strawberries & Crème Pancake & Waffle Mix,1/7 dry mix(65g) makes 2 4-inch pancakes,7.0,pantry,trader joes,1.99,51.0,g,2.0,g,5.0,g,,,240.0,False,0.28
-Italian Linguine,,,pantry,trader joes,0.99,,,,,,,,,,False,
-Peanut Butter with Honey,2 Tbsp.(32g),14.0,pantry,trader joes,2.99,8.0,g,15.0,g,7.0,g,,,190.0,False,0.21
-Chile Lime Seasoning Blend,1/4 tsp(1g),82.0,pantry,trader joes,1.99,0.0,g,0.0,g,0.0,g,0.0,g,0.0,False,0.02
-Cinnamon Sticks,1/8 stick(0.5g),56.0,pantry,trader joes,2.99,0.0,g,0.0,g,0.0,g,,,0.0,False,0.05
-Pumpkin & Spice Snickerdoodle Cookie Mix,1/22 dry mix(23g); makes 1 cookie (31g),22.0,pantry,trader joes,3.99,19.0,g,0.0,g,1.0,g,,,80.0,False,0.18
-Grainless Granola,3/4 cup(60g),4.5,pantry,trader joes,4.99,19.0,g,28.0,g,9.0,g,,,340.0,False,1.11
-Bourbon Vanilla Beans,,,pantry,trader joes,2.99,,,,,,,,,,False,
-Pumpkin O's Cereal,1-1/3 cup(40g),9.0,pantry,trader joes,2.99,34.0,g,1.0,g,2.0,g,,,150.0,False,0.33
-Cinnamon Roll Blondie Bar Baking Mix,1/20 pkg.(30g) dry mix; makes 1 bar (40g),20.0,pantry,trader joes,3.99,26.0,g,0.0,g,1.0,g,,,110.0,False,0.2
-Mini Chocolate Chip Pancake & Waffle Mix,1/4 cup dry mix(43g),11.0,pantry,trader joes,3.99,30.0,g,2.0,g,5.0,g,,,150.0,False,0.36
-Spanish Manzanilla Olives with Pimento Paste,4 olives(14g),20.0,pantry,trader joes,2.99,1.0,l,1.0,g,0.0,g,,,15.0,False,0.15
-"Solid White Albacore Tuna, Salt Added",1 can drained(4oz/113g),1.0,pantry,trader joes,1.99,0.0,g,1.0,g,29.0,g,,,130.0,False,1.99
-Garden Vegetable Soup,1 cup(245 g),3.0,pantry,trader joes,3.99,18.0,g,2.0,g,2.0,g,,,100.0,False,1.33
-Jumbo Pitted Greek Kalamata Olives,5 Olives(15g),12.0,pantry,trader joes,2.99,1.0,L,4.0,g,0.0,g,,,45.0,False,0.25
-Italian Penne Rigate,,,pantry,trader joes,0.99,,,,,,,,,,False,
-Quite Possibly the World's Largest Fusilli,2oz(56g/ 1/8 package) dry,8.0,pantry,trader joes,2.49,41.0,g,0.0,g,8.0,g,,,200.0,False,0.31
-Yellow Squash,,,produce,trader joes,2.49,,,,,,,,,,False,
-Organic Herb Salad Mix,,,produce,trader joes,2.69,,,,,,,,,,False,
-Spaghetti Squash,,,produce,trader joes,2.99,,,,,,,,,,False,
-Organic Shredded Kale,,,produce,trader joes,3.99,,,,,,,,,,False,
-Fresh Cranberries,,,produce,trader joes,2.29,,,,,,,,,,False,
-Super Sweet Fresh Corn,1 ear of corn(140g),4.0,produce,trader joes,4.49,26.0,g,2.0,g,5.0,g,9.0,g,120.0,False,1.12
-Fruitful Medley,,,produce,trader joes,3.99,,,,,,,,,,False,
-Stir Fry Veggie Blend,1 cup(85g),5.0,produce,trader joes,3.49,4.0,g,0.0,g,2.0,g,,,20.0,False,0.7
-"Grapefruit, 5lb bag",,,produce,trader joes,5.99,,,,,,,,,,False,
-Organic Brussels Sprouts,,,produce,trader joes,3.69,,,,,,,,,,False,
-Strawberries 1 Lb,,,produce,trader joes,5.49,,,,,,,,,,False,
-Organic Sweet Potatoes,,,produce,trader joes,4.99,,,,,,,,,,False,
-Romaine Hearts,,,produce,trader joes,2.99,,,,,,,,,,False,
-Organic Coleslaw Mix,,,produce,trader joes,2.49,,,,,,,,,,False,
-Bananas,,,produce,trader joes,0.23,,,,,,,,,,False,
-Organic Tri-Color Bell Peppers,,,produce,trader joes,4.99,,,,,,,,,,False,
-Shelled Edamame,1/2 cup(85g),3.0,produce,trader joes,3.99,29.0,g,10.0,g,27.0,g,,,310.0,False,1.33
-Fresh Fennel,,,produce,trader joes,3.69,,,,,,,,,,False,
-Cape Gooseberries,,,produce,trader joes,3.49,,,,,,,,,,False,
-Sugar Bee® Apple,,,produce,trader joes,1.29,,,,,,,,,,False,
-Organic Baby Spinach,,,produce,trader joes,2.29,,,,,,,,,,False,
-Murasaki Sweet Potatoes,,,produce,trader joes,4.99,,,,,,,,,,False,
-Kumato Brown Tomatoes,,,produce,trader joes,3.99,,,,,,,,,,False,
-Cherry Tomatoes on the Vine,,,produce,trader joes,4.99,,,,,,,,,,False,
-Baby Corn,,,produce,trader joes,2.79,,,,,,,,,,False,
-Teeny Tiny Avocados 6 Count,,,produce,trader joes,3.99,,,,,,,,,,False,
-Jumbo Yellow Onions,,,produce,trader joes,1.19,,,,,,,,,,False,
-Teeny Tiny Tomatoes,,,produce,trader joes,1.99,,,,,,,,,,False,
-Fresh Cut Pineapple Chunks,,,produce,trader joes,3.99,,,,,,,,,,False,
-Jumbo Pomegranate,,,produce,trader joes,2.99,,,,,,,,,,False,
-Cruciferous Crunch Collection,,,produce,trader joes,2.79,,,,,,,,,,False,
-Organic Beets,,,produce,trader joes,1.99,,,,,,,,,,False,
-Organic Carrots of Many Colors,,,produce,trader joes,2.99,,,,,,,,,,False,
-Seedless Lemons,,,produce,trader joes,3.99,,,,,,,,,,False,
-Steamed & Peeled Baby Beets,,,produce,trader joes,2.29,,,,,,,,,,False,
-Organic Pomegranate,,,produce,trader joes,3.49,,,,,,,,,,False,
-Organic Tuscan Kale,,,produce,trader joes,2.79,,,,,,,,,,False,
-Steamed Lentils,1/2 cup(100g),5.0,produce,trader joes,3.29,21.0,g,0.0,g,10.0,g,,,120.0,False,0.66
-Sugar Bee® Apples,,,produce,trader joes,4.99,,,,,,,,,,False,
-Organic Baby Lettuce Mix,,,produce,trader joes,2.49,,,,,,,,,,False,
-Organic Kiwi,,,produce,trader joes,4.49,,,,,,,,,,False,
-Organic Gold Potatoes,,,produce,trader joes,3.99,,,,,,,,,,False,
-Mangos,,,produce,trader joes,1.69,,,,,,,,,,False,
-Broccoli & Kale Slaw,1 1/2 cups(100g) slaw + dressing,3.0,produce,trader joes,3.49,20.0,g,14.0,g,4.0,g,,,210.0,False,1.16
-Cut and Peeled Carrots,,,produce,trader joes,1.99,,,,,,,,,,False,
-Shishito Peppers,,,produce,trader joes,2.49,,,,,,,,,,False,
-Cut Sweet Potatoes,,,produce,trader joes,5.49,,,,,,,,,,False,
-Organic Persian Cucumbers,,,produce,trader joes,2.99,,,,,,,,,,False,
-Organic Avocados 4 count,,,produce,trader joes,4.99,,,,,,,,,,False,
-Baby Shanghai Bok Choy,,,produce,trader joes,2.99,,,,,,,,,,False,
-Haricots Verts,,,produce,trader joes,5.99,,,,,,,,,,False,
-Jicama Sticks,,,produce,trader joes,3.49,,,,,,,,,,False,
-Organic Baby Red Butter Lettuce & Baby Arugula,1/2 package(2 cups/85g),2.0,produce,trader joes,2.49,2.0,g,0.0,g,2.0,g,,,15.0,False,1.25
-Organic Bananas,,,produce,trader joes,0.29,,,,,,,,,,False,
-Little Leaf Farms Baby Crispy Green Leaf,,,produce,trader joes,2.99,,,,,,,,,,False,
-Organic Petite Potato Medley,,,produce,trader joes,3.49,,,,,,,,,,False,
-Les Petites Carrots of Many Colors,3 OZ(84g/about 4 carrots),5.0,produce,trader joes,4.49,7.0,g,0.0,g,1.0,L,4.0,g,30.0,False,0.9
-Sugar Snap Peas,,,produce,trader joes,2.99,,,,,,,,,,False,
-Cut Butternut Squash,,,produce,trader joes,3.99,,,,,,,,,,False,
-Red and Green Grapes Duo,,,produce,trader joes,6.49,,,,,,,,,,False,
-Organic Pitted Medjool Dates,3 dates(40g),9.0,produce,trader joes,5.99,29.0,g,0.0,g,1.0,L,,,120.0,False,0.67
-Portabella Mushrooms,,,produce,trader joes,3.49,,,,,,,,,,False,
-Green Onions,,,produce,trader joes,1.29,,,,,,,,,,False,
-Organic Red Bell Peppers,,,produce,trader joes,3.99,,,,,,,,,,False,
-Organic Fuyu Persimmons,,,produce,trader joes,3.99,,,,,,,,,,False,
-Organic Red Butter Lettuce,3 cups(85g),2.0,produce,trader joes,2.49,2.0,g,0.0,g,1.0,g,,,10.0,False,1.25
-Fuyu Persimmons,,,produce,trader joes,0.89,,,,,,,,,,False,
-Josie's Mandarins,,,produce,trader joes,3.49,,,,,,,,,,False,
-Organic Arugula,2 Cups(85g),2.5,produce,trader joes,2.49,3.0,g,0.0,g,2.0,g,,,20.0,False,1.0
-Pineapple,,,produce,trader joes,3.99,,,,,,,,,,False,
-Shiitake Mushrooms,,,produce,trader joes,3.49,,,,,,,,,,False,
-Mirepoix,3 oz(85g),5.0,produce,trader joes,3.49,6.0,g,0.0,g,1.0,g,,,30.0,False,0.7
-Dutch Yellow Baby Potatoes,,,produce,trader joes,3.79,,,,,,,,,,False,
-Delicata Squash,,,produce,trader joes,1.49,,,,,,,,,,False,
-Organic Romaine & Chicory Blend,2 cups(85g),2.5,produce,trader joes,2.49,3.0,g,0.0,g,1.0,g,,,15.0,False,1.0
-Honeycrisp Apples,,,produce,trader joes,1.29,,,,,,,,,,False,
-Sweet Mini Peppers,,,produce,trader joes,3.49,,,,,,,,,,False,
-Organic Crimini Mushrooms,,,produce,trader joes,2.69,,,,,,,,,,False,
-Wild Arugula,,,produce,trader joes,2.29,,,,,,,,,,False,
-Trimmed Leeks,,,produce,trader joes,2.99,,,,,,,,,,False,
-Organic Mini Sweet Peppers,,,produce,trader joes,3.99,,,,,,,,,,False,
-Persian Cucumbers,,,produce,trader joes,2.49,,,,,,,,,,False,
-Organic Cranberries,,,produce,trader joes,3.29,,,,,,,,,,False,
-Hass Avocado,,,produce,trader joes,1.29,,,,,,,,,,False,
-Ready Veggies,1 cup(85g),4.0,produce,trader joes,2.99,7.0,g,0.0,g,2.0,g,,,35.0,False,0.75
-Russet Potatoes,,,produce,trader joes,0.99,,,,,,,,,,False,
-Avocados 4 count,,,produce,trader joes,3.99,,,,,,,,,,False,
-Organic Strawberries 1 Lb,,,produce,trader joes,7.49,,,,,,,,,,False,
-Cantaloupe,,,produce,trader joes,3.49,,,,,,,,,,False,
-Campari Tomatoes,,,produce,trader joes,3.79,,,,,,,,,,False,
-Little Gem Lettuce,,,produce,trader joes,3.49,,,,,,,,,,False,
-Cut Butternut Squash,,,produce,trader joes,4.99,,,,,,,,,,False,
-Organic English Cucumber,,,produce,trader joes,2.49,,,,,,,,,,False,
-Sweet Potato,,,produce,trader joes,0.99,,,,,,,,,,False,
-Brussels Sprouts,,,produce,trader joes,4.99,,,,,,,,,,False,
+name,name_clean,serving_size,num_servings,category,store,price,carbs,carbs_unit,fat,fat_unit,protein,protein_unit,sugar,sugar_unit,calories,serving_size_grams,is_meat,cost_per_serving
+Vegan Brioche Loaf,vegan brioche loaf,1 slice(44g),10.0,bakery,trader joes,3.99,24.0,g,4.0,g,3.0,g,,,150.0,44.0,False,0.4
+Organic Super Bread,organic super bread,2 slices(64g),8.0,bakery,trader joes,3.99,24.0,g,13.0,g,9.0,g,,,240.0,64.0,False,0.5
+Brioche Style Liège Waffles,brioche style liège waffles,1 waffle(55g),6.0,bakery,trader joes,3.99,30.0,g,13.0,g,3.0,g,,,250.0,55.0,False,0.66
+French Apple Tart,french apple tart,1/4 Tart(142g),4.0,bakery,trader joes,7.99,53.0,g,12.0,g,3.0,g,29.0,g,330.0,142.0,False,2.0
+Classic Hamburger Buns,classic hamburger buns,1 bun(57g),8.0,bakery,trader joes,2.49,26.0,g,1.0,g,4.0,g,,,130.0,57.0,False,0.31
+Cheesy Bagels,cheesy bagels,1 bagel(85g),4.0,bakery,trader joes,3.49,40.0,g,2.0,g,8.0,g,,,210.0,85.0,False,0.87
+Gluten Free Double Chocolate Muffins,gluten free double chocolate muffins,1 muffin(99g),4.0,bakery,trader joes,5.99,47.0,g,25.0,g,4.0,g,,,430.0,99.0,False,1.5
+Sourdough Boules,sourdough boules,2 oz(56g/about 1/3 loaf),7.0,bakery,trader joes,2.99,24.0,g,0.0,g,4.0,g,,,120.0,56.0,False,0.43
+Classic Hamburger Buns,classic hamburger buns,,,bakery,trader joes,2.49,,,,,,,,,,,False,
+Peppermint Brownies,peppermint brownies,1 brownie(32g),,bakery,trader joes,4.49,17.0,g,6.0,g,1.0,g,,,130.0,32.0,False,
+Gluten Free Hamburger Buns,gluten free hamburger buns,1 bun(79g),4.0,bakery,trader joes,4.99,39.0,g,6.0,g,5.0,g,,,220.0,79.0,False,1.25
+Sprouted Wheat Sourdough Bread,sprouted wheat sourdough bread,1 slice(34g),20.0,bakery,trader joes,4.49,14.0,g,0.0,g,7.0,g,,,90.0,34.0,False,0.22
+White Sliced Bread,white sliced bread,,,bakery,trader joes,2.49,,,,,,,,,,,False,
+Gluten Free White Sandwich Bread,gluten free white sandwich bread,,,bakery,trader joes,4.99,,,,,,,,,,,False,
+Cinnamon Raisin Bagels,cinnamon raisin bagels,,,bakery,trader joes,2.49,,,,,,,,,,,False,
+Plain Bagels,plain bagels,,,bakery,trader joes,2.49,,,,,,,,,,,False,
+Gluten Free Blueberry Muffins,gluten free blueberry muffins,1 muffin(99g),4.0,bakery,trader joes,5.99,41.0,g,16.0,g,4.0,g,,,320.0,99.0,False,1.5
+Sandwich Starters,sandwich starters,1 bun(66g),6.0,bakery,trader joes,3.49,31.0,g,5.0,g,6.0,g,,,180.0,66.0,False,0.58
+Ciabatta Baguette,ciabatta baguette,2 oz(56g / 1/6 loaf),6.0,bakery,trader joes,1.99,27.0,g,1.0,g,5.0,g,,,140.0,56.0,False,0.33
+Focaccia Bread with Roasted Tomato & Parmesan,focaccia bread with roasted tomato & parmesan,2 oz(56g/ about 1 inch by 6 inch slice),7.0,bakery,trader joes,4.99,24.0,g,3.0,g,5.0,g,,,150.0,56.0,False,0.71
+Vegan Banana Bread with Walnuts,vegan banana bread with walnuts,2 OZ(57g/ 1/8 loaf),8.0,bakery,trader joes,5.49,30.0,g,9.0,g,2.0,g,,,210.0,57.0,False,0.69
+Chocolate Brooklyn Babka,chocolate brooklyn babka,1/9th Babka(55g) 2oz,9.0,bakery,trader joes,5.99,32.0,g,12.0,g,4.0,g,,,250.0,55.0,False,0.67
+Whole Wheat Sliced Bread,whole wheat sliced bread,,,bakery,trader joes,2.49,,,,,,,,,,,False,
+Carb Savvy Tortillas made with Whole Wheat,carb savvy tortillas made with whole wheat,1 tortilla(28g),10.0,bakery,trader joes,2.99,9.0,g,1.0,g,3.0,g,,,45.0,28.0,False,0.3
+Soft Pretzel Twists,soft pretzel twists,1 pretzel + 1/2 tsp salt(67g),6.0,bakery,trader joes,3.49,33.0,g,4.0,g,5.0,g,,,190.0,67.0,False,0.58
+Teeny Tiny Pecan Pies,teeny tiny pecan pies,1 package(180g),1.0,bakery,trader joes,5.49,20.0,g,12.0,g,2.0,g,,,190.0,180.0,False,5.49
+Mini Chocolate Mousse Presents,mini chocolate mousse presents,3 pieces(72g/2.5 oz),2.0,bakery,trader joes,3.99,34.0,g,22.0,g,3.0,g,,,340.0,72.0,False,2.0
+Chocolate Chip Pain Au Lait,chocolate chip pain au lait,1 roll(35g),8.0,bakery,trader joes,3.99,18.0,g,7.0,g,3.0,g,,,160.0,35.0,False,0.5
+Gluten Free Multigrain Bread,gluten free multigrain bread,1 slice(36g),10.0,bakery,trader joes,4.99,19.0,g,2.0,g,2.0,g,,,100.0,36.0,False,0.5
+Whole Wheat English Muffins,whole wheat english muffins,1 Muffin(57g),6.0,bakery,trader joes,1.99,23.0,g,1.0,g,5.0,g,,,130.0,57.0,False,0.33
+Maple Brioche Style Liège Waffles,maple brioche style liège waffles,1 waffle(55g),6.0,bakery,trader joes,4.49,31.0,g,13.0,g,3.0,g,,,250.0,55.0,False,0.75
+Sliced Seedy Multigrain Bread,sliced seedy multigrain bread,Serving Size 2 oz(56g/about 2 slices),8.0,bakery,trader joes,3.49,22.0,g,5.0,g,6.0,g,,,160.0,56.0,False,0.44
+Sea Salt Brownie Bites,sea salt brownie bites,1 brownie(21g),8.0,bakery,trader joes,2.99,12.0,g,4.0,g,1.0,l,,,90.0,21.0,False,0.37
+Pumpkin Bagels,pumpkin bagels,1 Bagel(85g),6.0,bakery,trader joes,2.99,49.0,g,1.0,g,8.0,g,,,240.0,85.0,False,0.5
+Sea Salt Chocolate Chunk Cookies,sea salt chocolate chunk cookies,1 cookie(50g),6.0,bakery,trader joes,4.99,32.0,g,9.0,g,3.0,g,,,210.0,50.0,False,0.83
+Traditional Indian Style Flatbread,traditional indian style flatbread,,,bakery,trader joes,3.49,,,,,,,,,,,False,
+Organic Seeded Bread,organic seeded bread,1 Slice(43g),16.0,bakery,trader joes,3.99,20.0,g,5.0,g,6.0,g,,,140.0,43.0,False,0.25
+Gluten Free Madeleine Cookies,gluten free madeleine cookies,1 cookie(30g),6.0,bakery,trader joes,3.49,17.0,g,7.0,g,1.0,g,,,140.0,30.0,False,0.58
+Herbed Dinner Rolls,herbed dinner rolls,1 roll(43g),8.0,bakery,trader joes,3.49,19.0,g,1.0,g,4.0,g,,,110.0,43.0,False,0.44
+Brookie,brookie,1 piece(39g),8.0,bakery,trader joes,4.99,22.0,g,8.0,g,2.0,g,,,160.0,39.0,False,0.62
+European Grains & Seeds Bread,european grains & seeds bread,1 slice(52g),9.0,bakery,trader joes,3.49,14.0,g,5.0,g,4.0,g,,,120.0,52.0,False,0.39
+Yellow Mini Sheet Cake,yellow mini sheet cake,1/6 cake(66g),6.0,bakery,trader joes,5.99,38.0,g,15.0,g,2.0,g,,,290.0,66.0,False,1.0
+Hazelnut & Cocoa Filled Crepes,hazelnut & cocoa filled crepes,6 crepes(192g),1.0,bakery,trader joes,3.99,120.0,g,46.0,g,6.0,g,,,860.0,192.0,False,3.99
+Gingerbread Sandwich Cookies,gingerbread sandwich cookies,,,bakery,trader joes,5.99,,,,,,,,,,,False,
+Sliced Apple Cinnamon Sourdough Bread,sliced apple cinnamon sourdough bread,1 slice(50g),10.0,bakery,trader joes,4.99,25.0,g,1.0,g,4.0,g,,,130.0,50.0,False,0.5
+Cinnamon Swirl Bread Sliced,cinnamon swirl bread sliced,1 slice(34g),15.0,bakery,trader joes,4.99,16.0,g,4.0,g,2.0,g,,,110.0,34.0,False,0.33
+Apple Crumble Pie,apple crumble pie,1/6 pie(128g),6.0,bakery,trader joes,7.99,50.0,g,13.0,g,4.0,g,,,330.0,128.0,False,1.33
+Pain Au Lait,pain au lait,1 roll(35g),8.0,bakery,trader joes,2.99,19.0,g,4.0,g,3.0,g,,,130.0,35.0,False,0.37
+Madeleine Cookies,madeleine cookies,2 cookies(34g),3.0,bakery,trader joes,2.99,18.0,g,7.0,g,2.0,g,,,150.0,34.0,False,1.0
+Cinnamon Buns,cinnamon buns,1 bun(93g),4.0,bakery,trader joes,5.99,49.0,g,14.0,g,4.0,g,,,340.0,93.0,False,1.5
+Everything Bagels,everything bagels,,,bakery,trader joes,2.99,,,,,,,,,,,False,
+Sweet Pull Apart Aloha Rolls,sweet pull apart aloha rolls,1 roll(28g),12.0,bakery,trader joes,3.49,19.0,g,1.0,g,2.0,g,,,90.0,28.0,False,0.29
+Cinnamon Coffee Cake,cinnamon coffee cake,2 oz(56g/ 1/8 cake),8.0,bakery,trader joes,5.99,37.0,g,13.0,g,2.0,g,,,260.0,56.0,False,0.75
+Gluten Free Oatmeal Coconut Cookies,gluten free oatmeal coconut cookies,1 cookie(50g),6.0,bakery,trader joes,4.99,31.0,g,8.0,g,3.0,g,,,210.0,50.0,False,0.83
+Gluten Free Baguette,gluten free baguette,2 oz(56g/ 1/5 loaf),5.0,bakery,trader joes,4.99,20.0,g,4.0,g,2.0,g,,,120.0,56.0,False,1.0
+Organic French Baguette,organic french baguette,2 oz(56g /about 1/6 loaf),6.0,bakery,trader joes,1.99,29.0,g,0.0,g,4.0,g,,,140.0,56.0,False,0.33
+Ciabatta Demi-Baguette,ciabatta demi-baguette,2oz(56g/1/3 loaf),3.0,bakery,trader joes,1.29,27.0,g,1.0,g,5.0,g,,,140.0,56.0,False,0.43
+Pumpkin Streusel Muffins,pumpkin streusel muffins,1 muffin(99g),4.0,bakery,trader joes,5.99,58.0,g,16.0,g,3.0,g,,,390.0,99.0,False,1.5
+Gluten Free English Muffins,gluten free english muffins,1 English muffin(77g),4.0,bakery,trader joes,4.49,30.0,g,1.0,g,4.0,g,,,150.0,77.0,False,1.12
+Gluten Free Chocolate Chunk Cookies,gluten free chocolate chunk cookies,1 cookie(50g),6.0,bakery,trader joes,4.99,29.0,g,11.0,g,2.0,g,,,220.0,50.0,False,0.83
+Blueberry Muffins,blueberry muffins,1 muffin(100g),4.0,bakery,trader joes,4.99,56.0,g,13.0,g,4.0,g,,,360.0,100.0,False,1.25
+Pumpkin Pie,pumpkin pie,1/6 pie(128g),6.0,bakery,trader joes,6.99,62.0,g,16.0,g,6.0,g,,,420.0,128.0,False,1.16
+Pumpkin Loaf,pumpkin loaf,1/8th loaf(54g),8.0,bakery,trader joes,4.99,28.0,g,8.0,g,2.0,g,,,190.0,54.0,False,0.62
+Chantilly Cream Vanilla Bean Mini Sheet Cake,chantilly cream vanilla bean mini sheet cake,1/6 cake(85g),6.0,bakery,trader joes,5.49,43.0,g,19.0,g,2.0,g,,,340.0,85.0,False,0.92
+Carrot Mini Sheet Cake,carrot mini sheet cake,1/6 cake(85g),6.0,bakery,trader joes,5.99,39.0,g,16.0,g,3.0,g,,,310.0,85.0,False,1.0
+Gluten Free Cinnamon Coffee Cake Muffins,gluten free cinnamon coffee cake muffins,1 muffin(100g),4.0,bakery,trader joes,5.99,56.0,g,23.0,g,3.0,g,,,440.0,100.0,False,1.5
+Brioche Hot Dog Buns,brioche hot dog buns,1 roll(56g),8.0,bakery,trader joes,3.49,32.0,g,2.0,g,5.0,g,,,170.0,56.0,False,0.44
+Holiday Challah,holiday challah,,,bakery,trader joes,3.99,,,,,,,,,,,False,
+Garlic Indian Style Flatbread,garlic indian style flatbread,,,bakery,trader joes,3.99,,,,,,,,,,,False,
+Challah Braided Egg Bread,challah braided egg bread,,,bakery,trader joes,4.49,,,,,,,,,,,False,
+Cranberry Pecan Muffins,cranberry pecan muffins,1 muffin(99g),4.0,bakery,trader joes,5.49,45.0,g,19.0,g,5.0,g,,,360.0,99.0,False,1.37
+Sonora Style Flour Tortillas,sonora style flour tortillas,1 tortilla(43g),12.0,bakery,trader joes,2.99,20.0,g,4.0,g,2.0,g,,,130.0,43.0,False,0.25
+Apple Cinnamon Buns,apple cinnamon buns,1 bun(120g),2.0,bakery,trader joes,4.49,120.0,g,33.0,g,12.0,g,,,830.0,120.0,False,2.24
+Dinner Rolls,dinner rolls,1 roll(43g),8.0,bakery,trader joes,2.99,21.0,g,3.0,g,4.0,g,,,120.0,43.0,False,0.37
+Gluten Free Triple Ginger Muffins,gluten free triple ginger muffins,1 muffin(99g),4.0,bakery,trader joes,4.99,47.0,g,20.0,g,3.0,g,,,380.0,99.0,False,1.25
+Pumpkin Spice Mini Sheet Cake,pumpkin spice mini sheet cake,1/6 cake(85g),6.0,bakery,trader joes,5.99,39.0,g,16.0,g,3.0,g,,,310.0,85.0,False,1.0
+Snickerdoodle Cookies,snickerdoodle cookies,1 cookie(33g),12.0,bakery,trader joes,4.99,21.0,g,6.0,g,2.0,g,,,150.0,33.0,False,0.42
+Pumpkin & Spice Brioche Style Liège Waffles,pumpkin & spice brioche style liège waffles,1 waffle(55g),6.0,bakery,trader joes,4.49,29.0,g,12.0,g,3.0,g,,,240.0,55.0,False,0.75
+Sandwich Rolls,sandwich rolls,1 roll(85g),4.0,bakery,trader joes,3.49,38.0,g,2.0,g,8.0,g,,,200.0,85.0,False,0.87
+Apple & Pumpkin Hand Pies,apple & pumpkin hand pies,1 container(240g),2.0,bakery,trader joes,4.49,90.0,g,37.0,g,10.0,g,,,730.0,240.0,False,2.24
+Classic English Muffins,classic english muffins,1 muffin(57g),6.0,bakery,trader joes,1.99,24.0,g,1.0,g,5.0,g,,,130.0,57.0,False,0.33
+Pretzel Bagels,pretzel bagels,1 Bagel(85g),6.0,bakery,trader joes,2.69,47.0,g,1.0,g,8.0,g,,,230.0,85.0,False,0.45
+Dark Chocolate Ganache Mini Sheet Cake,dark chocolate ganache mini sheet cake,1/6 cake(85g),6.0,bakery,trader joes,5.49,42.0,g,16.0,g,3.0,g,,,310.0,85.0,False,0.92
+Chocolate Croissants,chocolate croissants,1 croissant(83g),2.0,bakery,trader joes,3.49,79.0,g,40.0,g,13.0,g,,,710.0,83.0,False,1.74
+Gluten Free Almost Everything Bagels,gluten free almost everything bagels,1 bagel(99g),4.0,bakery,trader joes,4.99,50.0,g,4.0,g,5.0,g,,,250.0,99.0,False,1.25
+Brioche Buns,brioche buns,1 bun(67g),4.0,bakery,trader joes,3.99,31.0,g,3.0,g,5.0,g,,,180.0,67.0,False,1.0
+Organic Mini Flour Tortillas,organic mini flour tortillas,2 tortillas(40g),6.0,bakery,trader joes,2.49,21.0,g,3.0,g,3.0,g,,,120.0,40.0,False,0.42
+Glazed Chocolate Donut Holes,glazed chocolate donut holes,7 pieces(57g),3.0,bakery,trader joes,3.49,26.0,g,14.0,g,1.0,g,,,240.0,57.0,False,1.16
+Organic Garlic Bread,organic garlic bread,1/6 loaf(56g),6.0,bakery,trader joes,3.99,25.0,g,5.0,g,4.0,g,,,170.0,56.0,False,0.66
+Wild Alaskan Sockeye Salmon Fillets,wild alaskan sockeye salmon fillets,,,meat-seafood,trader joes,14.99,,,,,,,,,,,True,
+Organic Firm Tofu,organic firm tofu,3 oz(84g/about 1/5 pkg),5.0,meat-seafood,trader joes,1.99,2.0,g,3.0,g,8.0,g,,,70.0,84.0,True,0.4
+Shaved Lamb Shoulder,shaved lamb shoulder,4 oz(112g),,meat-seafood,trader joes,11.99,0.0,g,9.0,g,22.0,g,,,170.0,112.0,True,
+Organic Free Range Boneless Skinless Chicken Breasts,organic free range boneless skinless chicken breasts,,,meat-seafood,trader joes,7.49,,,,,,,,,,,True,
+Spicy Chicken Nuggets,spicy chicken nuggets,4 pieces(79g),4.5,meat-seafood,trader joes,3.99,11.0,g,11.0,g,9.0,g,,,170.0,79.0,True,0.89
+Organic Oven Roasted Turkey Breast,organic oven roasted turkey breast,2 slices(49g),3.5,meat-seafood,trader joes,5.99,0.0,g,0.0,g,10.0,g,0.0,g,45.0,49.0,True,1.71
+High Protein Organic Tofu,high protein organic tofu,3 oz(84g/ about 1/5 pkg),5.0,meat-seafood,trader joes,2.79,3.0,g,7.0,g,14.0,g,,,130.0,84.0,True,0.56
+Wild Nova Style Smoked Sockeye Salmon,wild nova style smoked sockeye salmon,2 oz(56g),4.0,meat-seafood,trader joes,13.99,2.0,g,0.0,g,12.0,g,,,0.0,56.0,True,3.5
+Organic Hickory Smoked Turkey Breast,organic hickory smoked turkey breast,2 slices(56g),3.0,meat-seafood,trader joes,5.99,0.0,g,1.0,g,12.0,g,,,60.0,56.0,True,2.0
+Uncured Apple Smoked Bacon,uncured apple smoked bacon,1 pan fried slice(15g),11.0,meat-seafood,trader joes,6.49,0.0,g,7.0,g,5.0,g,,,90.0,15.0,True,0.59
+Homestyle Angus Beef Meatballs,homestyle angus beef meatballs,2 Meatballs(96g),6.0,meat-seafood,trader joes,9.99,5.0,g,22.0,g,17.0,g,,,280.0,96.0,True,1.66
+Beef New York Strip Steak,beef new york strip steak,4 oz(112g),,meat-seafood,trader joes,15.99,0.0,g,18.0,g,23.0,g,0.0,g,260.0,112.0,True,
+Ground Beef Patties 80/20,ground beef patties 80/20,1 Patty(112g/4oz),4.0,meat-seafood,trader joes,7.49,0.0,g,23.0,g,19.0,g,,,290.0,112.0,True,1.87
+Uncured Pastrami,uncured pastrami,2oz(56g),4.0,meat-seafood,trader joes,6.99,2.0,g,2.0,g,12.0,g,,,70.0,56.0,True,1.75
+Organic Uncured Grass Fed Beef Hot Dogs,organic uncured grass fed beef hot dogs,1 hot dog(47g),6.0,meat-seafood,trader joes,5.99,1.0,l,10.0,g,6.0,g,,,110.0,47.0,True,1.0
+Frick's Uncured Carver Ham,frick's uncured carver ham,,,meat-seafood,trader joes,6.49,,,,,,,,,,,True,
+Spanish Inspired Charcuteria,spanish inspired charcuteria,7 slices(30g),2.0,meat-seafood,trader joes,5.99,0.0,g,3.0,g,8.0,g,,,60.0,30.0,True,3.0
+Organic Free Range Boneless Skinless Thin Sliced Chicken Breast Fillets,organic free range boneless skinless thin sliced chicken breast fillets,4 oz. raw(112g),,meat-seafood,trader joes,7.99,0.0,g,3.0,g,25.0,g,,,130.0,112.0,True,
+Ground Beef 80% lean /20% fat,ground beef 80% lean /20% fat,4 oz(113g),4.0,meat-seafood,trader joes,6.49,0.0,g,23.0,g,19.0,g,,,290.0,113.0,True,1.62
+Uncured Dry Rubbed Sliced Bacon,uncured dry rubbed sliced bacon,2 pan fried slices(12g),7.0,meat-seafood,trader joes,5.99,0.0,g,3.0,g,4.0,g,0.0,g,60.0,12.0,True,0.86
+Argentinian Red Shrimp with Ginger Garlic Butter,argentinian red shrimp with ginger garlic butter,1 package(255g),1.0,meat-seafood,trader joes,7.99,2.0,g,7.0,g,21.0,g,,,160.0,255.0,True,7.99
+Sun-Dried Tomato & Basil Chicken Tenders,sun-dried tomato & basil chicken tenders,4 oz(113g),,meat-seafood,trader joes,7.49,8.0,g,2.0,g,24.0,g,2.0,g,150.0,113.0,True,
+Spatchcocked Lemon Rosemary Chicken,spatchcocked lemon rosemary chicken,4 oz(112g),,meat-seafood,trader joes,5.99,1.0,g,18.0,g,17.0,g,,,230.0,112.0,True,
+All Natural Ground Chicken,all natural ground chicken,4 oz(112g),4.0,meat-seafood,trader joes,4.49,0.0,g,9.0,g,22.0,g,0.0,g,170.0,112.0,True,1.12
+Wild Caught Cod Fillets,wild caught cod fillets,,,meat-seafood,trader joes,10.99,,,,,,,,,,,True,
+Choice Premium Angus Beef Flank Steak,choice premium angus beef flank steak,4oz(112g),,meat-seafood,trader joes,16.99,0.0,g,10.0,g,24.0,g,0.0,g,200.0,112.0,True,
+Wild Raw Argentinian Red Shrimp,wild raw argentinian red shrimp,about 6 frozen shrimp(113g),4.0,meat-seafood,trader joes,11.99,0.0,g,0.0,g,14.0,g,,,60.0,113.0,True,3.0
+Organic Silken Tofu,organic silken tofu,3 oz(85g / about 1/5 package),5.0,meat-seafood,trader joes,2.49,2.0,g,2.0,g,4.0,g,,,40.0,85.0,True,0.5
+Sliced Calabrese Uncured Salami,sliced calabrese uncured salami,7 slices(28g),5.0,meat-seafood,trader joes,3.49,1.0,l,7.0,g,7.0,g,,,90.0,28.0,True,0.7
+Organic Sweet Italian Chicken Sausage,organic sweet italian chicken sausage,1 sausage(68g),5.0,meat-seafood,trader joes,5.99,1.0,g,6.0,g,12.0,g,0.0,g,110.0,68.0,True,1.2
+Chicken Meatballs,chicken meatballs,4 Meatballs(85g),4.0,meat-seafood,trader joes,3.99,2.0,g,9.0,g,16.0,g,,,150.0,85.0,True,1.0
+All Natural Fully Cooked Maple Chicken Breakfast Sausage,all natural fully cooked maple chicken breakfast sausage,2 links(57g),6.0,meat-seafood,trader joes,4.69,3.0,g,4.0,g,10.0,g,3.0,g,90.0,57.0,True,0.78
+Seasoned Lamb Shoulder Rack,seasoned lamb shoulder rack,4 oz(112g),,meat-seafood,trader joes,11.99,1.0,l,23.0,g,18.0,g,,,290.0,112.0,True,
+Pesto Chicken Breast,pesto chicken breast,,,meat-seafood,trader joes,8.99,,,,,,,,,,,True,
+Carne Asada Autentica,carne asada autentica,,,meat-seafood,trader joes,11.99,,,,,,,,,,,True,
+Unexpected Cheddar Chicken Sausage,unexpected cheddar chicken sausage,1 link(85g),4.0,meat-seafood,trader joes,4.49,3.0,g,9.0,g,16.0,g,,,160.0,85.0,True,1.12
+Beef Rib Eye Steak,beef rib eye steak,4 oz(112g),,meat-seafood,trader joes,17.99,0.0,g,21.0,g,21.0,g,0.0,g,270.0,112.0,True,
+Chilean Hake Fillets,chilean hake fillets,4 oz(112g),,meat-seafood,trader joes,4.99,0.0,g,1.0,g,20.0,g,,,100.0,112.0,True,
+Uncured Turkey Bacon,uncured turkey bacon,1 slice(28g),8.0,meat-seafood,trader joes,3.99,0.0,g,1.0,g,6.0,g,0.0,g,35.0,28.0,True,0.5
+Organic Chicken Nuggets,organic chicken nuggets,4 pieces(79g),4.5,meat-seafood,trader joes,4.99,13.0,g,10.0,g,10.0,g,,,180.0,79.0,True,1.11
+Fresh Atlantic Salmon Boneless Fillet,fresh atlantic salmon boneless fillet,,,meat-seafood,trader joes,9.99,,,,,,,,,,,True,
+Gyro Slices,gyro slices,2 oz(57g),4.0,meat-seafood,trader joes,4.69,6.0,g,11.0,g,14.0,g,,,190.0,57.0,True,1.17
+Spicy Jalapeño Chicken Sausage,spicy jalapeño chicken sausage,1 link(68g),5.0,meat-seafood,trader joes,4.29,2.0,g,6.0,g,11.0,g,,,100.0,68.0,True,0.86
+Sweet Italian Chicken Sausage,sweet italian chicken sausage,1 link(90g),5.0,meat-seafood,trader joes,6.49,1.0,g,3.0,g,17.0,g,,,110.0,90.0,True,1.3
+Salame di Parma Mild Salami,salame di parma mild salami,4 slices(28g/1oz),4.0,meat-seafood,trader joes,5.99,1.0,L,6.0,g,8.0,g,,,90.0,28.0,True,1.5
+Soy Chorizo,soy chorizo,2 oz(56g/ about 1/3 cup),6.0,meat-seafood,trader joes,2.99,8.0,g,7.0,g,8.0,g,,,130.0,56.0,True,0.5
+Sliced Bresaola Uncured Beef Prosciutto,sliced bresaola uncured beef prosciutto,5 slices(30g),3.0,meat-seafood,trader joes,6.99,3.0,g,4.0,g,31.0,g,,,180.0,30.0,True,2.33
+Organic Ground Beef 85/15,organic ground beef 85/15,4 oz(113g),4.0,meat-seafood,trader joes,8.99,0.0,g,17.0,g,21.0,g,0.0,g,240.0,113.0,True,2.25
+Uncured Beef Hot Dogs,uncured beef hot dogs,1 hot dog(52g),6.0,meat-seafood,trader joes,3.99,6.0,g,4.0,g,8.0,g,,,90.0,52.0,True,0.66
+Sweet Apple Chicken Sausage,sweet apple chicken sausage,1 link(68g),5.0,meat-seafood,trader joes,4.29,7.0,g,6.0,g,11.0,g,5.0,g,120.0,68.0,True,0.86
+Sliced Peppered Uncured Salami,sliced peppered uncured salami,7 slices(28g),10.0,meat-seafood,trader joes,6.99,0.0,g,7.0,g,8.0,g,,,100.0,28.0,True,0.7
+BBQ Cut Fresh Atlantic Salmon Fillets,bbq cut fresh atlantic salmon fillets,,,meat-seafood,trader joes,11.99,,,,,,,,,,,True,
+All Natural Shaved Beef Steak,all natural shaved beef steak,4 oz(112g),,meat-seafood,trader joes,10.99,0.0,g,13.0,g,21.0,g,,,200.0,112.0,True,
+Buttermilk Brined Half Chicken,buttermilk brined half chicken,4 oz(112g),,meat-seafood,trader joes,4.99,2.0,g,15.0,g,20.0,g,,,220.0,112.0,True,
+Fully Cooked Spiral Sliced Uncured Half Ham,fully cooked spiral sliced uncured half ham,3 oz glazed ham(84g),,meat-seafood,trader joes,6.49,4.0,g,6.0,g,14.0,g,,,130.0,84.0,True,
+Fresh Atlantic Salmon Boneless Skinless Fillet,fresh atlantic salmon boneless skinless fillet,,,meat-seafood,trader joes,12.99,,,,,,,,,,,True,
+Sliced Applewood Smoked Uncured Ham,sliced applewood smoked uncured ham,2 slices(56g),4.0,meat-seafood,trader joes,4.99,1.0,g,3.0,g,10.0,g,,,70.0,56.0,True,1.25
+Sliced Roast Beef,sliced roast beef,2 slices(56g),4.0,meat-seafood,trader joes,6.99,1.0,l,2.0,g,11.0,g,,,70.0,56.0,True,1.75
+Organic Free Range Chicken Drumsticks,organic free range chicken drumsticks,4oz(112g),,meat-seafood,trader joes,2.99,0.0,g,10.0,g,22.0,g,0.0,g,180.0,112.0,True,
+Spicy Uncured Charcuterie Collection,spicy uncured charcuterie collection,7 slices(55g),4.5,meat-seafood,trader joes,8.99,2.0,g,10.0,g,12.0,g,,,150.0,55.0,True,2.0
+Organic Baked Tofu Teriyaki Flavor,organic baked tofu teriyaki flavor,1 piece(99g),2.0,meat-seafood,trader joes,3.99,15.0,g,8.0,g,15.0,g,,,190.0,99.0,True,2.0
+All Natural Bone-In Skin-On Chicken Thighs,all natural bone-in skin-on chicken thighs,4oz(112g),,meat-seafood,trader joes,1.99,0.0,g,19.0,g,19.0,g,,,250.0,112.0,True,
+Organic Chicken Grill Pack,organic chicken grill pack,,,meat-seafood,trader joes,3.99,,,,,,,,,,,True,
+Shawarma Chicken Thighs,shawarma chicken thighs,4 oz(112g),,meat-seafood,trader joes,6.99,3.0,g,7.0,g,21.0,g,,,160.0,112.0,True,
+Sweet Italian Sausage made with Pork,sweet italian sausage made with pork,1 link(90g),5.0,meat-seafood,trader joes,6.49,1.0,g,13.0,g,15.0,g,,,190.0,90.0,True,1.3
+Beef Filet Mignon Steak,beef filet mignon steak,4 oz(112g),,meat-seafood,trader joes,24.99,0.0,g,21.0,g,22.0,g,0.0,g,280.0,112.0,True,
+Soppressata Uncured Salami,soppressata uncured salami,1/8 package(28g),8.0,meat-seafood,trader joes,5.99,1.0,l,8.0,g,7.0,g,,,110.0,28.0,True,0.75
+Savory Herbed Chicken Thighs,savory herbed chicken thighs,4 oz(112g),,meat-seafood,trader joes,6.99,3.0,g,6.0,g,18.0,g,,,140.0,112.0,True,
+Norwegian Smoked Salmon,norwegian smoked salmon,2 oz(56g/ 1/2 package),2.0,meat-seafood,trader joes,5.49,1.0,l,9.0,g,28.0,g,,,190.0,56.0,True,2.74
+Turkeyless Ground,turkeyless ground,4 oz(113g),3.0,meat-seafood,trader joes,3.99,11.0,g,12.0,g,21.0,g,,,230.0,113.0,True,1.33
+Caramelized Onion & Bell Pepper Turkey Patties,caramelized onion & bell pepper turkey patties,1 patty(113g),4.0,meat-seafood,trader joes,6.99,1.0,g,4.0,g,22.0,g,,,130.0,113.0,True,1.75
+Organic Grass Fed Ribeye Steak Boneless,organic grass fed ribeye steak boneless,4 oz(112g),2.5,meat-seafood,trader joes,14.99,0.0,g,22.0,g,21.0,g,,,280.0,112.0,True,6.0
+Extra Lean Ground Beef 96% Lean / 4% Fat,extra lean ground beef 96% lean / 4% fat,,,meat-seafood,trader joes,8.99,,,,,,,,,,,True,
+Organic Tofu,organic tofu,3 oz(84g/about 1/6 pkg),6.0,meat-seafood,trader joes,2.49,2.0,g,3.0,g,6.0,g,,,60.0,84.0,True,0.42
+Sesame Teriyaki Beef Skirt Steak,sesame teriyaki beef skirt steak,4 oz(112g),,meat-seafood,trader joes,16.99,10.0,g,12.0,g,19.0,g,,,230.0,112.0,True,
+Sliced Prosciutto,sliced prosciutto,1/4 pack(28g),4.0,meat-seafood,trader joes,4.29,0.0,g,7.0,g,5.0,g,,,110.0,28.0,True,1.07
+Wild Sockeye Smoked Salmon,wild sockeye smoked salmon,3.5 slices(57g),2.0,meat-seafood,trader joes,7.99,0.0,g,5.0,g,26.0,g,,,150.0,57.0,True,4.0
+Porcini Boneless Beef Loin Roast,porcini boneless beef loin roast,4 oz(112g),,meat-seafood,trader joes,19.99,1.0,l,16.0,g,22.0,g,,,240.0,112.0,True,
+"Angus Chuck, Brisket & Sirloin Beef Patties","angus chuck, brisket & sirloin beef patties",1 patty(151g),4.0,meat-seafood,trader joes,11.99,0.0,g,39.0,g,28.0,g,,,470.0,151.0,True,3.0
+Pineapple Teriyaki Chicken Meatballs,pineapple teriyaki chicken meatballs,6 meatballs(85g),4.0,meat-seafood,trader joes,4.29,8.0,g,9.0,g,13.0,g,,,160.0,85.0,True,1.07
+Ground Lamb,ground lamb,4 oz(112g),4.0,meat-seafood,trader joes,11.99,0.0,g,9.0,g,21.0,g,,,170.0,112.0,True,3.0
+Organic 3 Grain Tempeh,organic 3 grain tempeh,3 oz(84g),2.5,meat-seafood,trader joes,2.49,11.0,g,8.0,g,19.0,g,,,190.0,84.0,True,1.0
+Hot Italian Sausage made with Pork,hot italian sausage made with pork,1 link(90g),5.0,meat-seafood,trader joes,6.49,2.0,g,13.0,g,15.0,g,,,190.0,90.0,True,1.3
+Blackened Salmon Seasoned Boneless Fillet,blackened salmon seasoned boneless fillet,4 oz(113g),,meat-seafood,trader joes,10.99,1.0,g,15.0,g,23.0,g,,,230.0,113.0,True,
+Pollo Asado Autentico,pollo asado autentico,,,meat-seafood,trader joes,8.49,,,,,,,,,,,True,
+Everything But The Bagel Seasoned Smoked Salmon,everything but the bagel seasoned smoked salmon,2 slices(56g),2.0,meat-seafood,trader joes,5.99,0.0,g,7.0,g,22.0,g,,,160.0,56.0,True,3.0
+Balsamic Rosemary Beef Steak Tips,balsamic rosemary beef steak tips,4 oz(112g),,meat-seafood,trader joes,11.99,6.0,g,13.0,g,21.0,g,,,220.0,112.0,True,
+Sliced Uncured Pepperoni,sliced uncured pepperoni,,,meat-seafood,trader joes,3.99,,,,,,,,,,,True,
+Organic Grass Fed NY Strip Steak Boneless,organic grass fed ny strip steak boneless,4 oz(112g),2.5,meat-seafood,trader joes,13.99,0.0,g,19.0,g,22.0,g,,,270.0,112.0,True,5.6
+Old Wisconsin Beef Summer Sausage,old wisconsin beef summer sausage,,,meat-seafood,trader joes,4.99,,,,,,,,,,,True,
+Organic Grass Fed Tenderloin Steak,organic grass fed tenderloin steak,4 oz(112g),3.0,meat-seafood,trader joes,24.99,0.0,g,20.0,g,22.0,g,,,280.0,112.0,True,8.33
+Organic Grass Fed Top Sirloin Steak,organic grass fed top sirloin steak,4 oz(112g),2.0,meat-seafood,trader joes,8.99,0.0,g,16.0,g,22.0,g,,,240.0,112.0,True,4.5
+Fully Cooked Pork Belly,fully cooked pork belly,3 oz(85g),4.0,meat-seafood,trader joes,6.99,0.0,g,21.0,g,13.0,g,0.0,g,240.0,85.0,True,1.75
+Grilled Chili Lime Chicken Breast,grilled chili lime chicken breast,,,meat-seafood,trader joes,7.99,,,,,,,,,,,True,
+Icelandic Style Skyr Lowfat Raspberry Yogurt,icelandic style skyr lowfat raspberry yogurt,1 container(150g),1.0,dairy-eggs,trader joes,1.19,11.0,g,2.0,g,15.0,g,,,120.0,150.0,False,1.19
+Greek Lowfat Yogurt Plain,greek lowfat yogurt plain,3/4 Cup(170g ),2.5,dairy-eggs,trader joes,2.99,8.0,g,3.0,g,16.0,g,,,130.0,170.0,False,1.2
+Salted Maple Cold Foam Creamer,salted maple cold foam creamer,1 Tbsp.(15mL),85.0,dairy-eggs,trader joes,4.49,2.0,g,0.0,g,0.0,g,,,10.0,15.0,False,0.05
+Greek Nonfat Yogurt Plain,greek nonfat yogurt plain,3/4 Cup(170g),2.5,dairy-eggs,trader joes,2.99,7.0,g,0.0,g,17.0,g,,,110.0,170.0,False,1.2
+Icelandic Style Skyr Lowfat Cherry Yogurt,icelandic style skyr lowfat cherry yogurt,1 container(150g),1.0,dairy-eggs,trader joes,1.19,12.0,g,2.0,g,16.0,g,,,130.0,150.0,False,1.19
+Sour Cream,sour cream,2 Tbsp(30g),15.0,dairy-eggs,trader joes,3.29,2.0,g,5.0,g,1.0,g,,,60.0,30.0,False,0.22
+Greek Nonfat Yogurt Plain,greek nonfat yogurt plain,3/4 Cup(170g),5.0,dairy-eggs,trader joes,5.49,7.0,g,0.0,g,17.0,g,,,110.0,170.0,False,1.1
+Plain Whole Milk Greek Yogurt,plain whole milk greek yogurt,1 container(150g),1.0,dairy-eggs,trader joes,0.99,8.0,g,14.0,g,6.0,g,,,180.0,150.0,False,0.99
+"Peaches & Cream, Mango & Cream Yogurt Cups","peaches & cream, mango & cream yogurt cups",4oz(113g),1.0,dairy-eggs,trader joes,3.99,18.0,g,6.0,g,4.0,g,,,140.0,113.0,False,3.99
+Egg Nog Whole Milk Greek Yogurt,egg nog whole milk greek yogurt,1 container(150g/5.3 oz),1.0,dairy-eggs,trader joes,0.99,18.0,g,7.0,g,11.0,g,,,180.0,150.0,False,0.99
+Non-Dairy Oat Creamer Brown Sugar Flavor,non-dairy oat creamer brown sugar flavor,1 Tbsp.(15mL),32.0,dairy-eggs,trader joes,1.99,4.0,g,1.0,g,0.0,g,,,25.0,15.0,False,0.06
+Kramer Farms Cage Free Hard-Boiled Eggs,kramer farms cage free hard-boiled eggs,,,dairy-eggs,trader joes,3.49,,,,,,,,,,,False,
+Pasture Raised Large Brown Eggs,pasture raised large brown eggs,1 egg(50g),12.0,dairy-eggs,trader joes,5.99,0.0,g,5.0,g,6.0,g,,,70.0,50.0,False,0.5
+Vanilla & Cream Yogurt,vanilla & cream yogurt,1 yogurt container(113g),1.0,dairy-eggs,trader joes,2.69,19.0,g,6.0,g,4.0,g,,,140.0,113.0,False,2.69
+Chocolate Whipped Light Cream,chocolate whipped light cream,2 Tbsp.(6g),61.0,dairy-eggs,trader joes,4.49,1.0,l,1.0,g,0.0,g,,,15.0,6.0,False,0.07
+Small Curd Cottage Cheese,small curd cottage cheese,1/2 cup(113g),4.0,dairy-eggs,trader joes,2.99,5.0,g,5.0,g,12.0,g,,,110.0,113.0,False,0.75
+Cranberry Clementine Whole Milk Yogurt,cranberry clementine whole milk yogurt,1 container(150g),1.0,dairy-eggs,trader joes,0.99,19.0,g,6.0,g,11.0,g,,,170.0,150.0,False,0.99
+Organic Spiced Vanilla Creamer,organic spiced vanilla creamer,1 Tbsp.(15mL),32.0,dairy-eggs,trader joes,2.99,5.0,g,1.0,g,0.0,g,,,30.0,15.0,False,0.09
+Vanilla Bean Whole Milk Greek Yogurt,vanilla bean whole milk greek yogurt,3/4 Cup(170g),5.0,dairy-eggs,trader joes,5.49,17.0,g,7.0,g,12.0,g,,,180.0,170.0,False,1.1
+"Butter with Parmesan, Garlic & Herb","butter with parmesan, garlic & herb",1 Tbsp.(14g),8.0,dairy-eggs,trader joes,2.99,2.0,g,8.0,g,1.0,g,,,80.0,14.0,False,0.37
+"Butter Quarters, Salted","butter quarters, salted",1 tbsp(14g),32.0,dairy-eggs,trader joes,3.99,0.0,g,11.0,g,0.0,g,,,100.0,14.0,False,0.12
+Raspberries & Cream Yogurt,raspberries & cream yogurt,1 yogurt container(113g),1.0,dairy-eggs,trader joes,2.69,18.0,g,6.0,g,4.0,g,,,140.0,113.0,False,2.69
+Non-Dairy Cinnamon Bun Oat Creamer,non-dairy cinnamon bun oat creamer,1 Tbsp.(15mL),32.0,dairy-eggs,trader joes,1.99,4.0,g,0.0,g,0.0,g,,,25.0,15.0,False,0.06
+Greek Whole Milk Yogurt Plain,greek whole milk yogurt plain,3/4 Cup(170g),2.5,dairy-eggs,trader joes,2.99,9.0,g,16.0,g,6.0,g,,,200.0,170.0,False,1.2
+Blueberries & Cream Yogurt,blueberries & cream yogurt,1 yogurt container(113g),1.0,dairy-eggs,trader joes,2.69,19.0,g,6.0,g,4.0,g,,,140.0,113.0,False,2.69
+Greek Yogurt with Honey,greek yogurt with honey,3/4 cup(170g),5.0,dairy-eggs,trader joes,5.49,20.0,g,15.0,g,6.0,g,,,230.0,170.0,False,1.1
+Egg Nog,egg nog,1/2 cup(120 mL),8.0,dairy-eggs,trader joes,3.99,20.0,g,9.0,g,5.0,g,,,180.0,480.0,False,0.5
+Meyer Lemon & Cream Yogurt,meyer lemon & cream yogurt,1 yogurt container(113g),1.0,dairy-eggs,trader joes,2.69,18.0,g,6.0,g,4.0,g,,,140.0,113.0,False,2.69
+Apricot Mango Greek Whole Milk Yogurt,apricot mango greek whole milk yogurt,1 container(150g),1.0,dairy-eggs,trader joes,0.99,20.0,g,11.0,g,5.0,g,,,200.0,150.0,False,0.99
+"Butter Quarters, Unsalted","butter quarters, unsalted",1 Tbsp.(14g),32.0,dairy-eggs,trader joes,3.99,0.0,g,11.0,g,0.0,g,,,100.0,14.0,False,0.12
+Chocolate Milk made with Fair Trade Cocoa,chocolate milk made with fair trade cocoa,1 cup(240mL),8.0,dairy-eggs,trader joes,4.49,30.0,g,8.0,g,8.0,g,,,220.0,240.0,False,0.56
+New Zealand Salted Butter,new zealand salted butter,1 Tbsp.(14g),,dairy-eggs,trader joes,3.29,0.0,g,11.0,g,0.0,g,,,100.0,14.0,False,
+Greek YogurtHoney Made with Whole Milk,greek yogurthoney made with whole milk,1 container(150g),1.0,dairy-eggs,trader joes,0.99,17.0,g,13.0,g,5.0,g,,,210.0,150.0,False,0.99
+Organic Sweet Cream Creamer,organic sweet cream creamer,1 Tbsp.(15mL),32.0,dairy-eggs,trader joes,2.99,5.0,g,1.0,g,0.0,g,,,25.0,15.0,False,0.09
+Organic Pasture Raised Large Brown Eggs,organic pasture raised large brown eggs,,,dairy-eggs,trader joes,6.99,,,,,,,,,,,False,
+"Organic Creamy Cashew Cultured Yogurt Alternative, Plain Unsweetened","organic creamy cashew cultured yogurt alternative, plain unsweetened",3/4 cup(171g),4.0,dairy-eggs,trader joes,4.99,11.0,g,10.0,g,4.0,g,,,140.0,171.0,False,1.25
+Icelandic Style Skyr Lowfat Vanilla Yogurt,icelandic style skyr lowfat vanilla yogurt,1 container(150g),1.0,dairy-eggs,trader joes,1.19,12.0,g,2.0,g,15.0,g,,,130.0,150.0,False,1.19
+Nonfat Plain Greek Yogurt,nonfat plain greek yogurt,1 container(150g),1.0,dairy-eggs,trader joes,0.99,6.0,g,0.0,g,15.0,g,,,90.0,150.0,False,0.99
+Organic Milk A2/A2,organic milk a2/a2,1 cup(240ml),8.0,dairy-eggs,trader joes,5.99,11.0,g,9.0,g,8.0,g,,,150.0,240.0,False,0.75
+Strained Thick & Creamy Greek Yogurt Plain,strained thick & creamy greek yogurt plain,3/4 cup(170g),5.0,dairy-eggs,trader joes,5.49,7.0,g,9.0,g,15.0,g,,,170.0,170.0,False,1.1
+Organic Buttery Plant-Based Spread,organic buttery plant-based spread,1 Tbsp.(14g),26.0,dairy-eggs,trader joes,3.99,0.0,g,9.0,g,0.0,g,,,80.0,14.0,False,0.15
+Organic Heavy Whipping Cream,organic heavy whipping cream,,,dairy-eggs,trader joes,4.99,,,,,,,,,,,False,
+Whipt™ Plant Based Dairy Free Whipped Coconut,whipt™ plant based dairy free whipped coconut,,,dairy-eggs,trader joes,3.99,,,,,,,,,,,False,
+"Strawberries & Cream, Bananas & Cream Yogurt Cups","strawberries & cream, bananas & cream yogurt cups",4oz(113g),1.0,dairy-eggs,trader joes,3.99,18.0,g,6.0,g,4.0,g,,,140.0,113.0,False,3.99
+Simply Eggless Plant Based Egg,simply eggless plant based egg,,,dairy-eggs,trader joes,4.99,,,,,,,,,,,False,
+Vanilla Flavored Cold Foam Creamer,vanilla flavored cold foam creamer,1 Tbsp.(15mL),85.0,dairy-eggs,trader joes,4.49,2.0,g,0.0,g,0.0,g,,,10.0,15.0,False,0.05
+Guava Passion Fruit Greek Whole Milk Yogurt,guava passion fruit greek whole milk yogurt,1 container(150g),1.0,dairy-eggs,trader joes,0.99,20.0,g,6.0,g,11.0,g,,,180.0,150.0,False,0.99
+Everything but the Kitchen Sink Cookie Mix,everything but the kitchen sink cookie mix,1/18 dry mix(24g); makes one 2.5 inch cookie (31g),18.0,pantry,trader joes,4.49,17.0,g,3.0,g,2.0,g,,,100.0,24.0,False,0.25
+Tikka Vegetables,tikka vegetables,2/3 cup(140g),2.0,pantry,trader joes,2.49,33.0,g,17.0,g,8.0,g,,,300.0,140.0,False,1.25
+Organic Italian Artisan Gigli Pasta,organic italian artisan gigli pasta,1 cup(56g dry),9.0,pantry,trader joes,2.99,43.0,g,0.0,g,7.0,g,,,200.0,56.0,False,0.33
+Mediterranean Dorade,mediterranean dorade,1 can(125g),1.0,pantry,trader joes,3.99,0.0,g,8.0,g,29.0,g,,,190.0,125.0,False,3.99
+Orzo Italian Pasta,orzo italian pasta,,,pantry,trader joes,0.99,,,,,,,,,,,False,
+Chili Sesame Oil,chili sesame oil,1 Tbsp.(14g),6.0,pantry,trader joes,2.69,1.0,g,12.0,g,0.0,g,,,110.0,14.0,False,0.45
+Solid LIght Yellowfin Tuna in Olive Oil,solid light yellowfin tuna in olive oil,1 can drained(113g),1.0,pantry,trader joes,2.49,0.0,g,17.0,g,26.0,g,,,260.0,113.0,False,2.49
+Organic Black Beans,organic black beans,1/2 cup(125g),3.5,pantry,trader joes,1.19,14.0,g,0.0,g,5.0,g,,,110.0,125.0,False,0.34
+Cuban Style Citrusy Garlic Seasoning Blend,cuban style citrusy garlic seasoning blend,1/4 tsp(0.8g),80.0,pantry,trader joes,2.29,1.0,l,0.0,g,0.0,g,,,0.0,0.8,False,0.03
+Blueberry Muffin Mix,blueberry muffin mix,1/12 pkg. dry mix(43g); makes 1 muffin (65g),12.0,pantry,trader joes,4.49,35.0,g,0.0,g,3.0,g,,,150.0,43.0,False,0.37
+Organic Brown Rice & Quinoa Fusilli Pasta,organic brown rice & quinoa fusilli pasta,2/3 cup(56g ),8.0,pantry,trader joes,3.49,43.0,g,1.0,g,4.0,g,,,200.0,56.0,False,0.44
+Avocado Oil,avocado oil,1 Tbsp(15mL),33.0,pantry,trader joes,7.99,0.0,g,14.0,g,0.0,g,,,120.0,15.0,False,0.24
+Organic Square Rigatoni Pasta,organic square rigatoni pasta,1/2 cup(56g) dry,8.0,pantry,trader joes,1.99,40.0,g,0.0,g,7.0,g,,,200.0,56.0,False,0.25
+Organic Spicy Honey Sauce,organic spicy honey sauce,1 Tbsp.(21g),11.0,pantry,trader joes,2.99,17.0,g,0.0,g,0.0,g,,,70.0,21.0,False,0.27
+Pineapple Fruit Spread,pineapple fruit spread,1 Tbsp.(18g),18.0,pantry,trader joes,3.49,6.0,g,0.0,g,0.0,g,,,25.0,18.0,False,0.19
+"""This Strawberry Walks into a Bar"" Cereal Bars","""this strawberry walks into a bar"" cereal bars",,,pantry,trader joes,2.49,,,,,,,,,,,False,
+Cassava Cauliflower Blend Baking Mix,cassava cauliflower blend baking mix,1/4 cup(30g),15.0,pantry,trader joes,3.99,24.0,g,0.0,g,2.0,g,,,100.0,30.0,False,0.27
+Organic Pure Bourbon Vanilla Extract,organic pure bourbon vanilla extract,,,pantry,trader joes,9.99,,,,,,,,,,,False,
+Frosted Flakes Cereal,frosted flakes cereal,1 cup(36g),12.0,pantry,trader joes,2.49,33.0,g,0.0,g,2.0,g,,,140.0,36.0,False,0.21
+Spicy Honey Sauce,spicy honey sauce,1 Tbsp.(21g),16.0,pantry,trader joes,4.99,17.0,g,0.0,g,0.0,g,,,70.0,21.0,False,0.31
+Kalamata Olives with Jalapeños & Peri Peri Peppers,kalamata olives with jalapeños & peri peri peppers,about 2 pieces(15g),,pantry,trader joes,2.49,0.0,g,4.0,g,0.0,g,,,35.0,15.0,False,
+Falafel Mix,falafel mix,1/3 cup falafel mix(50g); makes 3 fried falafel (97g),9.0,pantry,trader joes,3.29,28.0,g,2.0,g,12.0,g,,,180.0,50.0,False,0.37
+Lemon Stuffed Olives,lemon stuffed olives,2 olives(16 g),12.0,pantry,trader joes,2.99,1.0,l,2.0,g,0.0,g,,,25.0,16.0,False,0.25
+Organic Diced & Fire Roasted Tomatoes with Green Chiles,organic diced & fire roasted tomatoes with green chiles,1/2 cup(120g),3.5,pantry,trader joes,1.99,5.0,g,0.0,g,1.0,l,,,25.0,120.0,False,0.57
+Yellow Cling Peach Halves,yellow cling peach halves,,,pantry,trader joes,4.99,,,,,,,,,,,False,
+Garlic & Jalapeño Stuffed Olives,garlic & jalapeño stuffed olives,1 olives(11g),25.0,pantry,trader joes,3.99,0.0,g,1.0,g,0.0,g,,,15.0,11.0,False,0.16
+Organic Creamy Salted Almond Butter,organic creamy salted almond butter,2 Tbsp.(32g),,pantry,trader joes,3.99,7.0,g,17.0,g,7.0,g,,,190.0,32.0,False,
+Organic Stone Ground Yellow Corn Taco Shells,organic stone ground yellow corn taco shells,2 Shells(26g),6.0,pantry,trader joes,2.69,16.0,g,6.0,g,2.0,g,,,130.0,26.0,False,0.45
+Coconut Chickpea Curry,coconut chickpea curry,2/3 cup(140g),2.0,pantry,trader joes,2.49,19.0,g,8.0,g,6.0,g,,,170.0,140.0,False,1.25
+Organic Watermelon Fruit Spread,organic watermelon fruit spread,1 Tbsp.(18g),16.0,pantry,trader joes,2.99,8.0,g,0.0,g,0.0,g,,,30.0,18.0,False,0.19
+Crunchy Chili Onion Sprinkle Seasoning Blend,crunchy chili onion sprinkle seasoning blend,1/4 tsp.(0.9g),83.0,pantry,trader joes,1.99,0.0,g,0.0,g,0.0,g,,,0.0,0.9,False,0.02
+Focaccia Bread Mix,focaccia bread mix,1/12 package dry mix(29g); makes 1 prepared piece (55g),12.0,pantry,trader joes,2.99,21.0,g,0.0,g,3.0,g,,,100.0,29.0,False,0.25
+Joe's Os Cereal,joe's os cereal,1 1/2 cup(41g),8.0,pantry,trader joes,1.99,31.0,g,2.0,g,5.0,g,,,160.0,41.0,False,0.25
+Honey O's Cereal,honey o's cereal,1 1/4 cup(41g),9.0,pantry,trader joes,2.69,34.0,g,2.0,g,3.0,g,,,160.0,41.0,False,0.3
+Basmati Rice from India,basmati rice from india,1/4 cup(45g),20.0,pantry,trader joes,2.99,36.0,g,0.0,g,4.0,g,,,160.0,45.0,False,0.15
+Creamy Salted Peanut Butter,creamy salted peanut butter,2 Tbsp.(32g),14.0,pantry,trader joes,2.49,7.0,g,16.0,g,8.0,g,,,190.0,32.0,False,0.18
+Cocoa Almond Spread,cocoa almond spread,2 Tbsp.(37g),10.0,pantry,trader joes,4.49,21.0,g,13.0,g,2.0,g,,,210.0,37.0,False,0.45
+10 Minute Farro,10 minute farro,1/4 cup dry product(45 g),6.0,pantry,trader joes,1.99,34.0,g,1.0,g,5.0,g,,,170.0,45.0,False,0.33
+Jasmine Rice From Thailand,jasmine rice from thailand,1/4 cup dry(45g) yields 3/4 cup cooked rice,30.0,pantry,trader joes,3.29,35.0,g,0.0,g,3.0,g,,,160.0,45.0,False,0.11
+Double Fold Bourbon Vanilla Extract,double fold bourbon vanilla extract,1 tsp.(5mL),21.0,pantry,trader joes,7.99,0.0,g,0.0,g,0.0,g,,,0.0,5.0,False,0.38
+"Extra Virgin Olive Oil, Liter","extra virgin olive oil, liter",1 Tbsp.(15 mL),67.0,pantry,trader joes,10.99,0.0,g,14.0,g,0.0,g,,,120.0,15.0,False,0.16
+Unbleached Enriched All-Purpose Flour,unbleached enriched all-purpose flour,,,pantry,trader joes,2.99,,,,,,,,,,,False,
+Organic Ground Black Pepper,organic ground black pepper,,,pantry,trader joes,2.29,,,,,,,,,,,False,
+Imported Olive Oil Packed in Italy,imported olive oil packed in italy,1 Tbsp.(15mL),68.0,pantry,trader joes,9.99,0.0,g,14.0,g,0.0,g,,,120.0,15.0,False,0.15
+Vanilla Sugar,vanilla sugar,1 tsp.(5g),20.0,pantry,trader joes,3.99,5.0,g,0.0,g,0.0,g,,,20.0,5.0,False,0.2
+Jaipur Vegetables,jaipur vegetables,2/3 cup(140g),2.0,pantry,trader joes,2.29,12.0,g,13.0,g,6.0,g,,,180.0,140.0,False,1.14
+Rolled Oats,rolled oats,1/2 cup dry(45g/ 1.6 oz),20.0,pantry,trader joes,3.99,31.0,g,3.0,g,6.0,g,,,170.0,45.0,False,0.2
+Slow Roasted Tomatoes,slow roasted tomatoes,1/4 cup(30g) drained,4.5,pantry,trader joes,3.99,3.0,g,11.0,g,1.0,l,,,110.0,30.0,False,0.89
+Hot & Sweet Jalapeños,hot & sweet jalapeños,1 oz(28g/ about 14 pieces),6.0,pantry,trader joes,3.29,9.0,g,0.0,g,0.0,g,,,40.0,28.0,False,0.55
+Salmon Rub Seasoning Blend,salmon rub seasoning blend,1/4 tsp.(1g),74.0,pantry,trader joes,2.69,1.0,l,0.0,g,0.0,g,,,0.0,1.0,False,0.04
+Condensed Cream of Portabella Mushroom Soup,condensed cream of portabella mushroom soup,1/2 cup(120mL) condensed soup,2.5,pantry,trader joes,2.49,8.0,g,4.0,g,2.0,g,,,70.0,480.0,False,1.0
+Wild Skipjack Tuna,wild skipjack tuna,1 pouch(85g),1.0,pantry,trader joes,1.79,0.0,g,0.0,g,22.0,g,,,90.0,85.0,False,1.79
+Onion Salt,onion salt,1/4 tsp(1 g),57.0,pantry,trader joes,1.99,1.0,L,0.0,g,0.0,g,,,0.0,1.0,False,0.03
+Calrose Rice,calrose rice,1/4 cup dry(45g) yields 2/3 cup cooked rice,20.0,pantry,trader joes,2.49,36.0,g,0.0,g,3.0,g,,,160.0,45.0,False,0.12
+Organic Radiatore Pasta,organic radiatore pasta,1/2 cup(56g) dry,8.0,pantry,trader joes,1.99,40.0,g,0.0,g,7.0,g,,,200.0,56.0,False,0.25
+Kitchari,kitchari,1 Cup(250g),1.0,pantry,trader joes,2.49,31.0,g,9.0,g,7.0,g,,,180.0,250.0,False,2.49
+Colossal Olives Stuffed with Garlic Cloves,colossal olives stuffed with garlic cloves,about 1 olive(9.5g),30.0,pantry,trader joes,4.49,1.0,l,1.0,g,0.0,g,,,15.0,9.5,False,0.15
+Organic Vegetarian Chili,organic vegetarian chili,1 can(416g),1.0,pantry,trader joes,2.49,48.0,g,14.0,g,26.0,g,,,410.0,416.0,False,2.49
+Pecan Pumpkin Oatmeal,pecan pumpkin oatmeal,1 packet(45g),8.0,pantry,trader joes,3.79,34.0,g,3.0,g,4.0,g,,,190.0,45.0,False,0.47
+Grilled Pitted Green Olives,grilled pitted green olives,2 olives(14g),13.0,pantry,trader joes,3.99,0.0,g,3.0,g,0.0,g,,,30.0,14.0,False,0.31
+Pure Grade A Maple Syrup,pure grade a maple syrup,2 Tbsp(30 mL),8.0,pantry,trader joes,4.99,27.0,g,0.0,g,0.0,g,,,100.0,30.0,False,0.62
+Pappardelle Pasta,pappardelle pasta,2oz dry(56g/1/4 bag),4.0,pantry,trader joes,2.49,43.0,g,1.0,g,8.0,g,,,210.0,56.0,False,0.62
+Pumpkin Pie Spice,pumpkin pie spice,,,pantry,trader joes,2.99,,,,,,,,,,,False,
+Chickpea Fusilli Pasta,chickpea fusilli pasta,3/4 cup(56g),6.0,pantry,trader joes,2.99,36.0,g,2.0,g,11.0,g,,,190.0,56.0,False,0.5
+Brownie Truffle Baking Mix,brownie truffle baking mix,1/16 pkg.(28g) dry mix; makes 1 prepared piece (40g),16.0,pantry,trader joes,3.99,23.0,g,2.0,g,1.0,g,,,120.0,28.0,False,0.25
+Yellow Tadka Dal,yellow tadka dal,2/3 cup(140g),2.0,pantry,trader joes,2.49,34.0,g,10.0,g,12.0,g,,,260.0,140.0,False,1.25
+Greek Chickpeas with Cumin and Parsley,greek chickpeas with cumin and parsley,2/3 cup(130g),2.0,pantry,trader joes,2.49,26.0,g,20.0,g,8.0,g,,,320.0,130.0,False,1.25
+Bourbon Vanilla Bean Syrup,bourbon vanilla bean syrup,2 Tbsp.(30mL),8.0,pantry,trader joes,4.49,32.0,g,0.0,g,0.0,g,,,130.0,30.0,False,0.56
+White Chocolate Baking Chips,white chocolate baking chips,1 Tbsp.(15g),19.0,pantry,trader joes,2.99,10.0,g,4.0,g,1.0,l,,,80.0,15.0,False,0.16
+Organic Canola Oil Spray,organic canola oil spray,1/3 second spray(0.25g),536.0,pantry,trader joes,2.99,0.0,g,0.0,g,0.0,g,,,0.0,0.25,False,0.01
+Dolmas,dolmas,3 pieces(84g),3.0,pantry,trader joes,3.49,12.0,g,6.0,g,2.0,g,,,120.0,84.0,False,1.16
+Crunchy Almond Butter No Salt,crunchy almond butter no salt,2 Tbsp(32g),14.0,pantry,trader joes,6.49,7.0,g,16.0,g,7.0,g,,,190.0,32.0,False,0.46
+Peanut Butter Chocolate Granola,peanut butter chocolate granola,Per 2/3 cup(65g),5.0,pantry,trader joes,3.99,43.0,g,11.0,g,7.0,g,,,290.0,65.0,False,0.8
+Caramel Sea Salt Baking Chips,caramel sea salt baking chips,1 Tbsp.(15g),19.0,pantry,trader joes,3.49,10.0,g,4.0,g,0.0,g,,,80.0,15.0,False,0.18
+Double Fold Alcohol Free Bourbon Vanilla Flavoring,double fold alcohol free bourbon vanilla flavoring,,,pantry,trader joes,7.99,,,,,,,,,,,False,
+TJ's Mushroom & Company Multipurpose Umami Seasoning Blend,tj's mushroom & company multipurpose umami seasoning blend,1/4 tsp(1g),60.0,pantry,trader joes,2.99,0.0,g,0.0,g,0.0,g,,,0.0,1.0,False,0.05
+Sicilian Selezione Extra Virgin Olive Oil,sicilian selezione extra virgin olive oil,1 Tbsp(15mL),33.0,pantry,trader joes,10.99,0.0,g,14.0,g,0.0,g,,,120.0,15.0,False,0.33
+Nori Komi Furikake Japanese Multi-Purpose Seasoning,nori komi furikake japanese multi-purpose seasoning,1 Tbsp.(5g),11.0,pantry,trader joes,2.99,1.0,g,1.0,g,1.0,g,,,25.0,5.0,False,0.27
+Medium Green Ripe Pitted Olives,medium green ripe pitted olives,5 olives(15g),11.0,pantry,trader joes,2.49,1.0,l,1.0,g,0.0,g,,,20.0,15.0,False,0.23
+Bourbon Vanilla Bean Paste,bourbon vanilla bean paste,1 tsp.(5g),23.0,pantry,trader joes,4.99,3.0,g,0.0,g,0.0,g,,,15.0,5.0,False,0.22
+Blondie Bar Baking Mix,blondie bar baking mix,1/14 dry mix(31g); makes 1 prepared piece (41g),14.0,pantry,trader joes,3.99,25.0,g,2.0,g,1.0,g,,,130.0,31.0,False,0.29
+Organic Ground Cinnamon,organic ground cinnamon,,,pantry,trader joes,1.99,,,,,,,,,,,False,
+Organic Virgin Coconut Oil,organic virgin coconut oil,,,pantry,trader joes,4.99,,,,,,,,,,,False,
+Organic Tricolor Spaghetti,organic tricolor spaghetti,2 oz(56g/ 1/8 package) dry,8.0,pantry,trader joes,2.49,40.0,g,1.0,g,7.0,g,,,200.0,56.0,False,0.31
+Kale & Cauliflower Chili,kale & cauliflower chili,1 cup(250g),3.0,pantry,trader joes,3.99,23.0,g,9.0,g,6.0,g,,,190.0,250.0,False,1.33
+Everything But The Bagel Sesame Seasoning Blend,everything but the bagel sesame seasoning blend,1/4 tsp(1g),65.0,pantry,trader joes,1.99,0.0,g,0.0,g,0.0,g,,,5.0,1.0,False,0.03
+Oven Toasted Old Fashioned Organic Oats,oven toasted old fashioned organic oats,1/2 cup dry(43g),12.0,pantry,trader joes,2.99,29.0,g,2.0,g,6.0,g,,,160.0,43.0,False,0.25
+Balsamic Vinegar of Modena,balsamic vinegar of modena,1 Tbsp.(15mL),33.0,pantry,trader joes,2.49,3.0,g,0.0,g,0.0,g,,,15.0,15.0,False,0.08
+Crunchy Cinnamon Squares,crunchy cinnamon squares,1 cup(40g),9.0,pantry,trader joes,2.99,,,2.0,g,4.0,g,,,160.0,40.0,False,0.33
+Ginger Spread,ginger spread,1 Tbsp.(20g),17.0,pantry,trader joes,3.99,14.0,g,0.0,g,0.0,g,,,60.0,20.0,False,0.23
+Organic Red Wine Vinegar,organic red wine vinegar,1 Tbsp.(15mL),16.0,pantry,trader joes,1.99,0.0,g,0.0,g,0.0,g,,,0.0,15.0,False,0.12
+Joe's Os Cereal Bars,joe's os cereal bars,1 bar(24g),5.0,pantry,trader joes,2.99,14.0,g,6.0,g,3.0,g,,,120.0,24.0,False,0.6
+Fire Roasted Red Peppers,fire roasted red peppers,1oz(28g about 1/3 pepper) drained,12.0,pantry,trader joes,2.99,1.0,l,0.0,g,0.0,g,,,5.0,28.0,False,0.25
+All Occasion Sprinkle,all occasion sprinkle,1 tsp.(4g),25.0,pantry,trader joes,1.99,4.0,g,0.0,g,0.0,g,,,15.0,4.0,False,0.08
+"Solid White Albacore Tuna, No Salt Added","solid white albacore tuna, no salt added",1 can drained(4oz/113g),1.0,pantry,trader joes,1.99,0.0,g,1.0,g,29.0,g,,,130.0,113.0,False,1.99
+Tikka Masala Curry Sauce,tikka masala curry sauce,1/2 package(125g),2.0,pantry,trader joes,2.29,11.0,g,14.0,g,6.0,g,,,180.0,125.0,False,1.14
+Nutritional Yeast,nutritional yeast,1 Tbsp(5g),23.0,pantry,trader joes,3.49,2.0,g,0.0,g,3.0,g,,,20.0,5.0,False,0.15
+Ground Fermented Black Garlic,ground fermented black garlic,,,pantry,trader joes,2.99,,,,,,,,,,,False,
+Autumnal Harvest Soup,autumnal harvest soup,1 cup(245g),3.0,pantry,trader joes,4.99,19.0,g,8.0,g,2.0,g,,,150.0,245.0,False,1.66
+Strawberry Yogurt O's,strawberry yogurt o's,3/4 cup,11.0,pantry,trader joes,3.99,22.0,g,2.0,g,2.0,g,,,120.0,960.0,False,0.36
+Crunchy Peanut Butter Unsalted,crunchy peanut butter unsalted,2 Tbsp.(32g),14.0,pantry,trader joes,2.49,7.0,g,16.0,g,8.0,g,,,190.0,32.0,False,0.18
+Organic Stone Ground Blue Corn Taco Shells,organic stone ground blue corn taco shells,2 Shells(26g),6.0,pantry,trader joes,2.49,15.0,g,7.0,g,2.0,g,,,130.0,26.0,False,0.42
+Organic Kidney Beans,organic kidney beans,1/2 cup(125g),3.5,pantry,trader joes,1.19,20.0,g,0.0,g,7.0,g,,,110.0,125.0,False,0.34
+Strawberry Preserves made with Fresh Strawberries,strawberry preserves made with fresh strawberries,1 tbsp(20g),25.0,pantry,trader joes,3.99,13.0,g,0.0,g,0.0,g,,,50.0,20.0,False,0.16
+Whole Kernel Corn,whole kernel corn,1/2 Cup(125g),3.5,pantry,trader joes,0.99,9.0,g,0.0,g,1.0,g,,,60.0,125.0,False,0.28
+Chicken Noodle Soup,chicken noodle soup,1 cup(245g),2.0,pantry,trader joes,2.99,14.0,g,3.0,g,7.0,g,,,110.0,245.0,False,1.5
+Cheddar Macaroni & Cheese,cheddar macaroni & cheese,2.5 oz(70g/about 1/3 box) makes about 1 cup prepared,3.0,pantry,trader joes,0.99,52.0,g,1.0,g,8.0,g,,,250.0,70.0,False,0.33
+Gingerbread Cake & Cookie Mix,gingerbread cake & cookie mix,1/8 pkg.(50g) dry mix; makes one 4x2-inch piece (83g),8.0,pantry,trader joes,3.49,42.0,g,1.0,g,2.0,g,,,190.0,50.0,False,0.44
+Organic Balsamic Vinegar,organic balsamic vinegar,1 Tbsp.(15 ml),16.0,pantry,trader joes,5.99,10.0,g,0.0,g,0.0,g,,,45.0,15.0,False,0.37
+Spicy Jollof Seasoned Rice Mix,spicy jollof seasoned rice mix,1/3 cup dry mix(56g); makes 1 cup prepared rice (185g),4.0,pantry,trader joes,2.69,43.0,g,0.0,g,4.0,g,,,210.0,56.0,False,0.67
+Gourmet Fried Onion Pieces,gourmet fried onion pieces,2Tbsp(7g),32.0,pantry,trader joes,3.49,3.0,g,3.0,g,0.0,g,,,45.0,7.0,False,0.11
+Organic Toasted Sesame Oil,organic toasted sesame oil,1 Tbsp.(15 mL),10.0,pantry,trader joes,3.49,0.0,g,14.0,g,0.0,g,,,120.0,15.0,False,0.35
+Premium Chunk White Chicken,premium chunk white chicken,1/3 cup(71g),5.0,pantry,trader joes,3.99,0.0,g,1.0,g,12.0,g,0.0,g,70.0,71.0,False,0.8
+Organic Concord Grape Jelly,organic concord grape jelly,1 Tbsp(20g),28.0,pantry,trader joes,3.49,13.0,g,0.0,g,0.0,g,,,50.0,20.0,False,0.12
+Italian Whole Peeled Tomatoes with Basil Leaf,italian whole peeled tomatoes with basil leaf,1/2 cup(115g),7.0,pantry,trader joes,2.99,7.0,g,0.0,g,2.0,g,,,35.0,115.0,False,0.43
+Organic Sri Lankan Curry & Rice,organic sri lankan curry & rice,1 package(375g),1.0,pantry,trader joes,3.99,87.0,g,56.0,g,17.0,g,,,910.0,375.0,False,3.99
+Organic Coconut Milk,organic coconut milk,1/4 cup(65mL),6.0,pantry,trader joes,1.89,1.0,g,11.0,g,1.0,g,,,110.0,960.0,False,0.32
+Honeycrisp Apple Granola,honeycrisp apple granola,2/3 Cup(62g),5.0,pantry,trader joes,3.99,47.0,g,6.0,g,5.0,g,,,260.0,62.0,False,0.8
+Italian-Style Wedding Soup,italian-style wedding soup,1 cup(247g),2.5,pantry,trader joes,4.99,39.0,g,18.0,g,17.0,g,,,380.0,247.0,False,2.0
+Organic Couscous,organic couscous,1/4 cup dry(45g),8.0,pantry,trader joes,1.79,35.0,g,0.0,g,6.0,g,,,170.0,45.0,False,0.22
+Peanut Butter Protein Granola,peanut butter protein granola,2/3 cup(60g),6.0,pantry,trader joes,3.99,29.0,g,12.0,g,11.0,g,,,260.0,60.0,False,0.66
+Organic Pineapple Chunks,organic pineapple chunks,1 cup(142g),3.0,pantry,trader joes,2.99,22.0,g,0.0,g,1.0,l,,,90.0,142.0,False,1.0
+Aglio Olio Seasoning Blend,aglio olio seasoning blend,1/4 tsp.(1g),48.0,pantry,trader joes,2.49,0.0,g,0.0,g,0.0,g,,,0.0,1.0,False,0.05
+Organic Raw Apple Cider Vinegar,organic raw apple cider vinegar,1 Tbsp(15mL),33.0,pantry,trader joes,2.49,1.0,l,0.0,g,0.0,g,,,10.0,15.0,False,0.08
+Everything But The Leftovers Seasoning Blend,everything but the leftovers seasoning blend,1/4 tsp(1.2g),62.0,pantry,trader joes,2.99,0.0,g,0.0,g,0.0,g,,,0.0,1.2,False,0.05
+Miso Instant Ramen Soup,miso instant ramen soup,1 container(43g),1.0,pantry,trader joes,1.89,31.0,g,3.0,g,7.0,g,,,180.0,43.0,False,1.89
+Organic Midnight Moo Chocolate Syrup,organic midnight moo chocolate syrup,2 Tbsp.(39g),11.0,pantry,trader joes,3.99,26.0,g,0.0,g,1.0,l,,,110.0,39.0,False,0.36
+Lemon Curd,lemon curd,1 Tbsp.(30g),10.0,pantry,trader joes,3.99,19.0,g,2.0,g,1.0,L,,,100.0,30.0,False,0.4
+Organic Free Range Chicken Stock,organic free range chicken stock,1 cup(8 fl oz),4.0,pantry,trader joes,2.29,0.0,g,0.0,g,2.0,g,,,15.0,240.0,False,0.57
+Almond Ginger Sesame Granola,almond ginger sesame granola,2/3 cup(60g),6.0,pantry,trader joes,4.99,36.0,g,14.0,g,7.0,g,,,290.0,60.0,False,0.83
+Organic Almond Butter,organic almond butter,2 Tbsp.(32g),11.0,pantry,trader joes,3.99,7.0,g,17.0,g,7.0,g,,,190.0,32.0,False,0.36
+Avocado Spray Oil,avocado spray oil,1/3 second spray(0.25g),564.0,pantry,trader joes,3.99,0.0,g,0.0,g,0.0,g,,,0.0,0.25,False,0.01
+Agrodolce White Wine Vinegar,agrodolce white wine vinegar,1 Tbsp.(15mL),16.0,pantry,trader joes,5.99,13.0,g,0.0,g,0.0,g,,,50.0,15.0,False,0.37
+Semi-Sweet Chocolate Chips,semi-sweet chocolate chips,1 tbsp(15g),23.0,pantry,trader joes,3.99,10.0,g,4.0,g,1.0,L,,,80.0,15.0,False,0.17
+Calamari Pieces in Olive Oil,calamari pieces in olive oil,1 can drained(80g),1.0,pantry,trader joes,3.99,0.0,g,4.0,g,17.0,g,,,110.0,80.0,False,3.99
+Italian Fusilli,italian fusilli,,,pantry,trader joes,0.99,,,,,,,,,,,False,
+Organic Hearty Vegetable Broth,organic hearty vegetable broth,1 cup(240 mL),4.0,pantry,trader joes,1.99,2.0,g,0.0,g,0.0,g,,,10.0,240.0,False,0.5
+Turkey Chili with Beans,turkey chili with beans,1 container(425g),1.0,pantry,trader joes,2.69,31.0,g,7.0,g,17.0,g,,,250.0,425.0,False,2.69
+Organic Fusilli Corti Bucati Pasta,organic fusilli corti bucati pasta,2 oz(56g/ 1/8 package) dry,8.0,pantry,trader joes,1.99,40.0,g,0.0,g,7.0,g,,,200.0,56.0,False,0.25
+Organic Peanut Butter & Cocoa Crunch,organic peanut butter & cocoa crunch,1 cup(40g),7.0,pantry,trader joes,3.49,33.0,g,2.0,g,3.0,g,,,160.0,40.0,False,0.5
+Organic Pumpkin,organic pumpkin,,,pantry,trader joes,2.49,,,,,,,,,,,False,
+Mini Marshmallows,mini marshmallows,1/3 cup(28g),10.0,pantry,trader joes,2.99,24.0,g,0.0,g,0.0,g,,,100.0,28.0,False,0.3
+Italian Farfalle,italian farfalle,,,pantry,trader joes,1.29,,,,,,,,,,,False,
+Spaghetti,spaghetti,,,pantry,trader joes,0.99,,,,,,,,,,,False,
+Chicken Broth Concentrate,chicken broth concentrate,1 packet(9.6g),12.0,pantry,trader joes,3.99,4.0,g,0.0,g,0.0,g,,,25.0,9.6,False,0.33
+Cornbread Stuffing Mix,cornbread stuffing mix,1/12 pkg dry mix(29g),12.0,pantry,trader joes,4.99,20.0,g,2.0,g,4.0,g,,,120.0,29.0,False,0.42
+Organic Free Range Chicken Broth,organic free range chicken broth,1 cup(240ml),4.0,pantry,trader joes,1.99,1.0,l,0.0,g,1.0,g,,,10.0,240.0,False,0.5
+Organic Conversation Olive Trio,organic conversation olive trio,about 4 olives(16g),13.0,pantry,trader joes,3.49,1.0,g,2.0,g,0.0,g,,,25.0,16.0,False,0.27
+Organic Unbleached All-Purpose Flour,organic unbleached all-purpose flour,1/4 cup(30g),,pantry,trader joes,5.49,23.0,g,0.0,g,3.0,g,,,110.0,30.0,False,
+Organic Black Pepper Barilotti Pasta,organic black pepper barilotti pasta,3/4 cup(60g) dry,8.0,pantry,trader joes,2.99,41.0,g,1.0,g,8.0,g,,,210.0,60.0,False,0.37
+Speculoos Cookie Butter,speculoos cookie butter,2 Tbsp.(30g),13.0,pantry,trader joes,3.99,16.0,g,11.0,g,1.0,g,,,170.0,30.0,False,0.31
+Organic Garbanzo Beans,organic garbanzo beans,1/2 cup(125 g),3.5,pantry,trader joes,1.19,17.0,g,2.0,g,6.0,g,,,110.0,125.0,False,0.34
+Organic Shelled Hemp Seeds,organic shelled hemp seeds,3 Tbsp.(30g),8.0,pantry,trader joes,6.49,2.0,g,14.0,g,10.0,g,,,170.0,30.0,False,0.81
+Sweet Picanté Peppers,sweet picanté peppers,about 2 stuffed peppers drained(30g),5.0,pantry,trader joes,4.99,5.0,g,3.0,g,1.0,g,,,50.0,30.0,False,1.0
+Grecian Style Eggplant with Tomatoes & Onions,grecian style eggplant with tomatoes & onions,1/2 cup(110g),2.5,pantry,trader joes,2.99,5.0,g,12.0,g,1.0,g,,,140.0,110.0,False,1.2
+Creamy Peanut Butter Unsalted,creamy peanut butter unsalted,2 Tbsp.(32g),14.0,pantry,trader joes,2.49,7.0,g,16.0,g,8.0,g,,,190.0,32.0,False,0.18
+Organic Cane Sugar,organic cane sugar,2 tsp.(8g),113.0,pantry,trader joes,4.49,8.0,g,0.0,g,0.0,g,,,30.0,8.0,False,0.04
+Organic Corn Flakes Cereal,organic corn flakes cereal,1 1/2 cups(41g),8.0,pantry,trader joes,2.79,36.0,g,0.0,g,3.0,g,,,160.0,41.0,False,0.35
+Chocolate Coffee Flavored Granola,chocolate coffee flavored granola,3/4 cup(58g),6.0,pantry,trader joes,3.99,42.0,g,8.0,g,5.0,g,,,260.0,58.0,False,0.66
+Flakes & Strawberries Cereal,flakes & strawberries cereal,1 1/4 cup(59g),6.0,pantry,trader joes,2.99,50.0,g,1.0,g,4.0,g,,,210.0,59.0,False,0.5
+Everything But The Elote Seasoning Blend,everything but the elote seasoning blend,1/4 tsp(0.8g),81.0,pantry,trader joes,1.99,0.0,g,0.0,g,0.0,g,,,0.0,0.8,False,0.02
+Tiny Fruity Cuties Cereal,tiny fruity cuties cereal,1 1/4 cup(39g),12.0,pantry,trader joes,3.99,33.0,g,1.0,g,2.0,g,,,150.0,39.0,False,0.33
+Black Beans,black beans,1/2 cup(125g),3.5,pantry,trader joes,0.99,18.0,g,0.0,g,6.0,g,,,110.0,125.0,False,0.28
+Black Peppercorns with Grinder,black peppercorns with grinder,,,pantry,trader joes,2.49,,,,,,,,,,,False,
+Pumpkin Bisque,pumpkin bisque,1 cup(252g),3.0,pantry,trader joes,5.49,33.0,g,27.0,g,4.0,g,,,380.0,252.0,False,1.83
+Fig Butter,fig butter,1 tbsp(20g),16.0,pantry,trader joes,2.99,11.0,g,0.0,g,0.0,g,,,45.0,20.0,False,0.19
+Banana Bread Mix,banana bread mix,1/9 package dry mix(47g); 1/9 loaf (78g) Prepared,9.0,pantry,trader joes,2.99,39.0,g,0.0,g,3.0,g,,,170.0,47.0,False,0.33
+Rice Vinegar,rice vinegar,1 Tbsp.(15mL),33.0,pantry,trader joes,2.49,0.0,g,0.0,g,0.0,g,,,0.0,15.0,False,0.08
+Organic Low Sodium Vegetable Broth,organic low sodium vegetable broth,1 cup(240mL),4.0,pantry,trader joes,1.99,5.0,g,0.0,g,1.0,l,,,20.0,240.0,False,0.5
+Fried Shallots,fried shallots,1 Tbsp.(5g),28.0,pantry,trader joes,2.49,2.0,g,2.0,g,0.0,g,,,25.0,5.0,False,0.09
+Multi-Floral & Clover Honey,multi-floral & clover honey,1 Tbsp.(21g),16.0,pantry,trader joes,3.99,17.0,g,0.0,g,0.0,g,,,60.0,21.0,False,0.25
+Organic Tomato & Roasted Red Pepper Soup,organic tomato & roasted red pepper soup,1 cup(240 mL),4.0,pantry,trader joes,3.49,20.0,g,2.0,g,5.0,g,,,120.0,240.0,False,0.87
+Organic Apricot Preserves,organic apricot preserves,1 Tbsp.(20g),25.0,pantry,trader joes,4.29,13.0,g,0.0,g,0.0,g,,,50.0,20.0,False,0.17
+Sea Salt Crystals,sea salt crystals,1/4 tsp.(1.2g),92.0,pantry,trader joes,1.99,0.0,g,0.0,g,0.0,g,,,0.0,1.2,False,0.02
+Gluten Free Tagliatelle Pasta,gluten free tagliatelle pasta,1 pasta nest(42g) dry,6.0,pantry,trader joes,2.49,33.0,g,0.0,g,3.0,g,,,150.0,42.0,False,0.42
+Marinated Artichokes On The Go,marinated artichokes on the go,1 bag(45g),1.0,pantry,trader joes,1.29,3.0,g,0.0,g,1.0,l,,,15.0,45.0,False,1.29
+Squiggly Knife Cut Style Noodles,squiggly knife cut style noodles,1 noodle pack + 1 sauce packet(95g),4.0,pantry,trader joes,4.99,60.0,g,2.0,g,12.0,g,,,310.0,95.0,False,1.25
+Miso Ginger Broth,miso ginger broth,1 cup(240 mL),4.0,pantry,trader joes,2.49,1.0,g,0.0,g,1.0,g,,,10.0,240.0,False,0.62
+Pumpkin Bread & Muffin Mix,pumpkin bread & muffin mix,1/16 pkg. dry mix(31g); makes one prepared slice (54g),16.0,pantry,trader joes,3.49,26.0,g,0.0,g,1.0,g,,,120.0,31.0,False,0.22
+Premium Extra Virgin Olive Oil Cold Pressed,premium extra virgin olive oil cold pressed,1 Tbsp.(15mL),67.0,pantry,trader joes,12.49,0.0,g,14.0,g,0.0,g,,,120.0,15.0,False,0.19
+Madras Lentils,madras lentils,2/3 cup(140g),2.0,pantry,trader joes,2.49,17.0,g,6.0,g,7.0,g,,,150.0,140.0,False,1.25
+Sunflower Seed Spread,sunflower seed spread,2 Tbsp.(32g),14.0,pantry,trader joes,5.49,5.0,g,17.0,g,8.0,g,,,210.0,32.0,False,0.39
+Pearled Couscous,pearled couscous,1/3 cup dry(50g),5.0,pantry,trader joes,1.99,36.0,g,0.0,g,7.0,g,,,180.0,50.0,False,0.4
+Organic Red Lentil Sedanini,organic red lentil sedanini,3/4 cup(56g/2 oz) dry,6.0,pantry,trader joes,2.99,36.0,g,1.0,g,15.0,g,,,210.0,56.0,False,0.5
+Gnocchi,gnocchi,3/4 cup(110g),4.0,pantry,trader joes,1.99,37.0,g,0.0,g,4.0,g,,,170.0,110.0,False,0.5
+Creamy Almond Butter No Salt,creamy almond butter no salt,2 Tbsp(32g),14.0,pantry,trader joes,6.49,7.0,g,16.0,g,7.0,g,,,190.0,32.0,False,0.46
+Everything But the Bagel Nut Duo,everything but the bagel nut duo,1/4 cup(29g),8.0,pantry,trader joes,4.99,6.0,g,15.0,g,6.0,g,,,180.0,29.0,False,0.62
+Organic Vermont Maple Syrup,organic vermont maple syrup,2 Tbsp.(30mL),8.0,pantry,trader joes,4.99,27.0,g,0.0,g,0.0,g,,,100.0,30.0,False,0.62
+Organic Powdered Cane Sugar,organic powdered cane sugar,1/4 cup(30g),15.0,pantry,trader joes,3.79,30.0,g,0.0,g,0.0,g,,,120.0,30.0,False,0.25
+Organic Maple Butter,organic maple butter,2 Tbsp.(40g),5.0,pantry,trader joes,5.49,34.0,g,0.0,g,0.0,g,,,130.0,40.0,False,1.1
+Lentils,lentils,2/3 cup(130g),3.5,pantry,trader joes,0.99,16.0,g,0.0,g,6.0,g,,,80.0,130.0,False,0.28
+Italian Capellini,italian capellini,,,pantry,trader joes,0.99,,,,,,,,,,,False,
+Organic Turkey Bone Broth,organic turkey bone broth,1 Cup(240 mL),2.0,pantry,trader joes,3.79,1.0,g,0.0,g,24.0,g,,,100.0,240.0,False,1.9
+Gluten Free Organic Rolled Oats with Ancient Grains & Seeds,gluten free organic rolled oats with ancient grains & seeds,1/2 cup(45g),15.0,pantry,trader joes,4.99,29.0,g,4.0,g,8.0,g,,,180.0,45.0,False,0.33
+Hearts of Palm Pasta,hearts of palm pasta,1/3 package(85g),3.0,pantry,trader joes,3.49,13.0,g,0.0,g,3.0,g,,,60.0,85.0,False,1.16
+Traditional Style Fat Free Refried Beans,traditional style fat free refried beans,1/2 cup(130g),3.5,pantry,trader joes,1.19,23.0,g,0.0,g,8.0,g,,,120.0,130.0,False,0.34
+Green Goddess Seasoning Blend,green goddess seasoning blend,1/4 tsp(1g),57.0,pantry,trader joes,2.99,1.0,l,0.0,g,0.0,g,,,0.0,1.0,False,0.05
+Ube Mochi Pancake & Waffle Mix,ube mochi pancake & waffle mix,1/6 dry mix(63g) makes 2 4-inch pancakes,6.0,pantry,trader joes,3.99,52.0,g,0.0,g,3.0,g,,,220.0,63.0,False,0.66
+Riced Hearts of Palm,riced hearts of palm,1/3 package(85g),3.0,pantry,trader joes,3.49,12.0,g,0.0,g,3.0,g,,,60.0,85.0,False,1.16
+Gold Aceto Balsamico Di Modena,gold aceto balsamico di modena,1 Tbsp.(15 mL),16.0,pantry,trader joes,4.99,9.0,g,0.0,g,0.0,g,,,40.0,15.0,False,0.31
+Organic Basmati Rice,organic basmati rice,1/4 Cup(45g),20.0,pantry,trader joes,3.99,35.0,g,0.0,g,4.0,g,,,160.0,45.0,False,0.2
+Giant Chalkidiki Olives,giant chalkidiki olives,2 olives(15g),19.0,pantry,trader joes,2.49,0.0,g,2.0,g,0.0,g,,,20.0,15.0,False,0.13
+Organic Lentil Vegetable Soup,organic lentil vegetable soup,1 container(425g),1.0,pantry,trader joes,2.49,62.0,g,4.0,g,21.0,g,,,360.0,425.0,False,2.49
+Crunchy Peanut Butter Salted,crunchy peanut butter salted,2 Tbsp.(32g),14.0,pantry,trader joes,2.49,7.0,g,16.0,g,8.0,g,,,190.0,32.0,False,0.18
+Creamy Almond Butter Salted,creamy almond butter salted,2 Tbsp(32g),14.0,pantry,trader joes,6.49,7.0,g,16.0,g,7.0,g,,,190.0,32.0,False,0.46
+Thai Wheat Noodles,thai wheat noodles,1 package(198g),3.0,pantry,trader joes,2.49,63.0,g,2.0,g,10.0,g,,,310.0,198.0,False,0.83
+Mini Maple Flavored Marshmallows,mini maple flavored marshmallows,1/3 cup(30g),6.0,pantry,trader joes,2.99,23.0,g,0.0,g,0.0,g,,,90.0,30.0,False,0.5
+Giant Baked Beans in Tomato Sauce,giant baked beans in tomato sauce,1/2 cup(110g),2.5,pantry,trader joes,1.99,14.0,g,5.0,g,5.0,g,3.0,g,130.0,110.0,False,0.8
+Quinoa Stuffed Dolmas,quinoa stuffed dolmas,3 dolmas(80g),3.5,pantry,trader joes,2.99,12.0,g,7.0,g,2.0,g,,,120.0,80.0,False,0.85
+Very Berry Granola,very berry granola,3/4 cup(60g),6.0,pantry,trader joes,3.99,45.0,g,7.0,g,5.0,g,,,260.0,60.0,False,0.66
+Organic Ground Turmeric,organic ground turmeric,,,pantry,trader joes,1.99,,,,,,,,,,,False,
+Spicy Squiggly Knife Cut Noodles,spicy squiggly knife cut noodles,1 noodle pack + 1 Sauce packet + 1 sesame paste packet(113g),4.0,pantry,trader joes,4.99,66.0,g,15.0,g,15.0,g,,,460.0,113.0,False,1.25
+Crunchy Almond Butter Salted,crunchy almond butter salted,2 Tbsp(32g),14.0,pantry,trader joes,6.49,7.0,g,16.0,g,7.0,g,,,190.0,32.0,False,0.46
+Organic Kosher Sandwich Pickles,organic kosher sandwich pickles,1 oz(28g/about 2 slices),10.0,pantry,trader joes,3.99,1.0,g,0.0,g,0.0,g,,,0.0,28.0,False,0.4
+Homestyle Cherry Pistachio Pecan Granola,homestyle cherry pistachio pecan granola,2/3 cup(60g),6.0,pantry,trader joes,4.99,38.0,g,13.0,g,6.0,g,,,290.0,60.0,False,0.83
+Organic Creamy Peanut Butter Salted Valencia,organic creamy peanut butter salted valencia,2 Tbsp.(32g),14.0,pantry,trader joes,4.49,7.0,g,15.0,g,8.0,g,,,180.0,32.0,False,0.32
+Organic Tomato Paste,organic tomato paste,2 Tbsp(33g),5.0,pantry,trader joes,0.99,6.0,g,0.0,g,1.0,g,,,30.0,33.0,False,0.2
+Organic Tricolor Quinoa,organic tricolor quinoa,1/4 cup(42g),11.0,pantry,trader joes,3.49,27.0,g,2.0,g,6.0,g,,,150.0,42.0,False,0.32
+Kosher Dill Pickles,kosher dill pickles,1 oz(28g/about 1 pickle),13.0,pantry,trader joes,2.99,1.0,l,0.0,g,0.0,g,,,0.0,28.0,False,0.23
+Truffle Glaze,truffle glaze,1 Tbsp.(15 mL),17.0,pantry,trader joes,4.99,9.0,g,0.0,g,0.0,g,,,35.0,15.0,False,0.29
+Almond Paste,almond paste,2 Tbsp.(39g),5.0,pantry,trader joes,3.99,24.0,g,8.0,g,3.0,g,,,180.0,39.0,False,0.8
+Fleur de Sel Caramel Sauce,fleur de sel caramel sauce,1 Tbsp(19g),15.0,pantry,trader joes,3.99,11.0,g,1.0,g,0.0,g,,,60.0,19.0,False,0.27
+Organic Bread Crumbs,organic bread crumbs,1/4 cup(30g),9.0,pantry,trader joes,2.99,21.0,g,1.0,g,3.0,g,,,110.0,30.0,False,0.33
+Ranch Seasoning Blend,ranch seasoning blend,1/4 tsp.(1g),57.0,pantry,trader joes,2.99,1.0,l,0.0,g,0.0,g,,,0.0,1.0,False,0.05
+Fair Trade Turbinado Raw Cane Sugar,fair trade turbinado raw cane sugar,2 tsp(8 g),85.0,pantry,trader joes,3.49,8.0,g,0.0,g,0.0,g,,,30.0,8.0,False,0.04
+White Miso Paste,white miso paste,1 tsp.(6g),25.0,pantry,trader joes,2.99,2.0,g,0.0,g,1.0,l,,,10.0,6.0,False,0.12
+Smoked Paprika,smoked paprika,,,pantry,trader joes,2.49,,,,,,,,,,,False,
+Taco Seasoning Mix,taco seasoning mix,1 tsp.(3g),12.0,pantry,trader joes,0.99,1.0,g,0.0,g,0.0,g,,,5.0,3.0,False,0.08
+Maple Pecan Clusters Cereal,maple pecan clusters cereal,3/4 cup(53g),11.0,pantry,trader joes,4.79,39.0,g,7.0,g,4.0,g,,,230.0,53.0,False,0.44
+Strawberries & Crème Pancake & Waffle Mix,strawberries & crème pancake & waffle mix,1/7 dry mix(65g) makes 2 4-inch pancakes,7.0,pantry,trader joes,1.99,51.0,g,2.0,g,5.0,g,,,240.0,65.0,False,0.28
+Italian Linguine,italian linguine,,,pantry,trader joes,0.99,,,,,,,,,,,False,
+Peanut Butter with Honey,peanut butter with honey,2 Tbsp.(32g),14.0,pantry,trader joes,2.99,8.0,g,15.0,g,7.0,g,,,190.0,32.0,False,0.21
+Chile Lime Seasoning Blend,chile lime seasoning blend,1/4 tsp(1g),82.0,pantry,trader joes,1.99,0.0,g,0.0,g,0.0,g,0.0,g,0.0,1.0,False,0.02
+Cinnamon Sticks,cinnamon sticks,1/8 stick(0.5g),56.0,pantry,trader joes,2.99,0.0,g,0.0,g,0.0,g,,,0.0,0.5,False,0.05
+Pumpkin & Spice Snickerdoodle Cookie Mix,pumpkin & spice snickerdoodle cookie mix,1/22 dry mix(23g); makes 1 cookie (31g),22.0,pantry,trader joes,3.99,19.0,g,0.0,g,1.0,g,,,80.0,23.0,False,0.18
+Grainless Granola,grainless granola,3/4 cup(60g),4.5,pantry,trader joes,4.99,19.0,g,28.0,g,9.0,g,,,340.0,60.0,False,1.11
+Bourbon Vanilla Beans,bourbon vanilla beans,,,pantry,trader joes,2.99,,,,,,,,,,,False,
+Pumpkin O's Cereal,pumpkin o's cereal,1-1/3 cup(40g),9.0,pantry,trader joes,2.99,34.0,g,1.0,g,2.0,g,,,150.0,40.0,False,0.33
+Cinnamon Roll Blondie Bar Baking Mix,cinnamon roll blondie bar baking mix,1/20 pkg.(30g) dry mix; makes 1 bar (40g),20.0,pantry,trader joes,3.99,26.0,g,0.0,g,1.0,g,,,110.0,30.0,False,0.2
+Mini Chocolate Chip Pancake & Waffle Mix,mini chocolate chip pancake & waffle mix,1/4 cup dry mix(43g),11.0,pantry,trader joes,3.99,30.0,g,2.0,g,5.0,g,,,150.0,43.0,False,0.36
+Spanish Manzanilla Olives with Pimento Paste,spanish manzanilla olives with pimento paste,4 olives(14g),20.0,pantry,trader joes,2.99,1.0,l,1.0,g,0.0,g,,,15.0,14.0,False,0.15
+"Solid White Albacore Tuna, Salt Added","solid white albacore tuna, salt added",1 can drained(4oz/113g),1.0,pantry,trader joes,1.99,0.0,g,1.0,g,29.0,g,,,130.0,113.0,False,1.99
+Garden Vegetable Soup,garden vegetable soup,1 cup(245 g),3.0,pantry,trader joes,3.99,18.0,g,2.0,g,2.0,g,,,100.0,245.0,False,1.33
+Jumbo Pitted Greek Kalamata Olives,jumbo pitted greek kalamata olives,5 Olives(15g),12.0,pantry,trader joes,2.99,1.0,L,4.0,g,0.0,g,,,45.0,15.0,False,0.25
+Italian Penne Rigate,italian penne rigate,,,pantry,trader joes,0.99,,,,,,,,,,,False,
+Quite Possibly the World's Largest Fusilli,quite possibly the world's largest fusilli,2oz(56g/ 1/8 package) dry,8.0,pantry,trader joes,2.49,41.0,g,0.0,g,8.0,g,,,200.0,56.0,False,0.31
+Yellow Squash,yellow squash,,,produce,trader joes,2.49,,,,,,,,,,,False,
+Organic Herb Salad Mix,organic herb salad mix,,,produce,trader joes,2.69,,,,,,,,,,,False,
+Spaghetti Squash,spaghetti squash,,,produce,trader joes,2.99,,,,,,,,,,,False,
+Organic Shredded Kale,organic shredded kale,,,produce,trader joes,3.99,,,,,,,,,,,False,
+Fresh Cranberries,fresh cranberries,,,produce,trader joes,2.29,,,,,,,,,,,False,
+Super Sweet Fresh Corn,super sweet fresh corn,1 ear of corn(140g),4.0,produce,trader joes,4.49,26.0,g,2.0,g,5.0,g,9.0,g,120.0,140.0,False,1.12
+Fruitful Medley,fruitful medley,,,produce,trader joes,3.99,,,,,,,,,,,False,
+Stir Fry Veggie Blend,stir fry veggie blend,1 cup(85g),5.0,produce,trader joes,3.49,4.0,g,0.0,g,2.0,g,,,20.0,85.0,False,0.7
+"Grapefruit, 5lb bag",grapefruit bag,5 lb,,produce,trader joes,5.99,,,,,,,,,,2267.96,False,
+Organic Brussels Sprouts,organic brussels sprouts,,,produce,trader joes,3.69,,,,,,,,,,,False,
+Strawberries 1 Lb,strawberries,1 lb,,produce,trader joes,5.49,,,,,,,,,,453.59,False,
+Organic Sweet Potatoes,organic sweet potatoes,,,produce,trader joes,4.99,,,,,,,,,,,False,
+Romaine Hearts,romaine hearts,,,produce,trader joes,2.99,,,,,,,,,,,False,
+Organic Coleslaw Mix,organic coleslaw mix,,,produce,trader joes,2.49,,,,,,,,,,,False,
+Bananas,bananas,,,produce,trader joes,0.23,,,,,,,,,,,False,
+Organic Tri-Color Bell Peppers,organic tri-color bell peppers,,,produce,trader joes,4.99,,,,,,,,,,,False,
+Shelled Edamame,shelled edamame,1/2 cup(85g),3.0,produce,trader joes,3.99,29.0,g,10.0,g,27.0,g,,,310.0,85.0,False,1.33
+Fresh Fennel,fresh fennel,,,produce,trader joes,3.69,,,,,,,,,,,False,
+Cape Gooseberries,cape gooseberries,,,produce,trader joes,3.49,,,,,,,,,,,False,
+Sugar Bee® Apple,sugar bee® apple,,,produce,trader joes,1.29,,,,,,,,,,,False,
+Organic Baby Spinach,organic baby spinach,,,produce,trader joes,2.29,,,,,,,,,,,False,
+Murasaki Sweet Potatoes,murasaki sweet potatoes,,,produce,trader joes,4.99,,,,,,,,,,,False,
+Kumato Brown Tomatoes,kumato brown tomatoes,,,produce,trader joes,3.99,,,,,,,,,,,False,
+Cherry Tomatoes on the Vine,cherry tomatoes on the vine,,,produce,trader joes,4.99,,,,,,,,,,,False,
+Baby Corn,baby corn,,,produce,trader joes,2.79,,,,,,,,,,,False,
+Teeny Tiny Avocados 6 Count,teeny tiny avocados,6 count,,produce,trader joes,3.99,,,,,,,,,,,False,
+Jumbo Yellow Onions,jumbo yellow onions,,,produce,trader joes,1.19,,,,,,,,,,,False,
+Teeny Tiny Tomatoes,teeny tiny tomatoes,,,produce,trader joes,1.99,,,,,,,,,,,False,
+Fresh Cut Pineapple Chunks,fresh cut pineapple chunks,,,produce,trader joes,3.99,,,,,,,,,,,False,
+Jumbo Pomegranate,jumbo pomegranate,,,produce,trader joes,2.99,,,,,,,,,,,False,
+Cruciferous Crunch Collection,cruciferous crunch collection,,,produce,trader joes,2.79,,,,,,,,,,,False,
+Organic Beets,organic beets,,,produce,trader joes,1.99,,,,,,,,,,,False,
+Organic Carrots of Many Colors,organic carrots of many colors,,,produce,trader joes,2.99,,,,,,,,,,,False,
+Seedless Lemons,seedless lemons,,,produce,trader joes,3.99,,,,,,,,,,,False,
+Steamed & Peeled Baby Beets,steamed & peeled baby beets,,,produce,trader joes,2.29,,,,,,,,,,,False,
+Organic Pomegranate,organic pomegranate,,,produce,trader joes,3.49,,,,,,,,,,,False,
+Organic Tuscan Kale,organic tuscan kale,,,produce,trader joes,2.79,,,,,,,,,,,False,
+Steamed Lentils,steamed lentils,1/2 cup(100g),5.0,produce,trader joes,3.29,21.0,g,0.0,g,10.0,g,,,120.0,100.0,False,0.66
+Sugar Bee® Apples,sugar bee® apples,,,produce,trader joes,4.99,,,,,,,,,,,False,
+Organic Baby Lettuce Mix,organic baby lettuce mix,,,produce,trader joes,2.49,,,,,,,,,,,False,
+Organic Kiwi,organic kiwi,,,produce,trader joes,4.49,,,,,,,,,,,False,
+Organic Gold Potatoes,organic gold potatoes,,,produce,trader joes,3.99,,,,,,,,,,,False,
+Mangos,mangos,,,produce,trader joes,1.69,,,,,,,,,,,False,
+Broccoli & Kale Slaw,broccoli & kale slaw,1 1/2 cups(100g) slaw + dressing,3.0,produce,trader joes,3.49,20.0,g,14.0,g,4.0,g,,,210.0,100.0,False,1.16
+Cut and Peeled Carrots,cut and peeled carrots,,,produce,trader joes,1.99,,,,,,,,,,,False,
+Shishito Peppers,shishito peppers,,,produce,trader joes,2.49,,,,,,,,,,,False,
+Cut Sweet Potatoes,cut sweet potatoes,,,produce,trader joes,5.49,,,,,,,,,,,False,
+Organic Persian Cucumbers,organic persian cucumbers,,,produce,trader joes,2.99,,,,,,,,,,,False,
+Organic Avocados 4 count,organic avocados,4 count,,produce,trader joes,4.99,,,,,,,,,,,False,
+Baby Shanghai Bok Choy,baby shanghai bok choy,,,produce,trader joes,2.99,,,,,,,,,,,False,
+Haricots Verts,haricots verts,,,produce,trader joes,5.99,,,,,,,,,,,False,
+Jicama Sticks,jicama sticks,,,produce,trader joes,3.49,,,,,,,,,,,False,
+Organic Baby Red Butter Lettuce & Baby Arugula,organic baby red butter lettuce & baby arugula,1/2 package(2 cups/85g),2.0,produce,trader joes,2.49,2.0,g,0.0,g,2.0,g,,,15.0,85.0,False,1.25
+Organic Bananas,organic bananas,,,produce,trader joes,0.29,,,,,,,,,,,False,
+Little Leaf Farms Baby Crispy Green Leaf,little leaf farms baby crispy green leaf,,,produce,trader joes,2.99,,,,,,,,,,,False,
+Organic Petite Potato Medley,organic petite potato medley,,,produce,trader joes,3.49,,,,,,,,,,,False,
+Les Petites Carrots of Many Colors,les petites carrots of many colors,3 OZ(84g/about 4 carrots),5.0,produce,trader joes,4.49,7.0,g,0.0,g,1.0,L,4.0,g,30.0,84.0,False,0.9
+Sugar Snap Peas,sugar snap peas,,,produce,trader joes,2.99,,,,,,,,,,,False,
+Cut Butternut Squash,cut butternut squash,,,produce,trader joes,3.99,,,,,,,,,,,False,
+Red and Green Grapes Duo,red and green grapes duo,,,produce,trader joes,6.49,,,,,,,,,,,False,
+Organic Pitted Medjool Dates,organic pitted medjool dates,3 dates(40g),9.0,produce,trader joes,5.99,29.0,g,0.0,g,1.0,L,,,120.0,40.0,False,0.67
+Portabella Mushrooms,portabella mushrooms,,,produce,trader joes,3.49,,,,,,,,,,,False,
+Green Onions,green onions,,,produce,trader joes,1.29,,,,,,,,,,,False,
+Organic Red Bell Peppers,organic red bell peppers,,,produce,trader joes,3.99,,,,,,,,,,,False,
+Organic Fuyu Persimmons,organic fuyu persimmons,,,produce,trader joes,3.99,,,,,,,,,,,False,
+Organic Red Butter Lettuce,organic red butter lettuce,3 cups(85g),2.0,produce,trader joes,2.49,2.0,g,0.0,g,1.0,g,,,10.0,85.0,False,1.25
+Fuyu Persimmons,fuyu persimmons,,,produce,trader joes,0.89,,,,,,,,,,,False,
+Josie's Mandarins,josie's mandarins,,,produce,trader joes,3.49,,,,,,,,,,,False,
+Organic Arugula,organic arugula,2 Cups(85g),2.5,produce,trader joes,2.49,3.0,g,0.0,g,2.0,g,,,20.0,85.0,False,1.0
+Pineapple,pineapple,,,produce,trader joes,3.99,,,,,,,,,,,False,
+Shiitake Mushrooms,shiitake mushrooms,,,produce,trader joes,3.49,,,,,,,,,,,False,
+Mirepoix,mirepoix,3 oz(85g),5.0,produce,trader joes,3.49,6.0,g,0.0,g,1.0,g,,,30.0,85.0,False,0.7
+Dutch Yellow Baby Potatoes,dutch yellow baby potatoes,,,produce,trader joes,3.79,,,,,,,,,,,False,
+Delicata Squash,delicata squash,,,produce,trader joes,1.49,,,,,,,,,,,False,
+Organic Romaine & Chicory Blend,organic romaine & chicory blend,2 cups(85g),2.5,produce,trader joes,2.49,3.0,g,0.0,g,1.0,g,,,15.0,85.0,False,1.0
+Honeycrisp Apples,honeycrisp apples,,,produce,trader joes,1.29,,,,,,,,,,,False,
+Sweet Mini Peppers,sweet mini peppers,,,produce,trader joes,3.49,,,,,,,,,,,False,
+Organic Crimini Mushrooms,organic crimini mushrooms,,,produce,trader joes,2.69,,,,,,,,,,,False,
+Wild Arugula,wild arugula,,,produce,trader joes,2.29,,,,,,,,,,,False,
+Trimmed Leeks,trimmed leeks,,,produce,trader joes,2.99,,,,,,,,,,,False,
+Organic Mini Sweet Peppers,organic mini sweet peppers,,,produce,trader joes,3.99,,,,,,,,,,,False,
+Persian Cucumbers,persian cucumbers,,,produce,trader joes,2.49,,,,,,,,,,,False,
+Organic Cranberries,organic cranberries,,,produce,trader joes,3.29,,,,,,,,,,,False,
+Hass Avocado,hass avocado,,,produce,trader joes,1.29,,,,,,,,,,,False,
+Ready Veggies,ready veggies,1 cup(85g),4.0,produce,trader joes,2.99,7.0,g,0.0,g,2.0,g,,,35.0,85.0,False,0.75
+Russet Potatoes,russet potatoes,,,produce,trader joes,0.99,,,,,,,,,,,False,
+Avocados 4 count,avocados,4 count,,produce,trader joes,3.99,,,,,,,,,,,False,
+Organic Strawberries 1 Lb,organic strawberries,1 lb,,produce,trader joes,7.49,,,,,,,,,,453.59,False,
+Cantaloupe,cantaloupe,,,produce,trader joes,3.49,,,,,,,,,,,False,
+Campari Tomatoes,campari tomatoes,,,produce,trader joes,3.79,,,,,,,,,,,False,
+Little Gem Lettuce,little gem lettuce,,,produce,trader joes,3.49,,,,,,,,,,,False,
+Cut Butternut Squash,cut butternut squash,,,produce,trader joes,4.99,,,,,,,,,,,False,
+Organic English Cucumber,organic english cucumber,,,produce,trader joes,2.49,,,,,,,,,,,False,
+Sweet Potato,sweet potato,,,produce,trader joes,0.99,,,,,,,,,,,False,
+Brussels Sprouts,brussels sprouts,,,produce,trader joes,4.99,,,,,,,,,,,False,
