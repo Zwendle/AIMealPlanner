@@ -14,7 +14,7 @@ def json_ignore_null(x):
         except:
             return {}
 
-## clean number of servings Whole Foods JSON column
+## clean number of servings Whole Foods column
 def clean_num_servings_wf(x):
     varied_keywords = ["varied", "varies", 'null']
 
@@ -33,7 +33,7 @@ def clean_num_servings_wf(x):
         return x
 
 ## clean category Trader Joe's column
-def clean_category(x):
+def clean_category_tj(x):
     if isinstance(x, str) and 'Meat & Seafood' == x:
         return 'meat-seafood'
     elif isinstance(x, str) and 'Dairy & Eggs' == x:
@@ -261,7 +261,7 @@ tj_cleaned = pd.DataFrame({
     'name_clean': tj['name'].str.lower().str.strip().apply(clean_serving_size),
     'serving_size': tj_json['serving_size'],
     'num_servings': tj['serves'],
-    'category': tj['category'].apply(clean_category),
+    'category': tj['category'].apply(clean_category_tj),
     'store': 'trader joes',
     'price': tj['price'].astype(float),
     'carbs': tj_json['total_carbohydrate'].apply(get_number),
