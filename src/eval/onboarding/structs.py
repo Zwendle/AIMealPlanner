@@ -40,11 +40,12 @@ class UserConstraints:
     def to_numpy_state(self, ingredients_df: pd.DataFrame) -> dict:
         """Convert to numpy for GA evaluation"""
         # Create pantry availability vector (length = total ingredients in DB)
-        # Use ingredient name -> servings mapping as a NumPy-friendly dict
-        pantry_vector = {
-            item.ingredient_idx: np.float32(item.servings_available)
-            for item in self.pantry
-        }
+        num_ingredients = len(ingredients_df)
+        pantry_vector = np.zeros(num_ingredients, dtype=np.float32)
+        
+        for item in self.pantry:
+            if 0 <= item.ingredient_idx < num_ingredients:
+                pantry_vector[item.ingredient_idx] = item.servings_available
 
         # One-hot encode dietary goals
         dietary_vector = np.zeros(5)  # 5 dietary goal options
