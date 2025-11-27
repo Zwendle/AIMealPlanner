@@ -1,6 +1,5 @@
 import pandas as pd
 import random
-import json
 import numpy as np
 from tqdm import tqdm
 import pickle
@@ -16,10 +15,19 @@ Q = {}
 train_flag = 'train' in sys.argv
         
 
-def make_state(ingredients):
-    return tuple(sorted(ingredients))
+def make_state(ingredients, goal):
+    return (
+        goal['target_calories'],
+        goal['target_protein'],
+        goal['target_carbs'],
+        goal['target_fat'],
+        goal['vegetarian_diet'],
+        goal['target_price'],
+        tuple(sorted(goal['pantry'])),
+        tuple(sorted(ingredients)),
+    )
 
-
+# used ChatGPT for this function
 def parse_number(value):
     if isinstance(value, (int, float)):
         return value
@@ -29,7 +37,7 @@ def parse_number(value):
     return 0
 
 def sample_goal(df):
-    all_ingredients = df['name'].tolist()
+    all_ingredients = df['name_clean'].tolist()
     
     diet_type = random.choice(['high_protein', 'keto', 'low_carb', 'balanced'])
     
@@ -86,13 +94,13 @@ def calculate_reward(df, ingredients, pantry_ingredients, target_calories, targe
     vegetarian = True
     
     for ingredient in ingredients:
-        row = df[df['name'] == ingredient].iloc[0]
+        row = df[df['name_clean'] == ingredient].iloc[0]
         
-        total_calories += parse_number(row.get('calories', 0))
-        total_protein += parse_number(row.get('protein', 0))
-        total_carbs += parse_number(row.get('carbs', 0)) # i think this has to change to carbs_unit
-        total_fats += parse_number(row.get('fat', 0)) # same here for fat_unit
-        total_price += parse_number(row.get('price', 0)) # uh i think this should be cost per serving + retrain
+        total_calories += parse_number(row.get('calories', 0)) 
+        total_protein += parse_number(row.get('protein', 0)) 
+        total_carbs += parse_number(row.get('carbs', 0)) 
+        total_fats += parse_number(row.get('fat', 0))
+        total_price += parse_number(row.get('cost_per_serving', 0)) 
         
         in_pantry += 1 if ingredient in pantry_ingredients else 0  
         
@@ -129,7 +137,7 @@ def calculate_reward(df, ingredients, pantry_ingredients, target_calories, targe
 
 def train(df):
     global Q
-    all_ingredients = df['name'].tolist()
+    all_ingredients = df['name_clean'].tolist()
 
     for episode in tqdm(range(EPISODES)):
 
@@ -140,7 +148,7 @@ def train(df):
 
         for step in range(MAX_STEPS):
 
-            state = make_state(ingredients)
+            state = make_state(ingredients, goal)
             actions = get_actions(all_ingredients, ingredients)
 
             if random.random() < EPSILON:
@@ -150,7 +158,7 @@ def train(df):
                 action = actions[int(np.argmax(q_vals))]
 
             next_ingredients = apply_action(ingredients, action)
-            next_state = make_state(next_ingredients)
+            next_state = make_state(next_ingredients, goal)
 
             reward = calculate_reward(
                 df,
@@ -177,13 +185,13 @@ def train(df):
 
 
 def generate_meal(df, goal, Q_table, steps=20):
-    all_ingredients = df['name'].tolist()
+    all_ingredients = df['name_clean'].tolist()
     
     num_to_pick = random.randint(5, 8)
     ingredients = random.sample(all_ingredients, num_to_pick)
 
     for step in range(steps):
-        state = make_state(ingredients)
+        state = make_state(ingredients, goal)
         actions = get_actions(all_ingredients, ingredients)
 
         if not actions:
@@ -205,8 +213,6 @@ def model_exists(path='data/Q_table.pickle'):
 
 if __name__ == "__main__":
     df = pd.read_csv("data/ingredients.csv")
-    # No longer filtering by nutrition_json
-    # df = df[df['nutrition_json'].notna() & df['nutrition_json'].astype(str).str.len().gt(2)]
     
     if train_flag:
         train(df)
