@@ -7,25 +7,45 @@ import sys
 import os
 
 ALPHA = 0.1        
-GAMMA = 0.9        
-EPSILON = 0.2      
-MAX_STEPS = 200
-EPISODES = 1000
-Q = {}    
+GAMMA = 0.99      
+EPSILON = 0.4 
+DECAY_RATE = 0.999995    
+MAX_STEPS = 50
+EPISODES = 10000
 train_flag = 'train' in sys.argv
         
 
-def make_state(ingredients, goal):
+def make_state(ingredients, goal, df):
+    """ goal_cal_bucket   = goal['target_calories'] // 150
+    goal_prot_bucket  = goal['target_protein'] // 20
+    goal_carb_bucket  = goal['target_carbs'] // 40
+    goal_fat_bucket   = goal['target_fat'] // 20
+    goal_price_bucket = goal['target_price'] // 4 """
+
+    total_cal = sum(df.loc[df['name_clean'] == i, 'calories'].values[0] for i in ingredients)
+    cal_bucket = total_cal // 150
+    total_prot = sum(df.loc[df['name_clean'] == i, 'protein'].values[0] for i in ingredients)
+    prot_bucket = total_prot // 20
+    total_carb = sum(df.loc[df['name_clean'] == i, 'carbs'].values[0] for i in ingredients)
+    carb_bucket = total_carb // 40
+    total_fat = sum(df.loc[df['name_clean'] == i, 'fat'].values[0] for i in ingredients)
+    fat_bucket = total_fat // 20
+    total_price = sum(df.loc[df['name_clean'] == i, 'cost_per_serving'].values[0] for i in ingredients)
+    price_bucket = total_price // 4
+
     return (
-        goal['target_calories'],
-        goal['target_protein'],
-        goal['target_carbs'],
-        goal['target_fat'],
-        goal['vegetarian_diet'],
-        goal['target_price'],
-        tuple(sorted(goal['pantry'])),
-        tuple(sorted(ingredients)),
-    )
+        cal_bucket,
+        prot_bucket,
+        carb_bucket,
+        fat_bucket,
+        price_bucket,
+        goal['vegetarian_diet'])
+    """ goal_cal_bucket,
+    goal_prot_bucket,
+    goal_carb_bucket,
+    goal_fat_bucket,
+    goal_price_bucket """
+    
 
 # used ChatGPT for this function
 def parse_number(value):
@@ -136,7 +156,8 @@ def calculate_reward(df, ingredients, pantry_ingredients, target_calories, targe
 
 
 def train(df):
-    global Q
+    Q = {}    
+    global EPSILON
     all_ingredients = df['name_clean'].tolist()
 
     for episode in tqdm(range(EPISODES)):
@@ -148,7 +169,7 @@ def train(df):
 
         for step in range(MAX_STEPS):
 
-            state = make_state(ingredients, goal)
+            state = make_state(ingredients, goal, df)
             actions = get_actions(all_ingredients, ingredients)
 
             if random.random() < EPSILON:
@@ -158,7 +179,7 @@ def train(df):
                 action = actions[int(np.argmax(q_vals))]
 
             next_ingredients = apply_action(ingredients, action)
-            next_state = make_state(next_ingredients, goal)
+            next_state = make_state(next_ingredients, goal, df)
 
             reward = calculate_reward(
                 df,
@@ -173,11 +194,12 @@ def train(df):
             )
 
             old_q = Q.get((state, action), 0)
-            future_q = max([Q.get((next_state, a), 0) for a in actions]) if actions else 0
-
+            next_actions = get_actions(all_ingredients, next_ingredients)
+            future_q = max([Q.get((next_state, a), 0) for a in next_actions]) if next_actions else 0
             Q[(state, action)] = old_q + ALPHA * (reward + GAMMA * future_q - old_q)
 
             ingredients = next_ingredients
+        EPSILON *= DECAY_RATE
             
     os.makedirs('data', exist_ok=True) # run out of /data instead
     with open('data/Q_table.pickle', 'wb') as handle:
@@ -191,7 +213,7 @@ def generate_meal(df, goal, Q_table, steps=20):
     ingredients = random.sample(all_ingredients, num_to_pick)
 
     for step in range(steps):
-        state = make_state(ingredients, goal)
+        state = make_state(ingredients, goal, df)
         actions = get_actions(all_ingredients, ingredients)
 
         if not actions:
@@ -213,6 +235,14 @@ def model_exists(path='data/Q_table.pickle'):
 
 if __name__ == "__main__":
     df = pd.read_csv("data/ingredients.csv")
+    required_cols = ["carbs", "fat", "protein", "calories", "cost_per_serving"]
+
+    df = df.dropna(subset=required_cols)
+
+    for col in required_cols:
+        df = df[df[col].astype(str).str.strip() != ""]
+        
+    print("Rows after filtering:", len(df))
     
     if train_flag:
         train(df)
