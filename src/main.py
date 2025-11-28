@@ -11,14 +11,14 @@ def main():
     # 1. Load Data
     print("Loading data...")
     try:
-        ingredients_df = pd.read_csv("data/ingredients.csv")
+        ingredients_df = pd.read_csv("data/ingredients_final.csv")
         # No longer filtering by nutrition_json
     except FileNotFoundError:
-        print("Error: data/ingredients.csv not found.")
+        print("Error: data/ingredients_final.csv not found.")
         return
 
     # 2. Onboarding
-    prompter = MealPlanningEvaluator("data/ingredients.csv")
+    prompter = MealPlanningEvaluator("data/ingredients_final.csv")
     user_constraints, numpy_state = prompter.run()
 
     # 3. Model Management
@@ -87,7 +87,7 @@ def main():
             fat = 0
             
             for ing in ingredients:
-                row = ingredients_df[ingredients_df['name'] == ing].iloc[0]
+                row = ingredients_df[ingredients_df['name_clean'] == ing].iloc[0]
                 cost_val = parse_number(row.get('cost_per_serving', 0))
                 if not np.isnan(cost_val):
                     cost += cost_val
