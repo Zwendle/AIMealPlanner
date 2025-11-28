@@ -76,9 +76,43 @@ def main():
             history = json.load(f)
             print(f"Loaded history of {len(history)} past meals.")
 
+    # Initialize pantry tracking: start with user's pantry items
+    # Create mapping from pantry item names to name_clean for ingredient matching
+    pantry_to_name_clean = {}
+    for item in user_constraints.pantry:
+        # Try to find matching ingredient by name or name_clean
+        matching_row = ingredients_df[
+            (ingredients_df['name'] == item.name) | 
+            (ingredients_df['name_clean'] == item.name.lower())
+        ]
+        if not matching_row.empty:
+            name_clean = matching_row.iloc[0]['name_clean']
+            pantry_to_name_clean[item.name] = name_clean
+    
+    pantry_state = {}  # Maps name_clean -> servings remaining
+    for item in user_constraints.pantry:
+        # Map pantry item to name_clean if we found a match
+        if item.name in pantry_to_name_clean:
+            name_clean = pantry_to_name_clean[item.name]
+            pantry_state[name_clean] = item.servings_available
+        else:
+            # Fallback: use item.name (might not match exactly)
+            pantry_state[item.name.lower()] = item.servings_available
+
     for day in days:
         for meal_type in ["Lunch", "Dinner"]:
-            ingredients = generate_meal(ingredients_df, training_goal, model)
+            # generate_meal may return either:
+            # - a dict: {ingredient_name: servings_used}
+            # - a list: [ingredient_name, ...] (legacy behavior)
+            raw_meal = generate_meal(ingredients_df, training_goal, model)
+
+            if isinstance(raw_meal, dict):
+                ingredient_servings = raw_meal
+                ingredient_list = list(ingredient_servings.keys())
+            else:
+                # Treat as list of ingredients with 1.0 serving each
+                ingredient_list = list(raw_meal)
+                ingredient_servings = {ing: 1.0 for ing in ingredient_list}
             
             cost = 0
             cal = 0
@@ -86,20 +120,34 @@ def main():
             carbs = 0
             fat = 0
             
-            for ing in ingredients:
+            # Track pantry state before this meal
+            leftovers_before = pantry_state.copy()
+            
+            for ing, servings_used in ingredient_servings.items():
                 row = ingredients_df[ingredients_df['name_clean'] == ing].iloc[0]
                 cost_val = parse_number(row.get('cost_per_serving', 0))
                 if not np.isnan(cost_val):
-                    cost += cost_val
-                cal += parse_number(row.get('calories', 0))
-                prot += parse_number(row.get('protein', 0))
-                carbs += parse_number(row.get('carbs', 0))
-                fat += parse_number(row.get('fat', 0))
+                    cost += cost_val * servings_used
+                cal += parse_number(row.get('calories', 0)) * servings_used
+                prot += parse_number(row.get('protein', 0)) * servings_used
+                carbs += parse_number(row.get('carbs', 0)) * servings_used
+                fat += parse_number(row.get('fat', 0)) * servings_used
+                
+                # subtract used servings
+                if ing in pantry_state:
+                    pantry_state[ing] = max(0, pantry_state[ing] - servings_used)
+                # If ingredient not in initial pantry, we could track it as negative (needs purchase)
+            
+            # Calculate leftovers after this meal
+            leftovers_after = pantry_state.copy()
             
             plan_data.append({
                 "day": day,
                 "meal": meal_type,
-                "ingredients": ingredients,
+                "ingredients": ingredient_list,
+                "ingredient_servings": ingredient_servings,
+                "leftovers_before": leftovers_before,
+                "leftovers_after": leftovers_after,
                 "cost": cost,
                 "calories": cal,
                 "protein": prot,
@@ -141,12 +189,70 @@ def main():
         diff = row['calories'] - target_calories/2
         status = "MATCH" if abs(diff) < 100 else ("OVER" if diff > 0 else "UNDER")
         print(f"Target Status: {status} ({diff:+.0f} kcal)")
+        
+        # Show ingredient servings and leftovers
+        servings_dict = row.get('ingredient_servings', {})
+        leftovers = row.get('leftovers_after', {})
+        if servings_dict:
+            servings_str = ', '.join([f'{ing} ({qty:.1f} serving{"s" if qty != 1 else ""})' 
+                                     for ing, qty in servings_dict.items()])
+            print(f"Servings Used: {servings_str}")
+            # Show only ingredients with remaining servings
+            remaining = {ing: qty for ing, qty in leftovers.items() if qty > 0}
+            if remaining:
+                leftovers_str = ', '.join([f'{ing} ({qty:.1f} serving{"s" if qty != 1 else ""})' 
+                                          for ing, qty in remaining.items()])
+                print(f"Leftovers After: {leftovers_str}")
 
     print("\n" + "=" * 60)
     print("SUMMARY")
     print("=" * 60)
     print(f"Total Weekly Cost: ${total_weekly_cost:.2f}")
     print(f"Budget: ${user_constraints.budget_min} - ${user_constraints.budget_max}")
+    
+    # Show final pantry state (leftovers after all meals)
+    print("\n" + "=" * 60)
+    print("FINAL PANTRY STATE (After All Meals)")
+    print("=" * 60)
+    if pantry_state:
+        # map back to original names for display
+        name_clean_to_pantry_name = {v: k for k, v in pantry_to_name_clean.items()}
+
+        # Separate ingredients with leftovers vs. those that need purchase
+        leftovers = {ing: qty for ing, qty in pantry_state.items() if qty > 0}
+        used_up = {ing: qty for ing, qty in pantry_state.items() if qty == 0}
+        
+        if leftovers:
+            print(f"\n ~~~Leftovers ({len(leftovers)} items):")
+            for ing, qty in sorted(leftovers.items()):
+                # Try to get original pantry name for display
+                display_name = name_clean_to_pantry_name.get(ing, ing)
+                print(f"  - {display_name}: {qty:.1f} serving{'s' if qty != 1 else ''} remaining")
+        
+        if used_up:
+            print(f"\n Used Up ({len(used_up)} items):")
+            for ing in sorted(used_up.keys()):
+                display_name = name_clean_to_pantry_name.get(ing, ing)
+                print(f"  - {display_name}: completely used")
+        
+        # Check for ingredients in meals that weren't in initial pantry
+        all_meal_ingredients = set()
+        for _, row in meal_plan_df.iterrows():
+            all_meal_ingredients.update(row['ingredients'])
+        pantry_name_cleans = set(pantry_to_name_clean.values())
+        needs_purchase = all_meal_ingredients - pantry_name_cleans
+        if needs_purchase:
+            print(f"\n !!!Needs Purchase ({len(needs_purchase)} items):")
+            for ing in sorted(needs_purchase):
+                # Find total servings needed
+                total_servings = 0
+                for _, row in meal_plan_df.iterrows():
+                    servings_dict = row.get('ingredient_servings', {})
+                    total_servings += servings_dict.get(ing, 0)
+                if total_servings > 0:
+                    print(f"  - {ing}: {total_servings:.1f} serving{'s' if total_servings != 1 else ''} needed")
+    else:
+        print("No pantry items tracked.")
     
     # 8. Update Week-over-Week History
     new_history = [row['ingredients'] for _, row in meal_plan_df.iterrows()]
