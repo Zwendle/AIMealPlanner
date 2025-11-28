@@ -7,7 +7,7 @@ import sys
 import os
 
 ALPHA = 0.1        
-GAMMA = 0.99      
+GAMMA = 0.95    
 EPSILON = 0.4 
 DECAY_RATE = 0.999995    
 MAX_STEPS = 50
@@ -16,35 +16,39 @@ train_flag = 'train' in sys.argv
         
 
 def make_state(ingredients, goal, df):
-    """ goal_cal_bucket   = goal['target_calories'] // 150
-    goal_prot_bucket  = goal['target_protein'] // 20
-    goal_carb_bucket  = goal['target_carbs'] // 40
-    goal_fat_bucket   = goal['target_fat'] // 20
-    goal_price_bucket = goal['target_price'] // 4 """
-
     total_cal = sum(df.loc[df['name_clean'] == i, 'calories'].values[0] for i in ingredients)
-    cal_bucket = total_cal // 150
-    total_prot = sum(df.loc[df['name_clean'] == i, 'protein'].values[0] for i in ingredients)
-    prot_bucket = total_prot // 20
-    total_carb = sum(df.loc[df['name_clean'] == i, 'carbs'].values[0] for i in ingredients)
-    carb_bucket = total_carb // 40
-    total_fat = sum(df.loc[df['name_clean'] == i, 'fat'].values[0] for i in ingredients)
-    fat_bucket = total_fat // 20
+    total_prot = sum(df.loc[df['name_clean'] == i, 'protein' ].values[0] for i in ingredients)
+    total_carb = sum(df.loc[df['name_clean'] == i, 'carbs'   ].values[0] for i in ingredients)
+    total_fat  = sum(df.loc[df['name_clean'] == i, 'fat'     ].values[0] for i in ingredients)
     total_price = sum(df.loc[df['name_clean'] == i, 'cost_per_serving'].values[0] for i in ingredients)
-    price_bucket = total_price // 4
+
+    def ratio_bucket(total, target):
+        if target <= 0: 
+            return 0
+        r = total / target
+        if r < 0.6: return -2
+        if r < 0.9: return -1
+        if r < 1.1: return  0
+        if r < 1.4: return  1
+        return 2
+
+    cal_b  = ratio_bucket(total_cal,  goal['target_calories'])
+    prot_b = ratio_bucket(total_prot, goal['target_protein'])
+    carb_b = ratio_bucket(total_carb, goal['target_carbs'])
+    fat_b  = ratio_bucket(total_fat,  goal['target_fat'])
+    price_b = ratio_bucket(total_price, goal['target_price'])
+
+    size_b = len(ingredients) - 5
 
     return (
-        cal_bucket,
-        prot_bucket,
-        carb_bucket,
-        fat_bucket,
-        price_bucket,
-        goal['vegetarian_diet'])
-    """ goal_cal_bucket,
-    goal_prot_bucket,
-    goal_carb_bucket,
-    goal_fat_bucket,
-    goal_price_bucket """
+        cal_b,
+        prot_b,
+        carb_b,
+        fat_b,
+        price_b,
+        size_b,
+        int(goal['vegetarian_diet'])
+    )
     
 
 # used ChatGPT for this function
@@ -253,7 +257,7 @@ if __name__ == "__main__":
             print("Model not found, training...")
             train(df)
             Q_table = Q
-        
+        print(f"The length of Q table is: {len(Q_table)}")
         # change
         goal = sample_goal(df)
         
