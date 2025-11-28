@@ -252,6 +252,7 @@ Comice Pear,comice pear,,1.0,produce,whole foods,2.99,,,,,,,,,,False,,2.99
 Organic Russet Potato Bag,organic russet potato bag,,1.0,produce,whole foods,5.49,,,,,,,,,,False,,5.49
 Organic Serrano Pepper,organic serrano pepper,,1.0,produce,whole foods,4.99,,,,,,,,,,False,,4.99
 Organic Acorn Squash,organic acorn squash,,1.0,produce,whole foods,1.99,,,,,,,,,,False,,1.99
+Organic Poultry Mix,organic poultry mix,,1.0,produce,whole foods,2.99,,,,,,,,,,False,,2.99
 Organic Red Cabbage,organic red cabbage,,1.0,produce,whole foods,1.99,,,,,,,,,,False,,1.99
 Organic Red Grapefruit,organic red grapefruit,,1.0,produce,whole foods,2.69,,,,,,,,,,False,,2.69
 Organic Sage,organic sage,,1.0,produce,whole foods,2.99,,,,,,,,,,False,,2.99
@@ -3583,6 +3584,542 @@ BAKERY Chocolate Value Cake 6 Inch,bakery chocolate value cake 6 inch,1 slice,8.
 "Cranberry Vanilla Cookie Bites, 5.5 OZ",cranberry vanilla cookie bites,5 COOKIES,6.0,desserts,whole foods,5.99,,,7.0,g,0.99,g,8.0,g,140.0,False,,1.0
 "Confetti Cookies, 6 OZ",confetti cookies,2 COOKIES(28G),6.0,desserts,whole foods,5.79,,,6.0,g,0.0,g,8.0,g,120.0,False,28.0,0.96
 "Super Hero Spidey & Friends Sprinkle Cookies, 6.7 OZ",super hero spidey & friends sprinkle cookies,1 SNACK,10.0,desserts,whole foods,8.99,,,4.0,g,1.0,g,5.0,g,90.0,False,,0.9
+"365 by Whole Foods Market, Plant Protein Smoothie Mix, Rich Chocolate, 9 Ounce","plant protein smoothie mix, rich chocolate,",9 oz,1.0,supplements,whole foods,16.99,,,,,,,,,,False,255.15,16.99
+"Original Herbal Cough Drops, 17 CT",original herbal cough drops,17 ct,1.0,supplements,whole foods,3.99,,,,,,,,,,False,,3.99
+"Ashwagandha, 1 FZ",ashwagandha,1 fz,1.0,supplements,whole foods,13.29,,,,,,,,,,False,30.0,13.29
+"365 by Whole Foods Market, High Potency Vitamin B Complex with Herbal Support Tablets, 90 CT",high potency vitamin b complex with herbal support tablets,90 ct,1.0,supplements,whole foods,11.99,,,,,,,,,,False,,11.99
+"Organic Hemp Seed, 4 OZ",organic hemp seed,3 TBSP,4.0,supplements,whole foods,5.49,,,15.0,g,10.0,g,0.99,g,180.0,False,45.0,1.37
+"365 by Whole Foods Market, Iron Chelated, 18mg, 100 Vegetable Capsules","iron chelated, 18mg, 100 vegetable capsules",,1.0,supplements,whole foods,10.49,,,,,,,,,,False,,10.49
+"Black Chia Seed, 32 OZ",black chia seed,3 TBSP,30.0,supplements,whole foods,17.99,,,10.0,g,6.0,g,0.0,g,160.0,False,45.0,0.6
+"365 by Whole Foods Market, Melatonin Tablets 5mg, 60 Count",melatonin tablets 5mg,60 count,1.0,supplements,whole foods,7.99,,,,,,,,,,False,,7.99
+"Super Seed Blend, 16 OZ",super seed blend,3 TBSP,15.0,supplements,whole foods,12.99,,,11.0,g,7.0,g,0.0,g,170.0,False,45.0,0.87
+"365 by Whole Foods Market, Buffered Vitamin C Complex, Vegan, 60 Capsules","buffered vitamin c complex, vegan, 60 capsules",,1.0,supplements,whole foods,8.19,,,,,,,,,,False,,8.19
+"365 By Whole Foods Market, Psyllium Husk Conventional, 12 Ounce","psyllium husk conventional,",12 oz,1.0,supplements,whole foods,12.99,,,,,,,,,,False,340.19,12.99
+"Cherry Cough Drops, 45 CT",cherry cough drops,45 ct,1.0,supplements,whole foods,7.99,,,,,,,,,,False,,7.99
+"Organic Matcha Powder, 5 OZ",organic matcha powder,1 TSP,70.0,supplements,whole foods,17.99,,,0.0,g,0.0,g,0.0,g,10.0,False,5.0,0.26
+"365 by Whole Foods Market, D-Mannose with Cranberry, 90 Count",d-mannose with cranberry,90 count,1.0,supplements,whole foods,19.99,,,,,,,,,,False,,19.99
+"365 by Whole Foods Market, Soy Protein, Unsweetened Vanilla, 15.6 Ounce","soy protein, unsweetened vanilla,",15.6 oz,1.0,supplements,whole foods,19.99,,,,,,,,,,False,442.25,19.99
+"365 by Whole Foods Market, Effervescent C Powder, Orange Stick Pack, 7.8 Ounce","effervescent c powder, orange stick pack,",7.8 oz,1.0,supplements,whole foods,0.59,,,,,,,,,,False,221.13,0.59
+"Organic Brown Whole Flaxseed, 16 OZ",organic brown whole flaxseed,2 TBSP,17.0,supplements,whole foods,5.49,,,10.0,g,6.0,g,0.0,g,150.0,False,30.0,0.32
+"Vanilla Whey Protein Isolate, 32 OZ",vanilla whey protein isolate,32 oz,1.0,supplements,whole foods,44.99,,,,,,,,,,False,907.18,44.99
+"Lemon Honey Cough Drops, 30 CT",lemon honey cough drops,30 ct,1.0,supplements,whole foods,2.99,,,,,,,,,,False,,2.99
+"Chocolate Whey Protein Powder, 23.28 OZ",chocolate whey protein powder,23.28 oz,1.0,supplements,whole foods,49.99,,,,,,,,,,False,659.98,49.99
+"365 by Whole Foods Market, Pomegranate Energy Shot, 2 Fl Oz",pomegranate energy shot,2 floz,1.0,supplements,whole foods,1.89,,,,,,,,,,False,60.0,1.89
+"365 by Whole Foods Market, Ashwagandha Gummies, 60 Count",ashwagandha gummies,60 count,1.0,supplements,whole foods,12.49,,,,,,,,,,False,,12.49
+"Rescue Pastilles Lemon, 1.7 OZ",rescue pastilles lemon,1.7 oz,1.0,supplements,whole foods,10.49,,,,,,,,,,False,48.19,10.49
+"Organic Turmeric Superfood Powder, 4 OZ",organic turmeric superfood powder,4 oz,1.0,supplements,whole foods,5.99,,,,,,,,,,False,113.4,5.99
+"Organic Spirulina Superfood Powder, 4 OZ",organic spirulina superfood powder,4 oz,1.0,supplements,whole foods,12.99,,,,,,,,,,False,113.4,12.99
+"365 by Whole Foods Market, Organic Pea Protein, 16 OZ",organic pea protein,16 oz,1.0,supplements,whole foods,16.99,,,,,,,,,,False,453.59,16.99
+"Vitamin C Lozenges, 30 CT",vitamin c lozenges,30 ct,1.0,supplements,whole foods,2.99,,,,,,,,,,False,,2.99
+"365 by Whole Foods Market, Flax Oil Filtered Organic, 8 Fl Oz",flax oil filtered organic,8 floz,1.0,supplements,whole foods,9.99,,,,,,,,,,False,240.0,9.99
+"Orginal Herbal Sugar Free Cough Drops, 45 CT",orginal herbal sugar free cough drops,45 ct,1.0,supplements,whole foods,7.99,,,,,,,,,,False,,7.99
+"365 by Whole Foods Market, Raspberry Effervescent C Powder, 0.26 Ounce","raspberry effervescent c powder,",0.26 oz,1.0,supplements,whole foods,0.59,,,,,,,,,,False,7.37,0.59
+"Original Herbal Cough Drops, 45 CT",original herbal cough drops,45 ct,1.0,supplements,whole foods,7.99,,,,,,,,,,False,,7.99
+"Unflavored Whey Protein Isolate, 32 OZ",unflavored whey protein isolate,32 oz,1.0,supplements,whole foods,44.99,,,,,,,,,,False,907.18,44.99
+"Chocolate Whey Protein Isolate, 16 OZ",chocolate whey protein isolate,16 oz,1.0,supplements,whole foods,29.99,,,,,,,,,,False,453.59,29.99
+"Vanilla Whey Concentrate Protein Powder, 16 OZ",vanilla whey concentrate protein powder,16 oz,1.0,supplements,whole foods,20.99,,,,,,,,,,False,453.59,20.99
+"365 Everyday Value Extra Strength Acetaminophen 500mg, 100 ct",365 everyday value extra strength acetaminophen 500mg,100 ct,1.0,supplements,whole foods,3.99,,,,,,,,,,False,,3.99
+"365 by Whole Foods Market, Citrus Vitamin C Gummies, 150 CT",citrus vitamin c gummies,150 ct,1.0,supplements,whole foods,10.99,,,,,,,,,,False,,10.99
+"Organic Maca Powder, 8 OZ",organic maca powder,8 oz,1.0,supplements,whole foods,12.99,,,,,,,,,,False,226.8,12.99
+"365 by Whole Foods Market, Liquid Melatonin, 2 Fl Oz",liquid melatonin,2 floz,1.0,supplements,whole foods,6.99,,,,,,,,,,False,60.0,6.99
+"Herbal Cough Drops, 45 CT",herbal cough drops,45 ct,1.0,supplements,whole foods,3.99,,,,,,,,,,False,,3.99
+"365 By Whole Foods Market, Melatonin Gummy 2.5mg, 60 Count",melatonin gummy 2.5mg,60 count,1.0,supplements,whole foods,6.99,,,,,,,,,,False,,6.99
+"Menthol Cough Drops, 25 CT",menthol cough drops,25 ct,1.0,supplements,whole foods,2.99,,,,,,,,,,False,,2.99
+"Chocolate Whey Concentrate Protein Powder, 32 OZ",chocolate whey concentrate protein powder,32 oz,1.0,supplements,whole foods,39.99,,,,,,,,,,False,907.18,39.99
+"Organic Turmeric Pure Boost Shot, 2 FZ",organic turmeric pure boost shot,1 BOTTLE,12.0,supplements,whole foods,3.69,,,0.0,g,1.0,g,5.0,g,25.0,False,,0.31
+"Passionfruit Sea Moss Refresher Sgl, 0.18 OZ",passionfruit sea moss refresher sgl,1 STICK,8.0,supplements,whole foods,3.09,,,0.0,g,0.0,g,2.0,g,15.0,False,,0.39
+"Collagen Peptides Single, 0.35 OZ",collagen peptides single,0.35 oz,1.0,supplements,whole foods,1.99,,,,,,,,,,False,9.92,1.99
+"Organic Ginger Boost Shot Sgl, 2 FZ",organic ginger boost shot sgl,1 BOTTLE,1.0,supplements,whole foods,3.69,,,0.0,g,0.0,g,4.0,g,25.0,False,,3.69
+"Collagen Peptide Protein Powder, 10 OZ",collagen peptide protein powder,10 oz,1.0,supplements,whole foods,25.99,,,,,,,,,,False,283.5,25.99
+"Organic Beet Ginger Boost, 2 FZ",organic beet ginger boost,2 fz,1.0,supplements,whole foods,3.69,,,,,,,,,,False,60.0,3.69
+"Organic Black Chia Seed, 6 OZ",organic black chia seed,1 TABLESPOON,14.0,supplements,whole foods,5.49,,,4.0,g,3.0,g,0.0,g,60.0,False,15.0,0.39
+"Organic Wellness Rescue, 2 FZ",organic wellness rescue,1 BOTTLE,12.0,supplements,whole foods,3.69,,,0.0,g,0.0,g,5.0,g,25.0,False,,0.31
+"Iron Gummies with Vitamin C, 60 CT",iron gummies with vitamin c,60 ct,1.0,supplements,whole foods,26.99,,,,,,,,,,False,,26.99
+"Organic Vitamin C Immunity Boost Shot, 2 FZ",organic vitamin c immunity boost shot,2 fz,1.0,supplements,whole foods,3.69,,,,,,,,,,False,60.0,3.69
+"Organic Vitamin D & Zinc Omega 3 Shot, 1.8 FZ",organic vitamin d & zinc omega 3 shot,1.8 fz,1.0,supplements,whole foods,3.99,,,,,,,,,,False,54.0,3.99
+"Organic Ground Flaxseed, 14 OZ",organic ground flaxseed,2 TBSP,23.0,supplements,whole foods,4.99,,,7.0,g,4.0,g,0.0,g,100.0,False,30.0,0.22
+"Organic Immunity Boost, 2 FZ",organic immunity boost,1 BOTTLE,1.0,supplements,whole foods,3.69,,,0.0,g,0.0,g,5.0,g,20.0,False,,3.69
+"Organic Cayenne Immunity Boost, 2 FZ",organic cayenne immunity boost,2 fz,1.0,supplements,whole foods,3.69,,,,,,,,,,False,60.0,3.69
+"365 by Whole Foods Market, Ashwagandha, 60 Count",ashwagandha,60 count,1.0,supplements,whole foods,11.99,,,,,,,,,,False,,11.99
+"Organic Energy + Immunity Energy Shot, 2 FZ",organic energy + immunity energy shot,1 BOTTLE,12.0,supplements,whole foods,3.69,,,0.0,g,0.0,g,5.0,g,30.0,False,,0.31
+"Organic Immune Boost Turmeric Omega 3 Shot, 1.8 FZ",organic immune boost turmeric omega 3 shot,1.8 fz,1.0,supplements,whole foods,3.99,,,,,,,,,,False,54.0,3.99
+"Organic Digest Plus Immunity Shot Sgl, 2 FZ",organic digest plus immunity shot sgl,1 BOTTLE,1.0,supplements,whole foods,3.69,,,0.0,g,0.0,g,5.0,g,30.0,False,,3.69
+"Wellness Formula Tablets, 90 CT",wellness formula tablets,90 ct,1.0,supplements,whole foods,31.99,,,,,,,,,,False,,31.99
+"Super Berry Sea Moss Refresher Sgl, 0.18 OZ",super berry sea moss refresher sgl,0.18 oz,1.0,supplements,whole foods,3.09,,,,,,,,,,False,5.1,3.09
+"Vanilla Collagen Peptides, 11.5 OZ",vanilla collagen peptides,11.5 oz,1.0,supplements,whole foods,25.99,,,,,,,,,,False,326.02,25.99
+"Super Orange Emergen C Packet, 0.32 OZ",super orange emergen c packet,0.32 oz,1.0,supplements,whole foods,0.69,,,,,,,,,,False,9.07,0.69
+"Raspberry Emergen C Packet, 0.32 OZ",raspberry emergen c packet,0.32 oz,1.0,supplements,whole foods,0.69,,,,,,,,,,False,9.07,0.69
+"Organic Gut Well Shot, 1.8 FZ",organic gut well shot,1.8 fz,1.0,supplements,whole foods,3.99,,,,,,,,,,False,54.0,3.99
+"Organic Hemp Seed, 12 OZ",organic hemp seed,3 TBSP,11.0,supplements,whole foods,12.99,,,15.0,g,10.0,g,0.99,g,180.0,False,45.0,1.18
+"Organic Brain Plus Immunity Shot Single, 2 FZ",organic brain plus immunity shot single,2 fz,1.0,supplements,whole foods,3.69,,,,,,,,,,False,60.0,3.69
+"365 by Whole Foods Market, Organic Black Chia Seeds, 15 Ounce","organic black chia seeds,",3 TBSP,14.0,supplements,whole foods,8.99,,,10.0,g,6.0,g,0.0,g,150.0,False,45.0,0.64
+"Organic Elderberry Immunity Boost, 2 FZ",organic elderberry immunity boost,2 fz,1.0,supplements,whole foods,3.69,,,,,,,,,,False,60.0,3.69
+"Organic White Chia Seed, 15 OZ",organic white chia seed,3 TBSP,14.0,supplements,whole foods,8.99,,,10.0,g,6.0,g,0.0,g,150.0,False,45.0,0.64
+"Organic Detox Plus Immunity Shot Single, 2 FZ",organic detox plus immunity shot single,1 BOTTLE,12.0,supplements,whole foods,3.69,,,0.0,g,0.0,g,5.0,g,25.0,False,,0.31
+"Whole Foods Market, Super Omega 3, 90 ct",super omega 3,90 ct,1.0,supplements,whole foods,22.99,,,,,,,,,,False,,22.99
+"365 by Whole Foods Market, High Potency Vitamin C 1000mg, Vegan, 250 Tablets","high potency vitamin c 1000mg, vegan, 250 tablets",,1.0,supplements,whole foods,15.49,,,,,,,,,,False,,15.49
+"365 By Whole Foods Market, Magnesium Gummies, 60 Count",magnesium gummies,60 count,1.0,supplements,whole foods,9.99,,,,,,,,,,False,,9.99
+"365 by Whole Foods Market, Lemon Omega-3 Softgels, 90 CT",lemon omega-3 softgels,90 ct,1.0,supplements,whole foods,16.29,,,,,,,,,,False,,16.29
+"WonderSleep Mushroom Gummies, 60 CT",wondersleep mushroom gummies,60 ct,1.0,supplements,whole foods,29.99,,,,,,,,,,False,,29.99
+"365 by Whole Foods Market, Zinc & Vitamin C Lozenges, 90 Count",zinc & vitamin c lozenges,90 count,1.0,supplements,whole foods,7.89,,,,,,,,,,False,,7.89
+"Organic Mykind Womens Gummies, 120 CT",organic mykind womens gummies,120 ct,1.0,supplements,whole foods,37.49,,,,,,,,,,False,,37.49
+"365 by Whole Foods Market, Chelated Zinc Plus Copper, 60 Count",chelated zinc plus copper,60 count,1.0,supplements,whole foods,6.99,,,,,,,,,,False,,6.99
+"365 by Whole Foods Market, Adult One Daily Multi, 90 Tablets","adult one daily multi, 90 tablets",,1.0,supplements,whole foods,7.99,,,,,,,,,,False,,7.99
+"Emergen-C Immune Support Gummies, 45 CT",emergen-c immune support gummies,45 ct,1.0,supplements,whole foods,15.49,,,,,,,,,,False,,15.49
+"Organic Lions Mane Matrix Powder, 3.5 OZ",organic lions mane matrix powder,3.5 oz,1.0,supplements,whole foods,26.49,,,,,,,,,,False,99.22,26.49
+"365 by Whole Foods Market, Vitamin D3, 1000 IU, 100 Softgels","vitamin d3, 1000 iu, 100 softgels",,1.0,supplements,whole foods,6.89,,,,,,,,,,False,,6.89
+"Women's One Daily Multivitamin Tablets, 180 CT",women's one daily multivitamin tablets,180 ct,1.0,supplements,whole foods,26.99,,,,,,,,,,False,,26.99
+"365 by Whole Foods Market, Men's One Daily Multivitamin, 90 Count",men's one daily multivitamin,90 count,1.0,supplements,whole foods,9.99,,,,,,,,,,False,,9.99
+"Calm Gummies, 120 CT",calm gummies,120 ct,1.0,supplements,whole foods,31.49,,,,,,,,,,False,,31.49
+"365 by Whole Foods Market, Mature Adult Once Daily Multi, 180 Count",mature adult once daily multi,180 count,1.0,supplements,whole foods,18.99,,,,,,,,,,False,,18.99
+"365 by Whole Foods Market, Vitamin D3, 1000 IU, 250 Softgels","vitamin d3, 1000 iu, 250 softgels",,1.0,supplements,whole foods,10.49,,,,,,,,,,False,,10.49
+"Vitamin D3 Softgels, 2000 IU, 100 CT","vitamin d3 softgels, 2000 iu",100 ct,1.0,supplements,whole foods,7.09,,,,,,,,,,False,,7.09
+"365 Everyday Value, Vitamin D3 2000 IU, 250 ct","365 everyday value, vitamin d3 2000 iu",250 ct,1.0,supplements,whole foods,10.99,,,,,,,,,,False,,10.99
+"365 by Whole Foods Market, High-Potency Biotin 5000mcg, Vegan, 60 Count","high-potency biotin 5000mcg, vegan",60 count,1.0,supplements,whole foods,4.99,,,,,,,,,,False,,4.99
+"365 by Whole Foods Market, Adult Multi with Lutein Lycopene, One Daily, 180 Tablets","adult multi with lutein lycopene, one daily, 180 tablets",,1.0,supplements,whole foods,14.99,,,,,,,,,,False,,14.99
+"365 by Whole Foods Market, Ashwagandha, 120 Count",ashwagandha,120 count,1.0,supplements,whole foods,19.99,,,,,,,,,,False,,19.99
+"365 Everyday Value Daily Probiotic 5 Billion CFU, 60 ct",365 everyday value daily probiotic 5 billion cfu,60 ct,1.0,supplements,whole foods,19.49,,,,,,,,,,False,,19.49
+"Peak EPA 1000 MG, 60 CT",peak epa 1000 mg,60 ct,1.0,supplements,whole foods,42.49,,,,,,,,,,False,,42.49
+"365 by Whole Foods Market, Cal-Mag-Zinc with Vitamin D3, Vegetarian, 90 Count","cal-mag-zinc with vitamin d3, vegetarian",90 count,1.0,supplements,whole foods,13.99,,,,,,,,,,False,,13.99
+"365 by Whole Foods Market, Elderberry Gummies, 60 Count",elderberry gummies,60 count,1.0,supplements,whole foods,17.99,,,,,,,,,,False,,17.99
+"365 by Whole Foods Market, Calcium with Vitamin D3 Tablets, 120 Count",calcium with vitamin d3 tablets,120 count,1.0,supplements,whole foods,14.79,,,,,,,,,,False,,14.79
+"Organic Valerian Glycerite, 1 FZ",organic valerian glycerite,1 fz,1.0,supplements,whole foods,15.99,,,,,,,,,,False,30.0,15.99
+"365 by Whole Foods Market, Milk Thistle, 60 Count",milk thistle,60 count,1.0,supplements,whole foods,11.99,,,,,,,,,,False,,11.99
+"365 by Whole Foods Market, Organic Vitamin D3 Gummy, 160 Count",organic vitamin d3 gummy,160 count,1.0,supplements,whole foods,18.99,,,,,,,,,,False,,18.99
+"Chocho Protein Powder Pure Single, 1.38 OZ",chocho protein powder pure single,1.38 oz,1.0,supplements,whole foods,5.79,,,8.0,g,20.0,g,0.0,g,190.0,False,39.12,5.79
+"365 by Whole Foods Market, Fiber Gummy, 90 CT",fiber gummy,90 ct,1.0,supplements,whole foods,10.99,,,,,,,,,,False,,10.99
+"365 by Whole Foods Market, Women's Probiotic, 10 Billion CFU, 30 Count","women's probiotic, 10 billion cfu",30 count,1.0,supplements,whole foods,19.99,,,,,,,,,,False,,19.99
+"Organic Immunity Boost Variety Shot 4pk, 2 FZ",organic immunity boost variety shot,2 fz,1.0,supplements,whole foods,12.79,,,,,,,,,,False,60.0,12.79
+"365 by Whole Foods Market, Organic Elderberry Shot, 2 Fl Oz",organic elderberry shot,2 floz,1.0,supplements,whole foods,3.39,,,,,,,,,,False,60.0,3.39
+"Magnesium Blend Chocolate Dream Bites, 10 CT",magnesium blend chocolate dream bites,10 ct,1.0,supplements,whole foods,5.39,,,,,,,,,,False,,5.39
+"365 By Whole Foods Market, Apple Cider Vinegar Gummies, 60 Count",apple cider vinegar gummies,60 count,1.0,supplements,whole foods,16.49,,,,,,,,,,False,,16.49
+"365 by Whole Foods Market, Selenium 100mcg, Vegan, 120 Tablets","selenium 100mcg, vegan, 120 tablets",,1.0,supplements,whole foods,11.29,,,,,,,,,,False,,11.29
+"Organic Gut Health Perishable Shot, 2 FZ",organic gut health perishable shot,2 fz,1.0,supplements,whole foods,3.39,,,,,,,,,,False,60.0,3.39
+"365 by Whole Foods Market, Collagen Verisol 2500Mg, 90 Count",collagen verisol 2500mg,90 count,1.0,supplements,whole foods,11.49,,,,,,,,,,False,,11.49
+"Strong Ginger Rescue, 24 CT",strong ginger rescue,24 ct,1.0,supplements,whole foods,7.69,,,,,,,,,,False,,7.69
+"365 by Whole Foods Market, Fish Oil 1000 Mg Softgels, 250 CT",fish oil 1000 mg softgels,250 ct,1.0,supplements,whole foods,21.99,,,,,,,,,,False,,21.99
+"Organic Original Immunity Boost Shot 4 Pack, 2 FZ",organic original immunity boost shot,2 fz,1.0,supplements,whole foods,12.79,,,,,,,,,,False,60.0,12.79
+"365 Everyday Value, Stress B Complex with Vitiman C, 90 CT","365 everyday value, stress b complex with vitiman c",90 ct,1.0,supplements,whole foods,11.99,,,,,,,,,,False,,11.99
+"Lemon Ginger Morning Recovery, 3.4 FZ",lemon ginger morning recovery,3.4 fz,1.0,supplements,whole foods,6.59,,,,,,,,,,False,102.0,6.59
+"Activated Charcoal, 100 CT",activated charcoal,100 ct,1.0,supplements,whole foods,14.29,,,,,,,,,,False,,14.29
+"365 by Whole Foods Market, Immunity Shot, Ginger Turmeric, 2 Fl Oz","immunity shot, ginger turmeric",2 floz,1.0,supplements,whole foods,3.39,,,,,,,,,,False,60.0,3.39
+"Horny Goat Weed, 60 CT",horny goat weed,60 ct,1.0,supplements,whole foods,29.99,,,,,,,,,,False,,29.99
+"Vitamin Code Raw Vitamin B Complex Vegetarian Capsules, 60 CT",vitamin code raw vitamin b complex vegetarian capsules,60 ct,1.0,supplements,whole foods,22.99,,,,,,,,,,False,,22.99
+"365 by Whole Foods Market, Vitamin C Complex with Bioflavonoids, High Potency, 50 Tablets","vitamin c complex with bioflavonoids, high potency, 50 tablets",,1.0,supplements,whole foods,7.59,,,,,,,,,,False,,7.59
+"Lemon Lime Pre-Workout Powder 12 Count, 0.3 OZ",lemon lime pre-workout powder,0.3 oz,1.0,supplements,whole foods,16.99,,,,,,,,,,False,8.5,16.99
+"Adult Multivitamin Gummy, 120 CT",adult multivitamin gummy,120 ct,1.0,supplements,whole foods,14.99,,,,,,,,,,False,,14.99
+"Women's Plus Multi & Omega, 90 CT",women's plus multi & omega,90 ct,1.0,supplements,whole foods,31.99,,,,,,,,,,False,,31.99
+"365 by Whole Foods Market, Turmeric, 60 Count",turmeric,60 count,1.0,supplements,whole foods,19.49,,,,,,,,,,False,,19.49
+"Kava, 1 FZ",kava,1 fz,1.0,supplements,whole foods,16.29,,,,,,,,,,False,30.0,16.29
+"365 by Whole Foods Market, Vitamin B Stress Complex with Vitamin C, 60 Vegetable Capsules","vitamin b stress complex with vitamin c, 60 vegetable capsules",,1.0,supplements,whole foods,10.49,,,,,,,,,,False,,10.49
+"Organic Ashwagandha Extract, 1 FZ",organic ashwagandha extract,1 fz,1.0,supplements,whole foods,15.99,,,,,,,,,,False,30.0,15.99
+"365 by Whole Foods Market, Antacid, Regular Strength, 150 Count","antacid, regular strength",150 count,1.0,supplements,whole foods,3.79,,,,,,,,,,False,,3.79
+"365 by Whole Foods Market, Calcium Adult Gummies, 100 Count",calcium adult gummies,100 count,1.0,supplements,whole foods,14.29,,,,,,,,,,False,,14.29
+"Organic Mullein Extract, 1 FZ",organic mullein extract,1 fz,1.0,supplements,whole foods,17.99,,,,,,,,,,False,30.0,17.99
+"Whole Foods Market, Organic Beet Root, 5.5 oz",organic beet root,5.5 oz,1.0,supplements,whole foods,14.99,,,,,,,,,,False,155.92,14.99
+"365 by Whole Foods Market, Vitamin E 200 IU, 120 CT",vitamin e 200 iu,120 ct,1.0,supplements,whole foods,11.99,,,,,,,,,,False,,11.99
+"365 by Whole Foods Market, Vitamin B2, 100mg, 100 Vegetable Capsules","vitamin b2, 100mg, 100 vegetable capsules",,1.0,supplements,whole foods,12.99,,,,,,,,,,False,,12.99
+"Unflavored Grass Fed Collagen Peptides, 9.87 OZ",unflavored grass fed collagen peptides,9.87 oz,1.0,supplements,whole foods,27.99,,,,,,,,,,False,279.81,27.99
+"Blueberry Raspberry Pre-Workout Powder 12 Count, 0.3 OZ",blueberry raspberry pre-workout powder,0.3 oz,1.0,supplements,whole foods,16.99,,,,,,,,,,False,8.5,16.99
+"Sour Berry Baobab Gummies, 60 CT",sour berry baobab gummies,60 ct,1.0,supplements,whole foods,24.99,,,,,,,,,,False,,24.99
+"Whole Foods Market, Super Omega 3, 180 Count",super omega 3,180 count,1.0,supplements,whole foods,39.99,,,,,,,,,,False,,39.99
+"365 by Whole Foods Market, Papaya Enzymes, 500 Chews","papaya enzymes, 500 chews",,1.0,supplements,whole foods,29.99,,,,,,,,,,False,,29.99
+"Relax Calm Magnesium Powder Raspberry Lemonade, 7.05 OZ",relax calm magnesium powder raspberry lemonade,7.05 oz,1.0,supplements,whole foods,28.99,,,,,,,,,,False,199.86,28.99
+"Ultra Digestive Food Enzymes Capsules, 60 CT",ultra digestive food enzymes capsules,60 ct,1.0,supplements,whole foods,26.49,,,,,,,,,,False,,26.49
+"Organic Vitamin A Drops, 1 FZ",organic vitamin a drops,1 fz,1.0,supplements,whole foods,23.99,,,,,,,,,,False,30.0,23.99
+"Organic Potent C Shot, 1.7 FZ",organic potent c shot,1.7 fz,1.0,supplements,whole foods,3.99,,,0.0,g,0.0,g,4.0,g,25.0,False,51.0,3.99
+"Berry Tangy Tangerine Laser Focus 36 Gummies, 36 CT",berry tangy tangerine laser focus 36 gummies,36 ct,1.0,supplements,whole foods,17.49,,,,,,,,,,False,,17.49
+"Brain Health Royal Jelly Liposomal Sgl, 0.34 FZ",brain health royal jelly liposomal sgl,0.34 fz,1.0,supplements,whole foods,2.99,,,,,,,,,,False,10.2,2.99
+"Organic Elderberry Defense Shot, 1.7 FZ",organic elderberry defense shot,1 BOTTLE,12.0,supplements,whole foods,3.99,,,0.0,g,1.0,g,8.0,g,40.0,False,,0.33
+"Organic Acai, Goji, & Blueberry Superfood Berry Blend, 5.3 OZ","organic acai, goji, & blueberry superfood berry blend",5.3 oz,30.0,supplements,whole foods,18.29,,,0.0,g,0.0,g,1.0,g,20.0,False,150.25,0.61
+"Blackberry Zen Restful Sleep Gummies, 50 CT",blackberry zen restful sleep gummies,50 ct,1.0,supplements,whole foods,15.99,,,,,,,,,,False,,15.99
+"Organic Beet Goes on Shot, 1.7 FZ",organic beet goes on shot,1.7 fz,1.0,supplements,whole foods,3.99,,,,,,,,,,False,51.0,3.99
+"Women's Raw Probiotic Vegetarian Capsules, 90 CT",women's raw probiotic vegetarian capsules,90 ct,1.0,supplements,whole foods,54.99,,,,,,,,,,False,,54.99
+"Lemon Lime Liquid L-Theanine Drops, 2 FZ",lemon lime liquid l-theanine drops,2 fz,1.0,supplements,whole foods,24.99,,,,,,,,,,False,60.0,24.99
+"Blackberry Blitz Men's Perfect Multivitamin, 90 CT",blackberry blitz men's perfect multivitamin,90 ct,1.0,supplements,whole foods,15.99,,,,,,,,,,False,,15.99
+"Organic Black Seed Oil Liquid Drops, 2 FZ",organic black seed oil liquid drops,2 fz,1.0,supplements,whole foods,19.99,,,,,,,,,,False,60.0,19.99
+"Organic Lemon Ginger Echinacea Lozenge, 16 CT",organic lemon ginger echinacea lozenge,16 ct,1.0,supplements,whole foods,5.39,,,,,,,,,,False,,5.39
+"Blackberry Zen Restful Sleep Gummy, 10 CT",blackberry zen restful sleep gummy,10 ct,1.0,supplements,whole foods,5.49,,,,,,,,,,False,,5.49
+"Blissful Berry Perfect Women's Multivitamin Gummies, 90 CT",blissful berry perfect women's multivitamin gummies,90 ct,1.0,supplements,whole foods,15.99,,,,,,,,,,False,,15.99
+"Organic Milk Thistle Seed Liquid Extract, 1 FZ",organic milk thistle seed liquid extract,1 fz,1.0,supplements,whole foods,14.99,,,,,,,,,,False,30.0,14.99
+"Skin Complex Collagen, 11.9 OZ",skin complex collagen,11.9 oz,1.0,supplements,whole foods,32.99,,,,,,,,,,False,337.36,32.99
+"365 Everyday Value, Psyllium Husks 500mg, 180 ct","365 everyday value, psyllium husks 500mg",180 ct,1.0,supplements,whole foods,16.49,,,,,,,,,,False,,16.49
+"Men's Multivitamin Gummy, 120 CT",men's multivitamin gummy,120 ct,1.0,supplements,whole foods,14.99,,,,,,,,,,False,,14.99
+"Propolis Plus Nasal Spray, 1 FZ",propolis plus nasal spray,1 fz,1.0,supplements,whole foods,15.79,,,,,,,,,,False,30.0,15.79
+"Organic Lavender Extract, 1 FZ",organic lavender extract,1 fz,1.0,supplements,whole foods,15.99,,,,,,,,,,False,30.0,15.99
+"Vitamin Code Raw D3 2000 Iu, 60 CT",vitamin code raw d3 2000 iu,60 ct,1.0,supplements,whole foods,22.99,,,,,,,,,,False,,22.99
+"Whole Foods Market, L-Lysine Double Strength, 100 ct",l-lysine double strength,100 ct,1.0,supplements,whole foods,10.29,,,,,,,,,,False,,10.29
+"PartySmart 6 Count, 6 CT",partysmart,6 ct,1.0,supplements,whole foods,16.99,,,,,,,,,,False,,16.99
+"Blood Builder Tablets, 30 CT",blood builder tablets,30 ct,1.0,supplements,whole foods,18.99,,,,,,,,,,False,,18.99
+"Berry Verbena Goodbye Stress, 10 CT",berry verbena goodbye stress,10 ct,1.0,supplements,whole foods,5.49,,,,,,,,,,False,,5.49
+"Organic Chia Power Whole Chia Seeds, 8 OZ",organic chia power whole chia seeds,1 TBSP,19.0,supplements,whole foods,9.49,,,4.0,g,2.0,g,0.0,g,60.0,False,15.0,0.5
+"Organic Sweet Orange Fennel Lozenge, 16 CT",organic sweet orange fennel lozenge,16 ct,1.0,supplements,whole foods,5.39,,,,,,,,,,False,,5.39
+"Blackberry Extra Strength Sleep 5MG, 50 CT",blackberry extra strength sleep 5mg,50 ct,1.0,supplements,whole foods,18.49,,,,,,,,,,False,,18.49
+"Elderberry Lozenges, 14 CT",elderberry lozenges,14 ct,1.0,supplements,whole foods,7.99,,,,,,,,,,False,,7.99
+"Whole Foods Market, Plant Protein & Greens, Rich Chocolate, 18 oz","plant protein & greens, rich chocolate",18 oz,1.0,supplements,whole foods,25.99,,,,,,,,,,False,510.29,25.99
+"Midnight Berry Immunity Sleep, 36 CT",midnight berry immunity sleep,36 ct,1.0,supplements,whole foods,18.99,,,,,,,,,,False,,18.99
+"Organic Eucalyptus Mint Lozenge, 16 CT",organic eucalyptus mint lozenge,16 ct,1.0,supplements,whole foods,5.39,,,,,,,,,,False,,5.39
+"Organic Intense Defense Shot Sgl, 1.7 FZ",organic intense defense shot sgl,1.7 fz,1.0,supplements,whole foods,3.99,,,,,,,,,,False,51.0,3.99
+"Ultra Hair Softgels, 30 CT",ultra hair softgels,30 ct,1.0,supplements,whole foods,22.49,,,,,,,,,,False,,22.49
+"Organic Ginger Juice Shot, 1.7 FZ",organic ginger juice shot,1.7 fz,1.0,supplements,whole foods,3.99,,,0.0,g,0.0,g,1.0,g,20.0,False,51.0,3.99
+"Organic Immune Plus Shot, 1.7 FZ",organic immune plus shot,1.7 fz,1.0,supplements,whole foods,3.99,,,,,,,,,,False,51.0,3.99
+"Organic Gut Check Shot, 1.7 FZ",organic gut check shot,1 BOTTLE,1.0,supplements,whole foods,3.99,,,0.0,g,0.0,g,4.0,g,20.0,False,,3.99
+"Zinc Gummy 120 Count, 120 CT",zinc gummy,120 ct,1.0,supplements,whole foods,18.49,,,,,,,,,,False,,18.49
+"365 by Whole Foods Market, Oil of Oregano, 60 Count",oil of oregano,60 count,1.0,supplements,whole foods,16.99,,,,,,,,,,False,,16.99
+"Every Womans One Daily, 48 CT",every womans one daily,48 ct,1.0,supplements,whole foods,37.99,,,,,,,,,,False,,37.99
+"Relax and Calm Magnesium Grape Soft Chews, 30 CT",relax and calm magnesium grape soft chews,30 ct,1.0,supplements,whole foods,19.49,,,,,,,,,,False,,19.49
+"Turmeric Supreme Liquid Filled Vegetarian Capsules, 60 CT",turmeric supreme liquid filled vegetarian capsules,60 ct,1.0,supplements,whole foods,27.49,,,,,,,,,,False,,27.49
+"365 by Whole Foods Market, Fenugreek Standardized + Full Spectrum Blend, Lactation Support, Vegan Capsules, 60 Count","fenugreek standardized + full spectrum blend, lactation support, vegan capsules",60 count,1.0,supplements,whole foods,14.79,,,,,,,,,,False,,14.79
+"Vitamin Code Raw Vitamin C Vegetarian Capsules, 60 CT",vitamin code raw vitamin c vegetarian capsules,60 ct,1.0,supplements,whole foods,23.99,,,,,,,,,,False,,23.99
+"365 by Whole Foods Market, Vitamin C with Rosehips, High Potency, 100 Tablets","vitamin c with rosehips, high potency, 100 tablets",,1.0,supplements,whole foods,9.99,,,,,,,,,,False,,9.99
+"Grapefruit Glam Undeniable Beauty Gummy, 60 CT",grapefruit glam undeniable beauty gummy,60 ct,1.0,supplements,whole foods,17.29,,,,,,,,,,False,,17.29
+"Super Lysine Plus Immune Support, 90 CT",super lysine plus immune support,90 ct,1.0,supplements,whole foods,12.99,,,,,,,,,,False,,12.99
+"Strawberry Relax + Calm Magnesium, 30 CT",strawberry relax + calm magnesium,30 ct,1.0,supplements,whole foods,19.49,,,,,,,,,,False,,19.49
+"Magnesium, 60 CT",magnesium,60 ct,1.0,supplements,whole foods,26.99,,,,,,,,,,False,,26.99
+"Zinc, 60 CT",zinc,60 ct,1.0,supplements,whole foods,22.99,,,,,,,,,,False,,22.99
+"Vitamin D3 1000 IU, 60 CT",vitamin d3 1000 iu,60 ct,1.0,supplements,whole foods,26.99,,,,,,,,,,False,,26.99
+"Berry Verbena Goodbye Stress Gummies, 42 CT",berry verbena goodbye stress gummies,42 ct,1.0,supplements,whole foods,18.29,,,,,,,,,,False,,18.29
+"Hello Happy Gummy Worms, 60 CT",hello happy gummy worms,60 ct,1.0,supplements,whole foods,19.99,,,,,,,,,,False,,19.99
+"Balanced B Complex, 60 CT",balanced b complex,60 ct,1.0,supplements,whole foods,29.99,,,,,,,,,,False,,29.99
+"3-Day Cleanse, 12 CT",3-day cleanse,12 ct,1.0,supplements,whole foods,9.39,,,,,,,,,,False,,9.39
+"Magnesium 300mg, 60 CT",magnesium 300mg,60 ct,1.0,supplements,whole foods,21.99,,,,,,,,,,False,,21.99
+"Organic Hemp Seed Oil, 16.9 FZ",organic hemp seed oil,16.9 fz,1.0,supplements,whole foods,20.99,,,,,,,,,,False,507.0,20.99
+"Chocolate Collagen Peptides, 13.5 OZ",chocolate collagen peptides,13.5 oz,1.0,supplements,whole foods,25.99,,,,,,,,,,False,382.72,25.99
+"Zinc Gummies, 60 CT",zinc gummies,60 ct,1.0,supplements,whole foods,20.99,,,,,,,,,,False,,20.99
+"365 by Whole Foods Market, Melatonin 1mg Lozenges, Peppermint Flavored, 120 Count","melatonin 1mg lozenges, peppermint flavored",120 count,1.0,supplements,whole foods,5.19,,,,,,,,,,False,,5.19
+"Strawberries & Cream Whey Protein Powder, 34.56 OZ",strawberries & cream whey protein powder,34.56 oz,1.0,supplements,whole foods,49.99,,,,,,,,,,False,979.76,49.99
+"Grass Fed Collagen Peptides, 19.75 OZ",grass fed collagen peptides,19.75 oz,1.0,supplements,whole foods,46.99,,,,,,,,,,False,559.9,46.99
+"365 By Whole Foods Market, Organic Psyllium Husk, 12 Ounce","organic psyllium husk,",12 oz,1.0,supplements,whole foods,17.49,,,,,,,,,,False,340.19,17.49
+"Raw Vitamin C, 120 CT",raw vitamin c,120 ct,1.0,supplements,whole foods,35.49,,,,,,,,,,False,,35.49
+"365 by Whole Foods Market, Alpha Lipoic Acid 300mg, 120 Count",alpha lipoic acid 300mg,120 count,1.0,supplements,whole foods,29.49,,,,,,,,,,False,,29.49
+"Organic Marine Glow Superfood Blend, 6 OZ",organic marine glow superfood blend,6 oz,1.0,supplements,whole foods,19.99,,,,,,,,,,False,170.1,19.99
+"Organic Golden Milk Super Blend, 6 OZ",organic golden milk super blend,6 oz,1.0,supplements,whole foods,15.99,,,,,,,,,,False,170.1,15.99
+"Whole Foods Market Organic Black Seed Oil, 8 Fl Oz",organic black seed oil,8 floz,1.0,supplements,whole foods,28.99,,,,,,,,,,False,240.0,28.99
+"Organic Raw Protein Powder, 19.75 OZ",organic raw protein powder,1 SCOOP,20.0,supplements,whole foods,45.99,,,2.5,g,22.0,g,0.0,g,120.0,False,,2.3
+"Daily Greens Powder, 8.57 OZ",daily greens powder,8.57 oz,1.0,supplements,whole foods,16.99,,,,,,,,,,False,242.96,16.99
+"365 by Whole Foods Market, Vitamin D3 Softgels, 5000 IU, 120 CT","vitamin d3 softgels, 5000 iu",120 ct,1.0,supplements,whole foods,9.29,,,,,,,,,,False,,9.29
+"Original Calm Magnesium Drink Mix, 8 OZ",original calm magnesium drink mix,8 oz,1.0,supplements,whole foods,28.99,,,,,,,,,,False,226.8,28.99
+"Megaflora, 90 CT",megaflora,90 ct,1.0,supplements,whole foods,59.99,,,,,,,,,,False,,59.99
+"365 by Whole Foods Market, Enzymes Gluten Digestive, 60 Count",enzymes gluten digestive,60 count,1.0,supplements,whole foods,11.99,,,,,,,,,,False,,11.99
+"Raspberry Lemon Magnesium Calm, 16 OZ",raspberry lemon magnesium calm,16 oz,1.0,supplements,whole foods,41.99,,,,,,,,,,False,453.59,41.99
+"Wellness Formula Capsules, 120 CT",wellness formula capsules,120 ct,1.0,supplements,whole foods,27.99,,,,,,,,,,False,,27.99
+"Vanilla Bean Whey Protein Powder, 23.28 OZ",vanilla bean whey protein powder,23.28 oz,1.0,supplements,whole foods,49.99,,,,,,,,,,False,659.98,49.99
+"Ashwagandha Plus Immune, 60 CT",ashwagandha plus immune,60 ct,1.0,supplements,whole foods,25.99,,,,,,,,,,False,,25.99
+"Hello ZZZs Sleep Support, 60 CT",hello zzzs sleep support,60 ct,1.0,supplements,whole foods,24.99,,,,,,,,,,False,,24.99
+"365 by Whole Foods Market, Vitamin B6 50mg, Vegan, 50 Tablets","vitamin b6 50mg, vegan, 50 tablets",,1.0,supplements,whole foods,5.79,,,,,,,,,,False,,5.79
+"Organic Peanut Butter Simply Nutty Protein, 18.7 OZ",organic peanut butter simply nutty protein,2 SCOOPS,14.0,supplements,whole foods,39.99,,,3.0,g,20.0,g,2.0,g,150.0,False,,2.86
+"365 by Whole Foods Market, Organic Flax Oil, High Lignan, 24 Fl Oz","organic flax oil, high lignan",24 floz,1.0,supplements,whole foods,22.99,,,,,,,,,,False,720.0,22.99
+"Organic Vanilla Raw Protein, 23.28 OZ",organic vanilla raw protein,1 SCOOP,20.0,supplements,whole foods,45.99,,,2.5,g,22.0,g,0.0,g,130.0,False,,2.3
+"Every Woman's One Daily 55+, 24 CT",every woman's one daily 55+,24 ct,1.0,supplements,whole foods,37.49,,,,,,,,,,False,,37.49
+"Kava Liquid Extract, 1 FZ",kava liquid extract,1 fz,1.0,supplements,whole foods,14.99,,,,,,,,,,False,30.0,14.99
+"Organic Brain Fuel Plus Mushroom Gummies, 56 CT",organic brain fuel plus mushroom gummies,56 ct,1.0,supplements,whole foods,29.99,,,,,,,,,,False,,29.99
+"Organic Skullcap Extract, 1 FZ",organic skullcap extract,1 fz,1.0,supplements,whole foods,18.49,,,,,,,,,,False,30.0,18.49
+"Organic Lemon Balm Leaf Liquid Extract, 1 FZ",organic lemon balm leaf liquid extract,1 fz,1.0,supplements,whole foods,14.99,,,,,,,,,,False,30.0,14.99
+"Organic Passionflower Extract, 1 FZ",organic passionflower extract,1 fz,1.0,supplements,whole foods,16.79,,,,,,,,,,False,30.0,16.79
+"Organic Valerian Extract, 4 FZ",organic valerian extract,4 fz,1.0,supplements,whole foods,47.99,,,,,,,,,,False,120.0,47.99
+"Raw Colon Care Probiotics 30 Count, 30 CT",raw colon care probiotics,30 ct,1.0,supplements,whole foods,43.99,,,,,,,,,,False,,43.99
+"Organic Men's Once Daily Multivitamin, 60 CT",organic men's once daily multivitamin,60 ct,1.0,supplements,whole foods,55.49,,,,,,,,,,False,,55.49
+"Milk Chocolate A2 Whey Protein Powder, 22.8 OZ",milk chocolate a2 whey protein powder,22.8 oz,1.0,supplements,whole foods,54.99,,,,,,,,,,False,646.37,54.99
+"Organic Vanilla Bean Protein & Superfoods Powder, 32.3 OZ",organic vanilla bean protein & superfoods powder,2 SCOOPS,18.0,supplements,whole foods,55.49,,,4.5,g,21.0,g,1.0,g,160.0,False,,3.08
+"Women's One Daily, 90 CT",women's one daily,90 ct,1.0,supplements,whole foods,55.49,,,,,,,,,,False,,55.49
+"Vanilla Bean A2 Whey Protein Powder, 21 OZ",vanilla bean a2 whey protein powder,21 oz,1.0,supplements,whole foods,54.99,,,,,,,,,,False,595.34,54.99
+"Urinari-X Urinary/Yeast Support, 90 CT",urinari-x urinary/yeast support,90 ct,1.0,supplements,whole foods,39.49,,,,,,,,,,False,,39.49
+"Blackberry Zen Sleep Gummies Value Size, 70 CT",blackberry zen sleep gummies value size,70 ct,1.0,supplements,whole foods,18.99,,,,,,,,,,False,,18.99
+"Blissful Berry Women's Multivitamin, 130 CT",blissful berry women's multivitamin,130 ct,1.0,supplements,whole foods,21.49,,,,,,,,,,False,,21.49
+"365 by Whole Foods Market, Probiotic Plus Fiber Gummies, Blue Raspberry, 60 Count","probiotic plus fiber gummies, blue raspberry",60 count,1.0,supplements,whole foods,13.99,,,,,,,,,,False,,13.99
+"Turkey Tail Mushroom 90 Count, 90 CT",turkey tail mushroom,90 ct,1.0,supplements,whole foods,29.99,,,,,,,,,,False,,29.99
+"Organic Unflavored Hemp Protein Powder, 16 OZ",organic unflavored hemp protein powder,16 oz,1.0,supplements,whole foods,13.49,,,,,,,,,,False,453.59,13.49
+"Fermented Iron Complex, 60 CT",fermented iron complex,60 ct,1.0,supplements,whole foods,36.99,,,,,,,,,,False,,36.99
+"Calcium Magnesium Citrate Mixed Berry, 16 FZ",calcium magnesium citrate mixed berry,16 fz,1.0,supplements,whole foods,22.49,,,,,,,,,,False,480.0,22.49
+"Calm Magnesium, 120 CT",calm magnesium,120 ct,1.0,supplements,whole foods,30.49,,,,,,,,,,False,,30.49
+"Raw Iron, 30 CT",raw iron,30 ct,1.0,supplements,whole foods,18.99,,,,,,,,,,False,,18.99
+"365 By Whole Foods Market, Cascara Sagrada, 60 Count",cascara sagrada,60 count,1.0,supplements,whole foods,15.49,,,,,,,,,,False,,15.49
+"Every Man's One Daily 55+, 24 CT",every man's one daily 55+,24 ct,1.0,supplements,whole foods,37.49,,,,,,,,,,False,,37.49
+"365 by Whole Foods Market, Plant Protein Smoothie Mix, French Vanilla, 9 Ounce","plant protein smoothie mix, french vanilla,",9 oz,1.0,supplements,whole foods,16.99,,,,,,,,,,False,255.15,16.99
+"Valerian Root Liquicaps, 60 CT",valerian root liquicaps,60 ct,1.0,supplements,whole foods,32.99,,,,,,,,,,False,,32.99
+"Organic Prenatal Once Daily Multivitamin, 30 CT",organic prenatal once daily multivitamin,30 ct,1.0,supplements,whole foods,43.99,,,,,,,,,,False,,43.99
+"365 by Whole Foods Market, Turmeric, 120 Count",turmeric,120 count,1.0,supplements,whole foods,34.99,,,,,,,,,,False,,34.99
+"Happy Her Gummies, 60 CT",happy her gummies,60 ct,1.0,supplements,whole foods,26.49,,,,,,,,,,False,,26.49
+"Alpha Brain, 30 CT",alpha brain,30 ct,1.0,supplements,whole foods,38.99,,,,,,,,,,False,,38.99
+"Organic Unflavored MCT Oil, 16 FZ",organic unflavored mct oil,16 fz,1.0,supplements,whole foods,15.99,,,,,,,,,,False,480.0,15.99
+"Organic MyKind Women's Multivitamin, 120 CT",organic mykind women's multivitamin,120 ct,1.0,supplements,whole foods,88.99,,,,,,,,,,False,,88.99
+"Organic Reishi Hot Cacao Superfood Latte Blend, 4.4 OZ",organic reishi hot cacao superfood latte blend,1 TSP,25.0,supplements,whole foods,24.99,,,0.0,g,1.0,g,1.0,g,15.0,False,5.0,1.0
+"Organic Fruit Smoothie Chew, 1.8 OZ",organic fruit smoothie chew,6 CHEWS,2.0,supplements,whole foods,2.79,,,0.0,g,0.0,g,16.0,g,100.0,False,,1.4
+"Organic Fruit Smoothie Energy Gel Sgl, 1.1 OZ",organic fruit smoothie energy gel sgl,1.1 oz,1.0,supplements,whole foods,1.79,,,,,,,,,,False,31.18,1.79
+"365 by Whole Foods Market, High Potency Vitamin C Powder, 8 Ounce","high potency vitamin c powder,",8 oz,1.0,supplements,whole foods,12.79,,,,,,,,,,False,226.8,12.79
+"Unflavored Whey Concentrate Protein Powder, 32 OZ",unflavored whey concentrate protein powder,32 oz,1.0,supplements,whole foods,39.99,,,,,,,,,,False,907.18,39.99
+"Tropical Twist Adult Multi + Probiotic Gummies, 70 CT",tropical twist adult multi + probiotic gummies,70 ct,1.0,supplements,whole foods,25.49,,,,,,,,,,False,,25.49
+"Ladies One Multivitamin, 30 CT",ladies one multivitamin,30 ct,1.0,supplements,whole foods,19.29,,,,,,,,,,False,,19.29
+"365 by Whole Foods Market, CoQ10 200mg, Vegan, 60 Count","coq10 200mg, vegan",60 count,1.0,supplements,whole foods,31.99,,,,,,,,,,False,,31.99
+"Cod Liver Oil Lemon, 16.9 FZ",cod liver oil lemon,16.9 fz,1.0,supplements,whole foods,68.99,,,,,,,,,,False,507.0,68.99
+"365 by Whole Foods Market, Vitamin K, 120 MCG, 100 Tablets","vitamin k, 120 mcg, 100 tablets",,1.0,supplements,whole foods,5.89,,,,,,,,,,False,,5.89
+"Ultimate Flora Everyday Probiotic 15 Billion, 30 CT",ultimate flora everyday probiotic 15 billion,30 ct,1.0,supplements,whole foods,27.99,,,,,,,,,,False,,27.99
+"Loratadine 10MG, 30 CT",loratadine 10mg,30 ct,1.0,supplements,whole foods,5.49,,,,,,,,,,False,,5.49
+"Whole Foods Market, Vitamin K2, 30 ct",vitamin k2,30 ct,1.0,supplements,whole foods,10.79,,,,,,,,,,False,,10.79
+"Organic Pomegranate Blueberry Energy Shot Duo, 2 FZ",organic pomegranate blueberry energy shot duo,2 fz,1.0,supplements,whole foods,8.29,,,,,,,,,,False,60.0,8.29
+"Organic Respiratory Health Liquid Extract, 1 FZ",organic respiratory health liquid extract,1 fz,1.0,supplements,whole foods,16.99,,,,,,,,,,False,30.0,16.99
+"Sleep Aid Diphenhydramine Soft Gels 50 MG, 32 CT",sleep aid diphenhydramine soft gels 50 mg,32 ct,1.0,supplements,whole foods,5.69,,,,,,,,,,False,,5.69
+"Echinacea, 120 CT",echinacea,120 ct,1.0,supplements,whole foods,19.99,,,,,,,,,,False,,19.99
+"Oil Of Oregano, 60 CT",oil of oregano,60 ct,1.0,supplements,whole foods,12.79,,,,,,,,,,False,,12.79
+"Organic Mixed Fruit D3 Immune Support Gummies, 70 CT",organic mixed fruit d3 immune support gummies,70 ct,1.0,supplements,whole foods,21.99,,,,,,,,,,False,,21.99
+"Berberine, 60 CT",berberine,60 ct,1.0,supplements,whole foods,25.99,,,,,,,,,,False,,25.99
+"Super Collagen + C + Biotin 270 Count, 270 CT",super collagen + c + biotin,270 ct,1.0,supplements,whole foods,26.49,,,,,,,,,,False,,26.49
+"Organic Women's Once Daily Multivitamin, 30 CT",organic women's once daily multivitamin,30 ct,1.0,supplements,whole foods,33.49,,,,,,,,,,False,,33.49
+"Organic Vanilla Warrior Blend Protein, 13.2 OZ",organic vanilla warrior blend protein,1 SCOOP,15.0,supplements,whole foods,27.99,,,2.0,g,17.0,g,0.0,g,90.0,False,,1.87
+"Ultimate Omega 2X, 90 CT",ultimate omega 2x,90 ct,1.0,supplements,whole foods,76.49,,,,,,,,,,False,,76.49
+"Megaflora Plus, 60 CT",megaflora plus,60 ct,1.0,supplements,whole foods,66.99,,,,,,,,,,False,,66.99
+"365 by Whole Foods Market, DGL Plus Chewable Tablets, 100 Tablets","dgl plus chewable tablets, 100 tablets",,1.0,supplements,whole foods,20.49,,,,,,,,,,False,,20.49
+"365 by Whole Foods Market, Free-Form L-Tryptophan, 500 Mg, 60 Capsules","free-form l-tryptophan, 500 mg, 60 capsules",,1.0,supplements,whole foods,18.49,,,,,,,,,,False,,18.49
+"365 Everyday Value, Whole Leaf Filtered Aloe Vera Gel, 32 fl oz","365 everyday value, whole leaf filtered aloe vera gel",32 floz,1.0,supplements,whole foods,9.89,,,,,,,,,,False,960.0,9.89
+"Organic Ashwagandha Gummies, 81 CT",organic ashwagandha gummies,81 ct,1.0,supplements,whole foods,28.99,,,,,,,,,,False,,28.99
+"Organic Strawberry Probiotic Gummies, 60 CT",organic strawberry probiotic gummies,60 ct,1.0,supplements,whole foods,29.49,,,,,,,,,,False,,29.49
+"Organic Vanilla Raw Meal, 37.04 OZ",organic vanilla raw meal,37.04 oz,1.0,supplements,whole foods,59.99,,,,,,,,,,False,1050.07,59.99
+"Organic Mykind Prenatal Multivitamin Gummies, 120 CT",organic mykind prenatal multivitamin gummies,120 ct,1.0,supplements,whole foods,37.49,,,,,,,,,,False,,37.49
+"Men's One Daily, 30 CT",men's one daily,30 ct,1.0,supplements,whole foods,29.99,,,,,,,,,,False,,29.99
+"Vanilla Collagen Creamer Single, 0.46 OZ",vanilla collagen creamer single,0.46 oz,1.0,supplements,whole foods,2.49,,,,,,,,,,False,13.04,2.49
+"Rise Up Energy & Focus Gummies, 60 CT",rise up energy & focus gummies,60 ct,1.0,supplements,whole foods,26.49,,,,,,,,,,False,,26.49
+"365 by Whole Foods Market, Maca Full Spectrum Blend, 60 Count",maca full spectrum blend,60 count,1.0,supplements,whole foods,13.79,,,,,,,,,,False,,13.79
+"Women Over 55 Daily 120 Count, 120 CT",women over 55 daily,120 ct,1.0,supplements,whole foods,65.99,,,,,,,,,,False,,65.99
+"Rapid Relief Quick Defense 20 Capsules, 20 CT",rapid relief quick defense 20 capsules,20 ct,1.0,supplements,whole foods,28.99,,,,,,,,,,False,,28.99
+"Organic Echinacea Root Extract, 1 FZ",organic echinacea root extract,1 fz,1.0,supplements,whole foods,14.49,,,,,,,,,,False,30.0,14.49
+"Swiss Kriss, 250 CT",swiss kriss,250 ct,1.0,supplements,whole foods,22.99,,,,,,,,,,False,,22.99
+"Raspberry Emergen C Box 30 Pack, 0.32 OZ",raspberry emergen c box,0.32 oz,1.0,supplements,whole foods,18.79,,,,,,,,,,False,9.07,18.79
+"Organic Lions Mane Mushroom 40 Count, 40 CT",organic lions mane mushroom,40 ct,1.0,supplements,whole foods,29.99,,,,,,,,,,False,,29.99
+"365 by Whole Foods Market, Vitamin C, 500mg, 250 Tablets","vitamin c, 500mg, 250 tablets",,1.0,supplements,whole foods,11.49,,,,,,,,,,False,,11.49
+"Every Woman's One Daily 55+, 48 CT",every woman's one daily 55+,48 ct,1.0,supplements,whole foods,59.49,,,,,,,,,,False,,59.49
+"Organic Kids Orange Vitamin C & D3 Juice Shot, 1.7 FZ",organic kids orange vitamin c & d3 juice shot,1 BOTTLE,1.0,supplements,whole foods,3.99,,,0.0,g,,,4.0,g,25.0,False,,3.99
+"Woman's Care Probiotic Gummy, 48 CT",woman's care probiotic gummy,48 ct,1.0,supplements,whole foods,20.49,,,,,,,,,,False,,20.49
+"Organic Gut Well Sea Moss Omega 3 Shot 6pk, 1.8 FZ",organic gut well sea moss omega 3 shot,1.8 fz,1.0,supplements,whole foods,21.99,,,,,,,,,,False,54.0,21.99
+"Men Over 55 Daily 120 Count, 120 CT",men over 55 daily,120 ct,1.0,supplements,whole foods,65.99,,,,,,,,,,False,,65.99
+"365 by Whole Foods Market, Nutritional Yeast, 15.9 Ounce","nutritional yeast,",15.9 oz,1.0,supplements,whole foods,26.99,,,,,,,,,,False,450.76,26.99
+"Vibrance Women's One Multivitamin, 120 CT",vibrance women's one multivitamin,120 ct,1.0,supplements,whole foods,37.99,,,,,,,,,,False,,37.99
+"Wondergreens Green Apple Gummies, 60 CT",wondergreens green apple gummies,60 ct,1.0,supplements,whole foods,31.99,,,,,,,,,,False,,31.99
+"Calm Magnesium Liposomal, 15.22 FZ",calm magnesium liposomal,15.22 fz,1.0,supplements,whole foods,32.49,,,,,,,,,,False,456.6,32.49
+"Testosterone Up Red, 60 CT",testosterone up red,60 ct,1.0,supplements,whole foods,38.49,,,,,,,,,,False,,38.49
+"365 by Whole Foods Market, Organic Flax Oil, Filtered, 24 Fl Oz","organic flax oil, filtered",24 floz,1.0,supplements,whole foods,22.99,,,,,,,,,,False,720.0,22.99
+"Organic Lemon Balm Alcohol Free, 1 FZ",organic lemon balm alcohol free,1 fz,1.0,supplements,whole foods,15.99,,,,,,,,,,False,30.0,15.99
+"365 by Whole Foods Market, Lion's Mane, 90 Count",lion's mane,90 count,1.0,supplements,whole foods,18.99,,,,,,,,,,False,,18.99
+"Mens Performance Nitro T, 90 CT",mens performance nitro t,90 ct,1.0,supplements,whole foods,52.49,,,,,,,,,,False,,52.49
+"Organic Bronchial Wellness Cough Syrup, 5.4 FZ",organic bronchial wellness cough syrup,5.4 fz,1.0,supplements,whole foods,28.99,,,,,,,,,,False,162.0,28.99
+"Organic Warrior Blend Chocolate, 26.4 OZ",organic warrior blend chocolate,1 SCOOP,30.0,supplements,whole foods,44.99,,,2.0,g,16.0,g,1.0,g,90.0,False,,1.5
+"Original Probiotic Coconut Water, 15 FZ",original probiotic coconut water,1 TBSP,30.0,supplements,whole foods,23.49,,,0.0,g,0.0,g,0.0,g,5.0,False,15.0,0.78
+"Organic Milk Thistle Gummies, 60 CT",organic milk thistle gummies,60 ct,1.0,supplements,whole foods,29.99,,,,,,,,,,False,,29.99
+"365 by Whole Foods Market, Valerian, 60 Count",valerian,60 count,1.0,supplements,whole foods,19.29,,,,,,,,,,False,,19.29
+"Men Raw Probiotics, 90 CT",men raw probiotics,90 ct,1.0,supplements,whole foods,54.99,,,,,,,,,,False,,54.99
+"Organic Ginger Pure Boost 12 Count, 2 FZ",organic ginger pure boost,1 BOTTLE,12.0,supplements,whole foods,38.49,,,0.0,g,0.0,g,4.0,g,25.0,False,,3.21
+"Vitamin D3 Softgels, 2500 IU, 200 CT","vitamin d3 softgels, 2500 iu",200 ct,1.0,supplements,whole foods,16.99,,,,,,,,,,False,,16.99
+"Vitamin A Plus Carotenoids, 30 CT",vitamin a plus carotenoids,30 ct,1.0,supplements,whole foods,19.49,,,,,,,,,,False,,19.49
+"Psyllium Husk Powder, 12 OZ",psyllium husk powder,12 oz,1.0,supplements,whole foods,15.79,,,,,,,,,,False,340.19,15.79
+"Magnesium Glycinate 350 mg, 120 CT",magnesium glycinate 350 mg,120 ct,1.0,supplements,whole foods,22.99,,,,,,,,,,False,,22.99
+"Organic Bone Strength Take Care, 60 CT",organic bone strength take care,60 ct,1.0,supplements,whole foods,32.49,,,,,,,,,,False,,32.49
+"365 by Whole Foods Market, Iron Chelated, BlackBerry Vanilla, 4 Fl Oz","iron chelated, blackberry vanilla",4 floz,1.0,supplements,whole foods,9.29,,,,,,,,,,False,120.0,9.29
+"Whole Foods Market, L Arginine 500Mg 100 Veggie Caps",l arginine 500mg 100 veggie caps,,1.0,supplements,whole foods,9.79,,,,,,,,,,False,,9.79
+"Biotin, 10 mg, 120 CT","biotin, 10 mg",120 ct,1.0,supplements,whole foods,21.99,,,,,,,,,,False,,21.99
+"365 by Whole Foods Market, Taurine, 500 Mg, 60 Count","taurine, 500 mg",60 count,1.0,supplements,whole foods,6.99,,,,,,,,,,False,,6.99
+"Vitamin B-12 Tablets 1000 mcg, 60 CT",vitamin b-12 tablets 1000 mcg,60 ct,1.0,supplements,whole foods,11.99,,,,,,,,,,False,,11.99
+"Organic Mykind Mens Gummies, 120 CT",organic mykind mens gummies,120 ct,1.0,supplements,whole foods,37.49,,,,,,,,,,False,,37.49
+"Pharma Kava Extract, 4 FZ",pharma kava extract,4 fz,1.0,supplements,whole foods,49.99,,,,,,,,,,False,120.0,49.99
+"Ashwagandha Root Capsules, 60 CT",ashwagandha root capsules,60 ct,1.0,supplements,whole foods,27.99,,,,,,,,,,False,,27.99
+"Her Life Stages Postmenopause, 60 CT",her life stages postmenopause,60 ct,1.0,supplements,whole foods,36.99,,,,,,,,,,False,,36.99
+"Organic Vitamin C Immunity Boost 12 Count, 2 FZ",organic vitamin c immunity boost,2 fz,1.0,supplements,whole foods,38.49,,,,,,,,,,False,60.0,38.49
+"Men's Liposomal Multivitamin, 60 CT",men's liposomal multivitamin,60 ct,1.0,supplements,whole foods,39.99,,,,,,,,,,False,,39.99
+"Organic 1000mcg Fermented B12 60 Count, 60 CT",organic 1000mcg fermented b12,60 ct,1.0,supplements,whole foods,34.49,,,,,,,,,,False,,34.49
+"Whole Foods Market, Hair Skin & Nails 2000 Biotin, 90 CT",hair skin & nails 2000 biotin,90 ct,1.0,supplements,whole foods,12.49,,,,,,,,,,False,,12.49
+"365 by Whole Foods Market, Biotin, 500 MCG, 60 Vegetable Capsules","biotin, 500 mcg, 60 vegetable capsules",,1.0,supplements,whole foods,4.49,,,,,,,,,,False,,4.49
+"Organic Turmeric Supershot, 2.1 FZ",organic turmeric supershot,1 BOTTLE,1.0,supplements,whole foods,3.99,,,,,1.0,g,4.0,g,20.0,False,,3.99
+"365 Everyday Value Probiotic + B12 Gummies 2 Billion CFU, Assorted Fruit Flavors, 60 ct","365 everyday value probiotic + b12 gummies 2 billion cfu, assorted fruit flavors",60 ct,1.0,supplements,whole foods,13.99,,,,,,,,,,False,,13.99
+"Magnesium Glycinate, 90 CT",magnesium glycinate,90 ct,1.0,supplements,whole foods,26.99,,,,,,,,,,False,,26.99
+"Organic Echinacea Purpurea Liquid Extract, 1 FZ",organic echinacea purpurea liquid extract,1 fz,1.0,supplements,whole foods,14.99,,,,,,,,,,False,30.0,14.99
+"Rescue Pastilles Black Currant, 1.7 OZ",rescue pastilles black currant,1.7 oz,1.0,supplements,whole foods,10.49,,,,,,,,,,False,48.19,10.49
+"Boron Chelated 3 MG, 90 CT",boron chelated 3 mg,90 ct,1.0,supplements,whole foods,12.29,,,,,,,,,,False,,12.29
+"365 by Whole Foods Market, N-Acetyl L-Cysteine 500 MG, 100 Count",n-acetyl l-cysteine 500 mg,100 count,1.0,supplements,whole foods,19.49,,,,,,,,,,False,,19.49
+"Coconut Dream Liquid Nighttime Multimineral Sgl, 1 FZ",coconut dream liquid nighttime multimineral sgl,1 fz,1.0,supplements,whole foods,2.99,,,,,,,,,,False,30.0,2.99
+"365 by Whole Foods Market, Liquid Vitamin D3, Citrus, 1000 IU, 1 Fl Oz","liquid vitamin d3, citrus, 1000 iu",1 floz,1.0,supplements,whole foods,9.49,,,,,,,,,,False,30.0,9.49
+"365 by Whole Foods Market, Dairy Digestive Enzymes, 60 Count",dairy digestive enzymes,60 count,1.0,supplements,whole foods,10.79,,,,,,,,,,False,,10.79
+"Organic Super Echinacea Extract, 1 FZ",organic super echinacea extract,1 fz,1.0,supplements,whole foods,15.99,,,,,,,,,,False,30.0,15.99
+"Organic Milk Thistle Extract, 1 FZ",organic milk thistle extract,1 fz,1.0,supplements,whole foods,15.29,,,,,,,,,,False,30.0,15.29
+"Organic Vitamin D3 Plus K2 Spray, 1 FZ",organic vitamin d3 plus k2 spray,1 fz,1.0,supplements,whole foods,33.49,,,,,,,,,,False,30.0,33.49
+"Women's Liposomal Multivitamin, 60 CT",women's liposomal multivitamin,60 ct,1.0,supplements,whole foods,39.99,,,,,,,,,,False,,39.99
+"Oil of Oregano, 1 FZ",oil of oregano,1 fz,1.0,supplements,whole foods,14.99,,,,,,,,,,False,30.0,14.99
+"Organic Men's Multivitamin Gummies, 60 CT",organic men's multivitamin gummies,60 ct,1.0,supplements,whole foods,25.49,,,,,,,,,,False,,25.49
+"Organic Golden Echinacea, 1 FZ",organic golden echinacea,1 fz,1.0,supplements,whole foods,19.49,,,,,,,,,,False,30.0,19.49
+"Organic Peppermint Spirits, 1 FZ",organic peppermint spirits,1 fz,1.0,supplements,whole foods,15.99,,,,,,,,,,False,30.0,15.99
+"Flavorless Probiotic & Prebiotic Drink Mix Sgl, 0.05 OZ",flavorless probiotic & prebiotic drink mix sgl,0.05 oz,1.0,supplements,whole foods,1.59,,,,,,,,,,False,1.42,1.59
+"Organic Ginger Supershot Sgl, 2.1 FZ",organic ginger supershot sgl,1 BOTTLE,1.0,supplements,whole foods,3.99,,,,,1.0,g,4.0,g,20.0,False,,3.99
+"Chelated Zinc 50 MG, 100 CT",chelated zinc 50 mg,100 ct,1.0,supplements,whole foods,11.99,,,,,,,,,,False,,11.99
+"365 by Whole Foods Market, Gingko Leaf, 120 Count",gingko leaf,120 count,1.0,supplements,whole foods,17.49,,,,,,,,,,False,,17.49
+"Alive! Once Daily Men's 50+ Ultra, 60 CT",alive! once daily men's 50+ ultra,60 ct,1.0,supplements,whole foods,34.99,,,,,,,,,,False,,34.99
+"Whole Foods Market, Omega Eye Care, 60 ct",omega eye care,60 ct,1.0,supplements,whole foods,21.99,,,,,,,,,,False,,21.99
+"Calcium Magnesium With Vitamin D Complex, 240 CT",calcium magnesium with vitamin d complex,240 ct,1.0,supplements,whole foods,25.49,,,,,,,,,,False,,25.49
+"Alive! Once Daily Men's Ultra, 60 CT",alive! once daily men's ultra,60 ct,1.0,supplements,whole foods,34.99,,,,,,,,,,False,,34.99
+"Biotin 5000mcg, 60 CT",biotin 5000mcg,60 ct,1.0,supplements,whole foods,21.49,,,,,,,,,,False,,21.49
+"Organic Vanilla Simple Plant Protein, 20 OZ",organic vanilla simple plant protein,2 SCOOPS,14.0,supplements,whole foods,36.99,,,2.0,g,20.0,g,5.0,g,150.0,False,,2.64
+"Daily Vegan Multivitamin, 120 CT",daily vegan multivitamin,120 ct,1.0,supplements,whole foods,32.49,,,,,,,,,,False,,32.49
+"Cleanse More Capsules, 60 CT",cleanse more capsules,60 ct,1.0,supplements,whole foods,21.49,,,,,,,,,,False,,21.49
+"Super Collagen Powder, 7 OZ",super collagen powder,7 oz,1.0,supplements,whole foods,19.99,,,,,,,,,,False,198.45,19.99
+"Raspberry Morning Liquid Multivitamin Sgl, 1 FZ",raspberry morning liquid multivitamin sgl,1 fz,1.0,supplements,whole foods,2.99,,,,,,,,,,False,30.0,2.99
+"Organic Extra Strength Black Elderberry Gummies, 80 CT",organic extra strength black elderberry gummies,80 ct,1.0,supplements,whole foods,31.99,,,,,,,,,,False,,31.99
+"Magnesium 300mg, 120 CT",magnesium 300mg,120 ct,1.0,supplements,whole foods,38.99,,,,,,,,,,False,,38.99
+"Organic Women's Once Daily Multivitamin, 60 CT",organic women's once daily multivitamin,60 ct,1.0,supplements,whole foods,55.49,,,,,,,,,,False,,55.49
+"Raspberry Liquid Morning Multivitamin, 15.22 FZ",raspberry liquid morning multivitamin,15.22 fz,1.0,supplements,whole foods,22.99,,,,,,,,,,False,456.6,22.99
+"Organic Tangy Citrus C Defense Gummies, 70 CT",organic tangy citrus c defense gummies,70 ct,1.0,supplements,whole foods,21.99,,,,,,,,,,False,,21.99
+"Core Daily 1 Multivitamin For Women 50+, 60 CT",core daily 1 multivitamin for women 50+,60 ct,1.0,supplements,whole foods,32.99,,,,,,,,,,False,,32.99
+"365 by Whole Foods Market, Magnesium Fizz, Lemon, 8 Ounce","magnesium fizz, lemon,",8 oz,1.0,supplements,whole foods,13.99,,,,,,,,,,False,226.8,13.99
+"Coenzyme B-Complex, 120 CT",coenzyme b-complex,120 ct,1.0,supplements,whole foods,29.49,,,,,,,,,,False,,29.49
+"Vitamin D3 Softgels, 5000 IU, 200 CT","vitamin d3 softgels, 5000 iu",200 ct,1.0,supplements,whole foods,19.99,,,,,,,,,,False,,19.99
+"Wholemega 1000 MG, 180 CT",wholemega 1000 mg,180 ct,1.0,supplements,whole foods,69.99,,,,,,,,,,False,,69.99
+"B Complex 100, 100 CT",b complex 100,100 ct,1.0,supplements,whole foods,29.99,,,,,,,,,,False,,29.99
+"Regular Strength Antacid Travel Size Single, 12 CT",regular strength antacid travel size single,12 ct,1.0,supplements,whole foods,1.89,,,,,,,,,,False,,1.89
+"Turmeric Force, 60 CT",turmeric force,60 ct,1.0,supplements,whole foods,32.99,,,,,,,,,,False,,32.99
+"Mini Fish Oil Softgels 630 MG, 60 CT",mini fish oil softgels 630 mg,60 ct,1.0,supplements,whole foods,20.99,,,,,,,,,,False,,20.99
+"Her Life Stages PMS & Menstrual, 24 CT",her life stages pms & menstrual,24 ct,1.0,supplements,whole foods,21.99,,,,,,,,,,False,,21.99
+"Whole Foods Market, Acetyl L-Carnitine 500mg, 100 ct",acetyl l-carnitine 500mg,100 ct,1.0,supplements,whole foods,26.99,,,,,,,,,,False,,26.99
+"365 by Whole Foods Market, Vitamin B12 500mcg Lozenges, Natural Cherry Flavor, Vegan, 50 Count","vitamin b12 500mcg lozenges, natural cherry flavor, vegan",50 count,1.0,supplements,whole foods,4.79,,,,,,,,,,False,,4.79
+"Organic Milk Thistle Seed, 120 CT",organic milk thistle seed,120 ct,1.0,supplements,whole foods,52.99,,,,,,,,,,False,,52.99
+"TwoStage Mega-B-Stress, 120 CT",twostage mega-b-stress,120 ct,1.0,supplements,whole foods,25.99,,,,,,,,,,False,,25.99
+"365 Everyday Value, Elderberry Liquid, 4 FL OZ","365 everyday value, elderberry liquid",4 floz,1.0,supplements,whole foods,12.99,,,,,,,,,,False,120.0,12.99
+"Vitamin D3 5000IU, 60 CT",vitamin d3 5000iu,60 ct,1.0,supplements,whole foods,27.49,,,,,,,,,,False,,27.49
+"Vitamin E Complex 400 Iu, 90 CT",vitamin e complex 400 iu,90 ct,1.0,supplements,whole foods,32.49,,,,,,,,,,False,,32.49
+"B Immune Throat Spray, 1.06 FZ",b immune throat spray,1.06 fz,1.0,supplements,whole foods,15.79,,,,,,,,,,False,31.8,15.79
+"Zyflamend, 120 CT",zyflamend,120 ct,1.0,supplements,whole foods,59.99,,,,,,,,,,False,,59.99
+"Wholemega 1000 MG, 60 CT",wholemega 1000 mg,60 ct,1.0,supplements,whole foods,28.49,,,,,,,,,,False,,28.49
+"Women's 50 Plus Liposomal Multivitamin, 60 CT",women's 50 plus liposomal multivitamin,60 ct,1.0,supplements,whole foods,39.99,,,,,,,,,,False,,39.99
+"Her Life Stages Menopause, 60 CT",her life stages menopause,60 ct,1.0,supplements,whole foods,36.99,,,,,,,,,,False,,36.99
+"Dr Formulated Women's Once Daily Probiotics 50B, 30 CT",dr formulated women's once daily probiotics 50b,30 ct,1.0,supplements,whole foods,34.99,,,,,,,,,,False,,34.99
+"Dr Formulated Once Daily Probiotics, 30 CT",dr formulated once daily probiotics,30 ct,1.0,supplements,whole foods,48.49,,,,,,,,,,False,,48.49
+"Her Life Stages Libido, 60 CT",her life stages libido,60 ct,1.0,supplements,whole foods,36.99,,,,,,,,,,False,,36.99
+"Her Life Stages Perimenopause, 60 CT",her life stages perimenopause,60 ct,1.0,supplements,whole foods,36.99,,,,,,,,,,False,,36.99
+"Potassium 99 MG, 100 CT",potassium 99 mg,100 ct,1.0,supplements,whole foods,10.49,,,,,,,,,,False,,10.49
+"Universal Liposomal Multivitamin, 60 CT",universal liposomal multivitamin,60 ct,1.0,supplements,whole foods,39.99,,,,,,,,,,False,,39.99
+"Organic Bone Strength Take Care, 120 CT",organic bone strength take care,120 ct,1.0,supplements,whole foods,53.99,,,,,,,,,,False,,53.99
+"Vitamin D3 1000IU, 120 CT",vitamin d3 1000iu,120 ct,1.0,supplements,whole foods,20.49,,,,,,,,,,False,,20.49
+"Magnesium Citrate 400mg, 90 CT",magnesium citrate 400mg,90 ct,1.0,supplements,whole foods,14.99,,,,,,,,,,False,,14.99
+"Vitamin D3 Gummies, 60 CT",vitamin d3 gummies,60 ct,1.0,supplements,whole foods,17.79,,,,,,,,,,False,,17.79
+"Vitamin D3 + K2 Gummies, 60 CT",vitamin d3 + k2 gummies,60 ct,1.0,supplements,whole foods,19.99,,,,,,,,,,False,,19.99
+"Blood Builder Minis, 72 CT",blood builder minis,72 ct,1.0,supplements,whole foods,28.49,,,,,,,,,,False,,28.49
+"Liposomal Propolis with Vitamin C 12 Count, 0.27 FZ",liposomal propolis with vitamin c,0.27 fz,1.0,supplements,whole foods,23.49,,,,,,,,,,False,8.1,23.49
+"Mini Ultimate Omega with Vitamin D3, 60 CT",mini ultimate omega with vitamin d3,60 ct,1.0,supplements,whole foods,35.99,,,,,,,,,,False,,35.99
+"Organic Ginger Manuka Honey Drops, 4 OZ",organic ginger manuka honey drops,2 DROPS,10.0,supplements,whole foods,12.99,,,0.0,g,0.0,g,11.0,g,50.0,False,,1.3
+"Dr. Formulated Women's Probiotic pH 50B, 30 CT",dr. formulated women's probiotic ph 50b,30 ct,1.0,supplements,whole foods,39.99,,,,,,,,,,False,,39.99
+"Organic Immuni-ti Supershot, 2.1 FZ",organic immuni-ti supershot,2.1 fz,1.0,supplements,whole foods,3.99,,,,,,,,,,False,63.0,3.99
+"Turmeric Liquid Extract, 1 FZ",turmeric liquid extract,1 fz,1.0,supplements,whole foods,12.79,,,,,,,,,,False,30.0,12.79
+"365 by Whole Foods Market, Cal-Mag-Zinc with Vitamin D3, Vegetarian, 180 Count","cal-mag-zinc with vitamin d3, vegetarian",180 count,1.0,supplements,whole foods,18.99,,,,,,,,,,False,,18.99
+"Organic Master Blend Protein Chocolate, 19.26 OZ",organic master blend protein chocolate,19.26 oz,1.0,supplements,whole foods,39.99,,,,,,,,,,False,546.01,39.99
+"Organic Milk Thistle Seed Capsules, 60 CT",organic milk thistle seed capsules,60 ct,1.0,supplements,whole foods,32.49,,,,,,,,,,False,,32.49
+"Ultimate Omega D3 120 SG, 120 CT",ultimate omega d3 120 sg,120 ct,1.0,supplements,whole foods,53.99,,,,,,,,,,False,,53.99
+"Organic MyKind Turmeric Inflammatory Response, 60 CT",organic mykind turmeric inflammatory response,60 ct,1.0,supplements,whole foods,29.99,,,,,,,,,,False,,29.99
+"Vitamin C Bioflavonoid Concentrate, 100 CT",vitamin c bioflavonoid concentrate,100 ct,1.0,supplements,whole foods,17.99,,,,,,,,,,False,,17.99
+"Men's 55+ One Daily Multivitamin, 72 CT",men's 55+ one daily multivitamin,72 ct,1.0,supplements,whole foods,43.99,,,,,,,,,,False,,43.99
+"Vitamin D3 Softgels, 1000 IU, 200 CT","vitamin d3 softgels, 1000 iu",200 ct,1.0,supplements,whole foods,15.99,,,,,,,,,,False,,15.99
+"365 by Whole Foods Market, Vitamin E 400 IU with Mixed Tocopherols, 60 Count",vitamin e 400 iu with mixed tocopherols,60 count,1.0,supplements,whole foods,8.99,,,,,,,,,,False,,8.99
+"WonderDay Mushroom Gummies, 60 CT",wonderday mushroom gummies,60 ct,1.0,supplements,whole foods,29.99,,,,,,,,,,False,,29.99
+"Chocolate Protein Bone Broth, 17.8 OZ",chocolate protein bone broth,17.8 oz,1.0,supplements,whole foods,47.49,,,,,,,,,,False,504.62,47.49
+"Melatonin 10mg, 60 CT",melatonin 10mg,60 ct,1.0,supplements,whole foods,14.49,,,,,,,,,,False,,14.49
+"Chelated Magnesium Glycinate, 90 CT",chelated magnesium glycinate,90 ct,1.0,supplements,whole foods,20.99,,,,,,,,,,False,,20.99
+"Umcka Cough Syrup, 4 FZ",umcka cough syrup,4 fz,1.0,supplements,whole foods,19.49,,,,,,,,,,False,120.0,19.49
+"Organic Sambucus Elderberry Zinc Lozenges, 24 CT",organic sambucus elderberry zinc lozenges,24 ct,1.0,supplements,whole foods,6.69,,,,,,,,,,False,,6.69
+"Zero Sugar Vitamin D3 Gummies, 60 CT",zero sugar vitamin d3 gummies,60 ct,1.0,supplements,whole foods,19.29,,,,,,,,,,False,,19.29
+"Omega 3 Complex, 30 CT",omega 3 complex,30 ct,1.0,supplements,whole foods,34.99,,,,,,,,,,False,,34.99
+"Calm Support Chocolate, 8 CT",calm support chocolate,8 ct,1.0,supplements,whole foods,4.29,,,,,,,,,,False,,4.29
+"Organic Lemon Manuka Honey Drops, 4 OZ",organic lemon manuka honey drops,2 DROPS,10.0,supplements,whole foods,12.99,,,0.0,g,0.0,g,11.0,g,50.0,False,,1.3
+"Organic Chia Seed, 12 OZ",organic chia seed,12 oz,1.0,supplements,whole foods,15.99,,,,,,,,,,False,340.19,15.99
+"Jarro-Dophilus & FOS Capsules, 100 CT",jarro-dophilus & fos capsules,100 ct,1.0,supplements,whole foods,24.49,,,,,,,,,,False,,24.49
+"Omega 3, 180 CT",omega 3,180 ct,1.0,supplements,whole foods,46.99,,,,,,,,,,False,,46.99
+"Organic Chocolate Plant Protein Powder, 23.63 OZ",organic chocolate plant protein powder,1 SCOOP,20.0,supplements,whole foods,48.99,,,3.0,g,20.0,g,2.0,g,130.0,False,,2.45
+"Magnesium plus Selenium & Zinc, 30 CT",magnesium plus selenium & zinc,30 ct,1.0,supplements,whole foods,26.99,,,,,,,,,,False,,26.99
+"Oscillococcinum Pellets, 12 CT",oscillococcinum pellets,12 ct,1.0,supplements,whole foods,22.49,,,,,,,,,,False,,22.49
+"All Flora Probiotic 30 Count, 30 CT",all flora probiotic,30 ct,1.0,supplements,whole foods,36.99,,,,,,,,,,False,,36.99
+"Women's One Daily Multivitamin, 30 CT",women's one daily multivitamin,30 ct,1.0,supplements,whole foods,26.99,,,,,,,,,,False,,26.99
+"Organic Womens Multivitamin & Probiotics, 120 CT",organic womens multivitamin & probiotics,120 ct,1.0,supplements,whole foods,52.49,,,,,,,,,,False,,52.49
+"Iron Energy Gummies, 60 CT",iron energy gummies,60 ct,1.0,supplements,whole foods,27.49,,,,,,,,,,False,,27.49
+"Easy Iron 25mg, 90 CT",easy iron 25mg,90 ct,1.0,supplements,whole foods,15.99,,,,,,,,,,False,,15.99
+"Vitamin D3 5000 IU with K & K2, 60 CT",vitamin d3 5000 iu with k & k2,60 ct,1.0,supplements,whole foods,28.99,,,,,,,,,,False,,28.99
+"Organic Bone Strength Take Care, 180 CT",organic bone strength take care,180 ct,1.0,supplements,whole foods,80.49,,,,,,,,,,False,,80.49
+"Vitamin D3 Gummies 5000 IU, 30 CT",vitamin d3 gummies 5000 iu,30 ct,1.0,supplements,whole foods,16.99,,,,,,,,,,False,,16.99
+"Organic Realfood Multivitamin For Men 60 Count, 60 CT",organic realfood multivitamin for men,60 ct,1.0,supplements,whole foods,54.49,,,,,,,,,,False,,54.49
+"WonderSleep Mushroom Gummies, 10 CT",wondersleep mushroom gummies,10 ct,1.0,supplements,whole foods,9.99,,,,,,,,,,False,,9.99
+"Yeast-Free Iron & Herbs, 8.5 FZ",yeast-free iron & herbs,8.5 fz,1.0,supplements,whole foods,35.49,,,,,,,,,,False,255.0,35.49
+"Organic Mushroom Master Blend, 3.17 OZ",organic mushroom master blend,3.17 oz,1.0,supplements,whole foods,26.49,,,,,,,,,,False,89.87,26.49
+"Manuka Honey & Propolis Throat Spray, 1 FZ",manuka honey & propolis throat spray,1 fz,1.0,supplements,whole foods,19.99,,,,,,,,,,False,30.0,19.99
+"Oscillococcinum, 30 CT",oscillococcinum,30 ct,1.0,supplements,whole foods,39.99,,g,,g,,g,,g,,False,,39.99
+"Dark Chocolate Calcium Disk, 30 CT",dark chocolate calcium disk,30 ct,1.0,supplements,whole foods,10.99,,,,,,,,,,False,,10.99
+"Ultimate Omega 1280 MG, 180 CT",ultimate omega 1280 mg,180 ct,1.0,supplements,whole foods,69.99,,,,,,,,,,False,,69.99
+"Organic Cold Crush, 60 CT",organic cold crush,60 ct,1.0,supplements,whole foods,16.29,,,,,,,,,,False,,16.29
+"Organic Ground Flaxseed Value Size, 24 OZ",organic ground flaxseed value size,24 oz,1.0,supplements,whole foods,16.99,,,,,,,,,,False,680.39,16.99
+"Organic All Flora Multi Fiber Blend, 120 CT",organic all flora multi fiber blend,120 ct,1.0,supplements,whole foods,31.49,,,,,,,,,,False,,31.49
+"Arnica Montana Pellets, 30C, 240 CT","arnica montana pellets, 30c",240 ct,1.0,supplements,whole foods,17.99,,,,,,,,,,False,,17.99
+"Vitamin C Time Release Capsules, 1000 mg, 100 CT","vitamin c time release capsules, 1000 mg",100 ct,1.0,supplements,whole foods,18.49,,,,,,,,,,False,,18.49
+"Fish Omega Swirl Lemon Zest, 16 OZ",fish omega swirl lemon zest,16 oz,1.0,supplements,whole foods,38.99,,,,,,,,,,False,453.59,38.99
+"Magnesium plus Calcium Nighttime Mineral Drink, 7.3 OZ",magnesium plus calcium nighttime mineral drink,7.3 oz,1.0,supplements,whole foods,29.99,,,,,,,,,,False,206.95,29.99
+"Vanilla Protein Bone Broth, 17.4 OZ",vanilla protein bone broth,17.4 oz,1.0,supplements,whole foods,47.49,,,,,,,,,,False,493.28,47.49
+"365 by Whole Foods Market, Vitamin B Complex, High Potency with Herbal Support, 60 Tablets","vitamin b complex, high potency with herbal support, 60 tablets",,1.0,supplements,whole foods,10.49,,,,,,,,,,False,,10.49
+"365 by Whole Foods Market, Turkey Tail, 90 Count",turkey tail,90 count,1.0,supplements,whole foods,18.99,,,,,,,,,,False,,18.99
+"Organic Flax Meal, 14 OZ",organic flax meal,14 oz,1.0,supplements,whole foods,11.99,,,,,,,,,,False,396.89,11.99
+"Oil of Oregano Liquid Caps, 60 CT",oil of oregano liquid caps,60 ct,1.0,supplements,whole foods,29.99,,,,,,,,,,False,,29.99
+"Niacinamide 500mg, 100 CT",niacinamide 500mg,100 ct,1.0,supplements,whole foods,10.29,,,,,,,,,,False,,10.29
+"Super Bio C Buffered, 100 CT",super bio c buffered,100 ct,1.0,supplements,whole foods,19.29,,,,,,,,,,False,,19.29
+"Vitamin C Crystalline Powder, 8 OZ",vitamin c crystalline powder,8 oz,1.0,supplements,whole foods,24.49,,,,,,,,,,False,226.8,24.49
+"Organic Chocolate Plant Based Protein Powder Sgl, 1.16 OZ",organic chocolate plant based protein powder sgl,1 PACKET,10.0,supplements,whole foods,4.99,,,3.0,g,20.0,g,2.0,g,130.0,False,,0.5
+"Organic MYKIND Immune Drops Oil of Oregano, 1 FZ",organic mykind immune drops oil of oregano,1 fz,1.0,supplements,whole foods,15.99,,,,,,,,,,False,30.0,15.99
+"Organic Chocolate Master Blend Protein Single, 1.2 OZ",organic chocolate master blend protein single,1.2 oz,1.0,supplements,whole foods,4.69,,,,,,,,,,False,34.02,4.69
+"Iron Sport, 8.5 FZ",iron sport,8.5 fz,1.0,supplements,whole foods,33.49,,,,,,,,,,False,255.0,33.49
+"Magnesium Potassium Aspartate, 180 CT",magnesium potassium aspartate,180 ct,1.0,supplements,whole foods,25.49,,,,,,,,,,False,,25.49
+"Hyaluronic Acid, 120 CT",hyaluronic acid,120 ct,1.0,supplements,whole foods,37.99,,,,,,,,,,False,,37.99
+"Maxi Hair Plus With 5000 Mcg Biotin, 120 CT",maxi hair plus with 5000 mcg biotin,120 ct,1.0,supplements,whole foods,30.99,,,,,,,,,,False,,30.99
+"Bee Pollen Sgl, 0.18 OZ",bee pollen sgl,0.18 oz,1.0,supplements,whole foods,1.99,,,,,,,,,,False,5.1,1.99
+"Organic MyKind Apple Cider Vinegar Probiotic Gummies, 60 CT",organic mykind apple cider vinegar probiotic gummies,60 ct,1.0,supplements,whole foods,24.49,,,,,,,,,,False,,24.49
+"Cleanse More Capsules, 100 CT",cleanse more capsules,100 ct,1.0,supplements,whole foods,31.49,,,,,,,,,,False,,31.49
+"Algae Omega, 60 CT",algae omega,60 ct,1.0,supplements,whole foods,31.99,,,,,,,,,,False,,31.99
+"Multi Collagen Complex Powder, 16 OZ",multi collagen complex powder,16 oz,1.0,supplements,whole foods,49.99,,,,,,,,,,False,453.59,49.99
+"Vitamin B12 1000 MCG, 90 CT",vitamin b12 1000 mcg,90 ct,1.0,supplements,whole foods,12.99,,,,,,,,,,False,,12.99
+"Lutein Softgels, 20 mg, 60 CT","lutein softgels, 20 mg",60 ct,1.0,supplements,whole foods,20.99,,,,,,,,,,False,,20.99
+"Chocolate Energy Supplement Candy-Coated Pieces, 8 CT",chocolate energy supplement candy-coated pieces,8 ct,1.0,supplements,whole foods,4.29,,,,,,,,,,False,,4.29
+"Organic Whey Protein Bourbon Vanilla, 12 OZ",organic whey protein bourbon vanilla,2 SCOOPS,12.0,supplements,whole foods,31.99,,,2.0,g,20.0,g,2.0,g,110.0,False,,2.67
+"Organic Aloe Vera Juice, 32 FZ",organic aloe vera juice,8 FL,4.0,supplements,whole foods,10.29,,,0.0,g,0.0,g,0.0,g,10.0,False,240.0,2.57
+"Extra Strength Methyl B-12 1000mcg, 100 CT",extra strength methyl b-12 1000mcg,100 ct,1.0,supplements,whole foods,13.99,,,,,,,,,,False,,13.99
+"Daily Digestive Formula Tablets, 100 CT",daily digestive formula tablets,100 ct,1.0,supplements,whole foods,12.49,,,,,,,,,,False,,12.49
+"Methyl B 12 Lozenges, 100 CT",methyl b 12 lozenges,100 ct,1.0,supplements,whole foods,24.99,,,,,,,,,,False,,24.99
+"Organic Women's Complete, 120 CT",organic women's complete,120 ct,1.0,supplements,whole foods,45.49,,,,,,,,,,False,,45.49
+"Fem-Dophilus Advanced 140mg, 30 CT",fem-dophilus advanced 140mg,30 ct,1.0,supplements,whole foods,37.99,,,,,,,,,,False,,37.99
+"Propolis Liposomal with Vitamin C Single, 0.27 FZ",propolis liposomal with vitamin c single,0.27 fz,1.0,supplements,whole foods,1.99,,,,,,,,,,False,8.1,1.99
+"365 Everyday Value, Melatonin Lozenges 1mg, Peppermint Flavor, 60 Count","365 everyday value, melatonin lozenges 1mg, peppermint flavor",60 count,1.0,supplements,whole foods,3.99,,,,,,,,,,False,,3.99
+"Organic Vanilla Plant Based Protein Powder, 20.95 OZ",organic vanilla plant based protein powder,1 SCOOP,20.0,supplements,whole foods,48.99,,,3.0,g,20.0,g,2.0,g,130.0,False,,2.45
+"Vitamin C Gummies 250 mg 60 Gummies, 60 CT",vitamin c gummies 250 mg 60 gummies,60 ct,1.0,supplements,whole foods,18.29,,,,,,,,,,False,,18.29
+"Ultimate Omega with Vitamin D3, 60 CT",ultimate omega with vitamin d3,60 ct,1.0,supplements,whole foods,54.99,,,,,,,,,,False,,54.99
+"Organic Ceylon Cinnamon, 60 CT",organic ceylon cinnamon,60 ct,1.0,supplements,whole foods,19.99,,,,,,,,,,False,,19.99
+"Magnesium Gummies, 60 CT",magnesium gummies,60 ct,1.0,supplements,whole foods,21.99,,,,,,,,,,False,,21.99
+"Saccharomyces Boulardii plus MOS 90 Count, 90 CT",saccharomyces boulardii plus mos,90 ct,1.0,supplements,whole foods,34.99,,,,,,,,,,False,,34.99
+"Organic Banana Cinnamon Plant Protein Powder, 22 OZ",organic banana cinnamon plant protein powder,1 SCOOP,20.0,supplements,whole foods,48.99,,,3.0,g,20.0,g,3.0,g,140.0,False,,2.45
+"Ultimate Omega D3, 60 CT",ultimate omega d3,60 ct,1.0,supplements,whole foods,29.49,,,,,,,,,,False,,29.49
+"Strawberry Omega 830 MG & DHA 180 SG, 180 CT",strawberry omega 830 mg & dha 180 sg,180 ct,1.0,supplements,whole foods,45.49,,,,,,,,,,False,,45.49
+"Organic Tropical Ginger Supershot, 2.1 FZ",organic tropical ginger supershot,2.1 fz,1.0,supplements,whole foods,3.99,,,,,,,,,,False,63.0,3.99
+"Organic MyKind Max Strength Turmeric Joints & Mobility, 30 CT",organic mykind max strength turmeric joints & mobility,30 ct,1.0,supplements,whole foods,29.99,,,,,,,,,,False,,29.99
+"Organic Brain Bloom, 60 CT",organic brain bloom,60 ct,1.0,supplements,whole foods,33.99,,,,,,,,,,False,,33.99
+"Organic Whole Leaf Aloe Vera, 32 FZ",organic whole leaf aloe vera,8 FL,4.0,supplements,whole foods,10.29,,,0.0,g,0.0,g,0.0,g,10.0,False,240.0,2.57
+"Ultimate Omega CoQ10 60 Count, 60 CT",ultimate omega coq10,60 ct,1.0,supplements,whole foods,43.99,,,,,,,,,,False,,43.99
+"Women's Mixed Berry Multivitamin 30 Count, 30 CT",women's mixed berry multivitamin,30 ct,1.0,supplements,whole foods,24.99,,,,,,,,,,False,,24.99
+"Sleep Support Chocolate, 8 CT",sleep support chocolate,8 ct,1.0,supplements,whole foods,4.29,,,,,,,,,,False,,4.29
+"Omega Curcumin Capsules, 60 CT",omega curcumin capsules,60 ct,1.0,supplements,whole foods,51.99,,,,,,,,,,False,,51.99
+"Synbiotic, 60 CT",synbiotic,60 ct,1.0,supplements,whole foods,44.99,,,,,,,,,,False,,44.99
+"Turmeric Force, 30 CT",turmeric force,30 ct,1.0,supplements,whole foods,26.99,,,,,,,,,,False,,26.99
+"365 by Whole Foods Market, Sustained Release Potassium 99mg, Vegan, 250 Tablets","sustained release potassium 99mg, vegan, 250 tablets",,1.0,supplements,whole foods,16.49,,,,,,,,,,False,,16.49
+"Omega 3, 60 CT",omega 3,60 ct,1.0,supplements,whole foods,17.99,,,,,,,,,,False,,17.99
+"Calcium Magnesium Potassium, 180 CT",calcium magnesium potassium,180 ct,1.0,supplements,whole foods,19.49,,,,,,,,,,False,,19.49
+"Zyflamend, 60 CT",zyflamend,60 ct,1.0,supplements,whole foods,37.49,,,,,,,,,,False,,37.49
+"Energy & Focus Fresh Mint Mints, 12 CT",energy & focus fresh mint mints,12 ct,1.0,supplements,whole foods,3.99,,,,,,,,,,False,,3.99
+"Vitamin D3 Softgels, 2500IU, 100 CT","vitamin d3 softgels, 2500iu",100 ct,1.0,supplements,whole foods,16.99,,,,,,,,,,False,,16.99
+"Extra Strength Acetaminophen, 50 CT",extra strength acetaminophen,50 ct,1.0,supplements,whole foods,9.99,,,,,,,,,,False,,9.99
+"B. Soothed Honey Lozenges 14 Count, 14 CT",b. soothed honey lozenges,14 ct,1.0,supplements,whole foods,7.99,,,,,,,,,,False,,7.99
+"365 by Whole Foods Market, Protein Plantpowder Smoothie Coconut Almond, 9 Ounce","protein plantpowder smoothie coconut almond,",9 oz,1.0,supplements,whole foods,16.99,,,,,,,,,,False,255.15,16.99
+"365 Everyday Value, Melatonin Lozenges 2.5mg, Peppermint Flavor, 120 CT","365 everyday value, melatonin lozenges 2.5mg, peppermint flavor",120 ct,1.0,supplements,whole foods,6.79,,,,,,,,,,False,,6.79
+"Organic Mango Shot Single, 2 FZ",organic mango shot single,2 fz,1.0,supplements,whole foods,3.69,,,,,,,,,,False,60.0,3.69
+"Lemon Omega 3, 1560 mg, 8 FZ","lemon omega 3, 1560 mg",8 fz,1.0,supplements,whole foods,25.99,,,,,,,,,,False,240.0,25.99
+"WonderFocus Mushroom Gummies, 10 CT",wonderfocus mushroom gummies,10 ct,1.0,supplements,whole foods,9.99,,,,,,,,,,False,,9.99
+"Umcka Day & Night Cold Care, 12 CT",umcka day & night cold care,12 ct,1.0,supplements,whole foods,14.29,,,,,,,,,,False,,14.29
+"Lemonade Fiber Rescue, 9.5 OZ",lemonade fiber rescue,9.5 oz,1.0,supplements,whole foods,29.99,,,,,,,,,,False,269.32,29.99
+"Organic Valerian Root Extract, 1 FZ",organic valerian root extract,1 fz,1.0,supplements,whole foods,15.99,,,,,,,,,,False,30.0,15.99
+"Calm & Clarity Honey Lemon Mints, 12 CT",calm & clarity honey lemon mints,12 ct,1.0,supplements,whole foods,3.99,,,,,,,,,,False,,3.99
+"NAC 750mg, 30 CT",nac 750mg,30 ct,1.0,supplements,whole foods,15.49,,,,,,,,,,False,,15.49
 "Pad Thai Ready To Eat Vegan, 12 ounce","pad thai ready to eat vegan,",8 oz,2.0,frozen-foods,whole foods,8.99,52.0,g,10.0,g,9.0,g,5.0,g,330.0,False,226.8,4.5
 "Original Cocowhip, 9 OZ",original cocowhip,2 TBSP,22.0,frozen-foods,whole foods,4.99,,,2.0,g,0.0,g,2.0,g,30.0,False,30.0,0.23
 "365 by Whole Foods Market, Protein Waffles, Buttermilk, 6 Count, 8 Ounce","protein waffles, buttermilk,",6 count,1.0,frozen-foods,whole foods,4.29,,,24.0,g,35.0,g,15.0,g,650.0,False,,4.29
@@ -5141,6 +5678,828 @@ EU Organic Atlantic Salmon Fillet,eu organic atlantic salmon fillet,,1.0,seafood
 Squid Tubes & Tentacles,squid tubes & tentacles,,1.0,seafood,whole foods,7.99,,,,,,,,,,True,,7.99
 "Nova Lox NY Style, 4 OZ",nova lox ny style,2 OZ(57G),2.0,seafood,whole foods,11.99,,,8.0,g,13.0,g,0.0,g,130.0,True,57.0,6.0
 Jumbo Shell On White Shrimp 16/20 Count,jumbo shell on white shrimp,16/20 count,1.0,seafood,whole foods,13.99,,,,,,,,,,True,,13.99
+"Mint Green Tea, 16.9 fl oz",mint green tea,16.9 floz,1.0,beverages,whole foods,1.99,,,,,,,,,,False,507.0,1.99
+"poppi™ Cherry Limeade Prebiotic Soda, 4PK, 12 fl oz",poppi™ cherry limeade prebiotic soda,1 can,4.0,beverages,whole foods,8.79,8.25,g,0.0,g,0.0,g,5.0,g,25.0,False,,2.2
+"Non-Carbonated Electrolyte Refresher, Lemonade - 16 fl oz","non-carbonated electrolyte refresher, lemonade -",1 can,1.0,beverages,whole foods,2.79,8.25,g,0.0,g,0.0,g,5.0,g,30.0,False,,2.79
+Orange Prebiotic Soda - 4pk/12 fl oz Cans,orange prebiotic soda -/ cans,1 can,1.0,beverages,whole foods,8.79,8.25,g,0.0,g,0.0,g,5.0,g,25.0,False,,8.79
+"Raspberry Lime Seltzer, 1 LT","raspberry lime seltzer, 1 lt",8 FL,4.0,beverages,whole foods,1.29,,,0.0,g,0.0,g,0.0,g,,False,240.0,0.32
+"Organic Honeycrisp Apple Juice, 32 FZ",organic honeycrisp apple juice,8 FL,4.0,beverages,whole foods,5.79,,,0.0,g,0.0,g,24.0,g,120.0,False,240.0,1.45
+"Organic Mango Flavored Italian Soda, 25.4 FZ",organic mango flavored italian soda,12 FL,2.0,beverages,whole foods,3.99,,,0.0,g,0.0,g,39.0,g,180.0,False,360.0,2.0
+"Organic Strawberry Flavored Italian Soda, 25.4 FZ",organic strawberry flavored italian soda,12 FL,2.0,beverages,whole foods,3.99,,,0.0,g,0.0,g,35.0,g,160.0,False,360.0,2.0
+"Apple Cider, 0.5 GL","apple cider, 0.5 gl",8 FL,8.0,beverages,whole foods,5.79,,,1.0,g,0.0,g,24.0,g,110.0,False,240.0,0.72
+"Orange Juice, 64 FZ",orange juice,64 fz,1.0,beverages,whole foods,8.49,,,,,,,,,,False,1920.0,8.49
+"Sparkling Mineral Water, 25.3 FZ",sparkling mineral water,12 FL,2.0,beverages,whole foods,2.99,0.0,g,0.0,g,0.0,g,,g,0.0,False,360.0,1.5
+"Distilled Water 2.5 Gallon, 320 FZ",distilled water 2.5 gallon,320 fz,1.0,beverages,whole foods,5.39,,,,,,,,,,False,9600.0,5.39
+"Ruby Red Grapefruit Seltzer, 1 LT","ruby red grapefruit seltzer, 1 lt",8 FL,4.0,beverages,whole foods,1.29,,,0.0,g,0.0,g,0.0,g,0.0,False,240.0,0.32
+"Spring Water 24 Pack, 16.9 FZ",spring water,16.9 fz,1.0,beverages,whole foods,6.79,,,,,,,,,,False,507.0,6.79
+"365 by Whole Foods Market, Sports Drink, Orange, 20 Fl Oz","sports drink, orange",1 BOTTLE,1.0,beverages,whole foods,1.49,,,0.0,g,0.0,g,31.0,g,130.0,False,,1.49
+"365 by Whole Foods Market, Berry Sports Drink, 20 Fl Oz",berry sports drink,1 BOTTLE,1.0,beverages,whole foods,1.49,,,0.0,g,0.0,g,31.0,g,130.0,False,,1.49
+"Orange Juice Calcium and Vitamin D, 52 FZ",orange juice calcium and vitamin d,8 FL,7.0,beverages,whole foods,4.99,,,0.0,g,2.0,g,23.0,g,110.0,False,240.0,0.71
+"Zero Calorie Fruit Punch Nutrient Water, 20 FZ",zero calorie fruit punch nutrient water,20 fz,1.0,beverages,whole foods,1.49,,,,,,,,,,False,600.0,1.49
+"Organic No Pulp Orange Juice, 52 FZ",organic no pulp orange juice,8 FL,7.0,beverages,whole foods,6.49,,,0.0,g,2.0,g,23.0,g,110.0,False,240.0,0.93
+"365 by Whole Foods Market, Organic Apple Juice Box, Reduced Sugar, 8 Pack, 6.75 Fl Oz","organic apple juice box, reduced sugar",1 BOX,1.0,beverages,whole foods,4.29,,,0.0,g,0.0,g,9.0,g,35.0,False,,4.29
+"Spring Water 1 GL, 128 FZ",spring water 1 gl,128 fz,1.0,beverages,whole foods,1.49,,,,,,,,,,False,3840.0,1.49
+"Lemonade, 12 FZ",lemonade,12 FL,1.0,beverages,whole foods,1.89,,,0.0,g,0.0,g,44.0,g,180.0,False,360.0,1.89
+"Fruit Punch Sports Drink, 20 FZ",fruit punch sports drink,1 BOTTLE,1.0,beverages,whole foods,1.49,,,0.0,g,0.0,g,31.0,g,130.0,False,,1.49
+"No Pulp Orange Juice, 52 FZ",no pulp orange juice,8 FL,7.0,beverages,whole foods,4.99,26.45,g,0.0,g,2.0,g,23.0,g,110.0,False,240.0,0.71
+"365 by Whole Foods Market, Organic Apple Juice Boxes, 6.75 Fl Oz (Pack of 4)",organic apple juice boxes (pack of 4),1 BOX,1.0,beverages,whole foods,4.29,,,0.0,g,0.0,g,24.0,g,100.0,False,,4.29
+"Cherry Limeade, 12 FZ",cherry limeade,12 FL,1.0,beverages,whole foods,1.89,,,0.0,g,0.0,g,43.0,g,180.0,False,360.0,1.89
+"Zero Calorie Lemonade Nutrient Water, 20 FZ",zero calorie lemonade nutrient water,20 fz,1.0,beverages,whole foods,1.49,,,,,,,,,,False,600.0,1.49
+"Lime Seltzer, 1 LT","lime seltzer, 1 lt",8 FL,4.0,beverages,whole foods,1.29,,,0.0,g,0.0,g,0.0,g,0.0,False,240.0,0.32
+"365 by Whole Foods Market, Alkaline & Electrolyte Water, 25.3 Fl Oz",alkaline & electrolyte water,25.3 floz,1.0,beverages,whole foods,1.19,,,,,,,,,,False,759.0,1.19
+"Organic Orange Juice with Pulp, 52 FZ",organic orange juice with pulp,8 FL,7.0,beverages,whole foods,6.49,,,0.0,g,2.0,g,22.0,g,110.0,False,240.0,0.93
+"365 by Whole Foods Market, Spring Water, 50.7 Fl Oz",spring water,50.7 floz,1.0,beverages,whole foods,0.79,,,,,,,,,,False,1521.0,0.79
+"365 by Whole Foods Market, Distilled Water, 128 FZ",distilled water,128 fz,1.0,beverages,whole foods,1.49,,,,,,,,,,False,3840.0,1.49
+"365 by Whole Foods Market, Nutrient Water, Pink Lemonade B Vitamins, 20 Fl Oz","nutrient water, pink lemonade b vitamins",20 floz,1.0,beverages,whole foods,1.49,,,,,,,,,,False,600.0,1.49
+"365 by Whole Foods Market, Organic Pure Cranberry Juice, 32 Fl Oz",organic pure cranberry juice,8 FL,4.0,beverages,whole foods,6.99,,,0.0,g,0.0,g,7.0,g,70.0,False,240.0,1.75
+"365 by Whole Foods Market, Organic Juice Boxes, Wild Kratts Lemonade, 8 Pack, 6.75 Fl Oz","organic juice boxes, wild kratts lemonade",1 BOX,1.0,beverages,whole foods,4.29,,,0.0,g,0.0,g,26.0,g,100.0,False,,4.29
+"Spring Water, 33.8 FZ",spring water,33.8 fz,1.0,beverages,whole foods,3.29,,,,,,,,,,False,1014.0,3.29
+"Sparkling Water, 33.8 FZ",sparkling water,33.8 fz,1.0,beverages,whole foods,3.29,,,,,,,,,,False,1014.0,3.29
+"Wild Kratts, Organic Fin-Tastic Fruit Punch, 8 Pack","wild kratts, organic fin-tastic fruit punch",1 BOX,1.0,beverages,whole foods,4.29,,,0.0,g,0.0,g,23.0,g,90.0,False,,4.29
+"365 by Whole Foods Market, Alkaline & Electrolyte Water, 6 Pack, 25.3 Fl Oz",alkaline & electrolyte water,12 FL,13.0,beverages,whole foods,9.79,,,0.0,g,0.0,g,,,0.0,False,360.0,0.75
+"365 by Whole Foods Market, Spring Water, Sport Cap, 750 mL","spring water, sport cap",750 ml,1.0,beverages,whole foods,0.49,,,,,,,,,,False,,0.49
+"Simple Syrup, 12.68 FZ",simple syrup,2 TBSP,12.0,beverages,whole foods,6.79,,,0.0,g,0.0,g,26.0,g,110.0,False,30.0,0.57
+"Mineral Water, 25.4 FZ",mineral water,25.4 fz,1.0,beverages,whole foods,3.69,,,0.0,g,0.0,g,,,0.0,False,762.0,3.69
+"Organic Orange Juice Calcium and Vitamin D, 52 FZ",organic orange juice calcium and vitamin d,8 FL,7.0,beverages,whole foods,6.49,,,0.0,g,2.0,g,23.0,g,110.0,False,240.0,0.93
+"Organic Reduced Sugar Watermelon Strawberry Juice Box 8pk, 6.75 FZ",organic reduced sugar watermelon strawberry juice box,1 BOX,1.0,beverages,whole foods,4.29,,,0.0,g,0.0,g,9.0,g,35.0,False,,4.29
+"Whole Foods Market, Organic Italian Lemon Sparkling Mineral Water 6 Pack, 16.9 Fl Oz",organic italian lemon sparkling mineral water,16.9 floz,1.0,beverages,whole foods,6.79,,,,,,,,,,False,507.0,6.79
+"Organic Pear Juice, 32 FZ",organic pear juice,8 FL,4.0,beverages,whole foods,8.29,,,0.0,g,0.99,g,26.0,g,130.0,False,240.0,2.07
+"365 by Whole Foods Market, Spring Water Flat Cap, 50.7 Fl Oz, 12 Pack",spring water flat cap,50.7 floz,1.0,beverages,whole foods,7.39,,,,,,,,,,False,1521.0,7.39
+"Peach Nectar, 33.8 FZ",peach nectar,33.8 fz,1.0,beverages,whole foods,10.29,,,,,,,,,,False,1014.0,10.29
+"Apple Juice, 128 FZ",apple juice,8 FL,16.0,beverages,whole foods,15.79,,,0.0,g,1.0,g,31.0,g,140.0,False,240.0,0.99
+Vietnamese Cold Brew,vietnamese cold brew,8 fl,2.0,beverages,whole foods,5.0,0.0,,5.0,,6.0,,38.0,,230.0,False,240.0,2.5
+"365 by Whole Foods Market, Organic Hot Cocoa, Rich Chocolate Flavor Mix, 12 Ounce","organic hot cocoa, rich chocolate flavor mix,",2 TBSP,12.0,beverages,whole foods,5.89,,,0.0,g,3.0,g,22.0,g,100.0,False,30.0,0.49
+"Organic Beet Juice, 32 FZ",organic beet juice,8 FL,4.0,beverages,whole foods,12.99,,,0.0,g,3.0,g,22.0,g,110.0,False,240.0,3.25
+"Mexican Cola 4 Pack, 12 FZ",mexican cola,12 fz,1.0,beverages,whole foods,7.49,,,,,,,,,,False,360.0,7.49
+"Root Beer 4 Pack, 12 FZ",root beer,12 fz,1.0,beverages,whole foods,7.49,38.52,g,0.0,g,0.0,g,37.51,g,723.6,False,360.0,7.49
+"Strawberry Vanilla Prebiotic Soda, 12 FZ",strawberry vanilla prebiotic soda,1 CAN,1.0,beverages,whole foods,2.59,,,0.0,g,0.0,g,3.0,g,35.0,False,,2.59
+"Orange Squeeze Prebiotic Soda, 12 FZ",orange squeeze prebiotic soda,12 fz,1.0,beverages,whole foods,2.59,,,,,,,,,,False,360.0,2.59
+"Ginger Lemon Prebiotic Soda, 12 FZ",ginger lemon prebiotic soda,1 CAN,1.0,beverages,whole foods,2.59,,,0.0,g,0.0,g,3.0,g,40.0,False,,2.59
+"Banana Cream Prebiotic Soda, 12 FZ",banana cream prebiotic soda,1 CAN,1.0,beverages,whole foods,2.59,,,0.0,g,0.0,g,4.0,g,50.0,False,,2.59
+"Ginger Ale Prebiotic Soda, 12 FZ",ginger ale prebiotic soda,1 CAN,1.0,beverages,whole foods,2.59,,,0.0,g,0.0,g,5.0,g,50.0,False,,2.59
+"Cherry Cola Prebiotic Soda, 12 FZ",cherry cola prebiotic soda,1 CAN,1.0,beverages,whole foods,2.59,,,0.0,g,0.0,g,5.0,g,50.0,False,,2.59
+"Watermelon Lime Prebiotic Soda, 12 FZ",watermelon lime prebiotic soda,1 CAN,1.0,beverages,whole foods,2.59,,,0.0,g,0.0,g,5.0,g,40.0,False,,2.59
+"Classic Root Beer Prebiotic Soda, 12 FZ",classic root beer prebiotic soda,1 CAN,1.0,beverages,whole foods,2.59,,,0.0,g,0.0,g,2.0,g,35.0,False,,2.59
+"Classic Grape Prebiotic Soda, 12 FZ",classic grape prebiotic soda,1 CAN,1.0,beverages,whole foods,2.59,,,0.0,g,0.0,g,4.0,g,45.0,False,,2.59
+"Tropical Punch Prebiotic Soda, 12 FZ",tropical punch prebiotic soda,1 CAN,1.0,beverages,whole foods,2.59,,,0.0,g,0.0,g,3.0,g,35.0,False,,2.59
+"Organic Hot Cocoa, 12 OZ",organic hot cocoa,2 TBSP,20.0,beverages,whole foods,7.29,,,0.0,g,2.0,g,11.0,g,70.0,False,30.0,0.36
+"Pure Coconut Water With Pulp, 17.5 FZ",pure coconut water with pulp,8 FL,2.0,beverages,whole foods,3.19,13.01,g,0.0,g,0.0,g,7.0,g,50.0,False,240.0,1.6
+"Condensed Milk Cold Brew Coffee, 7.5 FZ",condensed milk cold brew coffee,1 CAN,1.0,beverages,whole foods,3.99,,,2.5,g,3.0,g,11.0,g,100.0,False,,3.99
+"Crisp Apple Prebiotic Soda, 12 FZ",crisp apple prebiotic soda,1 CAN,1.0,beverages,whole foods,2.59,,,0.0,g,0.0,g,5.0,g,50.0,False,,2.59
+"Carrot Juice, 52 FZ",carrot juice,52 fz,1.0,beverages,whole foods,7.99,,,,,,,,,,False,1560.0,7.99
+"Pure Coconut Water, 17.5 FZ",pure coconut water,17.5 fz,1.0,beverages,whole foods,3.19,26.25,g,0.0,g,0.0,g,26.25,g,462.0,False,525.0,3.19
+"Organic Acai Berry Beverage, 32 FZ",organic acai berry beverage,8 FL,4.0,beverages,whole foods,8.39,,,3.0,g,0.0,g,24.0,g,140.0,False,240.0,2.1
+"365 by Whole Foods Market, Cherry Vanilla Creme Soda, 12 Fl Oz",cherry vanilla creme soda,12 floz,1.0,beverages,whole foods,0.99,,,,,,,,,,False,360.0,0.99
+"Organic Tropical Pineapple Sparkling Energy Drink, 12 FZ",organic tropical pineapple sparkling energy drink,1 CAN,1.0,beverages,whole foods,2.49,,,0.0,g,0.99,g,17.0,g,90.0,False,,2.49
+"365 by Whole Foods Market, Zero Calorie Cola, Single, 12 Fl Oz","zero calorie cola, single",12 floz,1.0,beverages,whole foods,0.99,,,,,,,,,,False,360.0,0.99
+"VOLCANO BURST Organic Lemon Burst, 6.7 FZ",volcano burst organic lemon burst,1 TSP,40.0,beverages,whole foods,2.69,,,0.0,g,0.0,g,0.0,g,0.0,False,5.0,0.07
+"Organic Sparkling Peach Mango Energy Drink, 12 FZ",organic sparkling peach mango energy drink,12 fz,1.0,beverages,whole foods,2.49,,,,,,,,,,False,360.0,2.49
+"Organic Sparkling Blueberry Pomegranate Energy Drink, 12 FZ",organic sparkling blueberry pomegranate energy drink,12 fz,1.0,beverages,whole foods,2.49,,,,,,,,,,False,360.0,2.49
+"365 by Whole Foods Market, Spring Water, 1 Gallon, 128 Fl Oz","spring water, 1 gallon",128 floz,1.0,beverages,whole foods,1.39,,,,,,,,,,False,3840.0,1.39
+"Organic Jungle Love Energy Drink, 12 FZ",organic jungle love energy drink,12 fz,1.0,beverages,whole foods,2.99,,,,,,,,,,False,360.0,2.99
+"Blonde Roast Black Cold Brew Coffee, 48 FZ",blonde roast black cold brew coffee,12 FL,4.0,beverages,whole foods,6.79,,,0.0,g,0.0,g,0.0,g,10.0,False,360.0,1.7
+"All Natural Lemonade, 52 FZ",all natural lemonade,8 FL,7.0,beverages,whole foods,3.79,,,0.0,g,0.0,g,28.0,g,120.0,False,240.0,0.54
+"Organic Low Calorie Amazon Acai Energy Drink, 12 FZ",organic low calorie amazon acai energy drink,12 fz,1.0,beverages,whole foods,2.99,,,,,,,,,,False,360.0,2.99
+"365 by Whole Foods Market, Alkaline & Electrolyte Water, 33.8 FZ",alkaline & electrolyte water,12 FL,3.0,beverages,whole foods,1.39,,,0.0,g,0.0,g,,,0.0,False,360.0,0.46
+"365 by Whole Foods Market, Alkaline & Electrolyte Water, 50.7 Fl Oz",alkaline & electrolyte water,12 FL,4.0,beverages,whole foods,1.69,,,0.0,g,0.0,g,,,0.0,False,360.0,0.42
+"Raspberry Lemonade, 52 FZ",raspberry lemonade,8 FL,7.0,beverages,whole foods,3.79,,,0.0,g,0.0,g,26.0,g,110.0,False,240.0,0.54
+"Organic Amazon Energy Drink, 12 FZ",organic amazon energy drink,12 fz,1.0,beverages,whole foods,2.99,,,,,,,,,,False,360.0,2.99
+"Organic Apple Juice, 32 FZ",organic apple juice,8 FL,4.0,beverages,whole foods,5.79,,,0.0,g,0.0,g,24.0,g,120.0,False,240.0,1.45
+"Blueberry Lavender Daily Beauty Tea, 36 CT",blueberry lavender daily beauty tea,36 ct,1.0,beverages,whole foods,13.29,,,,,,,,,,False,,13.29
+"Medium Roast Pure Black Coffee, 48 FZ",medium roast pure black coffee,12 FL,4.0,beverages,whole foods,6.79,,,0.0,g,0.0,g,0.0,g,15.0,False,360.0,1.7
+"Organic Pure Pulp Free Orange Juice, 59 FZ",organic pure pulp free orange juice,8 FL,7.0,beverages,whole foods,9.99,,,0.0,g,2.0,g,26.0,g,120.0,False,240.0,1.43
+"Spring Water, 25.36 FZ",spring water,12 OZ,2.0,beverages,whole foods,2.79,,,0.0,g,0.0,g,,,0.0,False,340.19,1.4
+"Hair Bender Nitro Cold Brew, 10.3 FZ",hair bender nitro cold brew,1 CAN,1.0,beverages,whole foods,4.99,,,0.0,g,1.0,g,,,20.0,False,,4.99
+"Espresso Blend Coffee, 48 FZ",espresso blend coffee,12 FL,4.0,beverages,whole foods,6.79,,,0.0,g,0.0,g,0.0,g,15.0,False,360.0,1.7
+"Limonata Sparkling Drink 6 Pack, 11.15 FZ",limonata sparkling drink,1 CAN,6.0,beverages,whole foods,7.39,,,0.0,g,0.0,g,26.0,g,110.0,False,,1.23
+"Ginger Honey Crystals, 10 CT",ginger honey crystals,1 SACHET,10.0,beverages,whole foods,4.99,,,0.0,g,0.0,g,16.0,g,70.0,False,,0.5
+"Aranciata Rossa Sparkling Drink 6 Pack, 11.15 FZ",aranciata rossa sparkling drink,1 CAN,6.0,beverages,whole foods,7.39,,,0.0,g,0.0,g,29.0,g,130.0,False,,1.23
+"365 by Whole Foods Market, Organic Coconut Water, 33.8 Fl Oz",organic coconut water,8 FL,4.0,beverages,whole foods,4.49,12.0,g,0.0,g,0.0,g,9.0,g,45.0,False,240.0,1.12
+"Melograno & Arancia Sparkling Drink 6pk, 11.15 FZ",melograno & arancia sparkling drink,1 CAN,6.0,beverages,whole foods,7.39,,,0.0,g,0.0,g,29.0,g,120.0,False,,1.23
+"Lemon Lime Sparkling Water 12 Pack, 12 FZ",lemon lime sparkling water,1 CAN,12.0,beverages,whole foods,7.49,,,0.0,g,0.0,g,0.0,g,0.0,False,,0.62
+"Sparkling Natural Mineral Water Glass, 1 LT","sparkling natural mineral water glass, 1 lt",,1.0,beverages,whole foods,4.29,,,,,,,,,,False,,4.29
+"Cherry Lime Sparkling Water Multipack, 12 FZ",cherry lime sparkling water multipack,1 CAN,12.0,beverages,whole foods,7.49,,,0.0,g,0.0,g,0.0,g,0.0,False,,0.62
+"365 by Whole Foods Market, Sparkling Water, Plain, 12 Pack, 12 Fl Oz","sparkling water, plain",1 CAN,12.0,beverages,whole foods,5.29,,,0.0,g,0.0,g,,,0.0,False,,0.44
+"365 by Whole Foods Market, Black Cherry Sparkling Water, 12 Pack, 12 Fl Oz",black cherry sparkling water,1 CAN,12.0,beverages,whole foods,5.29,,,0.0,g,0.0,g,,,0.0,False,,0.44
+"Strawberry Sparkling Water 12 Pack, 12 FZ",strawberry sparkling water,1 CAN,12.0,beverages,whole foods,7.49,,,0.0,g,0.0,g,0.0,g,0.0,False,,0.62
+"365 by Whole Foods Market, Sparkling Ginger Water, 12 Fl Oz, 12 Pack",sparkling ginger water,1 CAN,12.0,beverages,whole foods,5.29,,,0.0,g,0.0,g,,,0.0,False,,0.44
+"Summer Berry Sparkling Water 12pk, 12 FZ",summer berry sparkling water,1 CAN,12.0,beverages,whole foods,7.49,,,0.0,g,0.0,g,0.0,g,0.0,False,,0.62
+"365 by Whole Foods Market, Lime Sparkling Water, 12 Fl Oz",lime sparkling water,1 CAN,12.0,beverages,whole foods,5.29,,,0.0,g,0.0,g,,,0.0,False,,0.44
+"Blackberry Lemonade Sparkling Water 12 Pack, 12 FZ",blackberry lemonade sparkling water,1 CAN,12.0,beverages,whole foods,7.49,,,0.0,g,0.0,g,0.0,g,0.0,False,,0.62
+"Guava Berry Sparkling Water 12pk, 12 FZ",guava berry sparkling water,1 CAN,12.0,beverages,whole foods,7.49,,,0.0,g,0.0,g,0.0,g,0.0,False,,0.62
+"365 by Whole Foods Market, Grapefruit Sparkling Water, 12 FZ",grapefruit sparkling water,12 fz,1.0,beverages,whole foods,5.29,,,,,,,,,,False,360.0,5.29
+"Peach Sparkling Water 12pk, 12 FZ",peach sparkling water,1 CAN,12.0,beverages,whole foods,7.49,,,0.0,g,0.0,g,0.0,g,0.0,False,,0.62
+"Organic Peach Mango Hydration Drink, 16.9 FZ",organic peach mango hydration drink,16.9 fz,1.0,beverages,whole foods,2.49,,,,,,,,,,False,507.0,2.49
+"Organic Mint Yerba Mate, 16 FZ",organic mint yerba mate,1 BOTTLE,1.0,beverages,whole foods,3.69,,,0.0,g,0.0,g,11.0,g,50.0,False,,3.69
+"Organic Original Green Tea, 16 FZ",organic original green tea,1 BOTTLE,1.0,beverages,whole foods,2.79,,,0.0,g,0.0,g,0.0,g,0.0,False,,2.79
+"Yerba Madre Organic Summer Peach Yerba Mate, 16 FZ",yerba madre organic summer peach yerba mate,1 BOTTLE,1.0,beverages,whole foods,3.69,,,0.0,g,0.0,g,15.0,g,70.0,False,,3.69
+"Organic Coconut Water, 33.8 FZ",organic coconut water,1 CUP,4.0,beverages,whole foods,5.99,12.0,g,0.0,g,0.0,g,10.0,g,50.0,False,240.0,1.5
+"Organic Unsweet Terere Yerba Mate, 16 FZ",organic unsweet terere yerba mate,1 BOTTLE,1.0,beverages,whole foods,3.69,,,0.0,g,0.0,g,0.0,g,5.0,False,,3.69
+"Organic Uptown Half & Half Iced Tea & Lemonade, 16 FZ",organic uptown half & half iced tea & lemonade,16 fz,1.0,beverages,whole foods,2.99,,,0.0,g,0.0,g,18.0,g,70.0,False,480.0,2.99
+"Organic Fruit Punch Hydration Drink, 16.9 FZ",organic fruit punch hydration drink,16.9 fz,1.0,beverages,whole foods,2.49,,,,,,,,,,False,507.0,2.49
+"Organic Mango White Tea, 16 FZ",organic mango white tea,1 BOTTLE,1.0,beverages,whole foods,2.79,,,0.0,g,0.0,g,16.0,g,60.0,False,,2.79
+"Organic Rojo Raspberry Iced Tea, 16 FZ",organic rojo raspberry iced tea,16 fz,1.0,beverages,whole foods,2.99,,,0.0,g,0.0,g,18.0,g,70.0,False,480.0,2.99
+"Organic Honey Green Tea, 16 FZ",organic honey green tea,1 BOTTLE,1.0,beverages,whole foods,2.79,,,0.0,g,0.0,g,19.0,g,70.0,False,,2.79
+"Organic Maui Mango Green Tea, 16 FZ",organic maui mango green tea,16 fz,1.0,beverages,whole foods,2.99,,,0.0,g,0.0,g,18.0,g,70.0,False,480.0,2.99
+"Organic Georgia Peach Iced Tea, 16 FZ",organic georgia peach iced tea,16 fz,1.0,beverages,whole foods,2.99,,,0.0,g,0.0,g,18.0,g,70.0,False,480.0,2.99
+"Organic Golden Honey Green Tea, 16 FZ",organic golden honey green tea,16 fz,1.0,beverages,whole foods,2.99,,,0.0,g,0.0,g,18.0,g,70.0,False,480.0,2.99
+"Organic Half Tea & Half Lemonade, 16 FZ",organic half tea & half lemonade,1 BOTTLE,1.0,beverages,whole foods,2.79,,,0.0,g,0.0,g,23.0,g,90.0,False,,2.79
+"Organic Traditional Mate Energy Drink, 16 FZ",organic traditional mate energy drink,1 BOTTLE,1.0,beverages,whole foods,3.69,,,0.0,g,0.0,g,17.0,g,80.0,False,,3.69
+"Organic Peach Oolong Tea, 16 FZ",organic peach oolong tea,1 ea,1.0,beverages,whole foods,2.79,0.0,,0.0,,0.0,,16.0,,60.0,False,,2.79
+"Organic Grapefruit Ginger Yerba Mate, 12 FZ",organic grapefruit ginger yerba mate,1 CAN,1.0,beverages,whole foods,2.99,,,0.0,g,0.0,g,10.0,g,45.0,False,,2.99
+"Yerba Madre Organic Cherry Jubilation Sparkling Yerba Mate, 12 FZ",yerba madre organic cherry jubilation sparkling yerba mate,1 CAN,1.0,beverages,whole foods,2.99,,,0.0,g,0.0,g,25.0,g,100.0,False,,2.99
+"Organic No Sugar Added Superfruit Punch, 52 FZ",organic no sugar added superfruit punch,8 FL.,7.0,beverages,whole foods,6.99,,,0.0,g,1.0,g,5.0,g,45.0,False,240.0,1.0
+"Ruby Red Tangerine Sparkling Water 12pk, 12 FZ",ruby red tangerine sparkling water,1 CAN,12.0,beverages,whole foods,7.49,,,0.0,g,0.0,g,0.0,g,0.0,False,,0.62
+"Black Cherry Sparkling Water 12pk, 12 FZ",black cherry sparkling water,1 CAN,12.0,beverages,whole foods,7.49,,,0.0,g,0.0,g,0.0,g,0.0,False,,0.62
+"Raspberry Nectarine Sparkling Water 12pk, 12 FZ",raspberry nectarine sparkling water,1 CAN,12.0,beverages,whole foods,7.49,,,0.0,g,0.0,g,0.0,g,0.0,False,,0.62
+"Aranciata Sparkling Drink 6 Pack, 11.15 FZ",aranciata sparkling drink,11.15 fz,1.0,beverages,whole foods,7.39,,,,,,,,,,False,334.5,7.39
+"Sweet Prebiotic Iced Tea, 12 FZ",sweet prebiotic iced tea,1 CAN,1.0,beverages,whole foods,2.49,,,0.0,g,0.0,g,5.0,g,35.0,False,,2.49
+"Green Tea with Honey & Ginseng, 12 FZ",green tea with honey & ginseng,1 CAN,1.0,beverages,whole foods,2.49,,g,0.0,g,0.0,g,3.0,g,30.0,False,,2.49
+"Dragonfruit Veggie Blend, 12 FZ",dragonfruit veggie blend,12 FL,1.0,beverages,whole foods,1.99,,,0.0,g,0.99,g,35.0,g,160.0,False,360.0,1.99
+"Peach Green Tea, 12 FZ",peach green tea,1 CAN,1.0,beverages,whole foods,2.49,,,0.0,g,0.0,g,3.0,g,35.0,False,,2.49
+"Lemon Black Tea, 12 FZ",lemon black tea,1 CAN,1.0,beverages,whole foods,2.49,,,0.0,g,0.0,g,3.0,g,35.0,False,,2.49
+"Mango Veggie Blend, 12 FZ",mango veggie blend,12 FL,1.0,beverages,whole foods,1.99,,,0.0,g,0.99,g,29.0,g,150.0,False,360.0,1.99
+"Raspberry Prebiotic Tea, 12 FZ",raspberry prebiotic tea,1 CAN,4.0,beverages,whole foods,2.49,,,0.0,g,0.0,g,3.0,g,35.0,False,,0.62
+"Twist of Lime Sparkling Mineral Water 12 Pack, 12 FZ",twist of lime sparkling mineral water,1 BOTTLE,12.0,beverages,whole foods,16.29,,,0.0,g,0.0,g,,,0.0,False,,1.36
+"Organic Dragon Fruit Punch Hydration Drink, 18 FZ",organic dragon fruit punch hydration drink,18 fz,1.0,beverages,whole foods,2.49,,,,,,,,,,False,540.0,2.49
+"Spring Water, 16.9 FZ",spring water,16.9 fz,1.0,beverages,whole foods,0.99,,,,,,,,,,False,507.0,0.99
+"Organic Mango Clementine Hydration Drink, 18 FZ",organic mango clementine hydration drink,8 FL,2.0,beverages,whole foods,2.49,,,0.0,g,0.0,g,1.0,g,10.0,False,240.0,1.25
+"Organic Georgia Peach Hydration Drink, 18 FZ",organic georgia peach hydration drink,8 FL,2.0,beverages,whole foods,2.49,,,0.0,g,0.0,g,1.0,g,10.0,False,240.0,1.25
+"Bonne Nuit Ground Coffee, 10 OZ",bonne nuit ground coffee,10 oz,1.0,beverages,whole foods,7.79,,,,,,,,,,False,283.5,7.79
+"VOLCANO BURST Organic Lime Burst, 6.7 FZ",volcano burst organic lime burst,1 TSP,40.0,beverages,whole foods,2.69,,,0.0,g,0.0,g,0.0,g,0.0,False,5.0,0.07
+"Buzz Free Decaf Ground Coffee, 24 OZ",buzz free decaf ground coffee,24 oz,1.0,beverages,whole foods,15.99,,,,,,,,,,False,680.39,15.99
+"Pleasant Morning Buzz Whole Bean Coffee, 10 OZ",pleasant morning buzz whole bean coffee,10 oz,1.0,beverages,whole foods,7.79,,,,,,,,,,False,283.5,7.79
+"365 by Whole Foods Market, Instant Coffee, Dark Roast, 3.5 Ounce","instant coffee, dark roast,",3.5 oz,1.0,beverages,whole foods,7.29,,,,,,,,,,False,99.22,7.29
+"Pacific Rim Ground Coffee, 10 OZ",pacific rim ground coffee,10 oz,1.0,beverages,whole foods,7.79,,,,,,,,,,False,283.5,7.79
+"Pleasant Morning Buzz Ground Coffee, 10 OZ",pleasant morning buzz ground coffee,10 oz,1.0,beverages,whole foods,7.79,,,,,,,,,,False,283.5,7.79
+"Dark Chocolate Plant Based Protein Shake, 12 FZ",dark chocolate plant based protein shake,12 FL,1.0,beverages,whole foods,3.79,,,7.0,g,20.0,g,4.0,g,180.0,False,360.0,3.79
+"Cafe Domingo Medium Roast K-Cup, 4.2 OZ",cafe domingo medium roast k-cup,4.2 oz,1.0,beverages,whole foods,10.99,,,,,,,,,,False,119.07,10.99
+"French Roast K-Cup, 4.2 OZ",french roast k-cup,4.2 oz,1.0,beverages,whole foods,10.99,,,,,,,,,,False,119.07,10.99
+"365 by Whole Foods Market, Nutrient Water, Cranberry Antioxidants, 20 Fl Oz","nutrient water, cranberry antioxidants",20 floz,1.0,beverages,whole foods,1.49,,,,,,,,,,False,600.0,1.49
+"Big Bang Medium Roast K-Cup, 4.2 OZ",big bang medium roast k-cup,4.2 oz,1.0,beverages,whole foods,10.99,,,,,,,,,,False,119.07,10.99
+"Pacific Rim Whole Bean Coffee, 10 OZ",pacific rim whole bean coffee,10 oz,1.0,beverages,whole foods,7.79,,,,,,,,,,False,283.5,7.79
+"Grapefruit Sparkling Water, 12 FZ",grapefruit sparkling water,1 CAN,1.0,beverages,whole foods,0.79,,,0.0,g,0.0,g,,,0.0,False,,0.79
+"Lime Sparkling Water, 12 FZ",lime sparkling water,1 CAN,1.0,beverages,whole foods,0.79,,,0.0,g,0.0,g,,,0.0,False,,0.79
+"Organic Cherry Lemonade Sparkling Probiotic Drink, 12 FZ",organic cherry lemonade sparkling probiotic drink,1 CAN,1.0,beverages,whole foods,3.69,,,0.0,g,0.0,g,6.0,g,40.0,False,,3.69
+"Montecarlos Coffee, 12 OZ",montecarlos coffee,12 oz,1.0,beverages,whole foods,19.49,,,,,,,,,,False,340.19,19.49
+"Organic Tropical Blend Italian Soda, 11.2 fl oz (Pack of 4)",organic tropical blend italian soda (pack of 4),1 CAN,4.0,beverages,whole foods,4.69,,,0.0,g,0.0,g,33.0,g,150.0,False,,1.17
+"Pressed Coconut Water, 33.8 FZ",pressed coconut water,8 FL,4.0,beverages,whole foods,6.29,,,1.5,g,0.0,g,10.0,g,60.0,False,240.0,1.57
+"Pressed Coconut Water, 16.9 FZ",pressed coconut water,8 FL,2.0,beverages,whole foods,3.49,,,1.5,g,0.0,g,10.0,g,60.0,False,240.0,1.74
+"4 Pack Organic Italian Soda, Blood Orange, 11.2 Fluid Ounce (Pack of 4)","4 pack organic italian soda, blood orange, 11.2 fluid ounce (pack of 4)",1 CAN,4.0,beverages,whole foods,4.69,,,0.0,g,0.0,g,37.0,g,160.0,False,,1.17
+"Organic Earl Grey Black Tea, 16 CT",organic earl grey black tea,16 ct,1.0,beverages,whole foods,5.69,,,,,,,,,,False,,5.69
+"Blackberry Sage Tea Bags, 50 CT",blackberry sage tea bags,50 ct,1.0,beverages,whole foods,10.99,,,,,,,,,,False,,10.99
+"Large Coconut Water, 33.8 FZ",large coconut water,8 FL,4.0,beverages,whole foods,6.29,,,0.0,g,0.0,g,10.0,g,45.0,False,240.0,1.57
+"Coconut Water, 16.9 FZ",coconut water,16.9 fz,1.0,beverages,whole foods,3.49,,,0.0,g,0.0,g,20.0,g,90.0,False,507.0,3.49
+"Coconut Water 4pk, 16.9 FZ",coconut water,16.9 fz,1.0,beverages,whole foods,12.49,,,,,,,,,,False,507.0,12.49
+"365 by Whole Foods Market, Spring Water, 1 Gallon, 6 Pack","spring water, 1 gallon",6 pack,1.0,beverages,whole foods,7.49,,,,,,,,,,False,,7.49
+"Organic Lemon Sparkling Mineral Water, 16.9 FZ",organic lemon sparkling mineral water,1 BOTTLE,1.0,beverages,whole foods,1.49,,,0.0,g,0.0,g,,,0.0,False,,1.49
+"Whole Foods Market, Organic Italian Lime Sparkling Mineral Water 6 Pack, 16.9 Fl Oz",organic italian lime sparkling mineral water,16.9 floz,1.0,beverages,whole foods,6.79,,,,,,,,,,False,507.0,6.79
+"No Nut Butter Cup Pro Elite Plant Protein Shake, 12 FZ",no nut butter cup pro elite plant protein shake,12 FL,1.0,beverages,whole foods,4.19,,,8.0,g,32.0,g,0.0,g,210.0,False,360.0,4.19
+"Vanilla Pro Elite Plant Protein Shake, 12 FZ",vanilla pro elite plant protein shake,12 FL,1.0,beverages,whole foods,4.19,,,7.0,g,32.0,g,0.0,g,200.0,False,360.0,4.19
+"Chocolate Pro Elite Plant Protein Shake, 12 FZ",chocolate pro elite plant protein shake,12 FL,1.0,beverages,whole foods,4.19,,,7.0,g,32.0,g,0.0,g,200.0,False,360.0,4.19
+"Organic Traditional Hot Chocolate, 16 OZ",organic traditional hot chocolate,2 TBSP,16.0,beverages,whole foods,13.29,,,1.0,g,2.0,g,21.0,g,100.0,False,30.0,0.83
+"Yerba Madre Organic Revel Berry Yerba Mate 4pk, 11.5 FZ",yerba madre organic revel berry yerba mate,1 CAN,4.0,beverages,whole foods,10.99,,,0.0,g,0.0,g,20.0,g,90.0,False,,2.75
+"Organic Coconut Water 4pk, 16.9 FZ",organic coconut water,8 FL,8.0,beverages,whole foods,11.49,12.0,g,0.0,g,0.0,g,9.0,g,45.0,False,240.0,1.44
+"Yerba Madre Organic Berry Lemonade Yerba Mate 4pk, 11.5 FZ",yerba madre organic berry lemonade yerba mate,1 CAN,4.0,beverages,whole foods,10.99,,,0.0,g,0.0,g,1.0,g,10.0,False,,2.75
+"Yerba Madre Organic Enlighten Mint Yerba Mate 4pk, 11.5 FZ",yerba madre organic enlighten mint yerba mate,1 CAN,4.0,beverages,whole foods,10.99,,,0.0,g,0.0,g,21.0,g,90.0,False,,2.75
+"Spring Water 9pk, 16 FZ",spring water,16 fz,1.0,beverages,whole foods,19.99,,,,,,,,,,False,480.0,19.99
+"Black Cherry Sparkling Water Single, 12 FZ",black cherry sparkling water single,1 CAN,1.0,beverages,whole foods,0.79,,,0.0,g,0.0,g,,,0.0,False,,0.79
+"Earl Greyer Black Tea, 50 CT",earl greyer black tea,50 ct,1.0,beverages,whole foods,11.29,,,,,,,,,,False,,11.29
+"Organic Lemon Black Tea 4pk, 12 FZ",organic lemon black tea,1 CAN,1.0,beverages,whole foods,6.99,,,0.0,g,0.0,g,11.0,g,40.0,False,,6.99
+"Organic Assam Black Tea, 18 CT",organic assam black tea,18 ct,1.0,beverages,whole foods,5.69,,,,,,,,,,False,,5.69
+"Organic Coconut Water with Watermelon, 16 FZ",organic coconut water with watermelon,16 fz,1.0,beverages,whole foods,5.99,,,,,,,,,,False,480.0,5.99
+"Organic Tulsi Sleep Tea, 18 CT",organic tulsi sleep tea,18 ct,1.0,beverages,whole foods,5.69,,,,,,,,,,False,,5.69
+"Organic Turmeric Ginger Tulsi Tea, 18 CT",organic turmeric ginger tulsi tea,18 ct,1.0,beverages,whole foods,5.69,,,,,,,,,,False,,5.69
+"Organic Tulsi Ashwagandha, 18 CT",organic tulsi ashwagandha,18 ct,1.0,beverages,whole foods,5.69,,,,,,,,,,False,,5.69
+"Organic Tulsi Infusion Tea: Hibiscus, 18 CT",organic tulsi infusion tea: hibiscus,18 ct,1.0,beverages,whole foods,5.69,,,,,,,,,,False,,5.69
+"Organic Tulsi Masala Chai, 18 CT",organic tulsi masala chai,18 ct,1.0,beverages,whole foods,5.69,,,,,,,,,,False,,5.69
+"Organic Aged Earl Grey Black Tea, 18 CT",organic aged earl grey black tea,18 ct,1.0,beverages,whole foods,7.99,,,,,,,,,,False,,7.99
+"French Vanilla Protein Coffee, 11 FZ",french vanilla protein coffee,11 FL.,1.0,beverages,whole foods,3.69,,,0.0,g,20.0,g,1.0,g,100.0,False,330.0,3.69
+"Organic Tropical Punch Energy Drink, 12 FZ",organic tropical punch energy drink,12 FL,1.0,beverages,whole foods,3.49,,,0.0,g,0.0,g,9.0,g,50.0,False,360.0,3.49
+"Yerba Madre Organic Yerba Mate Lemon Elation, 15.5 FZ",yerba madre organic yerba mate lemon elation,8 FLUID,2.0,beverages,whole foods,3.29,,,0.0,g,0.0,g,13.0,g,50.0,False,,1.64
+"Yerba Madre Organic Bravo Mango Yerba Mate, 15.5 FZ",yerba madre organic bravo mango yerba mate,1 CAN,1.0,beverages,whole foods,3.29,,,0.0,g,0.0,g,2.0,g,15.0,False,,3.29
+"Organic Coconut Water, 10 FZ",organic coconut water,10 fz,1.0,beverages,whole foods,3.99,15.0,g,0.0,g,0.0,g,9.99,g,264.0,False,300.0,3.99
+"Organic Energy Drink, 12 FZ",organic energy drink,12 FL,1.0,beverages,whole foods,3.49,,,0.0,g,0.0,g,30.0,g,115.0,False,360.0,3.49
+"Organic Tulsi Original Tea, 18 CT",organic tulsi original tea,18 ct,1.0,beverages,whole foods,5.69,,,,,,,,,,False,,5.69
+"Yerba Madre Organic Peach Revival Yerba Mate, 15.5 FZ",yerba madre organic peach revival yerba mate,1 CAN,1.0,beverages,whole foods,3.29,,,0.0,g,0.0,g,3.0,g,20.0,False,,3.29
+"Dark Gree Oi Ocha Tea, 16.9 FZ",dark gree oi ocha tea,16.9 fz,1.0,beverages,whole foods,2.79,,,,,,,,,,False,507.0,2.79
+"Passion Fruit Prebiotic Herbal Tea, 12 FZ",passion fruit prebiotic herbal tea,12 FL,1.0,beverages,whole foods,2.99,,,0.0,g,0.0,g,4.0,g,30.0,False,360.0,2.99
+"Peach Prebiotic Herbal Tea, 12 FZ",peach prebiotic herbal tea,12 FL,1.0,beverages,whole foods,2.99,,,0.0,g,0.0,g,4.0,g,30.0,False,360.0,2.99
+"Classic Chocolate Milk Sgl, 11 FZ",classic chocolate milk sgl,11 FL.,1.0,beverages,whole foods,3.69,,,1.0,g,20.0,g,1.0,g,100.0,False,330.0,3.69
+"Organic Coconut Water With Pulp, 16 FZ",organic coconut water with pulp,16 fz,1.0,beverages,whole foods,5.99,,,,,,,,,,False,480.0,5.99
+"Organic Prickly Pear Cactus Tepache, 12 FZ",organic prickly pear cactus tepache,12 fz,1.0,beverages,whole foods,2.99,,,,,,,,,,False,360.0,2.99
+"Organic Mandarin Refresco Tepache, 12 FZ",organic mandarin refresco tepache,12 fz,1.0,beverages,whole foods,2.99,,,,,,,,,,False,360.0,2.99
+"Organic Moroccan Mint Herbal Tea, 18 CT",organic moroccan mint herbal tea,18 ct,1.0,beverages,whole foods,7.99,,,,,,,,,,False,,7.99
+"Organic Traditional Pineapple Spice Tepache, 12 FZ",organic traditional pineapple spice tepache,12 fz,1.0,beverages,whole foods,2.99,,,,,,,,,,False,360.0,2.99
+"Organic Sparkling Coconut Water, 16 FZ",organic sparkling coconut water,16 fz,1.0,beverages,whole foods,5.99,,,,,,,,,,False,480.0,5.99
+"Organic Dragon Green Tea 4pk, 12 FZ",organic dragon green tea,1 CAN,1.0,beverages,whole foods,6.99,,,0.0,g,0.0,g,11.0,g,40.0,False,,6.99
+"Pineapple Prebiotic Herbal Tea, 12 FZ",pineapple prebiotic herbal tea,12 FL,1.0,beverages,whole foods,2.99,,,0.0,g,0.0,g,3.0,g,25.0,False,360.0,2.99
+"Organic Guava Rose Prebiotic & Probiotic Drink, 12 FZ",organic guava rose prebiotic & probiotic drink,1 CAN,1.0,beverages,whole foods,3.69,,,0.0,g,0.0,g,6.0,g,40.0,False,,3.69
+"Original Aloe Vera Drink, 16.9 FZ",original aloe vera drink,1 BOTTLE,1.0,beverages,whole foods,2.89,,,0.0,g,0.0,g,32.0,g,130.0,False,,2.89
+"Organic Vanilla Cold Brew Coffee, 10 FZ",organic vanilla cold brew coffee,1 BOTTLE,1.0,beverages,whole foods,3.99,,,0.0,g,1.0,g,7.0,g,60.0,False,,3.99
+"Raspberry Prebiotic Herbal Tea, 12 FZ",raspberry prebiotic herbal tea,12 FL,1.0,beverages,whole foods,2.99,,,0.0,g,0.0,g,3.0,g,25.0,False,360.0,2.99
+"Artesian Water 33.8 fz, 33.8 FZ",artesian water,33.8 fz,1.0,beverages,whole foods,2.59,,,,,,,,,,False,1014.0,2.59
+"Organic Lite Energy Drink, 12 FZ",organic lite energy drink,12 FL,1.0,beverages,whole foods,3.49,,,0.0,g,0.0,g,4.0,g,25.0,False,360.0,3.49
+"Vanilla Latte Protein Coffee, 11 FZ",vanilla latte protein coffee,11 FL.,1.0,beverages,whole foods,3.69,,,0.0,g,20.0,g,1.0,g,100.0,False,330.0,3.69
+"Mocha Latte Sgl, 11 FZ",mocha latte sgl,11 FL.,1.0,beverages,whole foods,3.69,,,0.5,g,20.0,g,1.0,g,110.0,False,330.0,3.69
+"Organic Grapefruit Lime Tepache, 12 FZ",organic grapefruit lime tepache,12 fz,1.0,beverages,whole foods,2.99,,,,,,,,,,False,360.0,2.99
+"Yerba Madre Organic Yerba Mate Bluephoria, 15.5 FZ",yerba madre organic yerba mate bluephoria,1 CAN,1.0,beverages,whole foods,3.29,,,0.0,g,1.0,g,28.0,g,120.0,False,,3.29
+"Organic Pnappl Trmeric Probiome Kombucha, 16 FZ",organic pnappl trmeric probiome kombucha,16 fz,1.0,beverages,whole foods,3.99,,,,,,,,,,False,480.0,3.99
+"Organic Mango Turmeric Prebiotic & Probiotic Drink, 12 FZ",organic mango turmeric prebiotic & probiotic drink,1 CAN,1.0,beverages,whole foods,3.69,,,0.0,g,0.0,g,6.0,g,40.0,False,,3.69
+"Oi Ocha Green Tea, 16.9 FZ",oi ocha green tea,16.9 fz,1.0,beverages,whole foods,2.79,,,,,,,,,,False,507.0,2.79
+"Fuji Apple Pear Aloe Vera Juice, 16.9 FZ",fuji apple pear aloe vera juice,1 BOTTLE,1.0,beverages,whole foods,2.89,,,0.0,g,0.0,g,36.0,g,150.0,False,,2.89
+"Allure Mango Mangosteen Drink, 16.9 FZ",allure mango mangosteen drink,1 BOTTLE,1.0,beverages,whole foods,2.89,,,0.0,g,0.0,g,39.0,g,160.0,False,,2.89
+"Ginger Brew 4 Pack, 12 FZ",ginger brew,12 fz,1.0,beverages,whole foods,7.49,,,,,,,,,,False,360.0,7.49
+"Chocolate Elite Plant Protein Shake 4pk, 11.15 FZ",chocolate elite plant protein shake,11.15 fz,4.0,beverages,whole foods,9.29,,,6.0,g,32.0,g,0.0,g,200.0,False,334.5,2.32
+"Organic Cucumber Watermelon Hydration Drink, 18 FZ",organic cucumber watermelon hydration drink,8 FL,2.0,beverages,whole foods,2.49,,,0.0,g,0.0,g,1.0,g,10.0,False,240.0,1.25
+"Ginger Brew Soda, 12 FZ",ginger brew soda,1 BOTTLE,1.0,beverages,whole foods,1.99,,,0.0,g,0.0,g,40.0,g,165.0,False,,1.99
+"Vanilla Elite Plant Protein Shake 4pk, 11.15 FZ",vanilla elite plant protein shake,11.15 fz,12.0,beverages,whole foods,9.29,,,6.0,g,32.0,g,0.0,g,200.0,False,334.5,0.77
+"Vanilla Almond Tea Bags, 50 CT",vanilla almond tea bags,50 ct,1.0,beverages,whole foods,10.99,,,,,,,,,,False,,10.99
+"Passion Herbal Tea 20Ct, 20 CT",passion herbal tea,20 ct,1.0,beverages,whole foods,4.49,,,,,,,,,,False,,4.49
+"Organic Coconut Water 8pk, 10.5 FZ",organic coconut water,1 CAN,1.0,beverages,whole foods,12.99,,g,0.0,g,0.0,g,11.0,g,50.0,False,,12.99
+"Pomegranate Juice, 32 FZ",pomegranate juice,8 FL,4.0,beverages,whole foods,9.99,,,0.0,g,0.0,g,33.0,g,160.0,False,240.0,2.5
+"Decaf Earl Greyer Tea, 50 CT",decaf earl greyer tea,50 ct,1.0,beverages,whole foods,13.29,,,,,,,,,,False,,13.29
+"Guava Nectar, 33.8 FZ",guava nectar,33.8 fz,1.0,beverages,whole foods,10.29,,,,,,,,,,False,1014.0,10.29
+"Club Soda 4pk, 6.8 FZ",club soda,6.8 fz,1.0,beverages,whole foods,4.99,,,,,,,,,,False,204.0,4.99
+"Citrus Fizz 4pk, 8.45 FZ",citrus fizz,1 CAN,4.0,beverages,whole foods,6.99,,,0.0,g,0.0,g,6.0,g,25.0,False,,1.75
+"Organic Strawberry Guava Immunity Juice, 12 FZ",organic strawberry guava immunity juice,12 fz,1.0,beverages,whole foods,4.09,,,,,,,,,,False,360.0,4.09
+"Cocoa Cereal Protein Beverage, 12 FZ",cocoa cereal protein beverage,1 BOTTLE,1.0,beverages,whole foods,4.99,,,7.0,g,18.0,g,4.0,g,190.0,False,,4.99
+"Cherry Limeade, 52 FZ",cherry limeade,8 FL,7.0,beverages,whole foods,3.49,,,0.0,g,0.0,g,29.0,g,120.0,False,240.0,0.5
+"Pineapple Juice, 52 FZ",pineapple juice,8 FL,7.0,beverages,whole foods,5.29,,,0.0,g,0.99,g,28.0,g,120.0,False,240.0,0.76
+"Vanilla Bean Protein Beverage, 12 FZ",vanilla bean protein beverage,1 BOTTLE,1.0,beverages,whole foods,4.99,,,7.0,g,18.0,g,4.0,g,190.0,False,,4.99
+"Apricot Stomp Juice, 32 FZ",apricot stomp juice,32 fz,1.0,beverages,whole foods,7.49,,,,,,,,,,False,960.0,7.49
+"Apple Cider, 128 FZ",apple cider,8 FL,16.0,beverages,whole foods,8.99,,,1.0,g,0.0,g,24.0,g,110.0,False,240.0,0.56
+"Cold Brew Coffee Protein Beverage, 12 FZ",cold brew coffee protein beverage,1 BOTTLE,1.0,beverages,whole foods,4.99,,,7.0,g,18.0,g,4.0,g,190.0,False,,4.99
+"Organic Cold Pressed Celery Juice, 12 FZ",organic cold pressed celery juice,1 BOTTLE,1.0,beverages,whole foods,4.09,,,0.5,g,2.0,g,5.0,g,50.0,False,,4.09
+"Organic Mighty Dozen Juice, 12 FZ",organic mighty dozen juice,1 BOTTLE,1.0,beverages,whole foods,4.09,,,0.0,g,2.0,g,18.0,g,90.0,False,,4.09
+"Black Currant Juice, 32 FZ",black currant juice,32 fz,1.0,beverages,whole foods,5.99,,,,,,,,,,False,960.0,5.99
+"Organic Sweet Beets Apple Juice, 12 FZ",organic sweet beets apple juice,1 BOTTLE,1.0,beverages,whole foods,4.09,,,1.0,g,2.0,g,33.0,g,165.0,False,,4.09
+"Organic Lemon Love Juice, 12 FZ",organic lemon love juice,1 BOTTLE,1.0,beverages,whole foods,4.09,,,0.0,g,0.0,g,1.0,g,15.0,False,,4.09
+"Purified Water, 25 FZ",purified water,25 fz,1.0,beverages,whole foods,2.39,,,,,,,,,,False,750.0,2.39
+"Organic Lemonade & Black Tea Blend, 64 FZ",organic lemonade & black tea blend,12 FL,5.0,beverages,whole foods,3.49,,,0.0,g,0.0,g,33.0,g,130.0,False,360.0,0.7
+"Cinnamon Horchata Protein Beverage, 12 FZ",cinnamon horchata protein beverage,1 BOTTLE,1.0,beverages,whole foods,4.99,,,7.0,g,18.0,g,4.0,g,190.0,False,,4.99
+"Cookies N Crème ELITE Protein Drink, 12 FZ",cookies n crème elite protein drink,12 fz,1.0,beverages,whole foods,5.49,,,,,,,,,,False,360.0,5.49
+"Maple Pecan Protein Shake, 12 FZ",maple pecan protein shake,1 BOTTLE,1.0,beverages,whole foods,4.99,,,7.0,g,18.0,g,4.0,g,190.0,False,,4.99
+"Organic Carrot Mango Immunity Juice, 12 FZ",organic carrot mango immunity juice,12 fz,1.0,beverages,whole foods,4.09,,,,,,,,,,False,360.0,4.09
+"Lemonade, 89 FZ",lemonade,8 FL,11.0,beverages,whole foods,5.99,,,0.0,g,0.0,g,30.0,g,120.0,False,240.0,0.54
+Organic Pulp Free Orange Juice,organic pulp free orange juice,8 FL,11.0,beverages,whole foods,9.99,,,0.0,g,2.0,g,23.0,g,110.0,False,240.0,0.91
+"Vanilla ELITE Protein Shake, 12 FZ",vanilla elite protein shake,1 BOTTLE,1.0,beverages,whole foods,5.49,,,2.5,g,32.0,g,4.0,g,210.0,False,,5.49
+"Organic Coconut Smoothie, 10 FZ",organic coconut smoothie,1 BOTTLE,1.0,beverages,whole foods,5.09,,,3.0,g,1.0,g,14.0,g,110.0,False,,5.09
+"Strawberry Guava Juice, 52 FZ",strawberry guava juice,8 FL,7.0,beverages,whole foods,5.29,,,0.0,g,0.0,g,26.0,g,120.0,False,240.0,0.76
+"Cacao Bean Protein Beverage, 12 FZ",cacao bean protein beverage,1 BOTTLE,1.0,beverages,whole foods,4.99,,,7.0,g,18.0,g,4.0,g,190.0,False,,4.99
+"Organic Pulp Free Orange Juice, 52 FZ",organic pulp free orange juice,8 FL.,7.0,beverages,whole foods,9.49,,,0.0,g,2.0,g,22.0,g,110.0,False,240.0,1.36
+"Natural Alkaline Spring Water 12pk, 16.9 FZ",natural alkaline spring water,1 CUP,2.0,beverages,whole foods,15.49,,,0.0,g,0.0,g,,,,False,240.0,7.74
+"Organic Tonic Water 4pk, 6.8 FZ",organic tonic water,1 BOTTLE,4.0,beverages,whole foods,4.99,,,0.0,g,0.0,g,16.0,g,70.0,False,,1.25
+"Buzz Free Whole Bean Decaf Coffee, 24 OZ",buzz free whole bean decaf coffee,24 oz,1.0,beverages,whole foods,15.99,,,,,,,,,,False,680.39,15.99
+"Dry Bitters & Soda, 12 FZ",dry bitters & soda,12 FL,1.0,beverages,whole foods,11.99,,,0.0,g,0.0,g,0.0,g,10.0,False,360.0,11.99
+"Decaf English Breakfast Tea, 20 CT",decaf english breakfast tea,20 ct,1.0,beverages,whole foods,5.29,,,,,,,,,,False,,5.29
+"Decaf Earl Grey Tea 20Ct, 20 CT",decaf earl grey tea,20 ct,1.0,beverages,whole foods,5.29,,,,,,,,,,False,,5.29
+"Organic Pure Green Tea, 67.6 FZ",organic pure green tea,67.6 fz,1.0,beverages,whole foods,8.29,0.0,g,0.0,g,0.0,g,0.0,g,0.0,False,2028.0,8.29
+"Organic Rooibos Chai Herbal Tea, 18 CT",organic rooibos chai herbal tea,18 ct,1.0,beverages,whole foods,7.99,,,,,,,,,,False,,7.99
+"Mango Nectar, 33.8 FZ",mango nectar,33.8 fz,1.0,beverages,whole foods,10.29,,,,,,,,,,False,1014.0,10.29
+"Organic Cold Brew Black Coffee, 10 FZ",organic cold brew black coffee,1 BOTTLE,1.0,beverages,whole foods,3.99,,,0.0,g,1.0,g,0.0,g,15.0,False,,3.99
+"Zero Calorie Cream Soda Soda 12 Pack, 12 FZ",zero calorie cream soda soda,1 CAN,12.0,beverages,whole foods,13.49,,,0.0,g,0.0,g,0.0,g,0.0,False,,1.12
+"Organic Rotating Seasonal Protein Drink, 12 FZ",organic rotating seasonal protein drink,12 fz,1.0,beverages,whole foods,5.29,,,,,,,,,,False,360.0,5.29
+"Organic Strawberries & Creme Protein Elixir, 12 FZ",organic strawberries & creme protein elixir,1 BOTTLE,1.0,beverages,whole foods,5.29,,,10.0,g,20.0,g,9.0,g,240.0,False,,5.29
+"Organic Orange Peach Mango Juice, 52 FZ",organic orange peach mango juice,8 FL,7.0,beverages,whole foods,5.29,,,0.0,g,1.0,g,23.0,g,110.0,False,240.0,0.76
+"Matcha Latte Protein Shake, 12 FZ",matcha latte protein shake,1 BOTTLE,1.0,beverages,whole foods,4.99,,,7.0,g,18.0,g,4.0,g,190.0,False,,4.99
+"Organic Ultimate Immune Orange Elderberry Zinc Juice, 52 FZ",organic ultimate immune orange elderberry zinc juice,52 fz,1.0,beverages,whole foods,9.49,,,,,,,,,,False,1560.0,9.49
+"Organic Carrot Turmeric Juice, 12 FZ",organic carrot turmeric juice,12 fz,1.0,beverages,whole foods,4.09,,,,,,,,,,False,360.0,4.09
+"Organic Green Delight Juice, 12 FZ",organic green delight juice,1 BOTTLE,1.0,beverages,whole foods,4.09,,,0.5,g,1.0,g,37.0,g,170.0,False,,4.09
+"Organic Twelve Essentials Juice, 12 FZ",organic twelve essentials juice,1 BOTTLE,1.0,beverages,whole foods,4.09,,,0.0,g,3.0,g,6.0,g,45.0,False,,4.09
+"Coffee ELITE Protein Drink, 12 FZ",coffee elite protein drink,1 BOTTLE,1.0,beverages,whole foods,5.49,,,2.5,g,32.0,g,4.0,g,210.0,False,,5.49
+"Organic Orange Juice, 32 FZ",organic orange juice,32 fz,1.0,beverages,whole foods,5.99,108.0,g,0.0,g,7.97,g,84.0,g,1843.2,False,960.0,5.99
+"Grapefruit Juice, 52 FZ",grapefruit juice,8 FL,7.0,beverages,whole foods,5.29,20.09,g,0.0,g,1.0,g,21.0,g,100.0,False,240.0,0.76
+"Tart Cherry Juice, 32 FZ",tart cherry juice,8 FL,4.0,beverages,whole foods,7.49,,,0.0,g,1.0,g,24.0,g,120.0,False,240.0,1.87
+"Organic Uber Greens Drink, 12 FZ",organic uber greens drink,1 BOTTLE,1.0,beverages,whole foods,4.09,,,0.0,g,2.0,g,5.0,g,50.0,False,,4.09
+"Organic Orange Juice With Calcium + Vitamin D, 52 FZ",organic orange juice with calcium + vitamin d,8 FL.,7.0,beverages,whole foods,9.49,,,0.0,g,2.0,g,22.0,g,110.0,False,240.0,1.36
+"Ruby Red Grapefruit Juice, 52 FZ",ruby red grapefruit juice,8 FL,7.0,beverages,whole foods,5.79,,,0.0,g,1.0,g,17.0,g,90.0,False,240.0,0.83
+"Chocolate Peanut Butter Protein Shake, 12 FZ",chocolate peanut butter protein shake,1 BOTTLE,1.0,beverages,whole foods,4.99,,,7.0,g,18.0,g,4.0,g,190.0,False,,4.99
+"Strawberry Mint Basil Sparkling Water 12 Pack, 12 FZ",strawberry mint basil sparkling water,1 CAN,12.0,beverages,whole foods,5.29,,,0.0,g,0.0,g,,,0.0,False,,0.44
+"Organic Elderberry Ginger Gut Health Juice, 12 FZ",organic elderberry ginger gut health juice,12 fz,1.0,beverages,whole foods,4.09,,,,,,,,,,False,360.0,4.09
+"Equator Coffee Organic Espresso Roast Cold Brew Coffee, 8.5 FZ",equator coffee organic espresso roast cold brew coffee,1 BOTTLE,1.0,beverages,whole foods,3.99,,,0.0,g,0.8,g,2.0,g,11.0,False,,3.99
+"Organic Ultimate Defense Orange Juice Beverage, 12 FZ",organic ultimate defense orange juice beverage,12 fz,1.0,beverages,whole foods,3.29,,,,,,,,,,False,360.0,3.29
+"Equator Coffee Organic Velvet Mocha Cold Brew Coffee, 8.5 FZ",equator coffee organic velvet mocha cold brew coffee,1 BOTTLE,1.0,beverages,whole foods,3.99,,,1.4,g,5.9,g,18.1,g,112.0,False,,3.99
+"Pomegranate Juice, 48 FZ",pomegranate juice,8 FL,6.0,beverages,whole foods,11.99,,,0.0,g,0.99,g,32.0,g,150.0,False,240.0,2.0
+"ITALIAN VOLCANO Organic Lemon Juice, 16.9 FZ",italian volcano organic lemon juice,1 TSP,100.0,beverages,whole foods,8.29,,,0.0,g,0.0,g,,,0.0,False,5.0,0.08
+"Yerba Madre Organic Bluephoria Yerba Mate 4pk, 11.5 FZ",yerba madre organic bluephoria yerba mate,1 CAN,4.0,beverages,whole foods,10.99,,,0.0,g,0.0,g,21.0,g,90.0,False,,2.75
+"Calcium Orange Juice, 46 FZ",calcium orange juice,8 FL,6.0,beverages,whole foods,4.79,,,0.0,g,2.0,g,22.0,g,110.0,False,240.0,0.8
+"Sweet Reaper Tea 6pk, 12 FZ",sweet reaper tea,12 fz,1.0,beverages,whole foods,9.99,,,,,,,,,,False,360.0,9.99
+"No Pulp Orange Juice, 46 FZ",no pulp orange juice,8 FL,6.0,beverages,whole foods,4.79,26.45,g,0.0,g,2.0,g,22.0,g,110.0,False,240.0,0.8
+"Organic Dark Chocolate Protein Elixir, 12 FZ",organic dark chocolate protein elixir,1 BOTTLE,1.0,beverages,whole foods,5.29,,,11.0,g,20.0,g,8.0,g,250.0,False,,5.29
+"Organic Pineapple Juice, 32 FZ",organic pineapple juice,8 FL,4.0,beverages,whole foods,8.99,,,0.0,g,1.0,g,26.0,g,130.0,False,240.0,2.25
+"Sparkling Yuzu Juice, 8.45 FZ",sparkling yuzu juice,1 BOTTLE,1.0,beverages,whole foods,3.69,,,0.0,g,0.0,g,13.0,g,60.0,False,,3.69
+"Decaf Breakfast Tea, 50 CT",decaf breakfast tea,50 ct,1.0,beverages,whole foods,6.49,,,,,,,,,,False,,6.49
+"Espresso Blend Cold Brew Coffee, 42 FZ",espresso blend cold brew coffee,42 fz,1.0,beverages,whole foods,6.49,,,,,,,,,,False,1260.0,6.49
+"Sparkling Mikan Juice, 8.45 FZ",sparkling mikan juice,1 BOTTLE,1.0,beverages,whole foods,3.69,,,0.0,g,0.0,g,11.8,g,55.0,False,,3.69
+"Black & Unsweetened Cold Brew, 9 FZ",black & unsweetened cold brew,1 ea,1.0,beverages,whole foods,3.29,0.0,,0.0,,1.0,,0.0,,15.0,False,,3.29
+"Chocolate Protein Shake, 12 FZ",chocolate protein shake,12 fz,1.0,beverages,whole foods,4.49,,,,,,,,,,False,360.0,4.49
+"Organic Reishi Chocolate Elixir, 12 FZ",organic reishi chocolate elixir,1 BOTTLE,1.0,beverages,whole foods,5.29,,,8.0,g,4.0,g,11.0,g,180.0,False,,5.29
+"Organic Vanilla Protein Elixir, 12 FZ",organic vanilla protein elixir,1 BOTTLE,1.0,beverages,whole foods,5.29,,,8.0,g,20.0,g,4.0,g,180.0,False,,5.29
+"Ume Sparkling Juice, 8.45 FZ",ume sparkling juice,1 BOTTLE(8.45,1.0,beverages,whole foods,3.69,,,0.0,g,0.0,g,13.0,g,58.0,False,,3.69
+"Organic Ginger Green Tea 16Ct, 16 CT",organic ginger green tea,16 ct,1.0,beverages,whole foods,6.89,,,,,,,,,,False,,6.89
+"Organic Dandelion Leaf & Root Tea 16Ct, 16 CT",organic dandelion leaf & root tea,16 ct,1.0,beverages,whole foods,6.89,,,,,,,,,,False,,6.89
+"English Breakfast Tea, 20 CT",english breakfast tea,20 ct,1.0,beverages,whole foods,5.29,,,,,,,,,,False,,5.29
+"Vanilla Protein Shake, 12 FZ",vanilla protein shake,12 fz,1.0,beverages,whole foods,4.49,,,,,,,,,,False,360.0,4.49
+"Still Spring Water 12pk Cans, 12 FZ",still spring water cans,12 fz,1.0,beverages,whole foods,7.99,,,,,,,,,,False,360.0,7.99
+"Scottish Breakfast Black Tea, 50 CT",scottish breakfast black tea,50 ct,1.0,beverages,whole foods,6.49,,,,,,,,,,False,,6.49
+"Severed Lime Sparkling Water 6pk, 12 FZ",severed lime sparkling water,12 fz,1.0,beverages,whole foods,8.99,,,,,,,,,,False,360.0,8.99
+"Organic Hazelnut Chocolate Protein, 12 FZ",organic hazelnut chocolate protein,1 BOTTLE,1.0,beverages,whole foods,5.29,,,15.0,g,20.0,g,4.0,g,260.0,False,,5.29
+"Earl Grey Tea, 50 CT",earl grey tea,50 ct,1.0,beverages,whole foods,6.49,,,,,,,,,,False,,6.49
+"English Breakfast Black Tea, 50 CT",english breakfast black tea,50 ct,1.0,beverages,whole foods,6.49,,,,,,,,,,False,,6.49
+"Organic Pineapple Ginger Juice, 32 FZ",organic pineapple ginger juice,8 FL,4.0,beverages,whole foods,8.99,,,0.0,g,1.0,g,26.0,g,130.0,False,240.0,2.25
+"Ginger Soother Beverage, 32 FZ",ginger soother beverage,12 FL,2.0,beverages,whole foods,8.79,,,0.0,g,0.0,g,28.0,g,120.0,False,360.0,4.39
+"Sparkling Ringo Juice, 8.45 FZ",sparkling ringo juice,1 BOTTLE,1.0,beverages,whole foods,3.69,,,0.0,g,0.0,g,14.2,g,65.0,False,,3.69
+"Unsweetened Colombian Cold Brew Coffee, 42 FZ",unsweetened colombian cold brew coffee,12 FL,3.0,beverages,whole foods,6.49,,,0.0,g,0.99,g,,,15.0,False,360.0,2.16
+"Raspberry Rose Prebiotic Soda, 12 FZ",raspberry rose prebiotic soda,1 CAN,1.0,beverages,whole foods,2.49,,,0.0,g,0.0,g,5.0,g,30.0,False,,2.49
+"Organic Creamy Chocolate Fudge Nutri Shake 4PK, 11 FZ",organic creamy chocolate fudge nutri shake,1 CARTON,4.0,beverages,whole foods,11.99,,,8.0,g,16.0,g,12.0,g,250.0,False,,3.0
+"Organic Prune Juice, 32 FZ",organic prune juice,8 FL,4.0,beverages,whole foods,10.29,,,0.0,g,3.0,g,25.0,g,180.0,False,240.0,2.57
+"Organic Cold Brew Almond Latte, 11 FZ",organic cold brew almond latte,11 FL,1.0,beverages,whole foods,3.99,,,7.0,g,4.0,g,13.0,g,130.0,False,330.0,3.99
+"Organic Smooth Move Senna Chamomile Tea 16Ct, 16 CT",organic smooth move senna chamomile tea,16 ct,1.0,beverages,whole foods,6.89,,,,,,,,,,False,,6.89
+"Organic Peppermint Tea 16CT, 16 CT",organic peppermint tea,16 ct,1.0,beverages,whole foods,6.89,,,,,,,,,,False,,6.89
+"Organic Stress Ease Immune Tea, 16 CT",organic stress ease immune tea,16 ct,1.0,beverages,whole foods,6.89,,,,,,,,,,False,,6.89
+"Organic Throat Coat Tea, 16 CT",organic throat coat tea,16 ct,1.0,beverages,whole foods,6.89,,,,,,,,,,False,,6.89
+"Organic Gas Relief Tea 16CT, 16 CT",organic gas relief tea,16 ct,1.0,beverages,whole foods,6.89,,,,,,,,,,False,,6.89
+"Organic Roasted Dandelion Root Tea, 16 CT",organic roasted dandelion root tea,16 ct,1.0,beverages,whole foods,6.89,,,,,,,,,,False,,6.89
+"Organic Meadowsweet Turmeric Ginger Tea 16Ct, 16 CT",organic meadowsweet turmeric ginger tea,16 ct,1.0,beverages,whole foods,6.89,,,,,,,,,,False,,6.89
+"Organic Nighty Night Valerian Tea, 16 CT",organic nighty night valerian tea,16 ct,1.0,beverages,whole foods,6.89,,,,,,,,,,False,,6.89
+"Organic Everyday Detox Lemon Tea 16Ct, 16 CT",organic everyday detox lemon tea,16 ct,1.0,beverages,whole foods,6.89,,,,,,,,,,False,,6.89
+"Organic Stress Ease Focus Tea, 16 CT",organic stress ease focus tea,16 ct,1.0,beverages,whole foods,6.89,,,,,,,,,,False,,6.89
+"Organic Throat Coat Lemon Echinacea Tea 16CT, 16 CT",organic throat coat lemon echinacea tea,16 ct,1.0,beverages,whole foods,6.89,,,,,,,,,,False,,6.89
+"Breathe Easy Tea 16Ct, 16 CT",breathe easy tea,16 ct,1.0,beverages,whole foods,6.89,,,,,,,,,,False,,6.89
+"Organic Spearmint Tea, 16 CT",organic spearmint tea,16 ct,1.0,beverages,whole foods,6.89,,,,,,,,,,False,,6.89
+"Cookies n' Cream Plant Based Protein Drink, 12 FZ",cookies n' cream plant based protein drink,12 FL,12.0,beverages,whole foods,3.79,,,7.0,g,20.0,g,4.0,g,180.0,False,360.0,0.32
+"Double Chocolate Protein Shakes, 11 FZ",double chocolate protein shakes,11 FL,4.0,beverages,whole foods,11.29,,,2.0,g,20.0,g,4.0,g,140.0,False,330.0,2.82
+"Irish Breakfast Tea, 50 CT",irish breakfast tea,50 ct,1.0,beverages,whole foods,6.49,,,,,,,,,,False,,6.49
+"Artesian Water 6pk, 16.9 FZ",artesian water,16.9 fz,1.0,beverages,whole foods,7.99,,,,,,,,,,False,507.0,7.99
+"Sparkling Momo Juice, 8.5 FZ",sparkling momo juice,8.5 fz,1.0,beverages,whole foods,3.69,,,,,,,,,,False,255.0,3.69
+"Organic Immune Zoom Tea Bags, 16 CT",organic immune zoom tea bags,16 ct,1.0,beverages,whole foods,6.89,,,,,,,,,,False,,6.89
+"Organic Nighty Night Tea 16Ct, 16 CT",organic nighty night tea,16 ct,1.0,beverages,whole foods,6.89,,,,,,,,,,False,,6.89
+"Organic Green Tea Matcha With Toasted Rice, 16 CT",organic green tea matcha with toasted rice,16 ct,1.0,beverages,whole foods,6.89,,,,,,,,,,False,,6.89
+"Organic Raspberry Leaf Tea, 16 CT",organic raspberry leaf tea,16 ct,1.0,beverages,whole foods,6.89,,,,,,,,,,False,,6.89
+"Organic Ginger Chamomile Tea 16Ct, 16 CT",organic ginger chamomile tea,16 ct,1.0,beverages,whole foods,6.89,,,,,,,,,,False,,6.89
+"Organic Ginger Tea, 16 CT",organic ginger tea,16 ct,1.0,beverages,whole foods,6.89,,,,,,,,,,False,,6.89
+"Organic Lemon Balm Tea, 16 CT",organic lemon balm tea,16 ct,1.0,beverages,whole foods,6.89,,,,,,,,,,False,,6.89
+"French Vanilla Sport Coffee, 11 FZ",french vanilla sport coffee,1 CAN,1.0,beverages,whole foods,3.49,,,0.0,g,2.0,g,8.0,g,50.0,False,,3.49
+"Organic Green Peppermint Tea, 16 CT",organic green peppermint tea,16 ct,1.0,beverages,whole foods,6.89,,,,,,,,,,False,,6.89
+"Organic Strawberry Passion Probiotic Sparkling Drink, 12 FZ",organic strawberry passion probiotic sparkling drink,1 CAN,1.0,beverages,whole foods,3.69,,,0.0,g,0.0,g,6.0,g,40.0,False,,3.69
+"Rootbeer Wrath Sparkling Water 6pk, 12 FZ",rootbeer wrath sparkling water,12 fz,1.0,beverages,whole foods,8.99,,,,,,,,,,False,360.0,8.99
+"Premium Pure Cranberry Juice, 32 FZ",premium pure cranberry juice,8 FL,4.0,beverages,whole foods,10.49,,,0.0,g,0.0,g,11.0,g,80.0,False,240.0,2.62
+"365 by Whole Foods Market, Organic Tomato Juice, 32 Fl Oz",organic tomato juice,8 FL,4.0,beverages,whole foods,2.99,10.01,g,0.0,g,2.0,g,6.0,g,50.0,False,240.0,0.75
+"365 by Whole Foods Market, Organic Cranberry Juice Blend, 64 Fl Oz",organic cranberry juice blend,64 floz,1.0,beverages,whole foods,5.49,,,,,,,,,,False,1920.0,5.49
+"Organic Carrot Ginger Turmeric Juice, 32 FZ",organic carrot ginger turmeric juice,32 fz,1.0,beverages,whole foods,8.59,,,,,,,,,,False,960.0,8.59
+"365 by Whole Foods Market, Organic Blueberry Lemonade, Reduced Sugar, 64 Fl Oz","organic blueberry lemonade, reduced sugar",8 FL,8.0,beverages,whole foods,3.49,,,0.0,g,0.0,g,9.0,g,40.0,False,240.0,0.44
+"365 Everyday Value, Organic 100% Juice, Concord Grape, 32 fl oz","365 everyday value, organic 100% juice, concord grape",8 FL,4.0,beverages,whole foods,5.39,,,0.0,g,0.0,g,40.0,g,160.0,False,240.0,1.35
+"Organic Juice Cranberry Blend, 12.5 FZ",organic juice cranberry blend,1 BOTTLE,1.0,beverages,whole foods,4.59,,,0.0,g,0.0,g,38.0,g,190.0,False,,4.59
+"365 by Whole Foods Market, Organic Lemon Juice, 10 Fl Oz",organic lemon juice,1 TSP,59.0,beverages,whole foods,3.49,,,0.0,g,0.0,g,,,0.0,False,5.0,0.06
+"Organic Concord Grape Juice, 32 FZ",organic concord grape juice,8 FL,4.0,beverages,whole foods,10.99,,,0.0,g,1.0,g,36.0,g,160.0,False,240.0,2.75
+"Pure Pomegranate Juice, 32 FZ",pure pomegranate juice,8 FL,4.0,beverages,whole foods,10.49,,,0.0,g,1.0,g,33.0,g,160.0,False,240.0,2.62
+"Organic Mango Juice, 32 FZ",organic mango juice,8 FL,4.0,beverages,whole foods,7.49,,,0.0,g,1.0,g,32.0,g,140.0,False,240.0,1.87
+"365 by Whole Foods Market, Organic Orange Mango Juice Blend, 32 Fl Oz",organic orange mango juice blend,8 FL,4.0,beverages,whole foods,2.79,,,0.0,g,0.0,g,29.0,g,120.0,False,240.0,0.7
+"Organic Tart Cherry Juice, 32 FZ",organic tart cherry juice,8 FL,4.0,beverages,whole foods,6.49,,,0.0,g,0.0,g,35.0,g,140.0,False,240.0,1.62
+"Pineapple Coconut Juice, 32 FZ",pineapple coconut juice,8 FL,4.0,beverages,whole foods,5.89,,,0.0,g,0.99,g,25.0,g,120.0,False,240.0,1.47
+"Organic Blackberry Yerba Mate, 16 FZ",organic blackberry yerba mate,16 OZ,1.0,beverages,whole foods,3.29,,,0.0,g,0.0,g,15.0,g,70.0,False,453.59,3.29
+"Organic Papaya Juice, 32 FZ",organic papaya juice,8 FL,4.0,beverages,whole foods,8.59,,,0.0,g,1.0,g,21.0,g,110.0,False,240.0,2.15
+"Medley Fruit Juice, 33.8 FZ",medley fruit juice,8 FL,4.0,beverages,whole foods,5.39,,,0.0,g,0.0,g,29.0,g,130.0,False,240.0,1.35
+"Organic Strawberry Lemonade, 64 FZ",organic strawberry lemonade,8 FL,8.0,beverages,whole foods,3.49,,,0.0,g,0.0,g,22.0,g,90.0,False,240.0,0.44
+"365 by Whole Foods Market, 100% Cranberry Juice, 32 Fl Oz",100% cranberry juice,8 FL,4.0,beverages,whole foods,6.29,,,0.0,g,0.0,g,7.0,g,70.0,False,240.0,1.57
+"Organic Lemonade & Tea Yerba Mate, 15.5 FZ",organic lemonade & tea yerba mate,15.5 fz,1.0,beverages,whole foods,3.29,,,0.0,g,0.0,g,21.0,g,90.0,False,465.0,3.29
+"Organic Mango Lemonade, 64 FZ",organic mango lemonade,8 FL,8.0,beverages,whole foods,3.49,,,0.0,g,0.0,g,21.0,g,80.0,False,240.0,0.44
+"365 by Whole Foods Market, Organic Reduced Sugar Watermelon Strawberry Juice, 64 Fl Oz",organic reduced sugar watermelon strawberry juice,64 floz,1.0,beverages,whole foods,4.29,,,,,,,,,,False,1920.0,4.29
+"365 by Whole Foods Market, Organic Mango Passionfruit Juice, Reduced Sugar, 64 Fl Oz","organic mango passionfruit juice, reduced sugar",8 FL,8.0,beverages,whole foods,4.29,,,0.0,g,0.0,g,10.0,g,40.0,False,240.0,0.54
+"Organic Coconut Nog Smoothie, 32 FZ",organic coconut nog smoothie,32 fz,1.0,beverages,whole foods,10.99,,,,,,,,,,False,960.0,10.99
+"Organic Pure Cranberry Juice, 32 FZ",organic pure cranberry juice,8 FL,4.0,beverages,whole foods,13.49,,,0.0,g,0.0,g,11.0,g,80.0,False,240.0,3.37
+"Organic Lemon Lime Yerba Mate, 16 FZ",organic lemon lime yerba mate,16 OZ,1.0,beverages,whole foods,3.29,,,0.0,g,0.0,g,15.0,g,70.0,False,453.59,3.29
+"Honeycrisp Apple Cider, 0.5 GL","honeycrisp apple cider, 0.5 gl",8 FL,8.0,beverages,whole foods,5.79,,,1.0,g,0.0,g,24.0,g,110.0,False,240.0,0.72
+"Organic Coconut Hot Cocoa Mix, 0.95 OZ",organic coconut hot cocoa mix,1 PACKET,1.0,beverages,whole foods,2.29,,,4.0,g,1.0,g,12.0,g,120.0,False,,2.29
+"Fuji Apple Juice, 32 FZ",fuji apple juice,32 fz,1.0,beverages,whole foods,5.99,,,,,,,,,,False,960.0,5.99
+"Organic Yerba Mate Sparkling Cranberry Pomegranate, 12 FZ",organic yerba mate sparkling cranberry pomegranate,1 CAN,1.0,beverages,whole foods,2.99,,,0.0,g,1.0,g,23.0,g,100.0,False,,2.99
+"Fruity Cereal Protein Beverage, 12 FZ",fruity cereal protein beverage,1 BOTTLE,1.0,beverages,whole foods,4.99,,,7.0,g,18.0,g,4.0,g,190.0,False,,4.99
+"Organic Pure Pineapple Juice, 12.5 FZ",organic pure pineapple juice,1 BOTTLE,1.0,beverages,whole foods,4.59,,,0.0,g,1.0,g,38.0,g,190.0,False,,4.59
+"Organic Berry Good Lemonade Juice Drink 8 Count, 6 FZ",organic berry good lemonade juice drink,1 DRINK,8.0,beverages,whole foods,4.99,,,0.0,g,0.0,g,7.0,g,35.0,False,,0.62
+"Organic Pure Lemon, 32 FZ",organic pure lemon,1 TSP,189.0,beverages,whole foods,8.89,,,0.0,g,0.0,g,0.0,g,0.0,False,5.0,0.05
+"Organic Peach Yerba Mate, 16 FZ",organic peach yerba mate,16 OZ,1.0,beverages,whole foods,3.29,,,0.0,g,0.0,g,15.0,g,70.0,False,453.59,3.29
+"Organic Grape Cranberry Juice, 64 FZ",organic grape cranberry juice,8 FL,8.0,beverages,whole foods,5.49,,,0.0,g,0.0,g,33.0,g,130.0,False,240.0,0.69
+"Organic Mint & Honey Yerba Mate, 15.5 FZ",organic mint & honey yerba mate,15.5 fz,1.0,beverages,whole foods,3.29,,,0.0,g,0.0,g,21.0,g,90.0,False,465.0,3.29
+"Organic Raspberry Yerba Mate, 16 FZ",organic raspberry yerba mate,16 OZ,1.0,beverages,whole foods,3.29,,,0.0,g,0.0,g,15.0,g,70.0,False,453.59,3.29
+"365 by Whole Foods Market, Organic Apple Juice, 64 Fl Oz",organic apple juice,8 FL,8.0,beverages,whole foods,3.49,,,0.0,g,0.0,g,30.0,g,120.0,False,240.0,0.44
+"Pure Black Cherry Juice, 32 FZ",pure black cherry juice,8 FL,4.0,beverages,whole foods,7.99,,,0.0,g,1.0,g,33.0,g,170.0,False,240.0,2.0
+"Passion Fruit Juice, 33.8 FZ",passion fruit juice,8 FL,4.0,beverages,whole foods,5.39,,,0.0,g,0.0,g,27.0,g,130.0,False,240.0,1.35
+"Organic Apple Juice Drink 8 Count, 6 FZ",organic apple juice drink,1 DRINK,8.0,beverages,whole foods,4.99,,,0.0,g,0.0,g,8.0,g,35.0,False,,0.62
+"365 by Whole Foods Market, Organic Juice, Mango Apple Orange Baobab, 32 Fl Oz","organic juice, mango apple orange baobab",32 floz,1.0,beverages,whole foods,4.99,,,,,,,,,,False,960.0,4.99
+"365 by Whole Foods Market, Organic Carrot Orange Turmeric Juice, 32 Fl Oz",organic carrot orange turmeric juice,8 FL,4.0,beverages,whole foods,4.99,,,0.0,g,0.0,g,29.0,g,120.0,False,240.0,1.25
+"Big Bird's Apple Juice 8 Pack, 4.23 FZ",big bird's apple juice,1 CONTAINER,1.0,beverages,whole foods,4.29,,,0.0,g,0.0,g,12.0,g,60.0,False,,4.29
+"Organic Biodynamic Mango Nectar, 32 FZ",organic biodynamic mango nectar,8 FL,4.0,beverages,whole foods,9.69,,,0.0,g,1.0,g,33.0,g,150.0,False,240.0,2.42
+"365 by Whole Foods Market, Organic Light Lemonade, 64 FZ",organic light lemonade,8 FL,8.0,beverages,whole foods,3.49,,,0.0,g,0.0,g,9.0,g,40.0,False,240.0,0.44
+"365 by Whole Foods Market, Organic Lime Juice, 10 FZ",organic lime juice,1 TSP,59.0,beverages,whole foods,3.49,,,0.0,g,0.0,g,,,0.0,False,5.0,0.06
+"365 by Whole Foods Market, Organic Cranberry Pomegranate Juice, 64 Fl Oz",organic cranberry pomegranate juice,8 FL,8.0,beverages,whole foods,5.49,,,0.0,g,0.0,g,32.0,g,130.0,False,240.0,0.69
+"Mango Juice, 33.8 FZ",mango juice,8 FL,4.0,beverages,whole foods,5.39,,,0.0,g,0.0,g,26.0,g,120.0,False,240.0,1.35
+"Organic Pure Tart Cherry Juice, 32 FZ",organic pure tart cherry juice,8 FL,4.0,beverages,whole foods,12.29,,,0.0,g,2.0,g,24.0,g,140.0,False,240.0,3.07
+"Organic Pure Blueberry Juice, 32 FZ",organic pure blueberry juice,8 FL,4.0,beverages,whole foods,12.99,,,0.0,g,1.0,g,20.0,g,110.0,False,240.0,3.25
+"365 by Whole Foods Market, Organic Juice, Carrot Beet Cherry Elderberry, 32 Fl Oz","organic juice, carrot beet cherry elderberry",8 FL,4.0,beverages,whole foods,4.99,,,0.0,g,0.99,g,22.0,g,90.0,False,240.0,1.25
+"Organic 100% Prune Juice, 32 FZ",organic 100% prune juice,8 FL,4.0,beverages,whole foods,6.99,,,0.0,g,1.0,g,27.0,g,180.0,False,240.0,1.75
+"Apple Juice 4 pk, 10 FZ",apple juice,10 FL,4.0,beverages,whole foods,8.49,,,0.0,g,1.0,g,39.0,g,180.0,False,300.0,2.12
+"Organic Carrot Juice, 32 FZ",organic carrot juice,32 fz,1.0,beverages,whole foods,8.59,,,,,,,,,,False,960.0,8.59
+"Apple Juice, 64 FZ",apple juice,64 fz,1.0,beverages,whole foods,4.79,,,,,,,,,,False,1920.0,4.79
+"Organic Refresh Mint Herbal Tea, 16 CT",organic refresh mint herbal tea,16 ct,1.0,beverages,whole foods,5.69,,,,,,,,,,False,,5.69
+"Off The Grid Medium Roast Ground Coffee, 10.5 OZ",off the grid medium roast ground coffee,10.5 oz,1.0,beverages,whole foods,13.29,,,,,,,,,,False,297.67,13.29
+"Ethiopia Genji Challa Whole Bean Coffee, 12 OZ",ethiopia genji challa whole bean coffee,12 oz,1.0,beverages,whole foods,16.29,,,,,,,,,,False,340.19,16.29
+"Sermon Blend Whole Bean Coffee, 12 OZ",sermon blend whole bean coffee,12 oz,1.0,beverages,whole foods,15.99,,,,,,,,,,False,340.19,15.99
+"Sun Catcher Light Roast Ground Coffee, 10.5 OZ",sun catcher light roast ground coffee,10.5 oz,1.0,beverages,whole foods,13.29,,,,,,,,,,False,297.67,13.29
+"Organic Strawberry Hibiscus Decaf Sparkling Tea, 12 FZ",organic strawberry hibiscus decaf sparkling tea,12 fz,1.0,beverages,whole foods,2.99,,,,,,,,,,False,360.0,2.99
+"Organic Hibiscus Ginger Lime Kombucha, 16 FZ",organic hibiscus ginger lime kombucha,16 FL,1.0,beverages,whole foods,3.79,,,0.0,g,2.0,g,8.0,g,50.0,False,480.0,3.79
+"Big Trouble Blend Whole Bean Coffee, 24 OZ",big trouble blend whole bean coffee,24 oz,1.0,beverages,whole foods,24.99,,,,,,,,,,False,680.39,24.99
+"Organic Bubbly Rose Kombucha, 16 FZ",organic bubbly rose kombucha,1 BOTTLE,1.0,beverages,whole foods,3.79,,,0.0,g,0.0,g,15.0,g,70.0,False,,3.79
+"Organic Sweetened Raspberry Black Tea, 12 FZ",organic sweetened raspberry black tea,1 CAN,1.0,beverages,whole foods,1.35,,,0.0,g,0.0,g,0.0,g,0.0,False,,1.35
+"Organic Peach Mango Zero Calorie Tea, 16 FZ",organic peach mango zero calorie tea,1 CAN,1.0,beverages,whole foods,2.39,,,0.0,g,0.0,g,0.0,g,0.0,False,,2.39
+"Organic Hundred Mile Blend Coffee, 12 OZ",organic hundred mile blend coffee,12 oz,1.0,beverages,whole foods,18.79,,,,,,,,,,False,340.19,18.79
+"Organic Caffeine Free Sweetened Hibiscus Passionfruit Tea, 12 FZ",organic caffeine free sweetened hibiscus passionfruit tea,1 CAN,1.0,beverages,whole foods,1.35,,,0.0,g,0.0,g,0.0,g,0.0,False,,1.35
+"Organic Holler Mountain Coffee, 12 OZ",organic holler mountain coffee,12 oz,1.0,beverages,whole foods,18.79,,,,,,,,,,False,340.19,18.79
+"Dark Roast Whole Bean Coffee Blend, 12 OZ",dark roast whole bean coffee blend,12 oz,1.0,beverages,whole foods,16.29,,,,,,,,,,False,340.19,16.29
+"Synergy Peach Paradise Kombucha, 48 FZ",synergy peach paradise kombucha,16 FL,3.0,beverages,whole foods,9.59,,,0.0,g,0.0,g,12.0,g,50.0,False,480.0,3.2
+"Ginger Peach Black Tea, 50 CT",ginger peach black tea,50 ct,1.0,beverages,whole foods,10.99,,,,,,,,,,False,,10.99
+"Major Dickasons Blend Coffee Whole Bean, 10.5 OZ",major dickasons blend coffee whole bean,10.5 oz,1.0,beverages,whole foods,13.29,,,,,,,,,,False,297.67,13.29
+"Organic Ginger Lemon Kombucha, 16 FZ",organic ginger lemon kombucha,1 BOTTLE,1.0,beverages,whole foods,3.79,,,0.0,g,0.0,g,15.0,g,70.0,False,,3.79
+"Organic Cayenne Cleanse Kombucha, 16 FZ",organic cayenne cleanse kombucha,1 BOTTLE,1.0,beverages,whole foods,3.79,,,0.0,g,0.0,g,15.0,g,70.0,False,,3.79
+"Guatemala Whole Bean Coffee, 12 OZ",guatemala whole bean coffee,12 oz,1.0,beverages,whole foods,19.99,,,,,,,,,,False,340.19,19.99
+"Ethiopia Light Roast Coffee, 12 OZ",ethiopia light roast coffee,12 oz,1.0,beverages,whole foods,15.49,,,,,,,,,,False,340.19,15.49
+"Organic Mexican Oaxaca Coffee, 12 OZ",organic mexican oaxaca coffee,12 oz,1.0,beverages,whole foods,13.79,,,,,,,,,,False,340.19,13.79
+"Organic Slow Motion Decaf Blend Whole Bean Coffee, 12 OZ",organic slow motion decaf blend whole bean coffee,12 oz,1.0,beverages,whole foods,15.29,,,,,,,,,,False,340.19,15.29
+"Pacific Rim Blend Whole Bean Coffee, 24 OZ",pacific rim blend whole bean coffee,24 oz,1.0,beverages,whole foods,15.99,,,,,,,,,,False,680.39,15.99
+"Guava Goddess Synergy Kombucha, 48 FZ",guava goddess synergy kombucha,16 FL,3.0,beverages,whole foods,9.59,,,0.0,g,0.0,g,16.0,g,60.0,False,480.0,3.2
+"Hairbender Coffee, 12 OZ",hairbender coffee,12 oz,1.0,beverages,whole foods,17.99,,,,,,,,,,False,340.19,17.99
+"Sparkling Ginger Water, 12 FZ",sparkling ginger water,1 CAN,1.0,beverages,whole foods,0.79,,,0.0,g,0.0,g,,,0.0,False,,0.79
+"Organic Citrus Immune Boost Kombucha, 16 FZ",organic citrus immune boost kombucha,1 BOTTLE,1.0,beverages,whole foods,3.79,,,0.0,g,0.0,g,17.0,g,80.0,False,,3.79
+"Organic Alameda Morning Blend Medium Roast Coffee, 10.5 OZ",organic alameda morning blend medium roast coffee,10.5 oz,1.0,beverages,whole foods,12.99,,,,,,,,,,False,297.67,12.99
+"Organic Apollo Espresso Blend Whole Bean Coffee, 12 OZ",organic apollo espresso blend whole bean coffee,12 oz,1.0,beverages,whole foods,15.29,,,,,,,,,,False,340.19,15.29
+"Organic Juice Apple Unfiltered, 32 FZ",organic juice apple unfiltered,8 FL,4.0,beverages,whole foods,9.29,,,0.0,g,0.0,g,26.0,g,120.0,False,240.0,2.32
+"Organic Fast Forward Blend Whole Bean Coffee, 12 OZ",organic fast forward blend whole bean coffee,12 oz,1.0,beverages,whole foods,15.29,,,,,,,,,,False,340.19,15.29
+"Guatemala Finca Valparaiso Coffee, 12 OZ",guatemala finca valparaiso coffee,12 oz,1.0,beverages,whole foods,15.49,,,,,,,,,,False,340.19,15.49
+"Organic Caramel Ground Coffee, 12 OZ",organic caramel ground coffee,12 oz,1.0,beverages,whole foods,9.99,,,,,,,,,,False,340.19,9.99
+"Homestead Blend Coffee, 12 OZ",homestead blend coffee,12 oz,1.0,beverages,whole foods,17.99,,,,,,,,,,False,340.19,17.99
+"Organic Seasonal Kombucha, 16 FZ",organic seasonal kombucha,1 BOTTLE,1.0,beverages,whole foods,3.79,,,0.0,g,0.0,g,19.0,g,80.0,False,,3.79
+"Decaf Buzz Free Ground Coffee, 10 OZ",decaf buzz free ground coffee,10 oz,1.0,beverages,whole foods,8.79,,,,,,,,,,False,283.5,8.79
+"Gingerade Enlightened Kombucha, 48 FZ",gingerade enlightened kombucha,16 FL,3.0,beverages,whole foods,9.59,,,0.0,g,0.0,g,12.0,g,50.0,False,480.0,3.2
+"Organic Blueberry Social Kombucha, 16 FZ",organic blueberry social kombucha,16 FL,1.0,beverages,whole foods,3.79,,,0.0,g,1.0,g,8.0,g,50.0,False,480.0,3.79
+"Organic Passionfruit Tangerine Kombucha, 16 FZ",organic passionfruit tangerine kombucha,1 BOTTLE,1.0,beverages,whole foods,3.79,,,0.0,g,0.0,g,17.0,g,80.0,False,,3.79
+"Hometown Blend Whole Bean Coffee, 24 OZ",hometown blend whole bean coffee,24 oz,1.0,beverages,whole foods,15.99,,,,,,,,,,False,680.39,15.99
+"House Blend Ground Coffee, 12 OZ",house blend ground coffee,12 oz,1.0,beverages,whole foods,17.49,,,,,,,,,,False,340.19,17.49
+"Organic French Ground Coffee, 10.5 OZ",organic french ground coffee,10.5 oz,1.0,beverages,whole foods,12.99,,,,,,,,,,False,297.67,12.99
+"Organic Peach Out Kombucha, 16 FZ",organic peach out kombucha,16 FL,1.0,beverages,whole foods,3.79,,,0.0,g,3.0,g,7.0,g,50.0,False,480.0,3.79
+"Organic Mint Limeade Kombucha, 16 FZ",organic mint limeade kombucha,1 BOTTLE,1.0,beverages,whole foods,3.79,,,0.0,g,0.0,g,17.0,g,80.0,False,,3.79
+"Whole Bean Guatemala Reserve Coffee, 12 OZ",whole bean guatemala reserve coffee,12 oz,1.0,beverages,whole foods,15.49,,,,,,,,,,False,340.19,15.49
+"Trilogy Synergy Kombucha, 48 FZ",trilogy synergy kombucha,16 FL,3.0,beverages,whole foods,9.59,,,0.0,g,0.0,g,12.0,g,50.0,False,480.0,3.2
+"Costa Rica Tarrazu Coffee, 12 OZ",costa rica tarrazu coffee,12 oz,1.0,beverages,whole foods,15.49,,,,,,,,,,False,340.19,15.49
+"Pacific Rim Ground Coffee, 24 OZ",pacific rim ground coffee,24 oz,1.0,beverages,whole foods,15.99,,,,,,,,,,False,680.39,15.99
+"Dota French Roast Whole Bean Coffee, 12 OZ",dota french roast whole bean coffee,12 oz,1.0,beverages,whole foods,19.99,,,,,,,,,,False,340.19,19.99
+"Organic Sweetened Peach Black Tea, 12 FZ",organic sweetened peach black tea,1 CAN,1.0,beverages,whole foods,1.35,,,0.0,g,0.0,g,0.0,g,0.0,False,,1.35
+"Organic Fast Forward Whole Bean Coffee, 24 OZ",organic fast forward whole bean coffee,24 oz,1.0,beverages,whole foods,24.99,,,,,,,,,,False,680.39,24.99
+"Cold Brew Concentrate 2x, 25.4 FZ",cold brew concentrate 2x,5 FL,5.0,beverages,whole foods,12.99,,,0.0,g,1.0,g,,,15.0,False,150.0,2.6
+"Dark French Roast Coffee, 12 OZ",dark french roast coffee,12 oz,1.0,beverages,whole foods,15.49,,,,,,,,,,False,340.19,15.49
+"Chocolate Coconut Water, 1 LT","chocolate coconut water, 1 lt",8 FL,4.0,beverages,whole foods,3.75,,,0.0,g,1.0,g,12.0,g,70.0,False,240.0,0.94
+"Big Trouble Blend Whole Bean Coffee, 12 OZ",big trouble blend whole bean coffee,12 oz,1.0,beverages,whole foods,15.49,,,,,,,,,,False,340.19,15.49
+"Bonne Nuit Whole Bean Coffee, 24 OZ",bonne nuit whole bean coffee,24 oz,1.0,beverages,whole foods,15.99,,,,,,,,,,False,680.39,15.99
+"Major Dickasons Blend Coffee Ground, 10.5 OZ",major dickasons blend coffee ground,10.5 oz,1.0,beverages,whole foods,13.29,,,,,,,,,,False,297.67,13.29
+"Big Bang Coffee, 10.5 OZ",big bang coffee,10.5 oz,1.0,beverages,whole foods,13.29,,,,,,,,,,False,297.67,13.29
+"Organic Blueberry Pomegranate Acai Green Tea, 16 FZ",organic blueberry pomegranate acai green tea,1 CAN,1.0,beverages,whole foods,2.39,,,0.0,g,0.0,g,17.0,g,90.0,False,,2.39
+"Pleasant Morning Buzz Whole Bean Coffee, 24 OZ",pleasant morning buzz whole bean coffee,24 oz,1.0,beverages,whole foods,15.99,,,,,,,,,,False,680.39,15.99
+"Organic Carrot Blood Orange Ginger Kombucha, 16 FZ",organic carrot blood orange ginger kombucha,1 BOTTLE,1.0,beverages,whole foods,3.79,,,0.0,g,0.0,g,16.0,g,70.0,False,,3.79
+"Organic Mocha Ground Coffee, 12 OZ",organic mocha ground coffee,12 oz,1.0,beverages,whole foods,9.99,,,,,,,,,,False,340.19,9.99
+"Alchemy Espresso, 12 OZ",alchemy espresso,12 oz,1.0,beverages,whole foods,19.99,,,,,,,,,,False,340.19,19.99
+"Shoondhisa Natural Coffee, 12 OZ",shoondhisa natural coffee,12 oz,1.0,beverages,whole foods,16.29,,,,,,,,,,False,340.19,16.29
+"365 by Whole Foods Market, Decaf Instant Coffee, Dark Vienna Roast, Swiss Water Process, 3.5 Ounce","decaf instant coffee, dark vienna roast, swiss water process,",3.5 oz,1.0,beverages,whole foods,7.89,,,,,,,,,,False,99.22,7.89
+"Cafe Domingo Ground Coffee, 10.5 OZ",cafe domingo ground coffee,10.5 oz,1.0,beverages,whole foods,13.29,,,,,,,,,,False,297.67,13.29
+"Decaf Major Dickason's Ground Coffee, 10.5 OZ",decaf major dickason's ground coffee,10.5 oz,1.0,beverages,whole foods,13.29,,,,,,,,,,False,297.67,13.29
+"Churro Ground Coffee, 12 OZ",churro ground coffee,12 oz,1.0,beverages,whole foods,15.79,,,,,,,,,,False,340.19,15.79
+"Raspberry Pink Lemonade Seltzer 8 Pack, 12 FZ",raspberry pink lemonade seltzer,1 CAN,8.0,beverages,whole foods,5.49,,,0.0,g,0.0,g,0.0,g,0.0,False,,0.69
+"Organic Grapefruit Juice, 32 FZ",organic grapefruit juice,8 FL,4.0,beverages,whole foods,9.19,,,0.0,g,1.0,g,23.0,g,120.0,False,240.0,2.3
+"365 by Whole Foods Market, Alkaline & Electrolyte Water, 33.8 Fl Oz, 12-pack","alkaline & electrolyte water,",33.8 floz,1.0,beverages,whole foods,17.99,,,,,,,,,,False,1014.0,17.99
+"Nizza Coffee, 12 OZ",nizza coffee,12 oz,1.0,beverages,whole foods,12.49,,,,,,,,,,False,340.19,12.49
+"Spring Water 12 Pack, 1 LT","spring water, 1 lt",12 pack,1.0,beverages,whole foods,34.99,,,,,,,,,,False,,34.99
+"Smooth Vanilla Plant-Based Protein Shake 4pk, 11.15 FZ",smooth vanilla plant-based protein shake,11.15 fz,4.0,beverages,whole foods,8.79,,,7.0,g,20.0,g,4.0,g,170.0,False,334.5,2.2
+"Organic Fruit Punch Juice 8 Pack, 6 FZ",organic fruit punch juice,1 DRINK,8.0,beverages,whole foods,4.99,,,0.0,g,0.0,g,8.0,g,35.0,False,,0.62
+"Seabright Blend Whole Bean Coffee, 12 OZ",seabright blend whole bean coffee,12 oz,1.0,beverages,whole foods,15.99,,,,,,,,,,False,340.19,15.99
+"Tart Cherry Lime Seltzer 8 Pack, 12 FZ",tart cherry lime seltzer,1 CAN,8.0,beverages,whole foods,5.49,,,0.0,g,0.0,g,0.0,g,0.0,False,,0.69
+"Sparkling Mineral Water, 750 ML",sparkling mineral water,750 ml,1.0,beverages,whole foods,42.99,,g,,g,,g,,g,,False,,42.99
+"Pina Fizz 4pk, 8.45 FZ",pina fizz,1 CAN,4.0,beverages,whole foods,6.99,,,0.0,g,0.0,g,6.0,g,30.0,False,,1.75
+"Tonic Water 12pk, 12 FZ",tonic water,1 CAN,12.0,beverages,whole foods,7.99,,,0.0,g,0.0,g,38.0,g,160.0,False,,0.67
+"Single Origin Latin America Whole Bean Coffee, 12 OZ",single origin latin america whole bean coffee,12 oz,1.0,beverages,whole foods,15.79,,,,,,,,,,False,340.19,15.79
+"365 By Whole Foods Market, Water Alkaline Electrolyte Rpet, 50.7 Fl Oz, 12 Pack",water alkaline electrolyte rpet,12 FL,51.0,beverages,whole foods,21.99,,,0.0,g,0.0,g,,,0.0,False,360.0,0.43
+"Black Razzberry Sparkling Water 12 Pack, 12 FZ",black razzberry sparkling water,1 CAN,1.0,beverages,whole foods,6.99,,,0.0,g,0.0,g,,,0.0,False,,6.99
+"Organic Earl Grey Black Tea, 15 CT",organic earl grey black tea,15 ct,1.0,beverages,whole foods,8.29,,,,,,,,,,False,,8.29
+"Organic Cranberry Pomegranate Juice, 32 FZ",organic cranberry pomegranate juice,8 FL,4.0,beverages,whole foods,5.49,,,0.0,g,0.0,g,22.0,g,110.0,False,240.0,1.37
+"Organic Ginger Ale Zero Sugar Soda, 12 FZ",organic ginger ale zero sugar soda,12 fz,1.0,beverages,whole foods,2.49,,,,,,,,,,False,360.0,2.49
+"Lemon Sting Honey Soda 4pk, 12 FZ",lemon sting honey soda,12 fz,1.0,beverages,whole foods,9.49,,,,,,,,,,False,360.0,9.49
+"Organic Green Devotion Juice, 44 FZ",organic green devotion juice,8 FL,5.0,beverages,whole foods,10.99,,,0.0,g,2.0,g,4.0,g,25.0,False,240.0,2.2
+"Organic English Breakfast Tea, 15 CT",organic english breakfast tea,15 ct,1.0,beverages,whole foods,8.99,,,,,,,,,,False,,8.99
+"Pure Sparkling Water 12 Pack, 12 FZ",pure sparkling water,1 CAN,12.0,beverages,whole foods,6.99,,,0.0,g,0.0,g,,,0.0,False,,0.58
+"Organic Bergamot Rose Tea Sachets, 15 CT",organic bergamot rose tea sachets,15 ct,1.0,beverages,whole foods,8.99,,,,,,,,,,False,,8.99
+"Organic Ginger Love Juice, 32 FZ",organic ginger love juice,8 FL,4.0,beverages,whole foods,8.89,,,0.0,g,0.0,g,1.0,g,10.0,False,240.0,2.22
+"Organic Cream Soda, 12 FZ",organic cream soda,1 CAN,1.0,beverages,whole foods,2.49,,,0.0,g,0.0,g,0.0,g,0.0,False,,2.49
+"Whole Foods Market, Rainforest Blend Coffee, Medium-Dark Roast Ground, 12 Ounce","rainforest blend coffee, medium-dark roast ground,",12 oz,1.0,beverages,whole foods,10.99,,,,,,,,,,False,340.19,10.99
+"Organic Defense Up Juice, 32 FZ",organic defense up juice,32 fz,1.0,beverages,whole foods,8.49,,,,,,,,,,False,960.0,8.49
+"Tangerine Juice, 59 FZ",tangerine juice,8 FL,7.0,beverages,whole foods,9.99,,,0.0,g,1.0,g,30.0,g,140.0,False,240.0,1.43
+"Spring Water, 50.7 FZ",spring water,50.7 fz,1.0,beverages,whole foods,2.09,,,,,,,,,,False,1521.0,2.09
+"Organic Root Beer Soda, 12 FZ",organic root beer soda,1 CAN,1.0,beverages,whole foods,2.49,,,0.0,g,0.0,g,0.0,g,0.0,False,,2.49
+"Organic Celery Juice, 15.2 FZ",organic celery juice,1 BOTTLE,1.0,beverages,whole foods,4.79,,,0.0,g,2.0,g,1.0,g,35.0,False,,4.79
+"Organic Just Cranberry Juice, 32 FZ",organic just cranberry juice,8 FL,4.0,beverages,whole foods,12.49,,,0.0,g,0.0,g,9.0,g,70.0,False,240.0,3.12
+"Organic Citrus Ginger Zest Juice, 15.2 FZ",organic citrus ginger zest juice,1 BOTTLE,1.0,beverages,whole foods,4.79,,,0.0,g,4.0,g,36.0,g,180.0,False,,4.79
+"Mighty Watermelon Juice, 32 FZ",mighty watermelon juice,8 FL,4.0,beverages,whole foods,8.49,,,0.0,g,2.0,g,18.0,g,90.0,False,240.0,2.12
+"Organic Echinacea Plus Tea, 16 CT",organic echinacea plus tea,16 ct,1.0,beverages,whole foods,6.89,,,,,,,,,,False,,6.89
+"Organic Breakfast Black Tea, 15 CT",organic breakfast black tea,15 ct,1.0,beverages,whole foods,8.29,,,,,,,,,,False,,8.29
+"Organic Carrot Citrus Radiance, 15.2 FZ",organic carrot citrus radiance,1 BOTTLE,1.0,beverages,whole foods,4.79,,,0.0,g,2.0,g,40.0,g,180.0,False,,4.79
+"Organic Turmeric Love Juice, 12 FZ",organic turmeric love juice,1 BOTTLE,1.0,beverages,whole foods,4.09,,,0.0,g,0.0,g,2.0,g,20.0,False,,4.09
+"Sparkling Mountain Water 6pk, 12 FZ",sparkling mountain water,12 fz,1.0,beverages,whole foods,7.99,,,,,,,,,,False,360.0,7.99
+"Guava Juice, 33.8 FZ",guava juice,8 FL,4.0,beverages,whole foods,5.39,,,0.0,g,0.0,g,27.0,g,120.0,False,240.0,1.35
+"Organic Tropical Passion Juice, 15.2 FZ",organic tropical passion juice,1 BOTTLE,1.0,beverages,whole foods,4.79,,,0.0,g,2.0,g,44.0,g,210.0,False,,4.79
+"Organic Zero Sugar Cream Soda Single, 12 FZ",organic zero sugar cream soda single,12 fz,1.0,beverages,whole foods,2.49,,,,,,,,,,False,360.0,2.49
+"Sparkling Water, 28 FZ",sparkling water,28 fz,1.0,beverages,whole foods,3.09,,,,,,,,,,False,840.0,3.09
+"Organic Earl Grey Tea, 15 CT",organic earl grey tea,15 ct,1.0,beverages,whole foods,8.99,,,,,,,,,,False,,8.99
+"Organic Super Green Juice, 15.2 FZ",organic super green juice,1 BOTTLE,1.0,beverages,whole foods,4.79,,,0.0,g,4.0,g,50.0,g,240.0,False,,4.79
+"Tangerine Sparkling Water 12 Pack, 12 FZ",tangerine sparkling water,1 CAN,1.0,beverages,whole foods,6.99,,,0.0,g,0.0,g,,,0.0,False,,6.99
+"Organic Dragon Fruit Mango Lemon Water, 15.2 FZ",organic dragon fruit mango lemon water,1 BOTTLE,1.0,beverages,whole foods,2.29,,,0.0,g,0.0,g,0.0,g,5.0,False,,2.29
+"Organic Sweet Greens And Ginger Juice, 15.2 FZ",organic sweet greens and ginger juice,1 BOTTLE,1.0,beverages,whole foods,4.79,,,0.0,g,2.0,g,16.0,g,90.0,False,,4.79
+"Grapefruit Sparkling Water 12 Pack, 12 FZ",grapefruit sparkling water,1 ea,1.0,beverages,whole foods,6.99,0.0,,0.0,,0.0,,0.0,,0.0,False,,6.99
+"Super Hydrating 9.5 Ph Water, 33.8 FZ",super hydrating 9.5 ph water,12 FL,17.0,beverages,whole foods,2.69,,,0.0,g,0.0,g,,,0.0,False,360.0,0.16
+"Strawberry Peach Sparkling Water 12pk, 12 FZ",strawberry peach sparkling water,1 CAN,1.0,beverages,whole foods,6.99,,,0.0,g,0.0,g,,,0.0,False,,6.99
+"Whole Foods Market, Extra Dark Roast Ground Coffee, Bold & Smoky, 12 Ounce","extra dark roast ground coffee, bold & smoky,",12 oz,1.0,beverages,whole foods,10.99,,,,,,,,,,False,340.19,10.99
+"Zero Calorie Cola Soda 12 Pack, 12 FZ",zero calorie cola soda,1 CAN,12.0,beverages,whole foods,13.49,,,0.0,g,0.0,g,0.0,g,0.0,False,,1.12
+"Organic Grapefruit Juice, 59 FZ",organic grapefruit juice,8 FL,7.0,beverages,whole foods,9.99,,,0.0,g,1.0,g,20.0,g,90.0,False,240.0,1.43
+"Just Blueberry Juice, 32 FZ",just blueberry juice,8 FL,4.0,beverages,whole foods,9.79,,,0.0,g,0.99,g,17.0,g,90.0,False,240.0,2.45
+"Organic Superfruit Greens Juice, 44 FZ",organic superfruit greens juice,8 FL,5.0,beverages,whole foods,10.99,,,0.0,g,1.0,g,26.0,g,110.0,False,240.0,2.2
+"Organic Turmeric Ginger Chai Tea Concentrate, 32 FZ",organic turmeric ginger chai tea concentrate,4 FL,8.0,beverages,whole foods,7.99,,,0.0,g,0.0,g,16.0,g,70.0,False,120.0,1.0
+"Wild Berries Probiotic Soda 4pk, 12 FZ",wild berries probiotic soda,12 FL,1.0,beverages,whole foods,8.49,,,0.0,g,0.0,g,8.0,g,45.0,False,360.0,8.49
+"Blueberry Dream Honey Soda 4pk, 12 FZ",blueberry dream honey soda,12 fz,1.0,beverages,whole foods,9.49,,,,,,,,,,False,360.0,9.49
+"Cranberry Sparkling Water 12pk, 12 FZ",cranberry sparkling water,12 fz,1.0,beverages,whole foods,5.29,,,,,,,,,,False,360.0,5.29
+"Organic Orange Juice, 15.2 FZ",organic orange juice,15.2 fz,1.0,beverages,whole foods,4.79,51.3,g,0.0,g,3.78,g,39.9,g,875.52,False,456.0,4.79
+"Limoncello Sparkling Water, 12 FZ",limoncello sparkling water,1 CAN,1.0,beverages,whole foods,6.99,,,0.0,g,0.0,g,,,0.0,False,,6.99
+"Smart Water, 50.7 FZ",smart water,12 FL,50.0,beverages,whole foods,2.99,,,0.0,g,0.0,g,,,0.0,False,360.0,0.06
+"Organic Sweet Apple Greens Juice, 15.2 FZ",organic sweet apple greens juice,1 BOTTLE,1.0,beverages,whole foods,4.79,,,0.0,g,2.0,g,23.0,g,110.0,False,,4.79
+"Super Hydrating 9.5 Ph Water, 50.7 FZ",super hydrating 9.5 ph water,12 FL,4.0,beverages,whole foods,2.99,,,0.0,g,0.0,g,,,0.0,False,360.0,0.75
+"Orange Mango & Lime Sparkling Soda 4pk, 12 FZ",orange mango & lime sparkling soda,12 FL,1.0,beverages,whole foods,8.49,,,0.0,g,0.0,g,8.0,g,45.0,False,360.0,8.49
+"Sunshine Sparkling Water 12pk, 12 FZ",sunshine sparkling water,12 fz,1.0,beverages,whole foods,6.99,,,,,,,,,,False,360.0,6.99
+"Whole Foods Market, Extra Dark Roast Whole Bean Coffee, Full & Intense, Bold & Smoky, 12 Ounce","extra dark roast whole bean coffee, full & intense, bold & smoky,",12 oz,1.0,beverages,whole foods,10.99,,,,,,,,,,False,340.19,10.99
+"Black Cherry Seltzer 12PK, 12 FZ",black cherry seltzer,1 CAN,12.0,beverages,whole foods,6.79,,,0.0,g,0.0,g,0.0,g,0.0,False,,0.57
+"Ginger Buzz Honey Soda 4pk, 12 FZ",ginger buzz honey soda,12 fz,1.0,beverages,whole foods,9.49,,,,,,,,,,False,360.0,9.49
+"Organic Vital Berry Juice, 15.2 FZ",organic vital berry juice,15.2 fz,1.0,beverages,whole foods,4.79,,,,,,,,,,False,456.0,4.79
+"Whole Foods Market, El Volcan Light Roast Ground Coffee, Mandarin Orange, Honey & Brown Sugar, 12 Ounce","el volcan light roast ground coffee, mandarin orange, honey & brown sugar,",12 oz,1.0,beverages,whole foods,10.99,,,,,,,,,,False,340.19,10.99
+"Chocolate ELITE Protein Shake, 12 FZ",chocolate elite protein shake,1 BOTTLE,1.0,beverages,whole foods,5.49,,,3.0,g,32.0,g,4.0,g,210.0,False,,5.49
+"Artesian Water 6pk, 33.8 FZ",artesian water,33.8 fz,1.0,beverages,whole foods,14.99,,,,,,,,,,False,1014.0,14.99
+"Watermelon Lime & Rosemary Sparkling Soda 4pk, 12 FZ",watermelon lime & rosemary sparkling soda,12 FL,1.0,beverages,whole foods,8.49,,,0.0,g,0.0,g,8.0,g,45.0,False,360.0,8.49
+"Organic Masala Chai Concentrate, 32 FZ",organic masala chai concentrate,4 FL,8.0,beverages,whole foods,7.99,,,0.0,g,0.99,g,18.0,g,80.0,False,120.0,1.0
+"Spring Water, 28 FZ",spring water,28 fz,1.0,beverages,whole foods,3.09,,,0.0,g,0.0,g,,,0.0,False,840.0,3.09
+"Just Cranberry Juice, 32 FZ",just cranberry juice,8 FL,4.0,beverages,whole foods,9.99,,,0.0,g,0.0,g,8.0,g,70.0,False,240.0,2.5
+"Organic Regenerative Nicaragua Whole Bean Coffee, 10 OZ",organic regenerative nicaragua whole bean coffee,10 oz,1.0,beverages,whole foods,16.79,,,,,,,,,,False,283.5,16.79
+"Organic Black Masala Chai Tea, 15 CT",organic black masala chai tea,15 ct,1.0,beverages,whole foods,8.99,,,,,,,,,,False,,8.99
+"Organic Root Beer Zero Sugar Soda, 12 FZ",organic root beer zero sugar soda,12 fz,1.0,beverages,whole foods,2.49,,,,,,,,,,False,360.0,2.49
+"Alkaline & Antioxidant Smartwater 1.5L, 50.7 FZ",alkaline & antioxidant smartwater 1.5l,12 FL,4.0,beverages,whole foods,3.29,,,0.0,g,0.0,g,,,0.0,False,360.0,0.82
+"Organic Original Lemon Water, 15.2 FZ",organic original lemon water,1 BOTTLE,1.0,beverages,whole foods,2.29,,,0.0,g,0.0,g,0.0,g,5.0,False,,2.29
+"Organic Matcha Super Green Tea, 15 CT",organic matcha super green tea,15 ct,1.0,beverages,whole foods,8.99,,,,,,,,,,False,,8.99
+"Organic London Fog Tea Concentrate, 32 FZ",organic london fog tea concentrate,6 FL,5.0,beverages,whole foods,7.99,,,0.0,g,0.0,g,21.0,g,90.0,False,180.0,1.6
+"Organic Ruby Oolong Tea Sachets, 15 CT",organic ruby oolong tea sachets,15 ct,1.0,beverages,whole foods,8.99,,,,,,,,,,False,,8.99
+"Organic Lemon Love Juice, 32 FZ",organic lemon love juice,8 FL,4.0,beverages,whole foods,8.89,,,0.0,g,0.0,g,1.0,g,10.0,False,240.0,2.22
+"Whole Foods Market, El Volcan Light Roast Whole Bean Coffee, Mandarin Orange, Honey & Brown Sugar, 12 Ounce","el volcan light roast whole bean coffee, mandarin orange, honey & brown sugar,",12 oz,1.0,beverages,whole foods,10.99,,,,,,,,,,False,340.19,10.99
+"Grape Soda, 12 FZ",grape soda,12 FL,1.0,beverages,whole foods,2.49,,,0.0,g,0.0,g,11.0,g,50.0,False,360.0,2.49
+"Organic Defense Up Smoothie, 15.2 FZ",organic defense up smoothie,15.2 fz,1.0,beverages,whole foods,4.79,,,,,,,,,,False,456.0,4.79
+"Watermelon Raspberry Energy Juice, 16 FZ",watermelon raspberry energy juice,16 fz,1.0,beverages,whole foods,5.99,,,,,,,,,,False,480.0,5.99
+"Organic Ruby Roots Juice, 15.2 FZ",organic ruby roots juice,15.2 fz,1.0,beverages,whole foods,4.79,,,,,,,,,,False,456.0,4.79
+"Organic Classic Cola Zero Sugar Soda, 12 FZ",organic classic cola zero sugar soda,12 fz,1.0,beverages,whole foods,2.49,,,,,,,,,,False,360.0,2.49
+"Organic Jasmine Green Tea, 15 CT",organic jasmine green tea,15 ct,1.0,beverages,whole foods,8.99,,,,,,,,,,False,,8.99
+"Watermelon & Lime Probiotic Soda, 12 FZ",watermelon & lime probiotic soda,12 FL,1.0,beverages,whole foods,2.49,,,0.0,g,0.0,g,8.0,g,45.0,False,360.0,2.49
+"Dandelion Caramel Herbal Tea, 10 CT",dandelion caramel herbal tea,10 ct,10.0,beverages,whole foods,6.29,,,0.0,g,0.0,g,0.0,g,15.0,False,,0.63
+"Lemon Lime & Cardamom Probiotic Soda, 12 FZ",lemon lime & cardamom probiotic soda,12 FL,1.0,beverages,whole foods,2.49,,,0.0,g,0.0,g,8.0,g,45.0,False,360.0,2.49
+"Ginger Lemon & Turmeric Probiotic Soda, 12 FZ",ginger lemon & turmeric probiotic soda,12 FL,1.0,beverages,whole foods,2.49,,,0.0,g,0.0,g,8.0,g,45.0,False,360.0,2.49
+"Strawberry & Rhubarb Probiotic Soda, 12 FZ",strawberry & rhubarb probiotic soda,12 FL,1.0,beverages,whole foods,2.49,,,0.0,g,0.0,g,8.0,g,45.0,False,360.0,2.49
+"Orange Mango & Lime Probiotic Soda, 12 FZ",orange mango & lime probiotic soda,12 FL,1.0,beverages,whole foods,2.49,,,0.0,g,0.0,g,8.0,g,45.0,False,360.0,2.49
+"Organic Coconut Hot Cocoa Mix 5 Count, 4.75 OZ",organic coconut hot cocoa mix,1 PACKET,5.0,beverages,whole foods,9.99,,,4.0,g,1.0,g,12.0,g,120.0,False,,2.0
+"Organic Tomato Juice, 32 FZ",organic tomato juice,8 FL,4.0,beverages,whole foods,5.19,10.01,g,0.0,g,2.0,g,7.0,g,45.0,False,240.0,1.3
+"Guava Goddess Enlightened Kombucha, 16 FZ",guava goddess enlightened kombucha,1 BOTTLE,1.0,beverages,whole foods,3.89,,,0.0,g,0.0,g,16.0,g,60.0,False,,3.89
+"French Roast Ground Coffee, 10.5 OZ",french roast ground coffee,10.5 oz,1.0,beverages,whole foods,13.29,,,,,,,,,,False,297.67,13.29
+"Whole Foods Market, Organic Early Bird Blend, Medium Roast Whole Bean Coffee, Cocoa & Roasted Nuts, 12 Ounce","organic early bird blend, medium roast whole bean coffee, cocoa & roasted nuts,",12 oz,1.0,beverages,whole foods,12.79,,,,,,,,,,False,340.19,12.79
+"Whole Foods Market, Organic Ground Coffee, Dark French Roast, Smoky & Sweet, Smooth & Creamy, 12 Ounce","organic ground coffee, dark french roast, smoky & sweet, smooth & creamy,",12 oz,1.0,beverages,whole foods,12.79,,,,,,,,,,False,340.19,12.79
+"Whole Foods Market, Organic La Mesa Coffee, Whole Bean, 12 Ounce","organic la mesa coffee, whole bean,",12 oz,1.0,beverages,whole foods,12.79,,,,,,,,,,False,340.19,12.79
+"Whole Foods Market, Organic Sierra Blend Ground Coffee, Medium-Dark Roast, Dark Chocolate & Caramel, 12 Ounce","organic sierra blend ground coffee, medium-dark roast, dark chocolate & caramel,",12 oz,1.0,beverages,whole foods,12.79,,,,,,,,,,False,340.19,12.79
+"Organic Berry Enlightened Kombucha, 16 FZ",organic berry enlightened kombucha,1 BOTTLE,1.0,beverages,whole foods,3.89,,,0.0,g,0.0,g,12.0,g,50.0,False,,3.89
+"Seasonal Kombucha, 16 FZ",seasonal kombucha,1 BOTTLE,1.0,beverages,whole foods,3.89,,,0.0,g,0.0,g,16.0,g,60.0,False,,3.89
+"Lemon Berry Kombucha, 16 FZ",lemon berry kombucha,1 BOTTLE,1.0,beverages,whole foods,3.89,,,0.0,g,0.0,g,16.0,g,60.0,False,,3.89
+"Whole Foods Market, Organic Sierra Blend Whole Bean Coffee, Medium-Dark Roast, Dark Chocolate & Caramel, 12 Ounce","organic sierra blend whole bean coffee, medium-dark roast, dark chocolate & caramel,",12 oz,1.0,beverages,whole foods,12.79,,,,,,,,,,False,340.19,12.79
+"Smart Water, 33.8 FZ",smart water,12 FL,3.0,beverages,whole foods,2.99,,,0.0,g,0.0,g,,,0.0,False,360.0,1.0
+"Whole Foods Market, Ethiopia Coffee, Light Roast, Whole Bean, 12 Ounce","ethiopia coffee, light roast, whole bean,",12 oz,1.0,beverages,whole foods,15.79,,,,,,,,,,False,340.19,15.79
+"Whole Foods Market, Organic Early Bird Blend, Medium Roast Ground Coffee, Cocoa & Roasted Nuts, 12 Ounce","organic early bird blend, medium roast ground coffee, cocoa & roasted nuts,",12 oz,1.0,beverages,whole foods,12.79,,,,,,,,,,False,340.19,12.79
+"Alkaline & Antioxidant Smartwater 1L, 33.8 FZ",alkaline & antioxidant smartwater 1l,12 FL,3.0,beverages,whole foods,3.19,,,0.0,g,0.0,g,,,0.0,False,360.0,1.06
+"Organic Blueberry Pomegranate Juice, 32 FZ",organic blueberry pomegranate juice,8 FL,4.0,beverages,whole foods,6.19,,,0.0,g,0.0,g,26.0,g,120.0,False,240.0,1.55
+"Colombia Dark Roast Single Origin, 10.5 OZ",colombia dark roast single origin,10.5 oz,1.0,beverages,whole foods,13.29,,,,,,,,,,False,297.67,13.29
+"Peach Paradise Kombucha, 16 FZ",peach paradise kombucha,1 BOTTLE,1.0,beverages,whole foods,3.89,,,0.0,g,0.0,g,12.0,g,50.0,False,,3.89
+"Organic Freeze Dried Decaf Coffee, 3.53 OZ",organic freeze dried decaf coffee,3.53 oz,1.0,beverages,whole foods,12.79,,,,,,,,,,False,100.07,12.79
+"Whole Foods Market, Organic Espresso Bel Canto Coffee, Whole Bean, 12 Ounce","organic espresso bel canto coffee, whole bean,",12 oz,1.0,beverages,whole foods,12.79,,,,,,,,,,False,340.19,12.79
+"Watermelon Wonder Synergy Kombucha, 16 FZ",watermelon wonder synergy kombucha,1 BOTTLE,1.0,beverages,whole foods,3.89,,,0.0,g,0.0,g,18.0,g,70.0,False,,3.89
+"Whole Foods Market, Organic La Mesa Medium-Light Roast Ground Coffee, Cocoa, Almond, Toffee & Lemon, 12 Ounce","organic la mesa medium-light roast ground coffee, cocoa, almond, toffee & lemon,",12 oz,1.0,beverages,whole foods,12.79,,,,,,,,,,False,340.19,12.79
+"Mystic Mango Enlightened Kombucha, 16 FZ",mystic mango enlightened kombucha,1 BOTTLE,1.0,beverages,whole foods,3.89,,g,0.0,g,0.0,g,16.0,g,60.0,False,,3.89
+"Hibiscus Tea, 36 CT",hibiscus tea,36 ct,1.0,beverages,whole foods,11.29,,,,,,,,,,False,,11.29
+"Gingerade Enlightened Kombucha, 16 FZ",gingerade enlightened kombucha,1 ea,1.0,beverages,whole foods,3.89,0.0,,0.0,,0.0,,12.0,,50.0,False,,3.89
+"365 by Whole Foods Market, Ginger Ale Cans, 12 Fl Oz (Pack of 12)",ginger ale cans (pack of 12),1 CAN,12.0,beverages,whole foods,7.99,,,0.0,g,0.0,g,35.0,g,140.0,False,,0.67
+"Xxx Vitamin Water Zero, 20 FZ",xxx vitamin water zero,1 BOTTLE,1.0,beverages,whole foods,2.39,,,0.0,g,0.0,g,0.99,g,0.0,False,,2.39
+"Organic Pure Blood Orange Juice, 32 FZ",organic pure blood orange juice,8 FL,4.0,beverages,whole foods,10.99,,,0.0,g,2.0,g,27.0,g,130.0,False,240.0,2.75
+"Zero Squeezed Lemonade Vitamin Water, 20 FZ",zero squeezed lemonade vitamin water,1 BOTTLE,1.0,beverages,whole foods,2.39,,,0.0,g,0.0,g,0.0,g,0.0,False,,2.39
+"Organic Bitches Brew Whole Bean Coffee, 12 OZ",organic bitches brew whole bean coffee,12 oz,1.0,beverages,whole foods,17.99,,,,,,,,,,False,340.19,17.99
+"Organic Founders Blend Whole Bean Coffee, 12 OZ",organic founders blend whole bean coffee,12 oz,1.0,beverages,whole foods,18.79,,,,,,,,,,False,340.19,18.79
+"365 by Whole Foods Market, Cola, 12 Fl Oz, 12-pack","cola,",1 CAN,12.0,beverages,whole foods,7.99,,,0.0,g,0.0,g,37.0,g,150.0,False,,0.67
+"Whole Foods Market, Organic Decaf Ground Coffee, Dark French Roast, Smoky & Sweet, Smooth & Balanced, 12 Ounce","organic decaf ground coffee, dark french roast, smoky & sweet, smooth & balanced,",12 oz,1.0,beverages,whole foods,12.79,,,,,,,,,,False,340.19,12.79
+"Organic Regenerative Certified Whole Bean Coffee, 12 OZ",organic regenerative certified whole bean coffee,12 oz,1.0,beverages,whole foods,12.79,,,,,,,,,,False,340.19,12.79
+"Whole Foods Market, Organic Café la Duena Ground Coffee, Medium Roast, Rich & Balanced, Sweet & Chocolatey, 12 Ounce","organic café la duena ground coffee, medium roast, rich & balanced, sweet & chocolatey,",12 oz,1.0,beverages,whole foods,12.79,,,,,,,,,,False,340.19,12.79
+"Whole Foods Market, Organic Breakfast Blend Whole Bean Coffee, Light Roast, Milk Chocolate, Caramel & Citrus, 12 Ounce","organic breakfast blend whole bean coffee, light roast, milk chocolate, caramel & citrus,",12 oz,1.0,beverages,whole foods,12.79,,,,,,,,,,False,340.19,12.79
+"Apple Juice, 10 FZ",apple juice,10 fz,1.0,beverages,whole foods,2.29,,,,,,,,,,False,300.0,2.29
+"Ginger Beer 4 Pack, 6.8 FZ",ginger beer,6.8 fz,1.0,beverages,whole foods,6.29,,,,,,,,,,False,204.0,6.29
+"Organic Unsweetened Lemon Iced Tea, 16 FZ",organic unsweetened lemon iced tea,8 FL,2.0,beverages,whole foods,3.29,,,0.0,g,0.0,g,0.0,g,0.0,False,240.0,1.64
+"Paradise Guava Juice, 32 FZ",paradise guava juice,8 FL,4.0,beverages,whole foods,5.39,,,0.0,g,0.0,g,20.0,g,90.0,False,240.0,1.35
+"Killer Cola Sparkling Water 6pk, 12 FZ",killer cola sparkling water,12 fz,1.0,beverages,whole foods,8.99,,,,,,,,,,False,360.0,8.99
+"Whole Foods Market, Organic Ground Coffee, Dark Italian Roast, Bittersweet, Rich & Velvety, 12 Ounce","organic ground coffee, dark italian roast, bittersweet, rich & velvety,",12 oz,1.0,beverages,whole foods,12.79,,,,,,,,,,False,340.19,12.79
+"Organic Blonde Roast Cold Brew Coffee Concentrate, 32 FZ",organic blonde roast cold brew coffee concentrate,3 FL,1.0,beverages,whole foods,10.49,,,0.0,g,0.0,g,0.0,g,5.0,False,90.0,10.49
+"Golden Pineapple Kombucha, 16 FZ",golden pineapple kombucha,1 BOTTLE,1.0,beverages,whole foods,3.89,,,0.0,g,0.0,g,16.0,g,60.0,False,,3.89
+"365 by Whole Foods Market, Zero Calorie Cola, 12 Pack, 12 Fl Oz",zero calorie cola,1 CAN,12.0,beverages,whole foods,7.99,,,0.0,g,0.0,g,0.0,g,0.0,False,,0.67
+"Mexican Cola, 12 FZ",mexican cola,1 BOTTLE,1.0,beverages,whole foods,1.99,,,0.0,g,0.0,g,40.0,g,165.0,False,,1.99
+"Sparkling Mineral Water with Lime, 12 FZ",sparkling mineral water with lime,1 BOTTLE,1.0,beverages,whole foods,2.39,,,0.0,g,0.0,g,,,0.0,False,,2.39
+"Organic Mojito Lime Mint Iced Tea, 16 FZ",organic mojito lime mint iced tea,8 FL,2.0,beverages,whole foods,3.29,,,0.0,g,0.0,g,20.0,g,80.0,False,240.0,1.64
+"Cranberry Lime Seltzer 12PK, 12 FZ",cranberry lime seltzer,1 CAN,12.0,beverages,whole foods,6.79,,,0.0,g,0.0,g,0.0,g,0.0,False,,0.57
+"Organic Black Gold Whole Bean Coffee, 12 OZ",organic black gold whole bean coffee,12 oz,1.0,beverages,whole foods,17.99,,,,,,,,,,False,340.19,17.99
+"Organic Ethiopia Heirloom Whole Bean Coffee, 12 OZ",organic ethiopia heirloom whole bean coffee,12 oz,1.0,beverages,whole foods,17.99,,,,,,,,,,False,340.19,17.99
+"365 by Whole Foods Market, Island Blend Ground Coffee, 24 Ounce","island blend ground coffee,",24 oz,1.0,beverages,whole foods,15.99,,,,,,,,,,False,680.39,15.99
+"Zero Calorie Dr Soda 12 Pack, 12 FZ",zero calorie dr soda,1 CAN,12.0,beverages,whole foods,13.49,,,0.0,g,0.0,g,0.0,g,0.0,False,,1.12
+"Organic Lt. Ed. Seasonal Concentrated Cold Brew Coffee, 32 FZ",organic lt. ed. seasonal concentrated cold brew coffee,6 FL,5.0,beverages,whole foods,10.49,,,0.0,g,0.0,g,12.0,g,60.0,False,180.0,2.1
+"Organic Very Veggie Juice Blend, 32 FZ",organic very veggie juice blend,8 FL,4.0,beverages,whole foods,5.19,,,0.0,g,2.0,g,7.0,g,50.0,False,240.0,1.3
+"Xxx Antioxidant Vitamin Water, 20 FZ",xxx antioxidant vitamin water,1 BOTTLE,1.0,beverages,whole foods,2.39,,,0.0,g,0.0,g,32.0,g,120.0,False,,2.39
+"Sacred Life Kombucha, 16 FZ",sacred life kombucha,1 BOTTLE,1.0,beverages,whole foods,3.89,,,0.0,g,0.0,g,16.0,g,60.0,False,,3.89
+"Zero Calorie Creamy Root Beer Soda 12 Pack, 12 FZ",zero calorie creamy root beer soda,1 CAN,12.0,beverages,whole foods,13.49,,,0.0,g,0.0,g,0.0,g,0.0,False,,1.12
+"Marine Greens Synergy Kombucha, 16 FZ",marine greens synergy kombucha,1 BOTTLE,1.0,beverages,whole foods,3.89,,,0.0,g,2.0,g,16.0,g,60.0,False,,3.89
+"Organic French Roast Coffee, 12 OZ",organic french roast coffee,12 oz,1.0,beverages,whole foods,18.79,,,,,,,,,,False,340.19,18.79
+"Organic Dark Roast Ground Coffee, 10 OZ",organic dark roast ground coffee,10 oz,1.0,beverages,whole foods,14.29,,,,,,,,,,False,283.5,14.29
+"Sparkling Lime & Yuzu Mixer 4pk, 6.8 FZ",sparkling lime & yuzu mixer,6.8 fz,1.0,beverages,whole foods,6.29,,,,,,,,,,False,204.0,6.29
+"Zero Calorie Ginger Ale Soda 12 Pack, 12 FZ",zero calorie ginger ale soda,1 CAN,12.0,beverages,whole foods,13.49,,,0.0,g,0.0,g,0.0,g,0.0,False,,1.12
+"365 by Whole Foods Market, Root Beer, 12 Pack, 12 Fl Oz",root beer,1 CAN,12.0,beverages,whole foods,7.99,,g,0.0,g,0.0,g,44.0,g,180.0,False,,0.67
+"Lemon Seltzer 12PK, 12 FZ",lemon seltzer,1 CAN,12.0,beverages,whole foods,6.79,,,0.0,g,0.0,g,0.0,g,0.0,False,,0.57
+"Ginger Beer 8 Pack, 5.07 FZ",ginger beer,1 CAN,8.0,beverages,whole foods,7.99,,,0.0,g,0.0,g,14.0,g,60.0,False,,1.0
+"Orange Juice, 32 FZ",orange juice,32 fz,1.0,beverages,whole foods,3.69,,,,,,,,,,False,960.0,3.69
+"Ruby Red Grapefruit Seltzer 12PK, 12 FZ",ruby red grapefruit seltzer,12 fz,1.0,beverages,whole foods,6.79,,,,,,,,,,False,360.0,6.79
+"Strawberry Vanilla Sunsip Soda, 11.5 FZ",strawberry vanilla sunsip soda,1 CAN,1.0,beverages,whole foods,2.49,,,0.0,g,0.0,g,5.0,g,25.0,False,,2.49
+"Raspberry Lime Seltzer 12PK, 12 FZ",raspberry lime seltzer,1 CAN,12.0,beverages,whole foods,6.79,,,0.0,g,0.0,g,0.0,g,0.0,False,,0.57
+"Creamy Root Beer 6pk, 12 FZ",creamy root beer,1 CAN,6.0,beverages,whole foods,7.29,,,0.0,g,0.0,g,0.0,g,0.0,False,,1.22
+"Orange Juice Multipack, 8 FZ",orange juice multipack,8 fz,1.0,beverages,whole foods,5.29,,,,,,,,,,False,240.0,5.29
+"Peppermint Mocha Cold Brew Coffee, 48 FZ",peppermint mocha cold brew coffee,12 FL,4.0,beverages,whole foods,6.79,,,4.5,g,3.0,g,12.0,g,110.0,False,360.0,1.7
+"Organic Pure Lemon Juice, 32 FZ",organic pure lemon juice,1 TSP,189.0,beverages,whole foods,8.59,,,0.0,g,0.0,g,,,0.0,False,5.0,0.05
+"Organic Original Black Nitro Cold Brew Coffee, 7 FZ",organic original black nitro cold brew coffee,1 CAN,1.0,beverages,whole foods,3.29,,,0.0,g,0.99,g,0.0,g,10.0,False,,3.29
+"Organic Oat Milk Latte Nitro Cold Brew Coffee, 7 FZ",organic oat milk latte nitro cold brew coffee,1 CAN,1.0,beverages,whole foods,3.29,,,4.0,g,1.0,g,12.0,g,110.0,False,,3.29
+"French Kick Ground Coffee, 12 OZ",french kick ground coffee,12 oz,1.0,beverages,whole foods,15.99,,,,,,,,,,False,340.19,15.99
+"Organic Mountain Ginger Kombucha, 14 FZ",organic mountain ginger kombucha,1 BOTTLE,1.0,beverages,whole foods,3.69,,,0.0,g,0.0,g,13.0,g,70.0,False,,3.69
+"Refreshingly Light Ginger Beer 4 Pack, 6.8 FZ",refreshingly light ginger beer,1 BOTTLE,1.0,beverages,whole foods,6.29,,,0.0,g,0.0,g,8.0,g,40.0,False,,6.29
+"Doc Pop Prebiotic Soda 4pk, 12 FZ",doc pop prebiotic soda,12 fz,1.0,beverages,whole foods,8.79,,,,,,,,,,False,360.0,8.79
+"Medium Roast Espresso Classico Ground Coffee, 8.8 OZ",medium roast espresso classico ground coffee,8.8 oz,1.0,beverages,whole foods,15.99,,,,,,,,,,False,249.48,15.99
+"Whole Foods Market, Organic Spiced Chai Black Tea, 20 Count",organic spiced chai black tea,20 count,1.0,beverages,whole foods,3.79,,,,,,,,,,False,,3.79
+"Blackberry Energy Seltzer, 16 FZ",blackberry energy seltzer,16 fz,1.0,beverages,whole foods,2.99,,,,,,,,,,False,480.0,2.99
+"Root Beer Prebiotic Soda 12FZ, 12 FZ",root beer prebiotic soda,12 fz,1.0,beverages,whole foods,2.49,,,,,,,,,,False,360.0,2.49
+"Vanilla Cola Soda 6 Pack, 12 FZ",vanilla cola soda,1 CAN,6.0,beverages,whole foods,7.29,,,0.0,g,0.0,g,0.0,g,0.0,False,,1.22
+"Mocha Java Sport Coffee, 11 FZ",mocha java sport coffee,1 CAN,1.0,beverages,whole foods,3.49,,,0.0,g,2.0,g,8.0,g,50.0,False,,3.49
+"Boldly Cran Juice, 32 FZ",boldly cran juice,8 FL,4.0,beverages,whole foods,6.99,,,0.0,g,0.0,g,9.0,g,60.0,False,240.0,1.75
+"Organic Ginger Lemon Kombucha, 48 FZ",organic ginger lemon kombucha,48 fz,1.0,beverages,whole foods,8.99,,,0.0,g,0.0,g,30.0,g,210.0,False,1440.0,8.99
+"Organic Breakfast Blend Black Tea, 20 CT",organic breakfast blend black tea,20 ct,1.0,beverages,whole foods,3.79,,,,,,,,,,False,,3.79
+"Organic Moroccan Nana Mint Herbal Tea, 15 CT",organic moroccan nana mint herbal tea,15 ct,1.0,beverages,whole foods,8.69,,,,,,,,,,False,,8.69
+"Organic Sparkling Apple Grape Juice, 25.4 FZ",organic sparkling apple grape juice,8 FL,3.0,beverages,whole foods,6.29,,,0.0,g,0.0,g,28.0,g,120.0,False,240.0,2.1
+"SunSip Cream Soda, 11.5 FZ",sunsip cream soda,1 CAN,1.0,beverages,whole foods,2.49,,,0.0,g,0.0,g,4.0,g,30.0,False,,2.49
+"Alkaline Spring Water 8pk, 12 FZ",alkaline spring water,12 fz,1.0,beverages,whole foods,9.49,,,,,,,,,,False,360.0,9.49
+"Lime Seltzer 12pk, 12 FZ",lime seltzer,12 fz,1.0,beverages,whole foods,6.79,,,,,,,,,,False,360.0,6.79
+"Organic Tropical Mango Sparkling Energy Water, 12 FZ",organic tropical mango sparkling energy water,1 CAN,1.0,beverages,whole foods,3.19,,,0.0,g,0.0,g,0.0,g,0.0,False,,3.19
+"Mulled Apple Spice Tea, 36 CT",mulled apple spice tea,36 ct,1.0,beverages,whole foods,11.99,,,,,,,,,,False,,11.99
+"Zero Sugar Extra Ginger Beer Soda 4 Pack, 12 FZ",zero sugar extra ginger beer soda,1 CAN,1.0,beverages,whole foods,7.49,,,0.0,g,0.0,g,0.0,g,0.0,False,,7.49
+"Rose Sparkling White Tea, Ginger and Elderberry, 25.4 FZ","rose sparkling white tea, ginger and elderberry",8 FL.OZ,3.0,beverages,whole foods,8.99,,,0.0,g,0.0,g,9.0,g,40.0,False,240.0,3.0
+"Ginger Ale 4pk, 7.5 FZ",ginger ale,1 CAN,4.0,beverages,whole foods,5.29,,,0.0,g,0.0,g,14.0,g,60.0,False,,1.32
+"Organic Citrus Refresh Hydrate Drink, 16 FZ",organic citrus refresh hydrate drink,16 fz,1.0,beverages,whole foods,5.49,,,,,,,,,,False,480.0,5.49
+"Extra Ginger Beer 4 Pack, 12 FZ",extra ginger beer,12 FL,1.0,beverages,whole foods,7.49,,,2.0,g,0.0,g,35.0,g,145.0,False,360.0,7.49
+"Pleasant Morning Buzz Value Size Coffee Capsule, 24 CT",pleasant morning buzz value size coffee capsule,24 ct,1.0,beverages,whole foods,11.49,,,,,,,,,,False,,11.49
+"Peppermint Mocha Draft Latte 4pk, 9 FZ",peppermint mocha draft latte,9 fz,1.0,beverages,whole foods,11.99,,,,,,,,,,False,270.0,11.99
+"Cola 6pk, 12 FZ",cola,1 CAN,6.0,beverages,whole foods,7.29,,,0.0,g,0.0,g,0.0,g,0.0,False,,1.22
+"Artesian Water 12pk, 33.8 FZ",artesian water,33.8 fz,1.0,beverages,whole foods,28.99,,,,,,,,,,False,1014.0,28.99
+"Elmo's Punch, 64 FZ",elmo's punch,64 fz,1.0,beverages,whole foods,5.99,,,,,,,,,,False,1920.0,5.99
+"Organic Clear Mind Kombucha, 14 FZ",organic clear mind kombucha,1 BOTTLE,1.0,beverages,whole foods,3.69,,,0.0,g,0.0,g,12.0,g,60.0,False,,3.69
+"Natural Cranberry Juice, 64 FZ",natural cranberry juice,64 fz,1.0,beverages,whole foods,6.29,,,,,,,,,,False,1920.0,6.29
+"Elf Parade Holiday Blend Whole Bean Coffee, 10.5 OZ",elf parade holiday blend whole bean coffee,10.5 oz,1.0,beverages,whole foods,17.99,,,,,,,,,,False,297.67,17.99
+"Intenso Espresso Coffee Capsule, 2.01 OZ",intenso espresso coffee capsule,2.01 oz,1.0,beverages,whole foods,10.99,,,,,,,,,,False,56.98,10.99
+"Organic Mocha Latte Nitro Cold Brew Coffee, 7 FZ",organic mocha latte nitro cold brew coffee,1 CAN,1.0,beverages,whole foods,3.29,,,5.0,g,2.0,g,10.0,g,150.0,False,,3.29
+"Mao Feng Green Tea, 15 CT",mao feng green tea,15 ct,1.0,beverages,whole foods,8.39,,,,,,,,,,False,,8.39
+"Organic Vanilla Blackberry Sparkling Energy Water, 12 FZ",organic vanilla blackberry sparkling energy water,1 CAN,1.0,beverages,whole foods,3.19,,,0.0,g,0.0,g,0.0,g,0.0,False,,3.19
+"Pleasant Morning Buzz Coffee Capsule, 12 CT",pleasant morning buzz coffee capsule,12 ct,1.0,beverages,whole foods,6.99,,,,,,,,,,False,,6.99
+"Nizza Coffee Pods, 7.9 OZ",nizza coffee pods,7.9 oz,1.0,beverages,whole foods,24.99,,,,,,,,,,False,223.96,24.99
+"Cherry Lemon Italian Sparkling Drink 6pk, 11.15 FZ",cherry lemon italian sparkling drink,11.15 fz,1.0,beverages,whole foods,7.39,,,,,,,,,,False,334.5,7.39
+"Grape Soda 6pk, 12 FZ",grape soda,1 CAN,6.0,beverages,whole foods,7.29,,,0.0,g,0.0,g,0.0,g,0.0,False,,1.22
+"Organic Honeycrisp Apple Kombucha, 16 FZ",organic honeycrisp apple kombucha,16 fz,1.0,beverages,whole foods,3.99,,,,,,,,,,False,480.0,3.99
+"Whole Foods Market, Organic Mint Ginger Herbal Tea, 20 Count",organic mint ginger herbal tea,20 count,1.0,beverages,whole foods,3.79,,,,,,,,,,False,,3.79
+"Peak Energy Black Tea, 18 CT",peak energy black tea,8 FL.,18.0,beverages,whole foods,3.89,,,0.0,g,0.0,g,,,0.0,False,240.0,0.22
+"Organic Passion Fruit Tangerine Kombucha, 48 FZ",organic passion fruit tangerine kombucha,48 fz,1.0,beverages,whole foods,8.99,,,0.0,g,0.0,g,50.0,g,250.0,False,1440.0,8.99
+"Organic Decaf Green Tea, 20 CT",organic decaf green tea,20 ct,1.0,beverages,whole foods,3.79,,,,,,,,,,False,,3.79
+"Organic Think Cold Brew Ground Coffee, 10 OZ",organic think cold brew ground coffee,2 TBSP,20.0,beverages,whole foods,15.49,,,0.0,g,0.0,g,0.0,g,0.0,False,30.0,0.77
+"Classic Bloody Mary Mix, 25.36 FZ",classic bloody mary mix,4 FL,6.0,beverages,whole foods,8.99,,,0.0,g,1.0,g,5.0,g,40.0,False,120.0,1.5
+"Wild Blueberry Electrolyte Refresher, 16 FZ",wild blueberry electrolyte refresher,16 fz,1.0,beverages,whole foods,2.79,,,,,,,,,,False,480.0,2.79
+"Tea Herb Plus Lemon Ginger, 18 CT",tea herb plus lemon ginger,8 FL.,18.0,beverages,whole foods,3.89,,,0.0,g,0.0,g,,,0.0,False,240.0,0.22
+"Light Margarita Mix, 25.36 FZ",light margarita mix,4 FL,6.0,beverages,whole foods,8.99,,,0.0,g,0.0,g,12.0,g,50.0,False,120.0,1.5
+"Club Soda, 16.9 FZ",club soda,1 BOTTLE,1.0,beverages,whole foods,2.99,,,0.0,g,0.0,g,0.0,g,0.0,False,,2.99
+"Cider, 33.8 FZ",cider,8 FL.,25.0,beverages,whole foods,7.99,,,0.0,g,1.0,g,31.0,g,140.0,False,240.0,0.32
+"Buzz Free Value Size Coffee Capsule, 24 CT",buzz free value size coffee capsule,24 ct,1.0,beverages,whole foods,11.49,,,,,,,,,,False,,11.49
+"Holiday Blend Coffee Pods, 4.4 OZ",holiday blend coffee pods,4.4 oz,1.0,beverages,whole foods,10.99,,,,,,,,,,False,124.74,10.99
+"Organic Dash of Salt Drinking Chocolate, 6.3 OZ",organic dash of salt drinking chocolate,2 TBSP,9.0,beverages,whole foods,8.99,,,8.0,g,1.0,g,5.0,g,120.0,False,30.0,1.0
+"Pacific Rim Coffee Capsule, 12 CT",pacific rim coffee capsule,12 ct,1.0,beverages,whole foods,6.99,,,,,,,,,,False,,6.99
+"Raspberry Lime Sparkling Water 8pk, 12 FZ",raspberry lime sparkling water,1 CAN,1.0,beverages,whole foods,7.29,,,0.0,g,0.0,g,1.0,g,5.0,False,,7.29
+"Organic Multi Serve Focus Instant Coffee, 1.76 OZ",organic multi serve focus instant coffee,1 TSP,20.0,beverages,whole foods,16.99,,,0.0,g,0.0,g,,,10.0,False,5.0,0.85
+"Organic Strawberry Peach Mint Kombucha, 16 FZ",organic strawberry peach mint kombucha,16 FL,1.0,beverages,whole foods,2.79,,,0.0,g,1.0,g,13.0,g,70.0,False,480.0,2.79
+"Blood Orange Ginger Beer 4pk, 27.2 FZ",blood orange ginger beer,27.2 fz,1.0,beverages,whole foods,6.29,,,,,,,,,,False,816.0,6.29
+"Dark Roast Intenso Whole Bean Coffee, 8.8 OZ",dark roast intenso whole bean coffee,8.8 oz,1.0,beverages,whole foods,13.49,,,,,,,,,,False,249.48,13.49
+"Sparkling Water Glass 25.3FZ, 25 FZ",sparkling water glass,12 FL,2.0,beverages,whole foods,3.29,,,0.0,g,0.0,g,0.0,g,0.0,False,360.0,1.64
+"Unsweetened Cold Brew Coffee, 48 FZ",unsweetened cold brew coffee,12 FL,4.0,beverages,whole foods,6.99,,,0.0,g,0.99,g,0.0,g,15.0,False,360.0,1.75
+"Organic Nettle Leaf Tea 16CT, 16 CT",organic nettle leaf tea,16 ct,1.0,beverages,whole foods,6.89,,,,,,,,,,False,,6.89
+"Artesian Water 50.7 fz, 50.7 FZ",artesian water,50.7 fz,1.0,beverages,whole foods,2.99,,,,,,,,,,False,1521.0,2.99
+"Cola Soda Slim Single, 12 FZ",cola soda slim single,1 ea,1.0,beverages,whole foods,1.79,0.0,,0.0,,0.0,,0.0,,0.0,False,,1.79
+"Zero Sugar Lemon Tea, 12 FZ",zero sugar lemon tea,1 CAN,1.0,beverages,whole foods,2.49,,,0.0,g,0.0,g,0.0,g,5.0,False,,2.49
+"Organic Chai Tea Concentrate Spicy Sherpa, 64 FZ",organic chai tea concentrate spicy sherpa,6 FL,11.0,beverages,whole foods,14.99,,,0.0,g,0.0,g,17.0,g,80.0,False,180.0,1.36
+"Sparkling Mineral Water 12 Pack, 25.3 FZ",sparkling mineral water,8 FL,36.0,beverages,whole foods,29.99,0.0,g,0.0,g,0.0,g,0.0,g,0.0,False,240.0,0.83
+"Caffeine Free Cola 6pk, 12 FZ",caffeine free cola,1 CAN,6.0,beverages,whole foods,7.29,,g,0.0,g,0.0,g,0.0,g,0.0,False,,1.22
+"Creamy Root Beer Soda Slim Single, 12 FZ",creamy root beer soda slim single,1 ea,1.0,beverages,whole foods,1.79,0.0,,0.0,,0.0,,0.0,,0.0,False,,1.79
+"Club Soda 12pk, 12 FZ",club soda,1 CAN,12.0,beverages,whole foods,7.99,,,0.0,g,0.0,g,,,0.0,False,,0.67
+"Raspberry Rose Prebiotic Soda 4PK, 12 FZ",raspberry rose prebiotic soda,12 fz,1.0,beverages,whole foods,8.79,,,,,,,,,,False,360.0,8.79
+"Ginger Beer 4 Pack, 12 FZ",ginger beer,12 fz,1.0,beverages,whole foods,9.99,,,,,,,,,,False,360.0,9.99
+"Organic Lime Juice, 16 FZ",organic lime juice,1 TSP,95.0,beverages,whole foods,5.99,,,0.0,g,0.0,g,,,0.0,False,5.0,0.06
+"Light Tonic Water 8pk, 5.07 FZ",light tonic water,1 CAN,8.0,beverages,whole foods,7.99,,,0.0,g,0.0,g,6.0,g,20.0,False,,1.0
+"Pacifc Rim Value Size Coffee Capsule, 24 CT",pacifc rim value size coffee capsule,24 ct,1.0,beverages,whole foods,11.49,,,,,,,,,,False,,11.49
+"Island Blend Coffee Capsule, 4.6 OZ",island blend coffee capsule,4.6 oz,1.0,beverages,whole foods,6.99,,,,,,,,,,False,130.41,6.99
+"Cherry Limeade Prebiotic Soda 12FZ, 12 FZ",cherry limeade prebiotic soda,12 fz,1.0,beverages,whole foods,2.49,,,,,,,,,,False,360.0,2.49
+"British Breakfast Tea Bags, 50 CT",british breakfast tea bags,50 ct,1.0,beverages,whole foods,11.29,,,,,,,,,,False,,11.29
+"Organic Sugar-free Chai Tea Concentrate, 64 FZ",organic sugar-free chai tea concentrate,6 FL,11.0,beverages,whole foods,14.99,,,0.0,g,0.0,g,,,10.0,False,180.0,1.36
+"Real Ginger Ale Soda 4 Pack, 12 FZ",real ginger ale soda,1 CAN,1.0,beverages,whole foods,7.49,,,0.0,g,0.0,g,33.0,g,140.0,False,,7.49
+"Grapeade Sparkling Water 8pk, 12 FZ",grapeade sparkling water,1 CAN,1.0,beverages,whole foods,7.29,,,0.0,g,0.0,g,2.0,g,14.0,False,,7.29
+"Sleepytime Tea, 20 CT",sleepytime tea,20 ct,1.0,beverages,whole foods,3.99,,,,,,,,,,False,,3.99
+"Organic Pink Lady Apple Kombucha, 48 FZ",organic pink lady apple kombucha,48 fz,1.0,beverages,whole foods,8.99,,,0.0,g,0.0,g,56.0,g,250.0,False,1440.0,8.99
+"Organic Classic Lemon Iced Tea, 16 FZ",organic classic lemon iced tea,8 FL,2.0,beverages,whole foods,3.29,,,0.0,g,0.0,g,20.0,g,80.0,False,240.0,1.64
+"Cinnamon Apple Spice Tea, 20 CT",cinnamon apple spice tea,20 ct,1.0,beverages,whole foods,4.49,,,,,,,,,,False,,4.49
+"Zero Sugar Pink Lemonade, 12 FZ",zero sugar pink lemonade,1 CAN,4.0,beverages,whole foods,2.49,,,0.0,g,0.0,g,0.0,g,5.0,False,,0.62
+"Organic Mexican Lime Sparkling Energy Water, 12 FZ",organic mexican lime sparkling energy water,1 CAN,1.0,beverages,whole foods,3.19,,,0.0,g,0.0,g,0.0,g,0.0,False,,3.19
+"Berry Wild Juice, 32 FZ",berry wild juice,8 FL,4.0,beverages,whole foods,5.39,,,0.0,g,0.0,g,21.0,g,100.0,False,240.0,1.35
+"Doc Pop Prebiotic Soda 12FZ, 12 FZ",doc pop prebiotic soda,12 fz,1.0,beverages,whole foods,2.49,,,,,,,,,,False,360.0,2.49
+"Cream Soda Slim Single, 12 FZ",cream soda slim single,1 CAN,1.0,beverages,whole foods,1.79,,,0.0,g,0.0,g,0.0,g,0.0,False,,1.79
+"Ginger Root Beer Soda Slim Single, 12 FZ",ginger root beer soda slim single,1 CAN,1.0,beverages,whole foods,1.79,,,0.0,g,0.0,g,0.0,g,0.0,False,,1.79
+"365 by Whole Foods Market, Cherry Vanilla Creme Soda, 12 Pack, 12 Fl Oz",cherry vanilla creme soda,1 CAN,12.0,beverages,whole foods,7.99,,,0.0,g,0.0,g,45.0,g,180.0,False,,0.67
+"Organic Pomegranate Blueberry Kombucha, 48 FZ",organic pomegranate blueberry kombucha,12 FL,4.0,beverages,whole foods,8.99,,,0.0,g,0.0,g,14.0,g,60.0,False,360.0,2.25
+"Hometown Blend Coffee Capsule, 12 CT",hometown blend coffee capsule,12 ct,1.0,beverages,whole foods,6.99,,,,,,,,,,False,,6.99
+"Organic Love Kombucha, 14 FZ",organic love kombucha,1 BOTTLE,1.0,beverages,whole foods,3.69,,,0.0,g,0.0,g,12.0,g,60.0,False,,3.69
+"SunSip Dr Bubbles Soda, 11.5 FZ",sunsip dr bubbles soda,1 CAN,1.0,beverages,whole foods,2.49,,,0.0,g,0.0,g,6.0,g,35.0,False,,2.49
+"Ginger Beer 4pk, 9 FZ",ginger beer,9 fz,1.0,beverages,whole foods,8.99,,,,,,,,,,False,270.0,8.99
+"Zero Sugar Half Tea & Half Lemonade, 12 FZ",zero sugar half tea & half lemonade,1 CAN,4.0,beverages,whole foods,2.49,,,0.0,g,0.0,g,0.0,g,5.0,False,,0.62
+"365 by Whole Foods Market, Organic Kombucha, Peach Passionfruit, 16 Fl Oz","organic kombucha, peach passionfruit",16 FL,1.0,beverages,whole foods,2.79,,,0.5,g,2.0,g,17.0,g,80.0,False,480.0,2.79
+"Unsweetened Medium Roast Iced Coffee, 48 FZ",unsweetened medium roast iced coffee,12 FL,4.0,beverages,whole foods,6.99,,,0.0,g,1.0,g,,,15.0,False,360.0,1.75
+"Buzz Free Decaf Coffee Capsule, 12 CT",buzz free decaf coffee capsule,12 ct,1.0,beverages,whole foods,6.99,,,,,,,,,,False,,6.99
+"Mini Lemonade 4pk, 32 FZ",mini lemonade,32 fz,1.0,beverages,whole foods,4.79,,,,,,,,,,False,960.0,4.79
+"Black Cherry Soda 6pk, 12 FZ",black cherry soda,1 CAN,6.0,beverages,whole foods,7.29,,,0.0,g,0.0,g,0.0,g,0.0,False,,1.22
+"The Green Tea One Sparkling HopTea, 16 FZ",the green tea one sparkling hoptea,16 FL,1.0,beverages,whole foods,3.79,,,0.0,g,0.0,g,0.0,g,0.0,False,480.0,3.79
+"4 Pack Organic Italian Soda, Pink Grapefruit, 11.2 Fluid Ounce","4 pack organic italian soda, pink grapefruit, 11.2 fluid ounce",1 CAN,4.0,beverages,whole foods,4.69,,,0.0,g,0.0,g,30.0,g,140.0,False,,1.17
+"Lime Ginger Prebiotic Soda, 12 FZ",lime ginger prebiotic soda,1 CAN,1.0,beverages,whole foods,2.49,,,0.0,g,0.0,g,4.0,g,20.0,False,,2.49
+"Vanilla Cream Soda 4pk, 12 FZ",vanilla cream soda,1 CAN,1.0,beverages,whole foods,7.49,,,0.0,g,0.0,g,42.0,g,170.0,False,,7.49
+"Natural Spring Water, 750 ML",natural spring water,750 ml,1.0,beverages,whole foods,3.29,,,,,,,,,,False,,3.29
+"Root Beer Sunsip Soda, 11.5 FZ",root beer sunsip soda,1 CAN,1.0,beverages,whole foods,2.49,,,0.0,g,0.0,g,5.0,g,35.0,False,,2.49
+"Teas For The Holidays Gift Set, 24 CT",teas for the holidays gift set,24 ct,1.0,beverages,whole foods,13.99,,,,,,,,,,False,,13.99
+"Organic Superfood Quench Hydrate Drink, 16 FZ",organic superfood quench hydrate drink,16 fz,1.0,beverages,whole foods,5.49,,,,,,,,,,False,480.0,5.49
+"Cream Soda 6pk, 12 FZ",cream soda,1 CAN,6.0,beverages,whole foods,7.29,,,0.0,g,0.0,g,0.0,g,0.0,False,,1.22
+"Organic Kids Chocolate Nutrition Protein Shake 4 Pack, 33 FZ",organic kids chocolate nutrition protein shake,1 CARTON,4.0,beverages,whole foods,8.99,,,7.0,g,8.0,g,9.0,g,180.0,False,,2.25
+"Pear Juice, 33.8 FZ",pear juice,8 FL,4.0,beverages,whole foods,5.39,,,0.0,g,0.0,g,25.0,g,120.0,False,240.0,1.35
+"English Breakfast Tea, 15 CT",english breakfast tea,15 ct,1.0,beverages,whole foods,8.39,,,,,,,,,,False,,8.39
+"Zero Sugar Root Beer 4 Pack, 12 FZ",zero sugar root beer,1 CAN,4.0,beverages,whole foods,7.49,,,0.0,g,0.0,g,0.0,g,0.0,False,,1.87
+"Soda Water 8 Pack, 5.07 FZ",soda water,1 CAN,8.0,beverages,whole foods,7.99,,,0.0,g,0.0,g,0.0,g,0.0,False,,1.0
+"The High Achiever Enhanced Ground Coffee, 10 OZ",the high achiever enhanced ground coffee,10 oz,22.0,beverages,whole foods,16.99,,,0.0,g,0.0,g,0.0,g,0.0,False,283.5,0.77
+"The Original Ground Coffee, 12 OZ",the original ground coffee,12 oz,1.0,beverages,whole foods,15.99,,,,,,,,,,False,340.19,15.99
+"Single Origin African Whole Bean Coffee, 12 OZ",single origin african whole bean coffee,12 oz,1.0,beverages,whole foods,15.79,,,,,,,,,,False,340.19,15.79
+"Unfiltered Apple Juice, 33.8 FZ",unfiltered apple juice,8 FL.,25.0,beverages,whole foods,5.69,,,0.0,g,1.0,g,31.0,g,140.0,False,240.0,0.23
+"Sparkling Pink Grapefruit 8pk, 5.07 FZ",sparkling pink grapefruit,1 CAN,8.0,beverages,whole foods,7.99,,,0.0,g,0.0,g,7.0,g,30.0,False,,1.0
+"Sparkling Blush Apple Juice, 25.4 FZ",sparkling blush apple juice,25.4 fz,3.0,beverages,whole foods,6.29,,,0.0,g,0.99,g,31.0,g,130.0,False,762.0,2.1
+"FitAid Zero Sugar Energy Drink, 12 FZ",fitaid zero sugar energy drink,12 fz,1.0,beverages,whole foods,2.89,,,,,,,,,,False,360.0,2.89
+"Country Peach Passion Tea, 20 CT",country peach passion tea,20 ct,1.0,beverages,whole foods,4.49,,,,,,,,,,False,,4.49
+"Classic Cola Prebiotic Soda 12FZ, 12 FZ",classic cola prebiotic soda,1 ea,1.0,beverages,whole foods,2.49,0.0,,0.0,,0.0,,5.0,,25.0,False,,2.49
+"The Citra Bomb One Sparkling Tea, 16 FZ",the citra bomb one sparkling tea,16 FL,1.0,beverages,whole foods,3.79,,,0.0,g,0.0,g,0.0,g,0.0,False,480.0,3.79
+"Sparkling Apple Cider, 750 ML",sparkling apple cider,12 FL.,2.0,beverages,whole foods,8.99,,,0.0,g,0.0,g,38.0,g,150.0,False,360.0,4.5
+"Organic Lion's Mane Ground Coffee, 10 OZ",organic lion's mane ground coffee,4 TBSP,13.0,beverages,whole foods,15.49,,,0.0,g,0.0,g,0.0,g,0.0,False,60.0,1.19
+"Vanilla Espresso Coffee Shaker, 13.7 FZ",vanilla espresso coffee shaker,1 BOTTLE,1.0,beverages,whole foods,4.99,,,3.0,g,2.0,g,19.0,g,170.0,False,,4.99
+"Mocha Espresso Coffee Shaker, 13.7 FZ",mocha espresso coffee shaker,1 BOTTLE,1.0,beverages,whole foods,4.99,,,3.0,g,2.0,g,19.0,g,170.0,False,,4.99
+"Organic Lemon Juice, 16 FZ",organic lemon juice,1 TSP,95.0,beverages,whole foods,5.99,,,0.0,g,0.0,g,,,0.0,False,5.0,0.06
+"Organic Tropical Pineapple Green Tea, 12 FZ",organic tropical pineapple green tea,1 CAN,1.0,beverages,whole foods,2.19,,,0.0,g,0.0,g,0.0,g,0.0,False,,2.19
+"Organic Decaf Black Tea, 20 CT",organic decaf black tea,20 ct,1.0,beverages,whole foods,3.79,,,,,,,,,,False,,3.79
+"Organic Traditional Chai Tea Concentrate, 64 FZ",organic traditional chai tea concentrate,6 FL,11.0,beverages,whole foods,14.99,,,0.0,g,0.0,g,15.0,g,70.0,False,180.0,1.36
+"Organic Decaf Chai Tea Concentrate, 64 FZ",organic decaf chai tea concentrate,6 FL,11.0,beverages,whole foods,14.99,,,0.0,g,0.0,g,15.0,g,70.0,False,180.0,1.36
+"Ginger Beer with Sorrel 4pk, 12 FZ",ginger beer with sorrel,12 fz,1.0,beverages,whole foods,9.99,,,,,,,,,,False,360.0,9.99
+"Strawberry Lemon Prebiotic Soda, 12 FZ",strawberry lemon prebiotic soda,1 ea,1.0,beverages,whole foods,2.49,0.0,,0.0,,0.0,,4.0,,25.0,False,,2.49
+"Decaf Green Tea, 20 CT",decaf green tea,20 ct,1.0,beverages,whole foods,3.89,,,,,,,,,,False,,3.89
+"Ginger Ale 6pk, 12 FZ",ginger ale,1 CAN,6.0,beverages,whole foods,7.29,,,0.0,g,0.0,g,0.0,g,0.0,False,,1.22
+"Earl Grey Tea, 20 CT",earl grey tea,20 ct,1.0,beverages,whole foods,3.89,,,,,,,,,,False,,3.89
+"Organic Cranberry Grape Juice, 32 FZ",organic cranberry grape juice,32 fz,1.0,beverages,whole foods,5.19,,,,,,,,,,False,960.0,5.19
+"Ginger Beer, 16.9 FZ",ginger beer,1 BOTTLE,1.0,beverages,whole foods,2.99,,,0.0,g,0.0,g,45.0,g,200.0,False,,2.99
+"Pulp-Free Orange Juice, 46 FZ",pulp-free orange juice,46 fz,1.0,beverages,whole foods,5.49,,,,,,,,,,False,1380.0,5.49
+"365 by Whole Foods Market, Organic Green Tea, 70 CT",organic green tea,70 ct,1.0,beverages,whole foods,6.49,,,,,,,,,,False,,6.49
+"Ginger Ale Soda Slim Single, 12 FZ",ginger ale soda slim single,1 ea,1.0,beverages,whole foods,1.79,0.0,,0.0,,0.0,,0.0,,0.0,False,,1.79
+"365 by Whole Foods Market, Organic Black Tea, Single-Serve Tea Bags, 70 Count","organic black tea, single-serve tea bags",70 count,1.0,beverages,whole foods,6.49,,,,,,,,,,False,,6.49
+"Apple Juice, 33.8 FZ",apple juice,33.8 fz,4.0,beverages,whole foods,5.69,,,0.0,g,,,31.0,g,140.0,False,1014.0,1.42
+"Orange Juice, 11.5 FZ",orange juice,1 BOTTLE,1.0,beverages,whole foods,2.39,,,0.0,g,2.0,g,33.0,g,160.0,False,,2.39
 Vegan Brioche Loaf,vegan brioche loaf,1 slice(44g),10.0,bakery,trader joes,3.99,24.0,g,4.0,g,3.0,g,,,150.0,False,44.0,0.4
 Organic Super Bread,organic super bread,2 slices(64g),8.0,bakery,trader joes,3.99,24.0,g,13.0,g,9.0,g,,,240.0,False,64.0,0.5
 Brioche Style Liège Waffles,brioche style liège waffles,1 waffle(55g),6.0,bakery,trader joes,3.99,30.0,g,13.0,g,3.0,g,,,250.0,False,55.0,0.66
@@ -5595,6 +6954,7 @@ Organic Bread Crumbs,organic bread crumbs,1/4 cup(30g),9.0,pantry,trader joes,2.
 Ranch Seasoning Blend,ranch seasoning blend,1/4 tsp.(1g),57.0,pantry,trader joes,2.99,1.0,l,0.0,g,0.0,g,,,0.0,False,1.0,0.05
 Fair Trade Turbinado Raw Cane Sugar,fair trade turbinado raw cane sugar,2 tsp(8 g),85.0,pantry,trader joes,3.49,8.0,g,0.0,g,0.0,g,,,30.0,False,8.0,0.04
 White Miso Paste,white miso paste,1 tsp.(6g),25.0,pantry,trader joes,2.99,2.0,g,0.0,g,1.0,l,,,10.0,False,6.0,0.12
+Smoked Paprika,smoked paprika,,,pantry,trader joes,2.49,,,,,,,,,,False,,
 Taco Seasoning Mix,taco seasoning mix,1 tsp.(3g),12.0,pantry,trader joes,0.99,1.0,g,0.0,g,0.0,g,,,5.0,False,3.0,0.08
 Maple Pecan Clusters Cereal,maple pecan clusters cereal,3/4 cup(53g),11.0,pantry,trader joes,4.79,39.0,g,7.0,g,4.0,g,,,230.0,False,53.0,0.44
 Strawberries & Crème Pancake & Waffle Mix,strawberries & crème pancake & waffle mix,1/7 dry mix(65g) makes 2 4-inch pancakes,7.0,pantry,trader joes,1.99,51.0,g,2.0,g,5.0,g,,,240.0,False,65.0,0.28
