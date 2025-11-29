@@ -270,25 +270,24 @@ def generate_meal(df, goal, Q_table, steps=20, num_to_pick=None, ingredients=Non
         ingredients = {}
 
     all_ingredients = df['name_clean'].tolist()
-    default_servings = dict(zip(df['name_clean'], df['num_servings'].fillna(1.0)))
+
+    # Use num_servings when available, defaulting missing/NaN values to 1.0
+    if 'num_servings' in df.columns:
+        servings_series = df['num_servings'].fillna(1.0)
+    else:
+        # Fallback: everyone gets 1.0 serving
+        servings_series = pd.Series(1.0, index=df.index)
+    default_servings = dict(zip(df['name_clean'], servings_series))
 
     current_meal = {}
 
     if ingredients:
-        if isinstance(ingredients, dict):
-            input_names = list(ingredients.keys())
-            if len(input_names) > num_to_pick:
-                chosen_names = random.sample(input_names, num_to_pick)
-                current_meal = {name: ingredients[name] for name in chosen_names}
-            else:
-                current_meal = ingredients.copy()
+        input_names = list(ingredients.keys())
+        if len(input_names) > num_to_pick:
+            chosen_names = random.sample(input_names, num_to_pick)
+            current_meal = {name: ingredients[name] for name in chosen_names}
         else:
-            input_names = list(ingredients)
-            if len(input_names) > num_to_pick:
-                chosen_names = random.sample(input_names, num_to_pick)
-            else:
-                chosen_names = input_names
-            current_meal = {name: default_servings.get(name, 1.0) for name in chosen_names}
+            current_meal = ingredients.copy()
 
     current_names = list(current_meal.keys())
     slots_needed = num_to_pick - len(current_names)
@@ -299,7 +298,7 @@ def generate_meal(df, goal, Q_table, steps=20, num_to_pick=None, ingredients=Non
             actual_needed = min(slots_needed, len(candidates))
             new_items = random.sample(candidates, actual_needed)
             for item in new_items:
-                current_meal[item] = default_servings.get(item, 1.0)
+                current_meal[item] = 1.0
 
     working_names = list(current_meal.keys())
 
@@ -321,7 +320,7 @@ def generate_meal(df, goal, Q_table, steps=20, num_to_pick=None, ingredients=Non
         if name in current_meal:
             final_meal[name] = current_meal[name]
         else:
-            final_meal[name] = default_servings.get(name, 1.0)   
+            final_meal[name] = 1.0
     return final_meal      
            
 def load_model(path='data/Q_table.pickle'):
