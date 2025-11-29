@@ -5,7 +5,7 @@ from fuzzywuzzy import fuzz, process
 from src.eval.onboarding.structs import Store, DietaryGoal, PantryItem, UserConstraints
 
 
-class MealPlanningEvaluator:
+class UserOnboarding:
     """Handles user input for GA evaluation phase"""
 
     def __init__(self, grocery_csv: str):
@@ -148,17 +148,6 @@ class MealPlanningEvaluator:
         print("PREFERENCES")
         print("=" * 50)
 
-        # Store preference
-        print("\nPreferred Store in Boston:")
-        print("1. Trader Joe's")
-        print("2. Whole Foods")
-        choice = input("Select (1 or 2): ").strip()
-        if choice in ["1", "2"]:
-            self.constraints.preferred_store = [
-                Store.TRADER_JOES,
-                Store.WHOLE_FOODS,
-            ][int(choice) - 1]
-
         # Dietary goals
         print("\nDietary Goals (comma-separated or 'none'):")
         print("1. High Protein")
@@ -175,19 +164,16 @@ class MealPlanningEvaluator:
                     DietaryGoal.LOW_CARB,
                     DietaryGoal.VEGETARIAN,
                 ]
-                self.constraints.dietary_goals = [
+                self.constraints.dietary_goal = [
                     goals[c - 1] for c in choices if 1 <= c <= 4
                 ]
             except:
-                self.constraints.dietary_goals = [DietaryGoal.NONE]
+                self.constraints.dietary_goal = [DietaryGoal.NONE]
 
         # Number of meals
         try:
-            self.constraints.num_meals_min = int(
-                input("\nMin meals per week (default=3): ") or "3"
-            )
-            self.constraints.num_meals_max = int(
-                input("Max meals per week (default=7): ") or "7"
+            self.constraints.num_meals = int(
+                input("Number of meals per week (default=5): ") or "5"
             )
         except:
             pass
@@ -198,7 +184,7 @@ class MealPlanningEvaluator:
                 input("\nMin budget $ (default=30): ") or "30"
             )
             self.constraints.budget_max = float(
-                input("Max budget $ (default=50): ") or "50"
+                input("Max budget $ (default=60): ") or "60"
             )
         except:
             pass

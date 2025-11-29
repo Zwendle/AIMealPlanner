@@ -262,41 +262,68 @@ def train(df):
        pickle.dump(Q, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
 
+def generate_meal(df, goal, Q_table, steps=20, num_to_pick=None, ingredients=None):
+    if num_to_pick is None:
+        num_to_pick = random.randint(5, 8)
+        
+    if ingredients is None:
+        ingredients = {}
 
+    all_ingredients = df['name_clean'].tolist()
+    default_servings = dict(zip(df['name_clean'], df['num_servings'].fillna(1.0)))
 
-def generate_meal(df, goal, Q_table, steps=20):
-   """
-   Generate a meal using the Q-learning model.
-  
-   Returns:
-       dict: Mapping of ingredient name (name_clean) -> servings_used (default 1.0)
-   """
-   all_ingredients = df['name_clean'].tolist()
-  
-   num_to_pick = random.randint(5, 8)
-   ingredients = random.sample(all_ingredients, num_to_pick)
+    current_meal = {}
 
+    if ingredients:
+        if isinstance(ingredients, dict):
+            input_names = list(ingredients.keys())
+            if len(input_names) > num_to_pick:
+                chosen_names = random.sample(input_names, num_to_pick)
+                current_meal = {name: ingredients[name] for name in chosen_names}
+            else:
+                current_meal = ingredients.copy()
+        else:
+            input_names = list(ingredients)
+            if len(input_names) > num_to_pick:
+                chosen_names = random.sample(input_names, num_to_pick)
+            else:
+                chosen_names = input_names
+            current_meal = {name: default_servings.get(name, 1.0) for name in chosen_names}
 
-   for step in range(steps):
-       state = make_state(ingredients, goal, df)
-       actions = get_actions(all_ingredients, ingredients)
+    current_names = list(current_meal.keys())
+    slots_needed = num_to_pick - len(current_names)
+    
+    if slots_needed > 0:
+        candidates = list(set(all_ingredients) - set(current_names))
+        if candidates:
+            actual_needed = min(slots_needed, len(candidates))
+            new_items = random.sample(candidates, actual_needed)
+            for item in new_items:
+                current_meal[item] = default_servings.get(item, 1.0)
 
+    working_names = list(current_meal.keys())
 
-       if not actions:
-           break
+    for step in range(steps):
+        state = make_state(working_names, goal, df)
+        actions = get_actions(all_ingredients, working_names)
 
+        if not actions:
+            break
 
-       q_vals = [Q_table.get((state, a), 0) for a in actions]
-       best_action = actions[int(np.argmax(q_vals))]
+        q_vals = [Q_table.get((state, a), 0) for a in actions]
+        best_action_idx = int(np.argmax(q_vals))
+        best_action = actions[best_action_idx]
 
+        working_names = apply_action(working_names, best_action)
 
-       ingredients = apply_action(ingredients, best_action)
-
-
-   # Return as dict mapping ingredient -> servings_used (default 1.0 per ing)
-   return {ing: 1.0 for ing in ingredients}
-
-
+    final_meal = {}
+    for name in working_names:
+        if name in current_meal:
+            final_meal[name] = current_meal[name]
+        else:
+            final_meal[name] = default_servings.get(name, 1.0)   
+    return final_meal      
+           
 def load_model(path='data/Q_table.pickle'):
    with open(path, 'rb') as handle:
        return pickle.load(handle)

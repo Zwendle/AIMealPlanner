@@ -84,13 +84,13 @@ class MealPlanEvaluator:
         target_carbs = 135
         target_fat = 39
 
-        if DietaryGoal.HIGH_PROTEIN in constraints.dietary_goals:
+        if DietaryGoal.HIGH_PROTEIN == constraints.dietary_goal:
             target_protein = 50
-        if DietaryGoal.KETO in constraints.dietary_goals:
+        elif DietaryGoal.KETO == constraints.dietary_goal:
             target_carbs = 15
             target_fat = 75
             target_protein = 50
-        if DietaryGoal.LOW_CARB in constraints.dietary_goals:
+        elif DietaryGoal.LOW_CARB == constraints.dietary_goal:
             target_carbs = 50
 
         total_calories = 0
