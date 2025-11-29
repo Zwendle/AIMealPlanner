@@ -126,15 +126,15 @@ def main():
             row = ingredients_df[ingredients_df['name_clean'] == ing].iloc[0]
             cost_val = parse_number(row.get('cost_per_serving', 0))
             if not np.isnan(cost_val):
-                cost += cost_val * servings_used
-            cal += parse_number(row.get('calories', 0)) * servings_used
-            prot += parse_number(row.get('protein', 0)) * servings_used
-            carbs += parse_number(row.get('carbs', 0)) * servings_used
-            fat += parse_number(row.get('fat', 0)) * servings_used
+                cost += cost_val * 1.0
+            cal += parse_number(row.get('calories', 0)) * 1.0
+            prot += parse_number(row.get('protein', 0)) * 1.0
+            carbs += parse_number(row.get('carbs', 0)) * 1.0
+            fat += parse_number(row.get('fat', 0)) * 1.0
             
             # subtract used servings
             if ing in history:
-                history[ing] = max(0, history[ing] - servings_used)
+                history[ing] = max(0, history[ing] - 1.0)
             else:
                 history[ing] = ingredients_df.loc[ingredients_df['name_clean'] == ing, 'num_servings'].values[0] - servings_used
                             
