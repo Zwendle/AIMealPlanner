@@ -181,11 +181,16 @@ class UserOnboarding:
         # Budget
         try:
             self.constraints.budget_min = float(
-                input("\nMin budget $ (default=30): ") or "30"
+                input("\nMin budget $ (default=20): ") or "20"
             )
             self.constraints.budget_max = float(
-                input("Max budget $ (default=60): ") or "60"
+                input("Max budget $ (default=40): ") or "40"
             )
+
+            if self.constraints.budget_min > self.constraints.budget_max:
+                print("Warning: Min budget is greater than max budget. Swapping values.")
+                self.constraints.budget_min, self.constraints.budget_max = \
+                    self.constraints.budget_max, self.constraints.budget_min
         except:
             pass
 
