@@ -1,0 +1,60 @@
+Helper functions & modules to support GA / Q-learning planner
+============================================================
+
+State construction / hydration
+------------------------------
+load_pantry(csv_paths) -> Pantry
+    - Parse vendor CSVs, normalize column names, hydrate PantryItem instances.
+    - Attach nutrition metadata and store info.
+
+load_goals(user_config) -> DietaryGoals
+    - Ingest user prompt or UI selections into the goal object.
+
+initialize_population(pantry, goals, population_size) -> List[MealPlanState]
+    - For GA: build random meal plans (respect 5-8 ingredient constraint).
+    - For RL: produce baseline state with empty meals or heuristic seed.
+
+
+Evaluation & reward shaping
+---------------------------
+compute_meal_macros(meal, pantry) -> Dict[str, float]
+    - Sum nutrient vectors based on PantryItem.nutrients and servings used.
+
+evaluate_meal(meal, pantry, goals) -> float
+    - Return scalar score incorporating macros, calories, store preference, budget share.
+
+evaluate_plan(state) -> float
+    - Aggregate meal scores, apply penalties for violating goals (budget, dietary rules).
+    - Cache score within state for reuse.
+
+feasible(state) -> bool
+    - Fast constraint check to prune invalid individuals/states.
+
+
+Transition helpers
+------------------
+swap_ingredient(meal, old_ing, new_ing, servings) -> Meal
+    - Replace ingredient and recompute cached totals.
+
+mutate_plan(state, pantry, goals) -> MealPlanState
+    - Random ingredient swaps, portion tweaks, meal addition/removal.
+
+crossover(parent_a, parent_b) -> MealPlanState
+    - Combine meals or ingredient subsets for GA evolution.
+
+apply_action(state, action) -> MealPlanState
+    - RL action executor (swap, add, remove, adjust portion).
+
+
+Experience tracking
+-------------------
+state_to_features(state) -> np.ndarray
+    - Vectorize structured state (budget utilization, macro ratios, etc.) for RL.
+
+update_q_table(state, action, reward, next_state) -> None
+    - Standard Q-learning update with discretized state/action indices.
+
+log_episode(state, reward, metadata) -> None
+    - Persist training trace for debugging and offline analysis.
+
+
