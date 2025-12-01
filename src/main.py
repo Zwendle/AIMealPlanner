@@ -8,7 +8,39 @@ from src.training.training import train, generate_meal, load_model, model_exists
 from src.eval.onboarding.structs import DietaryGoal
 from src.utils import filter_ingredients
 
+def clear_pantry(history_file):
+    """check if pantry is empty and optionally clear it with user confirmation"""
+    if not os.path.exists(history_file):
+        print("No existing pantry found!")
+        # not really sure what to do here... TODO figure this out lol
+        return
+
+    with open(history_file, 'r') as f:
+        existing_history = json.load(f)
+
+    if existing_history:
+        print("\n" + "=" * 60)
+        print("PANTRY STATUS")
+        print("=" * 60)
+        print(f"Found existing pantry with {len(existing_history)} item(s).")
+        
+        clear_choice = input("Would you like to clear the pantry? (y/n): ").strip().lower()
+        
+        if clear_choice in ['y', 'yes']:
+            with open(history_file, 'w') as f:
+                json.dump({}, f)
+            print("Pantry cleared! ♡⸜(˶˃ ᵕ ˂˶)⸝♡")
+        else:
+            print("Continuing with existing pantry.")
+    else:
+        print("Pantry is currently empty. Proceeding with prompter...")
+        return
+
 def main():
+    # 0. Check pantry and clear if desired
+    history_file = 'data/meal_history.json'
+    clear_pantry(history_file)
+
     # 1. Load Data
     print("Loading data...")
     try:
@@ -76,7 +108,6 @@ def main():
         
     plan_data = []
     
-    history_file = 'data/meal_history.json'
     history = []
     if os.path.exists(history_file):
         with open(history_file, 'r') as f:
