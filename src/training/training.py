@@ -6,57 +6,60 @@ import pickle
 import sys
 import os
 
-
 ALPHA = 0.1       
 GAMMA = 0.95   
 EPSILON = 0.4
 DECAY_RATE = 0.999995   
-MAX_STEPS = 50
-EPISODES = 10000
+MAX_STEPS = 100
+EPISODES = 50000
 train_flag = 'train' in sys.argv
       
-
-
 def make_state(ingredients, goal, df):
-   total_cal = sum(df.loc[df['name_clean'] == i, 'calories'].values[0] for i in ingredients)
-   total_prot = sum(df.loc[df['name_clean'] == i, 'protein' ].values[0] for i in ingredients)
-   total_carb = sum(df.loc[df['name_clean'] == i, 'carbs'   ].values[0] for i in ingredients)
-   total_fat  = sum(df.loc[df['name_clean'] == i, 'fat'     ].values[0] for i in ingredients)
-   total_price = sum(df.loc[df['name_clean'] == i, 'cost_per_serving'].values[0] for i in ingredients)
+    total_cal = 0
+    total_prot = 0
+    total_carb = 0
+    total_fat = 0
+    total_price = 0
+    
+    for i in ingredients:
+        row = df.loc[df['name_clean'] == i]
+        if row.empty:
+            print(f"Warning: Ingredient '{i}' not found in dataframe, skipping")
+            continue
+        
+        total_cal += row['calories'].values[0]
+        total_prot += row['protein'].values[0]
+        total_carb += row['carbs'].values[0]
+        total_fat += row['fat'].values[0]
+        total_price += row['cost_per_serving'].values[0]
 
+    def ratio_bucket(total, target):
+        if target <= 0:
+            return 0
+        r = total / target
+        if r < 0.6: return -2
+        if r < 0.9: return -1
+        if r < 1.1: return  0
+        if r < 1.4: return  1
+        return 2
 
-   def ratio_bucket(total, target):
-       if target <= 0:
-           return 0
-       r = total / target
-       if r < 0.6: return -2
-       if r < 0.9: return -1
-       if r < 1.1: return  0
-       if r < 1.4: return  1
-       return 2
+    cal_b  = ratio_bucket(total_cal,  goal['target_calories'])
+    prot_b = ratio_bucket(total_prot, goal['target_protein'])
+    carb_b = ratio_bucket(total_carb, goal['target_carbs'])
+    fat_b  = ratio_bucket(total_fat,  goal['target_fat'])
+    price_b = ratio_bucket(total_price, goal['target_price'])
 
+    size_b = len(ingredients) - 5
 
-   cal_b  = ratio_bucket(total_cal,  goal['target_calories'])
-   prot_b = ratio_bucket(total_prot, goal['target_protein'])
-   carb_b = ratio_bucket(total_carb, goal['target_carbs'])
-   fat_b  = ratio_bucket(total_fat,  goal['target_fat'])
-   price_b = ratio_bucket(total_price, goal['target_price'])
-
-
-   size_b = len(ingredients) - 5
-
-
-   return (
-       cal_b,
-       prot_b,
-       carb_b,
-       fat_b,
-       price_b,
-       size_b,
-       int(goal['vegetarian_diet'])
-   )
-  
-
+    return (
+        cal_b,
+        prot_b,
+        carb_b,
+        fat_b,
+        price_b,
+        size_b,
+        int(goal['vegetarian_diet'])
+    )
 
 # used ChatGPT for this function
 def parse_number(value):
@@ -101,16 +104,37 @@ def sample_goal(df):
    }
 
 
-
-
-def get_actions(all_ingredients, current):
-   actions = []
-   for i in current:
-       for j in all_ingredients:
-           if j not in current:
-               actions.append((i, j))
-   return actions
-
+def get_actions(all_ingredients, current, df, max_per_category=2):
+    """
+    Generate swap actions with category constraints.
+    Only allow swaps that keep <= max_per_category items per category.
+    """
+    category_counts = {}
+    for ing in current:
+        category = df.loc[df['name_clean'] == ing, 'category'].values[0]
+        category_counts[category] = category_counts.get(category, 0) + 1
+    
+    actions = []
+    
+    for out_ing in current:
+        out_cat = df.loc[df['name_clean'] == out_ing, 'category'].values[0]
+        
+        for in_ing in all_ingredients:
+            if in_ing in current:
+                continue
+                
+            in_cat = df.loc[df['name_clean'] == in_ing, 'category'].values[0]
+            
+            # Simulate the swap
+            new_counts = category_counts.copy()
+            new_counts[out_cat] -= 1
+            new_counts[in_cat] = new_counts.get(in_cat, 0) + 1
+            
+            # Only allow if no category exceeds the limit
+            if all(count <= max_per_category for count in new_counts.values()):
+                actions.append((out_ing, in_ing))
+    
+    return actions
 
 
 
@@ -120,8 +144,6 @@ def apply_action(ingredients, action):
    new_list.remove(out_ing)
    new_list.append(in_ing)
    return new_list
-
-
 
 
 def calculate_reward(df, ingredients, pantry_ingredients, target_calories, target_protein, vegetarian_diet, target_carbs, target_fat, target_price, servings_dict=None):
@@ -194,10 +216,7 @@ def calculate_reward(df, ingredients, pantry_ingredients, target_calories, targe
    # Weights: Utilization (45%), Nutrition (35%), Cost (20%)
    reward = 0.45 * ingredient_score + 0.35 * nutrition_score + 0.20 * cost_score
    return reward
-
-
-
-
+ 
 def train(df):
    Q = {}   
    global EPSILON
@@ -218,7 +237,7 @@ def train(df):
 
 
            state = make_state(ingredients, goal, df)
-           actions = get_actions(all_ingredients, ingredients)
+           actions = get_actions(all_ingredients, ingredients, df)
 
 
            if random.random() < EPSILON:
@@ -249,7 +268,7 @@ def train(df):
 
 
            old_q = Q.get((state, action), 0)
-           next_actions = get_actions(all_ingredients, next_ingredients)
+           next_actions = get_actions(all_ingredients, next_ingredients, df)
            future_q = max([Q.get((next_state, a), 0) for a in next_actions]) if next_actions else 0
            Q[(state, action)] = old_q + ALPHA * (reward + GAMMA * future_q - old_q)
 
@@ -304,14 +323,16 @@ def generate_meal(df, goal, Q_table, steps=20, num_to_pick=None, ingredients=Non
 
     for step in range(steps):
         state = make_state(working_names, goal, df)
-        actions = get_actions(all_ingredients, working_names)
+        actions = get_actions(all_ingredients, working_names, df)
 
         if not actions:
             break
 
         q_vals = [Q_table.get((state, a), 0) for a in actions]
-        best_action_idx = int(np.argmax(q_vals))
-        best_action = actions[best_action_idx]
+        max_q = max(q_vals) if q_vals else 0
+        best_actions = [a for a, q in zip(actions, q_vals) if q == max_q]
+        best_action = random.choice(best_actions)
+
 
         working_names = apply_action(working_names, best_action)
 
@@ -331,15 +352,112 @@ def load_model(path='data/Q_table.pickle'):
 def model_exists(path='data/Q_table.pickle'):
    return os.path.exists(path)
 
+def analyze_qtable(Q_table, df):
+    """Analyze Q-table coverage and sparsity"""
+    
+    # Basic stats
+    total_entries = len(Q_table)
+    unique_states = set(state for state, action in Q_table.keys())
+    unique_actions = set(action for state, action in Q_table.keys())
+    
+    print(f"\n=== Q-Table Analysis ===")
+    print(f"Total Q-table entries: {total_entries:,}")
+    print(f"Unique states seen: {len(unique_states):,}")
+    print(f"Unique actions seen: {len(unique_actions):,}")
+    print(f"Avg actions per state: {total_entries / len(unique_states):.1f}")
+    
+    # Calculate theoretical state space
+    # State = (cal_b, prot_b, carb_b, fat_b, price_b, size_b, vegetarian)
+    # Each macro bucket: 5 values (-2, -1, 0, 1, 2)
+    # size_b: varies based on ingredient count (typically -3 to 3 = 7 values)
+    # vegetarian: 2 values (0, 1)
+    theoretical_states = 5 * 5 * 5 * 5 * 5 * 7 * 2
+    
+    # Calculate theoretical action space
+    n_ingredients = len(df)
+    avg_meal_size = 6  # typically 5-8 ingredients
+    actions_per_state = avg_meal_size * (n_ingredients - avg_meal_size)
+    theoretical_actions = theoretical_states * actions_per_state
+    
+    print(f"\n=== State Space ===")
+    print(f"Theoretical states: {theoretical_states:,}")
+    print(f"States covered: {len(unique_states) / theoretical_states * 100:.2f}%")
+    
+    print(f"\n=== Action Space ===")
+    print(f"Ingredients in dataset: {n_ingredients}")
+    print(f"~Actions per state: {actions_per_state:,}")
+    print(f"Theoretical (state,action) pairs: {theoretical_actions:,}")
+    print(f"Coverage: {total_entries / theoretical_actions * 100:.4f}%")
+    
+    # Analyze Q-value distribution
+    q_values = list(Q_table.values())
+    print(f"\n=== Q-Value Distribution ===")
+    print(f"Min Q: {min(q_values):.4f}")
+    print(f"Max Q: {max(q_values):.4f}")
+    print(f"Mean Q: {np.mean(q_values):.4f}")
+    print(f"Std Q: {np.std(q_values):.4f}")
+    
+    # Plot distributions
+    import matplotlib.pyplot as plt
+    
+    fig, axes = plt.subplots(2, 2, figsize=(12, 10))
+    
+    # Q-value distribution
+    axes[0, 0].hist(q_values, bins=50, edgecolor='black')
+    axes[0, 0].set_title('Q-Value Distribution')
+    axes[0, 0].set_xlabel('Q-Value')
+    axes[0, 0].set_ylabel('Frequency')
+    
+    # Actions per state distribution
+    state_action_counts = {}
+    for state, action in Q_table.keys():
+        state_action_counts[state] = state_action_counts.get(state, 0) + 1
+    
+    counts = list(state_action_counts.values())
+    axes[0, 1].hist(counts, bins=50, edgecolor='black')
+    axes[0, 1].set_title('Actions per State Distribution')
+    axes[0, 1].set_xlabel('Number of Actions')
+    axes[0, 1].set_ylabel('Number of States')
+    
+    # State component distributions
+    state_components = {
+        'cal': [], 'prot': [], 'carb': [], 'fat': [], 
+        'price': [], 'size': [], 'veg': []
+    }
+    for state in unique_states:
+        state_components['cal'].append(state[0])
+        state_components['prot'].append(state[1])
+        state_components['carb'].append(state[2])
+        state_components['fat'].append(state[3])
+        state_components['price'].append(state[4])
+        state_components['size'].append(state[5])
+        state_components['veg'].append(state[6])
+    
+    axes[1, 0].hist([state_components['cal'], state_components['prot'], 
+                     state_components['carb'], state_components['fat']], 
+                    bins=range(-3, 4), label=['Cal', 'Prot', 'Carb', 'Fat'],
+                    alpha=0.7)
+    axes[1, 0].set_title('Macro Nutrient Buckets Visited')
+    axes[1, 0].set_xlabel('Bucket Value')
+    axes[1, 0].set_ylabel('Frequency')
+    axes[1, 0].legend()
+    
+    # Coverage over theoretical space
+    coverage_data = [
+        len(unique_states) / theoretical_states * 100,
+        100 - (len(unique_states) / theoretical_states * 100)
+    ]
+    axes[1, 1].pie(coverage_data, labels=['Covered', 'Uncovered'], 
+                   autopct='%1.2f%%', startangle=90)
+    axes[1, 1].set_title('State Space Coverage')
+    
+    plt.tight_layout()
+    plt.savefig('data/qtable_analysis.png', dpi=150)
+    print(f"\nSaved visualization to data/qtable_analysis.png")
+    plt.close()
 
 if __name__ == "__main__":
-   df = pd.read_csv("data/ingredients.csv")
-   required_cols = ["carbs", "fat", "protein", "calories", "cost_per_serving"]
-
-
-   df = df.dropna(subset=required_cols)
-
-
+   df = pd.read_csv("data/ingredients_final.csv")
    for col in required_cols:
        df = df[df[col].astype(str).str.strip() != ""]
       
@@ -350,6 +468,7 @@ if __name__ == "__main__":
    else:
        if model_exists('data/Q_table.pickle'):
            Q_table = load_model('data/Q_table.pickle')
+           analyze_qtable(Q_table, df)
        else:
            print("Model not found, training...")
            train(df)
