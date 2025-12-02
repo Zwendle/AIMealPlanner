@@ -7,7 +7,7 @@ import os
 # ==========================================
 # CONFIGURATION
 # ==========================================
-API_KEY = 'JyrOkj0OLrRpY9sh62DChPY02rUasaiRFs2BfpuP'  # <--- PASTE YOUR KEY HERE
+API_KEY = ''  # <--- PASTE YOUR KEY HERE
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 SCRAPE_DIR = os.path.dirname(CURRENT_DIR)
 ROOT_DIR = os.path.dirname(SCRAPE_DIR)
