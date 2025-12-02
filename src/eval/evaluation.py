@@ -60,6 +60,7 @@ class MealPlanEvaluator:
         else:
             all_plan_ingredients = []
             for ingredients_list in meal_plan['ingredients']:
+                print("ingredients: ", ingredients_list)
                 if isinstance(ingredients_list, list):
                     all_plan_ingredients.extend(ingredients_list)
                 elif isinstance(ingredients_list, str):

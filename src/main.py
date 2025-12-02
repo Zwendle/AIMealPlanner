@@ -169,8 +169,6 @@ def main():
             else:
                 history[ing] = ingredients_df.loc[ingredients_df['name_clean'] == ing, 'num_servings'].values[0] - 1
                             
-        # calculate leftovers after this meal, remove ingredients with zero servings
-        print(history)
         history = {k: v for k, v in history.items() if v > 0}
         leftovers_after = history.copy()
         

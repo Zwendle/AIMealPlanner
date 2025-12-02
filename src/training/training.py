@@ -104,40 +104,45 @@ def sample_goal(df):
        "pantry": pantry
    }
 
-
-def get_actions(all_ingredients, current, df, max_per_category=2):
-    """
-    Generate swap actions with category constraints.
-    Only allow swaps that keep <= max_per_category items per category.
-    """
+## Keeps a max two ingredients per category constraint, and prioritizes same-category swaps
+def get_actions(all_ingredients, current, df, ing_to_cat, max_per_category=2):
     category_counts = {}
+    # count current categories
     for ing in current:
-        category = df.loc[df['name_clean'] == ing, 'category'].values[0]
+        category = ing_to_cat[ing] 
         category_counts[category] = category_counts.get(category, 0) + 1
     
     actions = []
     
     for out_ing in current:
-        out_cat = df.loc[df['name_clean'] == out_ing, 'category'].values[0]
+        # get category of outgoing ingredient
+        out_cat = ing_to_cat[out_ing]
+        
+        same_cat = []
+        other_cat = []
         
         for in_ing in all_ingredients:
             if in_ing in current:
                 continue
                 
-            in_cat = df.loc[df['name_clean'] == in_ing, 'category'].values[0]
+            # category of incoming ingredient
+            in_cat = ing_to_cat[in_ing]
             
-            # Simulate the swap
+            
             new_counts = category_counts.copy()
             new_counts[out_cat] -= 1
             new_counts[in_cat] = new_counts.get(in_cat, 0) + 1
             
-            # Only allow if no category exceeds the limit
             if all(count <= max_per_category for count in new_counts.values()):
-                actions.append((out_ing, in_ing))
+                if in_cat == out_cat: 
+                    same_cat.append((out_ing, in_ing))
+                else:
+                    other_cat.append((out_ing, in_ing))
+        
+        actions.extend(same_cat)
+        actions.extend(other_cat) # prioritize same category swaps
     
     return actions
-
-
 
 def apply_action(ingredients, action):
    out_ing, in_ing = action
@@ -223,6 +228,7 @@ def train(df):
     global EPSILON
     all_ingredients = df['name_clean'].tolist()
     rewards_per_ep = []
+    ingredient_category_map = dict(zip(df['name_clean'], df['category']))
 
     for episode in tqdm(range(EPISODES)):
         total_reward = 0
@@ -231,7 +237,7 @@ def train(df):
         goal = sample_goal(df)
         for step in range(MAX_STEPS):
             state = make_state(ingredients, goal, df)
-            actions = get_actions(all_ingredients, ingredients, df)
+            actions = get_actions(all_ingredients, ingredients, df, ingredient_category_map)
     
             if random.random() < EPSILON:
                action = random.choice(actions)
@@ -260,7 +266,7 @@ def train(df):
             total_reward += reward
 
             old_q = Q.get((state, action), 0)
-            next_actions = get_actions(all_ingredients, next_ingredients, df)
+            next_actions = get_actions(all_ingredients, next_ingredients, df, ingredient_category_map)
             future_q = max([Q.get((next_state, a), 0) for a in next_actions]) if next_actions else 0
             Q[(state, action)] = old_q + ALPHA * (reward + GAMMA * future_q - old_q)
 
@@ -297,6 +303,8 @@ def generate_meal(df, goal, Q_table, steps=20, num_to_pick=None, ingredients=Non
         
     if ingredients is None:
         ingredients = {}
+        
+    ingredient_category_map = dict(zip(df['name_clean'], df['category']))
 
     all_ingredients = df['name_clean'].tolist()
 
@@ -333,7 +341,7 @@ def generate_meal(df, goal, Q_table, steps=20, num_to_pick=None, ingredients=Non
 
     for step in range(steps):
         state = make_state(working_names, goal, df)
-        actions = get_actions(all_ingredients, working_names, df)
+        actions = get_actions(all_ingredients, working_names, df, ingredient_category_map)
 
         if not actions:
             break
