@@ -12,7 +12,7 @@ GAMMA = 0.95
 EPSILON = 0.4
 DECAY_RATE = 0.999995   
 MAX_STEPS = 100
-EPISODES = 750000
+EPISODES = 75000
 train_flag = 'train' in sys.argv
       
 def make_state(ingredients, goal, df):
@@ -240,7 +240,7 @@ def train(df):
             actions = get_actions(all_ingredients, ingredients, df, ingredient_category_map)
             if len(actions) == 0:
                 print(f"Episode {episode}, Step {step}: No valid actions, ending episode early")
-                break  # Exit the step loop, move to next episode
+                break
 
             if random.random() < EPSILON:
                action = random.choice(actions)
