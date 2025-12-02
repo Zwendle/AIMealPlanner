@@ -12,7 +12,7 @@ GAMMA = 0.95
 EPSILON = 0.4
 DECAY_RATE = 0.999995   
 MAX_STEPS = 100
-EPISODES = 50
+EPISODES = 750000
 train_flag = 'train' in sys.argv
       
 def make_state(ingredients, goal, df):
@@ -129,15 +129,15 @@ def get_actions(all_ingredients, current, df, ing_to_cat, max_per_category=2):
             in_cat = ing_to_cat[in_ing]
             
             
-            new_counts = category_counts.copy()
-            new_counts[out_cat] -= 1
-            new_counts[in_cat] = new_counts.get(in_cat, 0) + 1
+            # new_counts = category_counts.copy()
+            # new_counts[out_cat] -= 1
+            # new_counts[in_cat] = new_counts.get(in_cat, 0) + 1
             
-            if all(count <= max_per_category for count in new_counts.values()):
-                if in_cat == out_cat: 
-                    same_cat.append((out_ing, in_ing))
-                else:
-                    other_cat.append((out_ing, in_ing))
+            # if all(count <= max_per_category for count in new_counts.values()):
+            if in_cat == out_cat: 
+                same_cat.append((out_ing, in_ing))
+            else:
+                other_cat.append((out_ing, in_ing))
         
         actions.extend(same_cat)
         actions.extend(other_cat) # prioritize same category swaps
@@ -238,7 +238,10 @@ def train(df):
         for step in range(MAX_STEPS):
             state = make_state(ingredients, goal, df)
             actions = get_actions(all_ingredients, ingredients, df, ingredient_category_map)
-    
+            if len(actions) == 0:
+                print(f"Episode {episode}, Step {step}: No valid actions, ending episode early")
+                break  # Exit the step loop, move to next episode
+
             if random.random() < EPSILON:
                action = random.choice(actions)
             else:
