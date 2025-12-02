@@ -2,13 +2,17 @@ import pandas as pd
 import requests
 import time
 import numpy as np
+import os
 
 # ==========================================
 # CONFIGURATION
 # ==========================================
-API_KEY = 'WrIVTFTXzvDQ4vdaiWPI1tD1rhdf5EY9skbWz5HB'  # <--- PASTE YOUR KEY HERE
-INPUT_FILE = 'ingredients.csv'
-OUTPUT_FILE = 'ingredients_enriched.csv'
+API_KEY = 'JyrOkj0OLrRpY9sh62DChPY02rUasaiRFs2BfpuP'  # <--- PASTE YOUR KEY HERE
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
+SCRAPE_DIR = os.path.dirname(CURRENT_DIR)
+ROOT_DIR = os.path.dirname(SCRAPE_DIR)
+INPUT_FILE = os.path.join(ROOT_DIR, 'data', 'ingredients.csv')
+OUTPUT_FILE = os.path.join(ROOT_DIR, 'data', 'ingredients_enriched.csv')
 
 # USDA Nutrient IDs
 NUTRIENT_IDS = {
@@ -113,7 +117,8 @@ if __name__ == "__main__":
     
     for idx, row in rows_to_check.iterrows():
         term = str(row['name_clean']).split(',')[0]
-        needs_nutrition = is_empty(row['calories']) or is_empty(row['protein']) or is_empty(row['carbs'])
+        needs_nutrition = (is_empty(row['calories']) or is_empty(row['protein']) or is_empty(row['carbs'])
+                           or is_empty(row['fat']))
         
         data = None
         if needs_nutrition:

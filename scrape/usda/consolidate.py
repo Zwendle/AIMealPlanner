@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import os
 
 
 ## NOTE: This function was written with the assistance of LLMS.
@@ -96,8 +97,15 @@ def consolidate_nutrition(original_file, enriched_file, output_file):
     print("-" * 40)
 
 if __name__ == "__main__":
+    CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
+    SCRAPE_DIR = os.path.dirname(CURRENT_DIR)
+    ROOT_DIR = os.path.dirname(SCRAPE_DIR)
+    ING_FILE = os.path.join(ROOT_DIR, 'data', 'ingredients.csv')
+    ENRICHED_FILE = os.path.join(ROOT_DIR, 'data', 'ingredients_enriched.csv')
+    FINAL_FILE = os.path.join(ROOT_DIR, 'data', 'ingredients_final.csv')
+
     consolidate_nutrition(
-        'ingredients.csv', 
-        'ingredients_enriched.csv', 
-        'ingredients_final.csv'
+        ING_FILE,
+        ENRICHED_FILE,
+        FINAL_FILE
     )

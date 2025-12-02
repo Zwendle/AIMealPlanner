@@ -166,7 +166,7 @@ Sesame Teriyaki Beef Skirt Steak,sesame teriyaki beef skirt steak,4 oz(112g),,me
 Sliced Prosciutto,sliced prosciutto,1/4 pack(28g),4.0,meat-seafood,trader joes,4.29,0.0,g,7.0,g,5.0,g,,,110.0,28.0,True,1.07
 Wild Sockeye Smoked Salmon,wild sockeye smoked salmon,3.5 slices(57g),2.0,meat-seafood,trader joes,7.99,0.0,g,5.0,g,26.0,g,,,150.0,57.0,True,4.0
 Porcini Boneless Beef Loin Roast,porcini boneless beef loin roast,4 oz(112g),,meat-seafood,trader joes,19.99,1.0,l,16.0,g,22.0,g,,,240.0,112.0,True,
-"Angus Chuck, Brisket & Sirloin Beef Patties","angus chuck, brisket & sirloin beef patties",1 patty(151g),4.0,meat-seafood,trader joes,11.99,0.0,g,39.0,g,28.0,g,,,470.0,151.0,True,3.0
+"Angus Chuck, Brisket & Sirloin Beef Patties",angus chuck brisket & sirloin beef patties,1 patty(151g),4.0,meat-seafood,trader joes,11.99,0.0,g,39.0,g,28.0,g,,,470.0,151.0,True,3.0
 Pineapple Teriyaki Chicken Meatballs,pineapple teriyaki chicken meatballs,6 meatballs(85g),4.0,meat-seafood,trader joes,4.29,8.0,g,9.0,g,13.0,g,,,160.0,85.0,True,1.07
 Ground Lamb,ground lamb,4 oz(112g),4.0,meat-seafood,trader joes,11.99,0.0,g,9.0,g,21.0,g,,,170.0,112.0,True,3.0
 Organic 3 Grain Tempeh,organic 3 grain tempeh,3 oz(84g),2.5,meat-seafood,trader joes,2.49,11.0,g,8.0,g,19.0,g,,,190.0,84.0,True,1.0
@@ -184,40 +184,35 @@ Fully Cooked Pork Belly,fully cooked pork belly,3 oz(85g),4.0,meat-seafood,trade
 Grilled Chili Lime Chicken Breast,grilled chili lime chicken breast,,,meat-seafood,trader joes,7.99,,,,,,,,,,,True,
 Icelandic Style Skyr Lowfat Raspberry Yogurt,icelandic style skyr lowfat raspberry yogurt,1 container(150g),1.0,dairy-eggs,trader joes,1.19,11.0,g,2.0,g,15.0,g,,,120.0,150.0,False,1.19
 Greek Lowfat Yogurt Plain,greek lowfat yogurt plain,3/4 Cup(170g ),2.5,dairy-eggs,trader joes,2.99,8.0,g,3.0,g,16.0,g,,,130.0,170.0,False,1.2
-Salted Maple Cold Foam Creamer,salted maple cold foam creamer,1 Tbsp.(15mL),85.0,dairy-eggs,trader joes,4.49,2.0,g,0.0,g,0.0,g,,,10.0,15.0,False,0.05
 Greek Nonfat Yogurt Plain,greek nonfat yogurt plain,3/4 Cup(170g),2.5,dairy-eggs,trader joes,2.99,7.0,g,0.0,g,17.0,g,,,110.0,170.0,False,1.2
 Icelandic Style Skyr Lowfat Cherry Yogurt,icelandic style skyr lowfat cherry yogurt,1 container(150g),1.0,dairy-eggs,trader joes,1.19,12.0,g,2.0,g,16.0,g,,,130.0,150.0,False,1.19
 Sour Cream,sour cream,2 Tbsp(30g),15.0,dairy-eggs,trader joes,3.29,2.0,g,5.0,g,1.0,g,,,60.0,30.0,False,0.22
 Greek Nonfat Yogurt Plain,greek nonfat yogurt plain,3/4 Cup(170g),5.0,dairy-eggs,trader joes,5.49,7.0,g,0.0,g,17.0,g,,,110.0,170.0,False,1.1
 Plain Whole Milk Greek Yogurt,plain whole milk greek yogurt,1 container(150g),1.0,dairy-eggs,trader joes,0.99,8.0,g,14.0,g,6.0,g,,,180.0,150.0,False,0.99
-"Peaches & Cream, Mango & Cream Yogurt Cups","peaches & cream, mango & cream yogurt cups",4oz(113g),1.0,dairy-eggs,trader joes,3.99,18.0,g,6.0,g,4.0,g,,,140.0,113.0,False,3.99
+"Peaches & Cream, Mango & Cream Yogurt Cups",peaches & cream mango & cream yogurt cups,4oz(113g),1.0,dairy-eggs,trader joes,3.99,18.0,g,6.0,g,4.0,g,,,140.0,113.0,False,3.99
 Egg Nog Whole Milk Greek Yogurt,egg nog whole milk greek yogurt,1 container(150g/5.3 oz),1.0,dairy-eggs,trader joes,0.99,18.0,g,7.0,g,11.0,g,,,180.0,150.0,False,0.99
-Non-Dairy Oat Creamer Brown Sugar Flavor,non-dairy oat creamer brown sugar flavor,1 Tbsp.(15mL),32.0,dairy-eggs,trader joes,1.99,4.0,g,1.0,g,0.0,g,,,25.0,15.0,False,0.06
 Kramer Farms Cage Free Hard-Boiled Eggs,kramer farms cage free hard-boiled eggs,,,dairy-eggs,trader joes,3.49,,,,,,,,,,,False,
 Pasture Raised Large Brown Eggs,pasture raised large brown eggs,1 egg(50g),12.0,dairy-eggs,trader joes,5.99,0.0,g,5.0,g,6.0,g,,,70.0,50.0,False,0.5
 Vanilla & Cream Yogurt,vanilla & cream yogurt,1 yogurt container(113g),1.0,dairy-eggs,trader joes,2.69,19.0,g,6.0,g,4.0,g,,,140.0,113.0,False,2.69
 Chocolate Whipped Light Cream,chocolate whipped light cream,2 Tbsp.(6g),61.0,dairy-eggs,trader joes,4.49,1.0,l,1.0,g,0.0,g,,,15.0,6.0,False,0.07
 Small Curd Cottage Cheese,small curd cottage cheese,1/2 cup(113g),4.0,dairy-eggs,trader joes,2.99,5.0,g,5.0,g,12.0,g,,,110.0,113.0,False,0.75
 Cranberry Clementine Whole Milk Yogurt,cranberry clementine whole milk yogurt,1 container(150g),1.0,dairy-eggs,trader joes,0.99,19.0,g,6.0,g,11.0,g,,,170.0,150.0,False,0.99
-Organic Spiced Vanilla Creamer,organic spiced vanilla creamer,1 Tbsp.(15mL),32.0,dairy-eggs,trader joes,2.99,5.0,g,1.0,g,0.0,g,,,30.0,15.0,False,0.09
 Vanilla Bean Whole Milk Greek Yogurt,vanilla bean whole milk greek yogurt,3/4 Cup(170g),5.0,dairy-eggs,trader joes,5.49,17.0,g,7.0,g,12.0,g,,,180.0,170.0,False,1.1
-"Butter with Parmesan, Garlic & Herb","butter with parmesan, garlic & herb",1 Tbsp.(14g),8.0,dairy-eggs,trader joes,2.99,2.0,g,8.0,g,1.0,g,,,80.0,14.0,False,0.37
-"Butter Quarters, Salted","butter quarters, salted",1 tbsp(14g),32.0,dairy-eggs,trader joes,3.99,0.0,g,11.0,g,0.0,g,,,100.0,14.0,False,0.12
+"Butter with Parmesan, Garlic & Herb",butter with parmesan garlic & herb,1 Tbsp.(14g),8.0,dairy-eggs,trader joes,2.99,2.0,g,8.0,g,1.0,g,,,80.0,14.0,False,0.37
+"Butter Quarters, Salted",butter quarters salted,1 tbsp(14g),32.0,dairy-eggs,trader joes,3.99,0.0,g,11.0,g,0.0,g,,,100.0,14.0,False,0.12
 Raspberries & Cream Yogurt,raspberries & cream yogurt,1 yogurt container(113g),1.0,dairy-eggs,trader joes,2.69,18.0,g,6.0,g,4.0,g,,,140.0,113.0,False,2.69
-Non-Dairy Cinnamon Bun Oat Creamer,non-dairy cinnamon bun oat creamer,1 Tbsp.(15mL),32.0,dairy-eggs,trader joes,1.99,4.0,g,0.0,g,0.0,g,,,25.0,15.0,False,0.06
 Greek Whole Milk Yogurt Plain,greek whole milk yogurt plain,3/4 Cup(170g),2.5,dairy-eggs,trader joes,2.99,9.0,g,16.0,g,6.0,g,,,200.0,170.0,False,1.2
 Blueberries & Cream Yogurt,blueberries & cream yogurt,1 yogurt container(113g),1.0,dairy-eggs,trader joes,2.69,19.0,g,6.0,g,4.0,g,,,140.0,113.0,False,2.69
 Greek Yogurt with Honey,greek yogurt with honey,3/4 cup(170g),5.0,dairy-eggs,trader joes,5.49,20.0,g,15.0,g,6.0,g,,,230.0,170.0,False,1.1
 Egg Nog,egg nog,1/2 cup(120 mL),8.0,dairy-eggs,trader joes,3.99,20.0,g,9.0,g,5.0,g,,,180.0,480.0,False,0.5
 Meyer Lemon & Cream Yogurt,meyer lemon & cream yogurt,1 yogurt container(113g),1.0,dairy-eggs,trader joes,2.69,18.0,g,6.0,g,4.0,g,,,140.0,113.0,False,2.69
 Apricot Mango Greek Whole Milk Yogurt,apricot mango greek whole milk yogurt,1 container(150g),1.0,dairy-eggs,trader joes,0.99,20.0,g,11.0,g,5.0,g,,,200.0,150.0,False,0.99
-"Butter Quarters, Unsalted","butter quarters, unsalted",1 Tbsp.(14g),32.0,dairy-eggs,trader joes,3.99,0.0,g,11.0,g,0.0,g,,,100.0,14.0,False,0.12
+"Butter Quarters, Unsalted",butter quarters unsalted,1 Tbsp.(14g),32.0,dairy-eggs,trader joes,3.99,0.0,g,11.0,g,0.0,g,,,100.0,14.0,False,0.12
 Chocolate Milk made with Fair Trade Cocoa,chocolate milk made with fair trade cocoa,1 cup(240mL),8.0,dairy-eggs,trader joes,4.49,30.0,g,8.0,g,8.0,g,,,220.0,240.0,False,0.56
 New Zealand Salted Butter,new zealand salted butter,1 Tbsp.(14g),,dairy-eggs,trader joes,3.29,0.0,g,11.0,g,0.0,g,,,100.0,14.0,False,
 Greek YogurtHoney Made with Whole Milk,greek yogurthoney made with whole milk,1 container(150g),1.0,dairy-eggs,trader joes,0.99,17.0,g,13.0,g,5.0,g,,,210.0,150.0,False,0.99
-Organic Sweet Cream Creamer,organic sweet cream creamer,1 Tbsp.(15mL),32.0,dairy-eggs,trader joes,2.99,5.0,g,1.0,g,0.0,g,,,25.0,15.0,False,0.09
 Organic Pasture Raised Large Brown Eggs,organic pasture raised large brown eggs,,,dairy-eggs,trader joes,6.99,,,,,,,,,,,False,
-"Organic Creamy Cashew Cultured Yogurt Alternative, Plain Unsweetened","organic creamy cashew cultured yogurt alternative, plain unsweetened",3/4 cup(171g),4.0,dairy-eggs,trader joes,4.99,11.0,g,10.0,g,4.0,g,,,140.0,171.0,False,1.25
+"Organic Creamy Cashew Cultured Yogurt Alternative, Plain Unsweetened",organic creamy cashew cultured yogurt alternative plain unsweetened,3/4 cup(171g),4.0,dairy-eggs,trader joes,4.99,11.0,g,10.0,g,4.0,g,,,140.0,171.0,False,1.25
 Icelandic Style Skyr Lowfat Vanilla Yogurt,icelandic style skyr lowfat vanilla yogurt,1 container(150g),1.0,dairy-eggs,trader joes,1.19,12.0,g,2.0,g,15.0,g,,,130.0,150.0,False,1.19
 Nonfat Plain Greek Yogurt,nonfat plain greek yogurt,1 container(150g),1.0,dairy-eggs,trader joes,0.99,6.0,g,0.0,g,15.0,g,,,90.0,150.0,False,0.99
 Organic Milk A2/A2,organic milk a2/a2,1 cup(240ml),8.0,dairy-eggs,trader joes,5.99,11.0,g,9.0,g,8.0,g,,,150.0,240.0,False,0.75
@@ -225,9 +220,8 @@ Strained Thick & Creamy Greek Yogurt Plain,strained thick & creamy greek yogurt 
 Organic Buttery Plant-Based Spread,organic buttery plant-based spread,1 Tbsp.(14g),26.0,dairy-eggs,trader joes,3.99,0.0,g,9.0,g,0.0,g,,,80.0,14.0,False,0.15
 Organic Heavy Whipping Cream,organic heavy whipping cream,,,dairy-eggs,trader joes,4.99,,,,,,,,,,,False,
 Whipt™ Plant Based Dairy Free Whipped Coconut,whipt™ plant based dairy free whipped coconut,,,dairy-eggs,trader joes,3.99,,,,,,,,,,,False,
-"Strawberries & Cream, Bananas & Cream Yogurt Cups","strawberries & cream, bananas & cream yogurt cups",4oz(113g),1.0,dairy-eggs,trader joes,3.99,18.0,g,6.0,g,4.0,g,,,140.0,113.0,False,3.99
+"Strawberries & Cream, Bananas & Cream Yogurt Cups",strawberries & cream bananas & cream yogurt cups,4oz(113g),1.0,dairy-eggs,trader joes,3.99,18.0,g,6.0,g,4.0,g,,,140.0,113.0,False,3.99
 Simply Eggless Plant Based Egg,simply eggless plant based egg,,,dairy-eggs,trader joes,4.99,,,,,,,,,,,False,
-Vanilla Flavored Cold Foam Creamer,vanilla flavored cold foam creamer,1 Tbsp.(15mL),85.0,dairy-eggs,trader joes,4.49,2.0,g,0.0,g,0.0,g,,,10.0,15.0,False,0.05
 Guava Passion Fruit Greek Whole Milk Yogurt,guava passion fruit greek whole milk yogurt,1 container(150g),1.0,dairy-eggs,trader joes,0.99,20.0,g,6.0,g,11.0,g,,,180.0,150.0,False,0.99
 Everything but the Kitchen Sink Cookie Mix,everything but the kitchen sink cookie mix,1/18 dry mix(24g); makes one 2.5 inch cookie (31g),18.0,pantry,trader joes,4.49,17.0,g,3.0,g,2.0,g,,,100.0,24.0,False,0.25
 Tikka Vegetables,tikka vegetables,2/3 cup(140g),2.0,pantry,trader joes,2.49,33.0,g,17.0,g,8.0,g,,,300.0,140.0,False,1.25
@@ -269,7 +263,7 @@ Cocoa Almond Spread,cocoa almond spread,2 Tbsp.(37g),10.0,pantry,trader joes,4.4
 10 Minute Farro,10 minute farro,1/4 cup dry product(45 g),6.0,pantry,trader joes,1.99,34.0,g,1.0,g,5.0,g,,,170.0,45.0,False,0.33
 Jasmine Rice From Thailand,jasmine rice from thailand,1/4 cup dry(45g) yields 3/4 cup cooked rice,30.0,pantry,trader joes,3.29,35.0,g,0.0,g,3.0,g,,,160.0,45.0,False,0.11
 Double Fold Bourbon Vanilla Extract,double fold bourbon vanilla extract,1 tsp.(5mL),21.0,pantry,trader joes,7.99,0.0,g,0.0,g,0.0,g,,,0.0,5.0,False,0.38
-"Extra Virgin Olive Oil, Liter","extra virgin olive oil, liter",1 Tbsp.(15 mL),67.0,pantry,trader joes,10.99,0.0,g,14.0,g,0.0,g,,,120.0,15.0,False,0.16
+"Extra Virgin Olive Oil, Liter",extra virgin olive oil liter,1 Tbsp.(15 mL),67.0,pantry,trader joes,10.99,0.0,g,14.0,g,0.0,g,,,120.0,15.0,False,0.16
 Unbleached Enriched All-Purpose Flour,unbleached enriched all-purpose flour,,,pantry,trader joes,2.99,,,,,,,,,,,False,
 Organic Ground Black Pepper,organic ground black pepper,,,pantry,trader joes,2.29,,,,,,,,,,,False,
 Imported Olive Oil Packed in Italy,imported olive oil packed in italy,1 Tbsp.(15mL),68.0,pantry,trader joes,9.99,0.0,g,14.0,g,0.0,g,,,120.0,15.0,False,0.15
@@ -323,7 +317,7 @@ Organic Red Wine Vinegar,organic red wine vinegar,1 Tbsp.(15mL),16.0,pantry,trad
 Joe's Os Cereal Bars,joe's os cereal bars,1 bar(24g),5.0,pantry,trader joes,2.99,14.0,g,6.0,g,3.0,g,,,120.0,24.0,False,0.6
 Fire Roasted Red Peppers,fire roasted red peppers,1oz(28g about 1/3 pepper) drained,12.0,pantry,trader joes,2.99,1.0,l,0.0,g,0.0,g,,,5.0,28.0,False,0.25
 All Occasion Sprinkle,all occasion sprinkle,1 tsp.(4g),25.0,pantry,trader joes,1.99,4.0,g,0.0,g,0.0,g,,,15.0,4.0,False,0.08
-"Solid White Albacore Tuna, No Salt Added","solid white albacore tuna, no salt added",1 can drained(4oz/113g),1.0,pantry,trader joes,1.99,0.0,g,1.0,g,29.0,g,,,130.0,113.0,False,1.99
+"Solid White Albacore Tuna, No Salt Added",solid white albacore tuna no salt added,1 can drained(4oz/113g),1.0,pantry,trader joes,1.99,0.0,g,1.0,g,29.0,g,,,130.0,113.0,False,1.99
 Tikka Masala Curry Sauce,tikka masala curry sauce,1/2 package(125g),2.0,pantry,trader joes,2.29,11.0,g,14.0,g,6.0,g,,,180.0,125.0,False,1.14
 Nutritional Yeast,nutritional yeast,1 Tbsp(5g),23.0,pantry,trader joes,3.49,2.0,g,0.0,g,3.0,g,,,20.0,5.0,False,0.15
 Ground Fermented Black Garlic,ground fermented black garlic,,,pantry,trader joes,2.99,,,,,,,,,,,False,
@@ -470,7 +464,7 @@ Pumpkin O's Cereal,pumpkin o's cereal,1-1/3 cup(40g),9.0,pantry,trader joes,2.99
 Cinnamon Roll Blondie Bar Baking Mix,cinnamon roll blondie bar baking mix,1/20 pkg.(30g) dry mix; makes 1 bar (40g),20.0,pantry,trader joes,3.99,26.0,g,0.0,g,1.0,g,,,110.0,30.0,False,0.2
 Mini Chocolate Chip Pancake & Waffle Mix,mini chocolate chip pancake & waffle mix,1/4 cup dry mix(43g),11.0,pantry,trader joes,3.99,30.0,g,2.0,g,5.0,g,,,150.0,43.0,False,0.36
 Spanish Manzanilla Olives with Pimento Paste,spanish manzanilla olives with pimento paste,4 olives(14g),20.0,pantry,trader joes,2.99,1.0,l,1.0,g,0.0,g,,,15.0,14.0,False,0.15
-"Solid White Albacore Tuna, Salt Added","solid white albacore tuna, salt added",1 can drained(4oz/113g),1.0,pantry,trader joes,1.99,0.0,g,1.0,g,29.0,g,,,130.0,113.0,False,1.99
+"Solid White Albacore Tuna, Salt Added",solid white albacore tuna salt added,1 can drained(4oz/113g),1.0,pantry,trader joes,1.99,0.0,g,1.0,g,29.0,g,,,130.0,113.0,False,1.99
 Garden Vegetable Soup,garden vegetable soup,1 cup(245 g),3.0,pantry,trader joes,3.99,18.0,g,2.0,g,2.0,g,,,100.0,245.0,False,1.33
 Jumbo Pitted Greek Kalamata Olives,jumbo pitted greek kalamata olives,5 Olives(15g),12.0,pantry,trader joes,2.99,1.0,L,4.0,g,0.0,g,,,45.0,15.0,False,0.25
 Italian Penne Rigate,italian penne rigate,,,pantry,trader joes,0.99,,,,,,,,,,,False,
