@@ -5,13 +5,14 @@ from tqdm import tqdm
 import pickle
 import sys
 import os
+import matplotlib.pyplot as plt
 
 ALPHA = 0.1       
 GAMMA = 0.95   
 EPSILON = 0.4
 DECAY_RATE = 0.999995   
 MAX_STEPS = 100
-EPISODES = 50000
+EPISODES = 50
 train_flag = 'train' in sys.argv
       
 def make_state(ingredients, goal, df):
@@ -218,42 +219,33 @@ def calculate_reward(df, ingredients, pantry_ingredients, target_calories, targe
    return reward
  
 def train(df):
-   Q = {}   
-   global EPSILON
-   all_ingredients = df['name_clean'].tolist()
+    Q = {}   
+    global EPSILON
+    all_ingredients = df['name_clean'].tolist()
+    rewards_per_ep = []
 
-
-   for episode in tqdm(range(EPISODES)):
-
-
-       num_to_pick = random.randint(5, 8)
-       ingredients = random.sample(all_ingredients, num_to_pick)
-
-
-       goal = sample_goal(df)
-
-
-       for step in range(MAX_STEPS):
-
-
-           state = make_state(ingredients, goal, df)
-           actions = get_actions(all_ingredients, ingredients, df)
-
-
-           if random.random() < EPSILON:
+    for episode in tqdm(range(EPISODES)):
+        total_reward = 0
+        num_to_pick = random.randint(5, 8)
+        ingredients = random.sample(all_ingredients, num_to_pick)
+        goal = sample_goal(df)
+        for step in range(MAX_STEPS):
+            state = make_state(ingredients, goal, df)
+            actions = get_actions(all_ingredients, ingredients, df)
+    
+            if random.random() < EPSILON:
                action = random.choice(actions)
-           else:
+            else:
                q_vals = [Q.get((state, a), 0) for a in actions]
                action = actions[int(np.argmax(q_vals))]
-
-
-           next_ingredients = apply_action(ingredients, action)
-           next_state = make_state(next_ingredients, goal, df)
+            
+            next_ingredients = apply_action(ingredients, action)
+            next_state = make_state(next_ingredients, goal, df)
 
 
            # For training, use default 1 serving per ingredient
-           servings_dict = {ing: 1.0 for ing in next_ingredients}
-           reward = calculate_reward(
+            servings_dict = {ing: 1.0 for ing in next_ingredients}
+            reward = calculate_reward(
                df,
                next_ingredients,
                goal["pantry"],
@@ -265,19 +257,37 @@ def train(df):
                goal["target_price"],
                servings_dict=servings_dict
            )
+            total_reward += reward
+
+            old_q = Q.get((state, action), 0)
+            next_actions = get_actions(all_ingredients, next_ingredients, df)
+            future_q = max([Q.get((next_state, a), 0) for a in next_actions]) if next_actions else 0
+            Q[(state, action)] = old_q + ALPHA * (reward + GAMMA * future_q - old_q)
 
 
-           old_q = Q.get((state, action), 0)
-           next_actions = get_actions(all_ingredients, next_ingredients, df)
-           future_q = max([Q.get((next_state, a), 0) for a in next_actions]) if next_actions else 0
-           Q[(state, action)] = old_q + ALPHA * (reward + GAMMA * future_q - old_q)
-
-
-           ingredients = next_ingredients
-       EPSILON *= DECAY_RATE
+            ingredients = next_ingredients
+        rewards_per_ep.append(total_reward)
+            
+        EPSILON *= DECAY_RATE
           
-   os.makedirs('data', exist_ok=True) # run out of /data instead
-   with open('data/Q_table.pickle', 'wb') as handle:
+          
+    plt.figure()
+    plt.plot(rewards_per_ep, color='steelblue', linewidth=1, label='Reward per Episode')
+    plt.title(f"Training Performance", fontsize=14, fontweight='bold')
+    plt.xlabel("Episode", fontsize=14)
+    plt.ylabel("Total Reward", fontsize=14)
+    plt.grid(True, linestyle='--', alpha=0.6)
+    plt.tight_layout()
+    window = max(10, EPISODES // 100)
+    running_avg = np.convolve(rewards_per_ep, np.ones(window) / window, mode='valid')
+    plt.plot(range(window - 1, EPISODES), running_avg, color='darkorange', linewidth=2.5, label='Episode Running Average')
+    plt.legend(fontsize=12)
+    plt.show()
+
+    plt.savefig(f"rewards.png", dpi=300)
+ 
+    os.makedirs('data', exist_ok=True) # run out of /data instead
+    with open('data/Q_table.pickle', 'wb') as handle:
        pickle.dump(Q, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
 
@@ -458,6 +468,9 @@ def analyze_qtable(Q_table, df):
 
 if __name__ == "__main__":
    df = pd.read_csv("data/ingredients_final.csv")
+   required_cols = ["carbs", "fat", "protein", "calories", "cost_per_serving"]
+
+   df = df.dropna(subset=required_cols)
    for col in required_cols:
        df = df[df[col].astype(str).str.strip() != ""]
       
