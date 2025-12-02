@@ -12,7 +12,7 @@ GAMMA = 0.95
 EPSILON = 0.4
 DECAY_RATE = 0.999995   
 MAX_STEPS = 100
-EPISODES = 75000
+EPISODES = 50
 train_flag = 'train' in sys.argv
       
 def make_state(ingredients, goal, df):
@@ -507,4 +507,3 @@ if __name__ == "__main__":
        print("Ingredients with servings:", final_ingredients_dict)
        score = calculate_reward(df, final_ingredients_dict, goal["pantry"], goal["target_calories"], goal["target_protein"], goal["vegetarian_diet"], goal["target_carbs"], goal["target_fat"], goal["target_price"])
        print(score)
-
