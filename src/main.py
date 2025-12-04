@@ -7,6 +7,8 @@ from src.eval.evaluation import MealPlanEvaluator
 from src.training.training import train, generate_meal, load_model, model_exists, calculate_reward, parse_number
 from src.eval.onboarding.structs import DietaryGoal
 from src.utils import filter_ingredients
+import argparse
+
 
 def clear_pantry(history_file):
     """check if pantry is empty and optionally clear it with user confirmation"""
@@ -37,6 +39,15 @@ def clear_pantry(history_file):
         return
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--random",
+        action="store_true",
+        default=False,    
+        help="Generate meals using randomness"
+    )
+    args = parser.parse_args()
+    
     # 0. Check pantry and clear if desired
     history_file = 'data/meal_history.json'
     clear_pantry(history_file)
@@ -140,7 +151,14 @@ def main():
             print(f"Warning: Pantry item '{item.name}' not found in filtered dataset, skipping")
 
     for day in range(num_to_pick):
-        raw_meal = generate_meal(ingredients_df, training_goal, model, num_to_pick, ingredients=history)
+        raw_meal = generate_meal(
+            ingredients_df,
+            training_goal,
+            model,
+            num_to_pick,
+            ingredients=history,
+            use_random=args.random      
+        )
         ingredient_servings = raw_meal
         ingredient_list = list(ingredient_servings.keys())
         
