@@ -300,7 +300,7 @@ def train(df):
        pickle.dump(Q, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
 
-def generate_meal(df, goal, Q_table, steps=20, num_to_pick=None, ingredients=None):
+def generate_meal(df, goal, Q_table, steps=20, num_to_pick=None, ingredients=None, use_random=False):
     if num_to_pick is None:
         num_to_pick = random.randint(5, 8)
         
@@ -318,6 +318,32 @@ def generate_meal(df, goal, Q_table, steps=20, num_to_pick=None, ingredients=Non
         # Fallback: everyone gets 1.0 serving
         servings_series = pd.Series(1.0, index=df.index)
     default_servings = dict(zip(df['name_clean'], servings_series))
+    
+    if use_random:
+        # choose a random set of ingredients
+        possible = list(all_ingredients)
+
+        # if ingredients provided (pantry), prefer to use them
+        current_names = list(ingredients.keys())
+        num_existing = len(current_names)
+
+        # how many new ingredients we need to add
+        slots_needed = num_to_pick - num_existing
+
+        final_meal = {}
+
+        # include pantry ingredients first
+        for name in current_names[:num_to_pick]:  # trim if needed
+            final_meal[name] = ingredients.get(name, default_servings.get(name, 1.0))
+
+        # fill remaining slots with random ingredients
+        if slots_needed > 0:
+            candidates = list(set(possible) - set(final_meal.keys()))
+            chosen = random.sample(candidates, min(slots_needed, len(candidates)))
+            for item in chosen:
+                final_meal[item] = default_servings.get(item, 1.0)
+
+        return final_meal
 
     current_meal = {}
 
