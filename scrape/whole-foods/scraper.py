@@ -426,9 +426,9 @@ def main():
     print(f"Done. Wrote {len(rows)} rows to {out_csv}")
 
 if __name__ == "__main__":
-    # test new nutrition facts scraping
-    test_url = "https://www.wholefoodsmarket.com/product/365-by-whole-foods-market-organic-baby-spinach-16-oz-b074h55njk"
+    # # test new nutrition facts scraping
+    # test_url = "https://www.wholefoodsmarket.com/product/365-by-whole-foods-market-organic-baby-spinach-16-oz-b074h55njk"
 
-    result = fetch_product_page_and_nutrition(test_url)
-    print(json.dumps(result, indent=2, ensure_ascii=False))
-    # main()
+    # result = fetch_product_page_and_nutrition(test_url)
+    # print(json.dumps(result, indent=2, ensure_ascii=False))
+    main()
