@@ -105,7 +105,7 @@ class MealPlanEvaluator:
                 ingredients = [ingredients] 
             
             for ing_name in ingredients:
-                match = self.ingredients_df[self.ingredients_df['name'] == ing_name]
+                match = self.ingredients_df[self.ingredients_df['name_clean'] == ing_name]
                 if not match.empty:
                     row_data = match.iloc[0]
                     # Parse values from columns
