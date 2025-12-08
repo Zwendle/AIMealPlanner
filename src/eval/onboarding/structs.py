@@ -30,10 +30,8 @@ class PantryItem:
 @dataclass
 class UserConstraints:
     pantry: List[PantryItem] = field(default_factory=list)
-    preferred_store: Store = Store.TRADER_JOES
-    dietary_goals: List[DietaryGoal] = field(default_factory=list)
-    num_meals_min: int = 3
-    num_meals_max: int = 7
+    dietary_goal: DietaryGoal = DietaryGoal.NONE
+    num_meals: int = 5
     budget_min: float = 30.0
     budget_max: float = 50.0
 
@@ -47,17 +45,10 @@ class UserConstraints:
             if 0 <= item.ingredient_idx < num_ingredients:
                 pantry_vector[item.ingredient_idx] = item.servings_available
 
-        # One-hot encode dietary goals
-        dietary_vector = np.zeros(5)  # 5 dietary goal options
-        for goal in self.dietary_goals:
-            dietary_vector[goal.value] = 1
-
         # Constraint parameters
         params = np.array(
             [
-                self.preferred_store.value,
-                self.num_meals_min,
-                self.num_meals_max,
+                self.num_meals,
                 self.budget_min,
                 self.budget_max,
             ]
@@ -65,6 +56,6 @@ class UserConstraints:
 
         return {
             "current_pantry": pantry_vector,  # What user has
-            "dietary_goals": dietary_vector,  # Dietary constraints
+            "dietary_goal": self.dietary_goal,  # Dietary constraints
             "parameters": params,  # Other constraints
         }

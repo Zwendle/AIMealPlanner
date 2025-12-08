@@ -27,12 +27,12 @@ class MealPlanEvaluator:
         variety_score = self._calculate_variety_score(meal_plan)
         cost_score = self._calculate_cost_score(user_constraints, meal_plan)
 
-        # Base Score (Utilization, Nutrition, Cost) - Normalized to 1.0
-        # Utilization: 0.50, Nutrition: 0.375, Cost: 0.125
+        # Base Score (Utilization, Nutrition, Cost)
+        # Utilization: 0.45, Nutrition: 0.35, Cost: 0.20
         base_score = (
-            0.50 * utilization_score +
-            0.375 * nutrition_score +
-            0.125 * cost_score
+            0.45 * utilization_score +
+            0.35 * nutrition_score +
+            0.20 * cost_score
         )
 
         # Policy: Variety as a Penalty Multiplier
@@ -60,6 +60,7 @@ class MealPlanEvaluator:
         else:
             all_plan_ingredients = []
             for ingredients_list in meal_plan['ingredients']:
+                print("ingredients: ", ingredients_list)
                 if isinstance(ingredients_list, list):
                     all_plan_ingredients.extend(ingredients_list)
                 elif isinstance(ingredients_list, str):
@@ -84,13 +85,13 @@ class MealPlanEvaluator:
         target_carbs = 135
         target_fat = 39
 
-        if DietaryGoal.HIGH_PROTEIN in constraints.dietary_goals:
+        if DietaryGoal.HIGH_PROTEIN == constraints.dietary_goal:
             target_protein = 50
-        if DietaryGoal.KETO in constraints.dietary_goals:
+        elif DietaryGoal.KETO == constraints.dietary_goal:
             target_carbs = 15
             target_fat = 75
             target_protein = 50
-        if DietaryGoal.LOW_CARB in constraints.dietary_goals:
+        elif DietaryGoal.LOW_CARB == constraints.dietary_goal:
             target_carbs = 50
 
         total_calories = 0
@@ -104,7 +105,7 @@ class MealPlanEvaluator:
                 ingredients = [ingredients] 
             
             for ing_name in ingredients:
-                match = self.ingredients_df[self.ingredients_df['name'] == ing_name]
+                match = self.ingredients_df[self.ingredients_df['name_clean'] == ing_name]
                 if not match.empty:
                     row_data = match.iloc[0]
                     # Parse values from columns
