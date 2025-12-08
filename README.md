@@ -4,11 +4,10 @@ Our AI Meal Planner is a q-learning based model, which generates new weekly meal
 history, and data from Whole Foods and Trader Jo's. 
 
 Features include:
--- Collecting user preferences using an onboarding interface including current ingredients in pantry, nutrition goals, dietary goals, 
-number of meals, budget
--- Evaluation report with total score and score per weight 
--- Generated weekly meal plan and price summary 
--- Saves pantry data and tracks leftovers across weekly runs 
+- Collecting user preferences using an onboarding interface including current ingredients in pantry, nutrition goals, dietary goals, number of meals, budget
+- Evaluation report with total score and score per weight 
+- Generated weekly meal plan and price summary 
+- Saves pantry data and tracks leftovers across weekly runs 
 
 How to install: 
 1. Clone the github repository:
