@@ -15,7 +15,6 @@ class MealPlanEvaluator:
     def __init__(self, model, ingredients_df: pd.DataFrame):
         self.model = model
         self.ingredients_df = ingredients_df.copy()
-        # ensure name_clean exists
         if "name_clean" not in self.ingredients_df.columns:
             self.ingredients_df["name_clean"] = self.ingredients_df["name"].str.lower().str.strip()
 
@@ -58,7 +57,6 @@ class MealPlanEvaluator:
     def _find_ingredient_row(self, ing_name: str):
         if ing_name is None:
             return None
-        # try matching on name_clean first, then name
         ing_norm = str(ing_name).lower().strip()
         match = self.ingredients_df[self.ingredients_df["name_clean"] == ing_norm]
         if not match.empty:
@@ -69,10 +67,6 @@ class MealPlanEvaluator:
         return None
 
     def _calculate_utilization_score(self, constraints: UserConstraints, meal_plan: pd.DataFrame) -> float:
-        """
-        Compute fraction of pantry *servings* used across the plan.
-        Returns value in [0,1].
-        """
         pantry = {item.name: float(item.servings_available) for item in constraints.pantry}
         total_pantry_servings = sum(pantry.values())
 
@@ -81,23 +75,18 @@ class MealPlanEvaluator:
 
         used_servings = 0.0
 
-        # prefer ingredient_servings dict if present
         for _, row in meal_plan.iterrows():
             ing_servings_map = row.get("ingredient_servings", None)
             ingredients_list = row.get("ingredients", [])
-            # If ingredient_servings exists and is a dict, iterate that.
             if isinstance(ing_servings_map, dict):
                 for ing_key, servings in ing_servings_map.items():
                     if servings <= 0:
                         continue
-                    # try to map to pantry name (pantry likely uses original display names)
-                    # we'll match pantry keys case-insensitively / by substring where safe
                     for p_name in pantry:
                         if p_name.lower() == ing_key.lower() or p_name.lower() in ing_key.lower() or ing_key.lower() in p_name.lower():
                             used_servings += float(servings)
                             break
             else:
-                # fallback: ingredients list without explicit servings -> assume 1 serving each
                 if isinstance(ingredients_list, list):
                     for ing_name in ingredients_list:
                         for p_name in pantry:
@@ -105,7 +94,6 @@ class MealPlanEvaluator:
                                 used_servings += 1.0
                                 break
 
-        # Clamp used_servings to total pantry servings
         used_servings = min(used_servings, total_pantry_servings)
         return used_servings / total_pantry_servings if total_pantry_servings > 0 else 1.0
 
@@ -113,7 +101,6 @@ class MealPlanEvaluator:
         """
         Compute deviation from macro targets using per-serving nutrient values and serving counts.
         """
-        # Default per-meal targets (you may want to override these with inputs)
         target_calories = 1000.0
         target_protein = 25.0
         target_carbs = 135.0
@@ -137,7 +124,6 @@ class MealPlanEvaluator:
             ing_servings_map = row.get("ingredient_servings", None)
             ingredients_list = row.get("ingredients", [])
             if isinstance(ing_servings_map, dict):
-                # keys are ingredient names (likely name_clean)
                 for ing_key, servings in ing_servings_map.items():
                     if servings <= 0:
                         continue
@@ -149,7 +135,6 @@ class MealPlanEvaluator:
                     total_carbs += self._safe_float(r.get("carbs", 0)) * float(servings)
                     total_fat += self._safe_float(r.get("fat", 0)) * float(servings)
             else:
-                # fallback assume 1 serving per listed ingredient
                 if isinstance(ingredients_list, list):
                     for ing_name in ingredients_list:
                         r = self._find_ingredient_row(ing_name)
@@ -169,7 +154,6 @@ class MealPlanEvaluator:
         def deviation(actual, target):
             if target == 0:
                 return 1.0
-            # exponential penalty similar to original
             return float(np.exp(-abs(actual - target) / max(target, 1e-6)))
 
         cal_score = deviation(avg_calories, target_calories)
@@ -214,8 +198,6 @@ class MealPlanEvaluator:
         """
         total_cost = meal_plan['cost'].sum() if 'cost' in meal_plan.columns else 0.0
 
-        # If your constraints budget_min / budget_max are weekly, this is correct.
-        # Otherwise adjust to per-week/per-meal accordingly.
         bmin = float(constraints.budget_min) if hasattr(constraints, 'budget_min') else 0.0
         bmax = float(constraints.budget_max) if hasattr(constraints, 'budget_max') else 1.0
 
