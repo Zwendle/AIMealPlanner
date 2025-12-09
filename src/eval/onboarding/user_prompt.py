@@ -3,7 +3,7 @@ import pandas as pd
 from typing import List, Dict, Tuple
 from fuzzywuzzy import fuzz, process
 from src.eval.onboarding.structs import Store, DietaryGoal, PantryItem, UserConstraints
-
+import random
 
 class UserOnboarding:
     """Handles user input for GA evaluation phase"""
@@ -198,7 +198,26 @@ class UserOnboarding:
         """Get the state for GA evaluation"""
         return self.constraints.to_numpy_state(self.ingredients_df)
 
-    def run(self) -> Tuple[UserConstraints, Dict[str, np.ndarray]]:
+    def run(self, evaluate=False) -> Tuple[UserConstraints, Dict[str, np.ndarray]]:
+        if evaluate:
+            goals = [
+                    DietaryGoal.HIGH_PROTEIN,
+                    DietaryGoal.KETO,
+                    DietaryGoal.LOW_CARB,
+                    DietaryGoal.VEGETARIAN,
+                ]
+            
+            self.constraints.dietary_goal = random.choice(goals)
+            
+            self.constraints.num_meals = random.randint(3, 10)     
+            self.constraints.budget_min = random.randint(10, 30) 
+            self.constraints.budget_max = random.randint(self.constraints.budget_min, 80)
+            self.generate_random_pantry()
+            
+            numpy_state = self.get_evaluation_state()
+            return self.constraints, numpy_state
+        
+        
         """Run the evaluation input process"""
         print("\n" + "=" * 60)
         print("MEAL PLANNING - EVALUATION SETUP")
@@ -220,3 +239,25 @@ class UserOnboarding:
         )
 
         return self.constraints, numpy_state
+    
+    
+    def generate_random_pantry(self, min_items=3, max_items=10):
+        num_items = random.randint(min_items, max_items)
+
+        random_indices = random.sample(range(len(self.ingredients_df)), num_items)
+
+        self.constraints.pantry = []  
+
+        for idx in random_indices:
+            row = self.ingredients_df.iloc[idx]
+
+            servings = random.uniform(0.5, 5.0) 
+
+            item = PantryItem(
+                name=row["name"],
+                servings_available=round(servings, 1),
+                ingredient_idx=idx,
+                category=row["category"],
+            )
+
+            self.constraints.pantry.append(item)
