@@ -4,6 +4,8 @@ import time
 import numpy as np
 import os
 
+## NOTE: This script was written with the use of LLMs.
+
 # ==========================================
 # CONFIGURATION
 # ==========================================

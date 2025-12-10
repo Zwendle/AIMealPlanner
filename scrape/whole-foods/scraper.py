@@ -7,7 +7,7 @@ import requests
 from bs4 import BeautifulSoup
 from typing import Optional, Dict, Any, List
 
-# chatgpt used to generate function comments and helped guide me through extracting next.js data
+## NOTE: This script was written with the assistance of LLMS.
 
 # URLs to scrape from + store ID constants
 STORE_ID = "10031"
