@@ -17,6 +17,8 @@ train_flag = 'train' in sys.argv
 q_table_path = 'data/Q_table_5000_0.99.pickle'
 rewards_path = 'graphs/rewards_5000_0.99.png'
       
+      
+# Creates a state based on the current ingredients and goal
 def make_state(ingredients, goal, df):
     total_cal = 0
     total_prot = 0
@@ -27,7 +29,6 @@ def make_state(ingredients, goal, df):
     for i in ingredients:
         row = df.loc[df['name_clean'] == i]
         if row.empty:
-            print(f"Warning: Ingredient '{i}' not found in dataframe, skipping")
             continue
         
         total_cal += row['calories'].values[0]
@@ -73,7 +74,7 @@ def parse_number(value):
        return float(cleaned) if cleaned else 0
    return 0
 
-
+# create a random goal
 def sample_goal(df):
    all_ingredients = df['name_clean'].tolist()
   
@@ -106,10 +107,9 @@ def sample_goal(df):
        "pantry": pantry
    }
 
-## Keeps a max two ingredients per category constraint, and prioritizes same-category swaps
+# Keeps a max two ingredients per category constraint, and prioritizes same-category swaps
 def get_actions(all_ingredients, current, df, ing_to_cat, max_per_category=2):
     category_counts = {}
-    # count current categories
     for ing in current:
         category = ing_to_cat[ing] 
         category_counts[category] = category_counts.get(category, 0) + 1
@@ -117,7 +117,6 @@ def get_actions(all_ingredients, current, df, ing_to_cat, max_per_category=2):
     actions = []
     
     for out_ing in current:
-        # get category of outgoing ingredient
         out_cat = ing_to_cat[out_ing]
         
         same_cat = []
@@ -127,7 +126,6 @@ def get_actions(all_ingredients, current, df, ing_to_cat, max_per_category=2):
             if in_ing in current:
                 continue
                 
-            # category of incoming ingredient
             in_cat = ing_to_cat[in_ing]
             
             
@@ -146,6 +144,7 @@ def get_actions(all_ingredients, current, df, ing_to_cat, max_per_category=2):
     
     return actions
 
+# swaps out ingredients in the list
 def apply_action(ingredients, action):
    out_ing, in_ing = action
    new_list = ingredients.copy()
@@ -153,24 +152,14 @@ def apply_action(ingredients, action):
    new_list.append(in_ing)
    return new_list
 
-
+# Calculates the reward based off of the current ingredients
 def calculate_reward(df, ingredients, pantry_ingredients, target_calories, target_protein, vegetarian_diet, target_carbs, target_fat, target_price, servings_dict=None):
-   """
-   Calculate reward for a meal.
-  
-   Args:
-       ingredients: List of ingredient names OR dict mapping ingredient -> servings_used
-       servings_dict: Optional dict mapping ingredient -> servings_used (if ingredients is a list)
-                     If ingredients is already a dict, this is ignored.
-   """
-   # Handle backward compatibility: if ingredients is a list, convert to dict
    if isinstance(ingredients, list):
        if servings_dict is None:
            # Default to 1 serving per ingredient
            servings_dict = {ing: 1.0 for ing in ingredients}
        ingredient_list = ingredients
    else:
-       # ingredients is already a dict
        servings_dict = ingredients
        ingredient_list = list(servings_dict.keys())
   
@@ -225,6 +214,7 @@ def calculate_reward(df, ingredients, pantry_ingredients, target_calories, targe
    reward = 0.45 * ingredient_score + 0.35 * nutrition_score + 0.20 * cost_score
    return reward
  
+# Main training loop
 def train(df):
     Q = {}   
     global EPSILON
@@ -253,8 +243,6 @@ def train(df):
             next_ingredients = apply_action(ingredients, action)
             next_state = make_state(next_ingredients, goal, df)
 
-
-           # For training, use default 1 serving per ingredient
             servings_dict = {ing: 1.0 for ing in next_ingredients}
             reward = calculate_reward(
                df,
@@ -299,7 +287,7 @@ def train(df):
     with open(q_table_path, 'wb') as handle:
        pickle.dump(Q, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
-
+# Generates a meal 
 def generate_meal(df, goal, Q_table, steps=20, num_to_pick=None, ingredients=None, use_random=False):
     if num_to_pick is None:
         num_to_pick = random.randint(5, 8)
@@ -320,23 +308,17 @@ def generate_meal(df, goal, Q_table, steps=20, num_to_pick=None, ingredients=Non
     default_servings = dict(zip(df['name_clean'], servings_series))
     
     if use_random:
-        # choose a random set of ingredients
         possible = list(all_ingredients)
-
-        # if ingredients provided (pantry), prefer to use them
         current_names = list(ingredients.keys())
         num_existing = len(current_names)
 
-        # how many new ingredients we need to add
         slots_needed = num_to_pick - num_existing
 
         final_meal = {}
 
-        # include pantry ingredients first
-        for name in current_names[:num_to_pick]:  # trim if needed
+        for name in current_names[:num_to_pick]:
             final_meal[name] = ingredients.get(name, default_servings.get(name, 1.0))
 
-        # fill remaining slots with random ingredients
         if slots_needed > 0:
             candidates = list(set(possible) - set(final_meal.keys()))
             chosen = random.sample(candidates, min(slots_needed, len(candidates)))
@@ -399,10 +381,8 @@ def load_model(path='data/Q_table.pickle'):
 def model_exists(path='data/Q_table.pickle'):
    return os.path.exists(path)
 
+# Used Anthropic
 def analyze_qtable(Q_table, df):
-    """Analyze Q-table coverage and sparsity"""
-    
-    # Basic stats
     total_entries = len(Q_table)
     unique_states = set(state for state, action in Q_table.keys())
     unique_actions = set(action for state, action in Q_table.keys())
@@ -420,9 +400,8 @@ def analyze_qtable(Q_table, df):
     # vegetarian: 2 values (0, 1)
     theoretical_states = 5 * 5 * 5 * 5 * 5 * 7 * 2
     
-    # Calculate theoretical action space
     n_ingredients = len(df)
-    avg_meal_size = 6  # typically 5-8 ingredients
+    avg_meal_size = 6  
     actions_per_state = avg_meal_size * (n_ingredients - avg_meal_size)
     theoretical_actions = theoretical_states * actions_per_state
     
@@ -436,26 +415,20 @@ def analyze_qtable(Q_table, df):
     print(f"Theoretical (state,action) pairs: {theoretical_actions:,}")
     print(f"Coverage: {total_entries / theoretical_actions * 100:.4f}%")
     
-    # Analyze Q-value distribution
     q_values = list(Q_table.values())
     print(f"\n=== Q-Value Distribution ===")
     print(f"Min Q: {min(q_values):.4f}")
     print(f"Max Q: {max(q_values):.4f}")
     print(f"Mean Q: {np.mean(q_values):.4f}")
     print(f"Std Q: {np.std(q_values):.4f}")
-    
-    # Plot distributions
-    import matplotlib.pyplot as plt
-    
+        
     fig, axes = plt.subplots(2, 2, figsize=(12, 10))
     
-    # Q-value distribution
     axes[0, 0].hist(q_values, bins=50, edgecolor='black')
     axes[0, 0].set_title('Q-Value Distribution')
     axes[0, 0].set_xlabel('Q-Value')
     axes[0, 0].set_ylabel('Frequency')
     
-    # Actions per state distribution
     state_action_counts = {}
     for state, action in Q_table.keys():
         state_action_counts[state] = state_action_counts.get(state, 0) + 1
@@ -466,7 +439,6 @@ def analyze_qtable(Q_table, df):
     axes[0, 1].set_xlabel('Number of Actions')
     axes[0, 1].set_ylabel('Number of States')
     
-    # State component distributions
     state_components = {
         'cal': [], 'prot': [], 'carb': [], 'fat': [], 
         'price': [], 'size': [], 'veg': []
@@ -489,7 +461,6 @@ def analyze_qtable(Q_table, df):
     axes[1, 0].set_ylabel('Frequency')
     axes[1, 0].legend()
     
-    # Coverage over theoretical space
     coverage_data = [
         len(unique_states) / theoretical_states * 100,
         100 - (len(unique_states) / theoretical_states * 100)
