@@ -173,7 +173,7 @@ def main():
     
 
     if args.compare:
-        N = 50
+        N = 100
         results_random = []
         results_algo = []
 
@@ -243,6 +243,19 @@ def main():
             plt.tight_layout()
             plt.savefig(f"compare_{m}.png")
             plt.close()
+            
+        print("\n" + "=" * 60)
+        print("AVERAGE SCORES (Random vs Algorithm)")
+        print("=" * 60)
+
+        summary = pd.DataFrame({
+            "Random_Avg": df_random.mean(),
+            "Algo_Avg": df_algo.mean()
+        })
+
+        print(summary)
+
+        summary.to_csv("compare_summary.csv")
 
         return
 

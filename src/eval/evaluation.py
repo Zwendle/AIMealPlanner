@@ -83,14 +83,14 @@ class MealPlanEvaluator:
                     if servings <= 0:
                         continue
                     for p_name in pantry:
-                        if p_name.lower() == ing_key.lower() or p_name.lower() in ing_key.lower() or ing_key.lower() in p_name.lower():
+                        if p_name.lower() == ing_key.lower():
                             used_servings += float(servings)
                             break
             else:
                 if isinstance(ingredients_list, list):
                     for ing_name in ingredients_list:
                         for p_name in pantry:
-                            if p_name.lower() == str(ing_name).lower() or p_name.lower() in str(ing_name).lower() or str(ing_name).lower() in p_name.lower():
+                            if p_name.lower() == str(ing_name).lower():
                                 used_servings += 1.0
                                 break
 
