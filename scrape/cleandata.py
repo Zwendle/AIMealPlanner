@@ -3,6 +3,7 @@ import json
 import re
 from rapidfuzz import process, fuzz
 import os
+import kagglehub
 
 ## HELPERS FUNCTIONS ##
 ## SCRAPER FUNCTIONS ##
@@ -161,12 +162,45 @@ def clean_serving_size(name):
     return name_clean
 
 # converts serving_size to grams
+# used LLMs to help with these conversions and parsing
 def serving_size_to_grams(serving):
 
     if not isinstance(serving, str):
         return None
 
     s = serving.lower().strip()
+
+    # fractions
+    frac = re.search(r"(\d+/\d+)\s*(cup|cups|tbsp|tsp|pt)", s)
+    if frac:
+        qty = float(eval(frac.group(1)))
+        unit = frac.group(2)
+
+        if "cup" in unit:
+            return qty * DENSITY["cup"]
+        if "tbsp" in unit:
+            return qty * DENSITY["tbsp"]
+        if "tsp" in unit:
+            return qty * DENSITY["tsp"]
+        if unit == "pt":
+            return qty * 16 * DENSITY["fl oz"]
+
+    # mixed fractions
+    mix = re.search(r"(\d+)\s+(\d+/\d+)\s*(cup|cups|tbsp|tsp|pt)", s)
+    if mix:
+        whole = float(mix.group(1))
+        frac = float(eval(mix.group(2)))
+        qty = whole + frac
+        unit = mix.group(3)
+
+        if "cup" in unit:
+            return qty * DENSITY["cup"]
+        if "tbsp" in unit:
+            return qty * DENSITY["tbsp"]
+        if "tsp" in unit:
+            return qty * DENSITY["tsp"]
+        if unit == "pt":
+            return qty * 16 * DENSITY["fl oz"]
 
     # grams
     m = re.search(r"(\d+(?:\.\d+)?)\s*g\b", s)
@@ -349,7 +383,17 @@ def clean_trader_joes():
 # load Kaggle data, relevant columns and clean name column
 def load_kaggle():
     # get product nutritional data from Kaggle
-    kaggle_ingredients = pd.read_csv(KAGGLE_PATH, sep="\t", low_memory=False)
+    path = kagglehub.dataset_download("openfoodfacts/world-food-facts")
+    kaggle_file = None
+    for root, dirs, files in os.walk(path):
+        for f in files:
+            if f.endswith(".csv") or f.endswith(".tsv"):
+                kaggle_file = os.path.join(root, f)
+                break
+        if kaggle_file:
+            break
+    kaggle_ingredients = pd.read_csv(kaggle_file, sep="\t", low_memory=False)
+
     kaggle_ingredients = kaggle_ingredients[[
         "product_name",
         "carbohydrates_100g",

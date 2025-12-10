@@ -10,6 +10,7 @@ from src.utils import filter_ingredients
 import argparse
 import matplotlib.pyplot as plt
 
+
 def clear_pantry(history_file):
     """check if pantry is empty and optionally clear it with user confirmation"""
     if not os.path.exists(history_file):
@@ -308,20 +309,14 @@ def main():
     # Create mapping from pantry item names to name_clean for ingredient matching
     pantry_to_name_clean = {}
     for item in user_constraints.pantry:
-        matching_row = ingredients_df[
-            (ingredients_df['name'] == item.name) | 
-            (ingredients_df['name_clean'] == item.name.lower())
-        ]
+        matching_row = ingredients_df[ingredients_df[ingredients_df['name_clean'] == item.name.lower()]]
         if not matching_row.empty:
             name_clean = matching_row.iloc[0]['name_clean']
             pantry_to_name_clean[item.name] = name_clean
     
     history = {}
     for item in user_constraints.pantry:
-        matching_row = ingredients_df[
-            (ingredients_df['name'] == item.name) | 
-            (ingredients_df['name_clean'] == item.name.lower())
-        ]
+        matching_row = ingredients_df[ingredients_df['name_clean'] == item.name.lower()]
 
         if not matching_row.empty:
             name_clean = matching_row.iloc[0]['name_clean']

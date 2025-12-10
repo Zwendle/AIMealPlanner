@@ -24,7 +24,7 @@ class MealPlanEvaluator:
         variety_score = self._calculate_variety_score(meal_plan)
         cost_score = self._calculate_cost_score(user_constraints, meal_plan)
 
-        # Base Score (Utilization, Nutrition, Cost)
+        # Utilization: 0.45, Nutrition: 0.35, Cost: 0.20
         base_score = (
             0.45 * utilization_score +
             0.35 * nutrition_score +
