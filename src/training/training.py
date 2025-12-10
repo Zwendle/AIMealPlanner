@@ -10,10 +10,12 @@ import matplotlib.pyplot as plt
 ALPHA = 0.1       
 GAMMA = 0.95   
 EPSILON = 0.4
-DECAY_RATE = 0.999995   
+DECAY_RATE = 0.9999
 MAX_STEPS = 100
-EPISODES = 50
+EPISODES = 20000
 train_flag = 'train' in sys.argv
+q_table_path = 'data/Q_table_5000_0.99.pickle'
+rewards_path = 'graphs/rewards_5000_0.99.png'
       
 def make_state(ingredients, goal, df):
     total_cal = 0
@@ -291,12 +293,10 @@ def train(df):
     running_avg = np.convolve(rewards_per_ep, np.ones(window) / window, mode='valid')
     plt.plot(range(window - 1, EPISODES), running_avg, color='darkorange', linewidth=2.5, label='Episode Running Average')
     plt.legend(fontsize=12)
-    plt.show()
-
-    plt.savefig(f"rewards.png", dpi=300)
+    plt.savefig(rewards_path, dpi=300)
  
     os.makedirs('data', exist_ok=True) # run out of /data instead
-    with open('data/Q_table.pickle', 'wb') as handle:
+    with open(q_table_path, 'wb') as handle:
        pickle.dump(Q, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
 
@@ -499,8 +499,8 @@ def analyze_qtable(Q_table, df):
     axes[1, 1].set_title('State Space Coverage')
     
     plt.tight_layout()
-    plt.savefig('data/qtable_analysis.png', dpi=150)
-    print(f"\nSaved visualization to data/qtable_analysis.png")
+    plt.savefig('graphs/qtable_analysis.png', dpi=150)
+    print(f"\nSaved visualization to graphs/qtable_analysis.png")
     plt.close()
 
 if __name__ == "__main__":
@@ -512,24 +512,23 @@ if __name__ == "__main__":
        df = df[df[col].astype(str).str.strip() != ""]
       
    print("Rows after filtering:", len(df))
-  
-   if train_flag:
-       train(df)
+
+   if model_exists('data/Q_table.pickle') and not train_flag:
+       Q_table = load_model('data/Q_table.pickle')
+       analyze_qtable(Q_table, df)
    else:
-       if model_exists('data/Q_table.pickle'):
-           Q_table = load_model('data/Q_table.pickle')
-           analyze_qtable(Q_table, df)
-       else:
-           print("Model not found, training...")
-           train(df)
-           Q_table = load_model('data/Q_table.pickle')
-       print(f"The length of Q table is: {len(Q_table)}")
-       # change
-       goal = sample_goal(df)
-      
-       print("GOAL")
-       print(goal)
-       final_ingredients_dict = generate_meal(df, goal, Q_table)
-       print("Ingredients with servings:", final_ingredients_dict)
-       score = calculate_reward(df, final_ingredients_dict, goal["pantry"], goal["target_calories"], goal["target_protein"], goal["vegetarian_diet"], goal["target_carbs"], goal["target_fat"], goal["target_price"])
-       print(score)
+       print("Model not found, training...")
+       train(df)
+       Q_table = load_model(q_table_path)
+   print(f"The length of Q table is: {len(Q_table)}")
+
+   goal = sample_goal(df)
+
+   print("GOAL")
+   print(goal)
+   final_ingredients_dict = generate_meal(df, goal, Q_table)
+   print("Ingredients with servings:", final_ingredients_dict)
+   score = calculate_reward(df, final_ingredients_dict, goal["pantry"], goal["target_calories"], goal["target_protein"],
+                            goal["vegetarian_diet"], goal["target_carbs"], goal["target_fat"], goal["target_price"])
+   print("Score: ", score)
+
