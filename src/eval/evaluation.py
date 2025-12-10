@@ -1,8 +1,7 @@
 import pandas as pd
 import numpy as np
-from typing import List, Dict, Tuple
-from src.eval.onboarding.structs import UserConstraints, PantryItem, DietaryGoal
-import json
+from typing import Dict
+from src.eval.onboarding.structs import UserConstraints, DietaryGoal
 
 class MealPlanEvaluator:
     """
@@ -15,19 +14,16 @@ class MealPlanEvaluator:
 
     def __init__(self, model, ingredients_df: pd.DataFrame):
         self.model = model
-        self.ingredients_df = ingredients_df
+        self.ingredients_df = ingredients_df.copy()
+        if "name_clean" not in self.ingredients_df.columns:
+            self.ingredients_df["name_clean"] = self.ingredients_df["name"].str.lower().str.strip()
 
     def evaluate(self, user_constraints: UserConstraints, meal_plan: pd.DataFrame) -> Dict[str, float]:
-        """
-        Calculate the total score for the meal plan.
-        Returns a dictionary with the total score and individual component scores.
-        """
         utilization_score = self._calculate_utilization_score(user_constraints, meal_plan)
         nutrition_score = self._calculate_nutrition_score(user_constraints, meal_plan)
         variety_score = self._calculate_variety_score(meal_plan)
         cost_score = self._calculate_cost_score(user_constraints, meal_plan)
 
-        # Base Score (Utilization, Nutrition, Cost)
         # Utilization: 0.45, Nutrition: 0.35, Cost: 0.20
         base_score = (
             0.45 * utilization_score +
@@ -35,108 +31,137 @@ class MealPlanEvaluator:
             0.20 * cost_score
         )
 
-        # Policy: Variety as a Penalty Multiplier
         total_score = base_score * variety_score
 
         return {
-            "total_score": total_score,
-            "base_score": base_score,
-            "utilization_score": utilization_score,
-            "nutrition_score": nutrition_score,
-            "variety_score": variety_score,
-            "cost_score": cost_score
+            "total_score": float(total_score),
+            "base_score": float(base_score),
+            "utilization_score": float(utilization_score),
+            "nutrition_score": float(nutrition_score),
+            "variety_score": float(variety_score),
+            "cost_score": float(cost_score)
         }
 
-    def _calculate_utilization_score(self, constraints: UserConstraints, meal_plan: pd.DataFrame) -> float:
-        """
-        Maximize use of existing pantry items.
-        """
-        pantry_items = {item.name: item.servings_available for item in constraints.pantry}
-        used_pantry_items = 0
-        total_pantry_items = len(pantry_items)
-        
-        if total_pantry_items == 0:
-            pantry_score = 1.0 
-        else:
-            all_plan_ingredients = []
-            for ingredients_list in meal_plan['ingredients']:
-                print("ingredients: ", ingredients_list)
-                if isinstance(ingredients_list, list):
-                    all_plan_ingredients.extend(ingredients_list)
-                elif isinstance(ingredients_list, str):
-                     all_plan_ingredients.append(ingredients_list)
+    def _safe_float(self, v):
+        try:
+            if pd.isna(v):
+                return 0.0
+            if isinstance(v, (int, float)):
+                return float(v)
+            s = str(v)
+            filtered = ''.join(ch for ch in s if (ch.isdigit() or ch == '.'))
+            return float(filtered) if filtered else 0.0
+        except Exception:
+            return 0.0
 
-            for pantry_item in pantry_items:
-                if any(pantry_item in str(ing) for ing in all_plan_ingredients):
-                    used_pantry_items += 1
-            
-            pantry_score = used_pantry_items / total_pantry_items
-        
-        return pantry_score
+    def _find_ingredient_row(self, ing_name: str):
+        if ing_name is None:
+            return None
+        ing_norm = str(ing_name).lower().strip()
+        match = self.ingredients_df[self.ingredients_df["name_clean"] == ing_norm]
+        if not match.empty:
+            return match.iloc[0]
+        match = self.ingredients_df[self.ingredients_df["name"] == ing_name]
+        if not match.empty:
+            return match.iloc[0]
+        return None
+
+    def _calculate_utilization_score(self, constraints: UserConstraints, meal_plan: pd.DataFrame) -> float:
+        pantry = {item.name: float(item.servings_available) for item in constraints.pantry}
+        total_pantry_servings = sum(pantry.values())
+
+        if total_pantry_servings == 0:
+            return 1.0
+
+        used_servings = 0.0
+
+        for _, row in meal_plan.iterrows():
+            ing_servings_map = row.get("ingredient_servings", None)
+            ingredients_list = row.get("ingredients", [])
+            if isinstance(ing_servings_map, dict):
+                for ing_key, servings in ing_servings_map.items():
+                    if servings <= 0:
+                        continue
+                    for p_name in pantry:
+                        if p_name.lower() == ing_key.lower():
+                            used_servings += float(servings)
+                            break
+            else:
+                if isinstance(ingredients_list, list):
+                    for ing_name in ingredients_list:
+                        for p_name in pantry:
+                            if p_name.lower() == str(ing_name).lower():
+                                used_servings += 1.0
+                                break
+
+        used_servings = min(used_servings, total_pantry_servings)
+        return used_servings / total_pantry_servings if total_pantry_servings > 0 else 1.0
 
     def _calculate_nutrition_score(self, constraints: UserConstraints, meal_plan: pd.DataFrame) -> float:
         """
-        Minimize deviation from macro targets.
+        Compute deviation from macro targets using per-serving nutrient values and serving counts.
         """
-        
-        # DEFAULT TARGETS (by meal)
-        target_calories = 1000
-        target_protein = 25
-        target_carbs = 135
-        target_fat = 39
+        target_calories = 1000.0
+        target_protein = 25.0
+        target_carbs = 135.0
+        target_fat = 39.0
 
         if DietaryGoal.HIGH_PROTEIN == constraints.dietary_goal:
-            target_protein = 50
+            target_protein = 50.0
         elif DietaryGoal.KETO == constraints.dietary_goal:
-            target_carbs = 15
-            target_fat = 75
-            target_protein = 50
+            target_carbs = 15.0
+            target_fat = 75.0
+            target_protein = 50.0
         elif DietaryGoal.LOW_CARB == constraints.dietary_goal:
-            target_carbs = 50
+            target_carbs = 50.0
 
-        total_calories = 0
-        total_protein = 0
-        total_carbs = 0
-        total_fat = 0
-        
+        total_calories = 0.0
+        total_protein = 0.0
+        total_carbs = 0.0
+        total_fat = 0.0
+
         for _, row in meal_plan.iterrows():
-            ingredients = row['ingredients']
-            if isinstance(ingredients, str):
-                ingredients = [ingredients] 
-            
-            for ing_name in ingredients:
-                match = self.ingredients_df[self.ingredients_df['name_clean'] == ing_name]
-                if not match.empty:
-                    row_data = match.iloc[0]
-                    # Parse values from columns
-                    def parse_val(v):
-                        if isinstance(v, (int, float)): return v
-                        return float(''.join(filter(lambda x: x.isdigit() or x == '.', str(v))) or 0)
-                        
-                    total_calories += parse_val(row_data.get('calories', 0))
-                    total_protein += parse_val(row_data.get('protein', 0))
-                    total_carbs += parse_val(row_data.get('carbs', 0))
-                    total_fat += parse_val(row_data.get('fat', 0))
+            ing_servings_map = row.get("ingredient_servings", None)
+            ingredients_list = row.get("ingredients", [])
+            if isinstance(ing_servings_map, dict):
+                for ing_key, servings in ing_servings_map.items():
+                    if servings <= 0:
+                        continue
+                    r = self._find_ingredient_row(ing_key)
+                    if r is None:
+                        continue
+                    total_calories += self._safe_float(r.get("calories", 0)) * float(servings)
+                    total_protein += self._safe_float(r.get("protein", 0)) * float(servings)
+                    total_carbs += self._safe_float(r.get("carbs", 0)) * float(servings)
+                    total_fat += self._safe_float(r.get("fat", 0)) * float(servings)
+            else:
+                if isinstance(ingredients_list, list):
+                    for ing_name in ingredients_list:
+                        r = self._find_ingredient_row(ing_name)
+                        if r is None:
+                            continue
+                        total_calories += self._safe_float(r.get("calories", 0))
+                        total_protein += self._safe_float(r.get("protein", 0))
+                        total_carbs += self._safe_float(r.get("carbs", 0))
+                        total_fat += self._safe_float(r.get("fat", 0))
 
-        num_days = meal_plan['day'].nunique() if 'day' in meal_plan.columns else 1
-        if num_days > 0:
-            avg_calories = total_calories / num_days
-            avg_protein = total_protein / num_days
-            avg_carbs = total_carbs / num_days
-            avg_fat = total_fat / num_days
-        else:
-            return 0.0
+        num_days = meal_plan['day'].nunique() if 'day' in meal_plan.columns else max(1, len(meal_plan))
+        avg_calories = total_calories / num_days
+        avg_protein = total_protein / num_days
+        avg_carbs = total_carbs / num_days
+        avg_fat = total_fat / num_days
 
         def deviation(actual, target):
-            if target == 0: return 1.0
-            return np.exp(-abs(actual - target) / target)
+            if target == 0:
+                return 1.0
+            return float(np.exp(-abs(actual - target) / max(target, 1e-6)))
 
         cal_score = deviation(avg_calories, target_calories)
         prot_score = deviation(avg_protein, target_protein)
         carb_score = deviation(avg_carbs, target_carbs)
         fat_score = deviation(avg_fat, target_fat)
 
-        return (cal_score + prot_score + carb_score + fat_score) / 4.0
+        return float((cal_score + prot_score + carb_score + fat_score) / 4.0)
 
     def _calculate_variety_score(self, meal_plan: pd.DataFrame) -> float:
         """
@@ -144,36 +169,42 @@ class MealPlanEvaluator:
         """
         all_ingredients = []
         meals = []
-        
+
         for _, row in meal_plan.iterrows():
-            ing_list = row['ingredients']
+            ing_list = row.get('ingredients', [])
             if isinstance(ing_list, list):
-                all_ingredients.extend(ing_list)
-                meals.append(tuple(sorted(ing_list)))
+                normalized = [str(x).lower().strip() for x in ing_list]
+                all_ingredients.extend(normalized)
+                meals.append(tuple(sorted(normalized)))
             else:
-                all_ingredients.append(ing_list)
-                meals.append(ing_list)
+                s = str(ing_list).lower().strip()
+                all_ingredients.append(s)
+                meals.append(s)
 
         unique_ingredients = len(set(all_ingredients))
         total_ingredients = len(all_ingredients)
-        diversity_score = unique_ingredients / total_ingredients if total_ingredients > 0 else 0
+        diversity_score = unique_ingredients / total_ingredients if total_ingredients > 0 else 0.0
 
         unique_meals = len(set(meals))
         total_meals = len(meals)
-        repetition_score = unique_meals / total_meals if total_meals > 0 else 0
+        repetition_score = unique_meals / total_meals if total_meals > 0 else 0.0
 
-        return (diversity_score + repetition_score) / 2.0
+        # variety acts as multiplier between (0.0, 1.0], keep a floor
+        return float(max(0.1, (diversity_score + repetition_score) / 2.0))
 
     def _calculate_cost_score(self, constraints: UserConstraints, meal_plan: pd.DataFrame) -> float:
         """
         Total price vs budget.
         """
-        total_cost = meal_plan['cost'].sum() if 'cost' in meal_plan.columns else 0
-        
-        if constraints.budget_min <= total_cost <= constraints.budget_max:
+        total_cost = meal_plan['cost'].sum() if 'cost' in meal_plan.columns else 0.0
+
+        bmin = float(constraints.budget_min) if hasattr(constraints, 'budget_min') else 0.0
+        bmax = float(constraints.budget_max) if hasattr(constraints, 'budget_max') else 1.0
+
+        if bmin <= total_cost <= bmax:
             return 1.0
-        elif total_cost < constraints.budget_min:
-            return total_cost / constraints.budget_min
+        elif total_cost < bmin and bmin > 0:
+            return float(total_cost / bmin)
         else:
-            overage = total_cost - constraints.budget_max
-            return np.exp(-overage / constraints.budget_max)
+            overage = max(0.0, total_cost - bmax)
+            return float(np.exp(-overage / max(bmax, 1.0)))
