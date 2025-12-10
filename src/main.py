@@ -1,5 +1,7 @@
 import pandas as pd
 import numpy as np
+import argparse
+
 import json
 import os
 from src.eval.onboarding.user_prompt import UserOnboarding
@@ -7,7 +9,6 @@ from src.eval.evaluation import MealPlanEvaluator
 from src.training.training import train, generate_meal, load_model, model_exists, calculate_reward, parse_number
 from src.eval.onboarding.structs import DietaryGoal
 from src.utils import filter_ingredients
-import argparse
 
 
 def clear_pantry(history_file):
