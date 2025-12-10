@@ -4,6 +4,8 @@ Correctly fetches all product links from pagination
 and then visits each link to scrape Name, Price, Serves, and Nutrition.
 """
 
+## NOTE: This script was written with the assistance of LLMS.
+
 import csv
 import time
 import json

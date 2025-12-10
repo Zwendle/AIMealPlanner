@@ -9,6 +9,8 @@ from src.eval.evaluation import MealPlanEvaluator
 from src.training.training import train, generate_meal, load_model, model_exists, calculate_reward, parse_number
 from src.eval.onboarding.structs import DietaryGoal
 from src.utils import filter_ingredients
+import argparse
+import matplotlib.pyplot as plt
 
 
 def clear_pantry(history_file):
@@ -39,6 +41,87 @@ def clear_pantry(history_file):
         print("Pantry is currently empty. Proceeding with prompter...")
         return
 
+def run_single_evaluation(ingredients_df, user_constraints, training_goal, model, num_to_pick, use_random):
+    """
+    Runs one COMPLETE meal plan generation + evaluation pass.
+    Returns: dict of the evaluation metrics.
+    """
+
+    history = {}
+
+    for item in user_constraints.pantry:
+        matching_row = ingredients_df[
+            (ingredients_df["name"] == item.name)
+            | (ingredients_df["name_clean"] == item.name.lower())
+        ]
+        if not matching_row.empty:
+            history[matching_row.iloc[0]["name_clean"]] = item.servings_available
+
+    plan_data = []
+
+    for day in range(num_to_pick):
+        raw_meal = generate_meal(
+            ingredients_df,
+            training_goal,
+            model,
+            num_to_pick,
+            ingredients=history,
+            use_random=use_random,
+        )
+
+        ingredient_servings = raw_meal
+        ingredient_list = list(ingredient_servings.keys())
+
+        cost = 0
+        cal = 0
+        prot = 0
+        carbs = 0
+        fat = 0
+
+        for ing, servings_used in ingredient_servings.items():
+            row = ingredients_df[ingredients_df["name_clean"] == ing].iloc[0]
+            cost_val = parse_number(row.get("cost_per_serving", 0))
+            if not np.isnan(cost_val):
+                cost += cost_val
+            cal += parse_number(row.get("calories", 0))
+            prot += parse_number(row.get("protein", 0))
+            carbs += parse_number(row.get("carbs", 0))
+            fat += parse_number(row.get("fat", 0))
+
+            if ing in history:
+                history[ing] = max(0, history[ing] - 1)
+            else:
+                history[ing] = row["num_servings"] - 1
+
+        history = {k: v for k, v in history.items() if v > 0}
+
+        plan_data.append(
+            {
+                "day": day + 1,
+                "ingredients": ingredient_list,
+                "ingredient_servings": ingredient_servings,
+                "cost": cost,
+                "calories": cal,
+                "protein": prot,
+                "carbs": carbs,
+                "fat": fat,
+            }
+        )
+
+    meal_plan_df = pd.DataFrame(plan_data)
+
+    evaluator = MealPlanEvaluator(model, ingredients_df)
+    scores = evaluator.evaluate(user_constraints, meal_plan_df)
+
+    return {
+        "total": scores["total_score"],
+        "util": scores["utilization_score"],
+        "nutrition": scores["nutrition_score"],
+        "cost": scores["cost_score"],
+    }
+
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -46,6 +129,12 @@ def main():
         action="store_true",
         default=False,    
         help="Generate meals using randomness"
+    )
+    parser.add_argument(
+        "--compare",
+        action="store_true",
+        default=False,    
+        help="Compare random vs normal"
     )
     args = parser.parse_args()
     
@@ -63,11 +152,12 @@ def main():
         print("Error: data/ingredients_final.csv not found.")
         return
 
-    # 2. Onboarding
-    prompter = UserOnboarding("data/ingredients_final.csv")
-    user_constraints, numpy_state = prompter.run()
-    num_to_pick = user_constraints.num_meals
-    ingredients = user_constraints.pantry
+    if not args.compare:
+        # 2. Onboarding
+        prompter = UserOnboarding("data/ingredients_final.csv")
+        user_constraints, numpy_state = prompter.run()
+        num_to_pick = user_constraints.num_meals
+        ingredients = user_constraints.pantry
 
     # 3. Model Management
     print("\n" + "=" * 60)
@@ -83,7 +173,98 @@ def main():
         train(ingredients_df)
         model = load_model(model_path)
 
-    # 4. Target Mapping (per-meal)
+    
+
+    if args.compare:
+        N = 100
+        results_random = []
+        results_algo = []
+
+        for i in range(N):
+            prompter = UserOnboarding("data/ingredients_final.csv")
+            user_constraints, numpy_state = prompter.run(evaluate=True)
+            num_to_pick = user_constraints.num_meals
+            ingredients = user_constraints.pantry
+            target_calories = 2000 / 2
+            target_protein = 75 / 2
+            target_carbs = 250 / 2
+            target_fat = 70 / 2
+
+            if DietaryGoal.HIGH_PROTEIN == user_constraints.dietary_goal:
+                target_protein = 120 / 2
+
+            if DietaryGoal.KETO == user_constraints.dietary_goal:
+                target_carbs = 30 / 2       # 15g per meal
+                target_fat = 150 / 2        # 75g per meal
+                target_protein = max(target_protein, 100 / 2)  # at least 50g per meal
+
+            if (
+                DietaryGoal.LOW_CARB == user_constraints.dietary_goal
+                and DietaryGoal.KETO != user_constraints.dietary_goal
+            ):
+                target_carbs = 100 / 2
+                
+            training_goal = {
+                "target_calories": target_calories,
+                "target_protein": target_protein,
+                "target_carbs": target_carbs,
+                "target_fat": target_fat,
+                "vegetarian_diet": DietaryGoal.VEGETARIAN == user_constraints.dietary_goal,
+                "target_price": user_constraints.budget_max / 14,
+                "pantry": [item.name for item in user_constraints.pantry]
+            }
+            
+            print(f"Random Run {i+1}/{N}")
+            results_random.append(
+                run_single_evaluation(
+                    ingredients_df, user_constraints, training_goal, model, num_to_pick, use_random=True
+                )
+            )
+            print(f"Algo Run {i+1}/{N}")
+            results_algo.append(
+                run_single_evaluation(
+                    ingredients_df, user_constraints, training_goal, model, num_to_pick, use_random=False
+                )
+            )
+
+        df_random = pd.DataFrame(results_random)
+        df_algo = pd.DataFrame(results_algo)
+
+        df_random.to_csv("compare_random.csv", index=False)
+        df_algo.to_csv("compare_algo.csv", index=False)
+
+        metrics = ["total", "util", "nutrition", "cost"]
+
+        for m in metrics:
+            plt.figure(figsize=(6, 4))
+            plt.title(f"Comparison of '{m}' Score (Random vs Algorithm)")
+            plt.hist(df_random[m], alpha=0.5, bins=10, label="Random")
+            plt.hist(df_algo[m], alpha=0.5, bins=10, label="Algorithm")
+            plt.xlabel("Score")
+            plt.ylabel("Frequency")
+            plt.legend()
+            plt.tight_layout()
+            plt.savefig(f"compare_{m}.png")
+            plt.close()
+            
+        print("\n" + "=" * 60)
+        print("AVERAGE SCORES (Random vs Algorithm)")
+        print("=" * 60)
+
+        summary = pd.DataFrame({
+            "Random_Avg": df_random.mean(),
+            "Algo_Avg": df_algo.mean()
+        })
+
+        print(summary)
+
+        summary.to_csv("compare_summary.csv")
+
+        return
+
+
+
+     # 4. Target Mapping (per-meal)
     target_calories = 2000 / 2
     target_protein = 75 / 2
     target_carbs = 250 / 2
